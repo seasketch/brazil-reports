@@ -10,4 +10,66 @@
           "layerId": ""
       }
   ]
-}]
+},
+{
+  "metricId": "geomorphicOverlap",
+  "type": "areaOverlap",
+  "classes": [
+      {
+          "classId": "Hills",
+          "classKey": "Class",
+          "display": "Abyssal Hill",
+          "datasourceId": "abyssal_classification",
+          "objectiveId": "eez",
+          "layerId": ""
+      },
+      {
+        "classId": "Mountains",
+        "classKey": "Class",
+        "display": "Abyssal Mountain",
+        "datasourceId": "abyssal_classification",
+        "objectiveId": "eez",
+        "layerId": ""
+    },
+    {
+      "classId": "Plains",
+      "classKey": "Class",
+      "display": "Abyssal Plain",
+      "datasourceId": "abyssal_classification",
+      "objectiveId": "eez",
+      "layerId": ""
+  }
+  ]
+},
+{
+  "metricId": "priorityAreaOverlap",
+  "type": "areaOverlap",
+  "classes": [
+      {
+          "classId": "Alta",
+          "classKey": "prio",
+          "display": "Alta",
+          "datasourceId": "priority_areas",
+          "objectiveId": "eez",
+          "layerId": ""
+      },
+      {
+        "classId": "Muito Alta",
+        "classKey": "prio",
+        "display": "Muito Alta",
+        "datasourceId": "priority_areas",
+        "objectiveId": "eez",
+        "layerId": ""
+    },
+    {
+      "classId": "Extremamente Alta",
+      "classKey": "prio",
+      "display": "Extremamente Alta",
+      "datasourceId": "priority_areas",
+      "objectiveId": "eez",
+      "layerId": ""
+  }
+  ]
+}
+
+]

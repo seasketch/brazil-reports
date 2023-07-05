@@ -6,7 +6,6 @@
       "subdivided"
     ],
     "classKeys": [],
-    "propertiesToKeep": ["gid"],
     "url": "https://d3p1dsef9f0gjr.cloudfront.net/"
   },
   {
@@ -16,7 +15,90 @@
       "subdivided"
     ],
     "classKeys": [],
-    "propertiesToKeep": ["UNION"],
     "url": "https://d3muy0hbwp5qkl.cloudfront.net"
+  },
+  {
+    "datasourceId": "abyssal_classification",
+    "geo_type": "vector",
+    "keyStats": {
+      "Class": {
+        "Hills": {
+          "count": 69,
+          "area": 888456080124.5848
+        },
+        "Mountains": {
+          "count": 58,
+          "area": 309591888220.1577
+        },
+        "Plains": {
+          "count": 78,
+          "area": 789317620614.2297
+        }
+      },
+      "total": {
+        "total": {
+          "count": 205,
+          "sum": null,
+          "area": 1987365588958.9727
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "Abyssal_Classification",
+    "classKeys": [
+      "Class"
+    ],
+    "created": "2023-06-29T20:22:43.922Z",
+    "lastUpdated": "2023-06-29T20:22:43.922Z",
+    "src": "data/src/Brazil/Data_Products/geomorphology-clipped-to-eez/Abyssal_Classification.shp",
+    "propertiesToKeep": [
+      "Class"
+    ]
+  },
+  {
+    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/priority_areas_mma.fgb",
+    "layerName": "priority_areas_mma",
+    "geo_type": "vector",
+    "datasourceId": "priority_areas",
+    "formats": [
+      "fgb"
+    ],
+    "classKeys": [
+      "prio"
+    ],
+    "created": "2023-07-05T19:27:11.527Z",
+    "lastUpdated": "2023-07-05T19:27:11.527Z",
+    "keyStats": {
+      "prio": {
+        "Extremamente Alta": {
+          "count": 220,
+          "area": 650169151451.394
+        },
+        "Muito Alta": {
+          "count": 23,
+          "area": 210795004379.64093
+        },
+        "Alta": {
+          "count": 16,
+          "area": 376000627093.75806
+        },
+        "undefined": {
+          "count": 1,
+          "area": 1990779588083.5898
+        }
+      },
+      "total": {
+        "total": {
+          "count": 260,
+          "sum": null,
+          "area": 3227744371008.383
+        }
+      }
+    },
+    "propertiesToKeep": [
+      "prio"
+    ]
   }
 ]
