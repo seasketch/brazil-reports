@@ -70,6 +70,19 @@
       "layerId": ""
   }
   ]
+},
+{
+  "metricId": "trawlingOverlap",
+  "type": "areaOverlap",
+  "classes": [
+      {
+          "classId": "trawling",
+          "display": "Trawling Effort",
+          "datasourceId": "trawling",
+          "objectiveId": "eez",
+          "layerId": ""
+      }
+  ]
 }
 
 ]

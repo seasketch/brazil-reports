@@ -58,18 +58,8 @@
     ]
   },
   {
-    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/priority_areas_mma.fgb",
-    "layerName": "priority_areas_mma",
-    "geo_type": "vector",
     "datasourceId": "priority_areas",
-    "formats": [
-      "fgb"
-    ],
-    "classKeys": [
-      "prio"
-    ],
-    "created": "2023-07-05T19:27:11.527Z",
-    "lastUpdated": "2023-07-05T19:27:11.527Z",
+    "geo_type": "vector",
     "keyStats": {
       "prio": {
         "Extremamente Alta": {
@@ -97,8 +87,40 @@
         }
       }
     },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "priority_areas_mma",
+    "classKeys": [
+      "prio"
+    ],
+    "created": "2023-07-05T19:27:11.527Z",
+    "lastUpdated": "2023-07-05T19:27:11.527Z",
+    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/priority_areas_mma.fgb",
     "propertiesToKeep": [
       "prio"
     ]
+  },
+  {
+    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/kernel_trawling_preps.tif",
+    "band": 1,
+    "geo_type": "raster",
+    "datasourceId": "trawling",
+    "formats": [
+      "tif"
+    ],
+    "created": "2023-07-05T21:31:11.430Z",
+    "lastUpdated": "2023-07-05T21:31:11.430Z",
+    "keyStats": {
+      "total": {
+        "total": {
+          "sum": 34395232271.26846,
+          "count": null,
+          "area": null
+        }
+      }
+    },
+    "noDataValue": 0,
+    "measurementType": "quantitative"
   }
 ]

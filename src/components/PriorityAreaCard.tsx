@@ -81,7 +81,7 @@ export const PriorityAreaCard = () => {
           throw new Error("Protection results not found");
         return (
           <ToolbarCard
-            title="Priority Levels"
+            title="Priority Areas for Conservation"
             items={
               <>
                 <DataDownload
@@ -93,7 +93,9 @@ export const PriorityAreaCard = () => {
               </>
             }
           >
-            <p>Plans should include a portion of each habitat type.</p>
+            <p>
+              Plans should include a portion of priority conservation areas.
+            </p>
 
             {genSingleSizeTable(data)}
 
@@ -106,8 +108,8 @@ export const PriorityAreaCard = () => {
             <Collapse title="Learn more">
               <p>
                 {" "}
-                This report summarizes the proportion of habitat areas within
-                this plan.
+                This report summarizes the proportion of priority conservation
+                areas within this plan.
               </p>
               <p>
                 If MPA boundaries overlap with each other, the overlap is only
