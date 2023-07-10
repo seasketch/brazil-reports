@@ -16,11 +16,11 @@ import { fgbFetchAll } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
 import project from "../../project";
 
-export async function geomorphicOverlap(
+export async function miningOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>
 ): Promise<ReportResult> {
   const box = sketch.bbox || bbox(sketch);
-  const metricGroup = project.getMetricGroup("geomorphicOverlap");
+  const metricGroup = project.getMetricGroup("miningOverlap");
 
   let cachedFeatures: Record<string, Feature<Polygon>[]> = {};
 
@@ -93,8 +93,8 @@ export async function geomorphicOverlap(
   };
 }
 
-export default new GeoprocessingHandler(geomorphicOverlap, {
-  title: "geomorphicOverlap",
+export default new GeoprocessingHandler(miningOverlap, {
+  title: "miningOverlap",
   description: "Calculate sketch overlap with priority area polygons",
   executionMode: "async",
   timeout: 600,
