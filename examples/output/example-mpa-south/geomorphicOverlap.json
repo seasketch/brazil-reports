@@ -1,33 +1,55 @@
 {
   "metrics": [
     {
-      "metricId": "trawlingOverlap",
-      "sketchId": "15146",
-      "classId": "trawling",
+      "metricId": "geomorphicOverlap",
+      "sketchId": "15454",
+      "classId": "Hills",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 5708817572.525247,
       "extra": {
-        "sketchName": "example-mpa1"
+        "sketchName": "example-mpa-south"
+      }
+    },
+    {
+      "metricId": "geomorphicOverlap",
+      "sketchId": "15454",
+      "classId": "Mountains",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2023853766.748258,
+      "extra": {
+        "sketchName": "example-mpa-south"
+      }
+    },
+    {
+      "metricId": "geomorphicOverlap",
+      "sketchId": "15454",
+      "classId": "Plains",
+      "groupId": null,
+      "geographyId": null,
+      "value": 23862775023.69131,
+      "extra": {
+        "sketchName": "example-mpa-south"
       }
     }
   ],
   "sketch": {
-    "id": 15146,
+    "id": 15454,
     "bbox": [
-      -34.253147,
-      -5.6037664,
-      -30.735418,
-      -2.310842
+      -51.010437,
+      -33.0546,
+      -46.43284,
+      -29.136082
     ],
     "type": "Feature",
     "properties": {
-      "2947": "example-mpa1",
+      "2947": "example-mpa-south",
       "2948": [
         "MPA"
       ],
-      "id": "15146",
-      "name": "example-mpa1",
+      "id": "15454",
+      "name": "example-mpa-south",
       "postId": null,
       "userId": "128",
       "authors": null,
@@ -35,8 +57,8 @@
       "Zone Type": [
         "MPA"
       ],
-      "createdAt": "2023-06-27T19:56:13.196421+00:00",
-      "updatedAt": "2023-06-27T19:56:13.196421+00:00",
+      "createdAt": "2023-07-10T20:46:50.726608+00:00",
+      "updatedAt": "2023-07-10T20:46:50.726608+00:00",
       "description": null,
       "collectionId": null,
       "isCollection": false,

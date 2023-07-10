@@ -15,9 +15,9 @@ import { loadCogWindow } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
 import project from "../../project";
 
-const metricGroup = project.getMetricGroup("trawlingOverlap");
+const metricGroup = project.getMetricGroup("fishingEffortOverlap");
 
-export async function trawlingOverlap(
+export async function fishingEffortOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>
 ): Promise<ReportResult> {
   const box = sketch.bbox || bbox(sketch);
@@ -59,8 +59,8 @@ export async function trawlingOverlap(
   };
 }
 
-export default new GeoprocessingHandler(trawlingOverlap, {
-  title: "trawlingOverlap",
+export default new GeoprocessingHandler(fishingEffortOverlap, {
+  title: "fishingEffortOverlap",
   description: "ocean use metrics",
   timeout: 520, // seconds
   executionMode: "async",

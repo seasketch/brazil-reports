@@ -19,6 +19,7 @@
   ],
   "geoprocessingFunctions": [
     "src/functions/boundaryAreaOverlap.ts",
-    "src/functions/geomorphicOverlap.ts"
+    "src/functions/geomorphicOverlap.ts",
+    "src/functions/priorityAreaOverlap.ts"
   ]
 }

@@ -2,7 +2,7 @@
  * @jest-environment node
  * @group smoke
  */
-import { trawlingOverlap } from "./trawlingOverlap";
+import { fishingEffortOverlap } from "./fishingEffortOverlap";
 import {
   getExamplePolygonSketchAll,
   writeResultOutput,
@@ -10,14 +10,18 @@ import {
 
 describe("Basic smoke tests", () => {
   test("handler function is present", () => {
-    expect(typeof trawlingOverlap).toBe("function");
+    expect(typeof fishingEffortOverlap).toBe("function");
   });
-  test("ousValueOverlapSmoke - tests run against all examples", async () => {
+  test("fishingEffortOverlapSmoke - tests run against all examples", async () => {
     const examples = await getExamplePolygonSketchAll();
     for (const example of examples) {
-      const result = await trawlingOverlap(example);
+      const result = await fishingEffortOverlap(example);
       expect(result).toBeTruthy();
-      writeResultOutput(result, "ousValueOverlap", example.properties.name);
+      writeResultOutput(
+        result,
+        "fishingEffortOverlap",
+        example.properties.name
+      );
     }
   }, 120000);
 });

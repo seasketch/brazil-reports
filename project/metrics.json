@@ -1,27 +1,28 @@
-[{
-  "metricId": "boundaryAreaOverlap",
-  "type": "areaOverlap",
-  "classes": [
+[
+  {
+    "metricId": "boundaryAreaOverlap",
+    "type": "areaOverlap",
+    "classes": [
       {
-          "classId": "eez",
-          "display": "EEZ",
-          "datasourceId": "global-clipping-eez-land-union",
-          "objectiveId": "eez",
-          "layerId": ""
+        "classId": "eez",
+        "display": "EEZ",
+        "datasourceId": "global-clipping-eez-land-union",
+        "objectiveId": "eez",
+        "layerId": ""
       }
-  ]
-},
-{
-  "metricId": "geomorphicOverlap",
-  "type": "areaOverlap",
-  "classes": [
+    ]
+  },
+  {
+    "metricId": "geomorphicOverlap",
+    "type": "areaOverlap",
+    "classes": [
       {
-          "classId": "Hills",
-          "classKey": "Class",
-          "display": "Abyssal Hill",
-          "datasourceId": "abyssal_classification",
-          "objectiveId": "eez",
-          "layerId": ""
+        "classId": "Hills",
+        "classKey": "Class",
+        "display": "Abyssal Hill",
+        "datasourceId": "abyssal_classification",
+        "objectiveId": "eez",
+        "layerId": ""
       },
       {
         "classId": "Mountains",
@@ -30,28 +31,28 @@
         "datasourceId": "abyssal_classification",
         "objectiveId": "eez",
         "layerId": ""
-    },
-    {
-      "classId": "Plains",
-      "classKey": "Class",
-      "display": "Abyssal Plain",
-      "datasourceId": "abyssal_classification",
-      "objectiveId": "eez",
-      "layerId": ""
-  }
-  ]
-},
-{
-  "metricId": "priorityAreaOverlap",
-  "type": "areaOverlap",
-  "classes": [
+      },
       {
-          "classId": "Alta",
-          "classKey": "prio",
-          "display": "Alta",
-          "datasourceId": "priority_areas",
-          "objectiveId": "eez",
-          "layerId": ""
+        "classId": "Plains",
+        "classKey": "Class",
+        "display": "Abyssal Plain",
+        "datasourceId": "abyssal_classification",
+        "objectiveId": "eez",
+        "layerId": ""
+      }
+    ]
+  },
+  {
+    "metricId": "priorityAreaOverlap",
+    "type": "areaOverlap",
+    "classes": [
+      {
+        "classId": "Alta",
+        "classKey": "prio",
+        "display": "Alta",
+        "datasourceId": "priority_areas",
+        "objectiveId": "eez",
+        "layerId": ""
       },
       {
         "classId": "Muito Alta",
@@ -60,29 +61,49 @@
         "datasourceId": "priority_areas",
         "objectiveId": "eez",
         "layerId": ""
-    },
-    {
-      "classId": "Extremamente Alta",
-      "classKey": "prio",
-      "display": "Extremamente Alta",
-      "datasourceId": "priority_areas",
-      "objectiveId": "eez",
-      "layerId": ""
-  }
-  ]
-},
-{
-  "metricId": "trawlingOverlap",
-  "type": "areaOverlap",
-  "classes": [
+      },
       {
-          "classId": "trawling",
-          "display": "Trawling Effort",
-          "datasourceId": "trawling",
-          "objectiveId": "eez",
-          "layerId": ""
+        "classId": "Extremamente Alta",
+        "classKey": "prio",
+        "display": "Extremamente Alta",
+        "datasourceId": "priority_areas",
+        "objectiveId": "eez",
+        "layerId": ""
       }
-  ]
-}
-
+    ]
+  },
+  {
+    "metricId": "fishingEffortOverlap",
+    "type": "valueOverlap",
+    "classes": [
+      {
+        "classId": "trawling",
+        "display": "Trawling",
+        "datasourceId": "trawling",
+        "noDataValue": 0,
+        "layerId": ""
+      },
+      {
+        "classId": "traps",
+        "display": "Traps",
+        "datasourceId": "traps",
+        "noDataValue": 0,
+        "layerId": ""
+      },
+      {
+        "classId": "longline",
+        "display": "Longline",
+        "datasourceId": "longline",
+        "noDataValue": 0,
+        "layerId": ""
+      },
+      {
+        "classId": "gillnet",
+        "display": "Gillnet",
+        "datasourceId": "gillnet",
+        "noDataValue": 0,
+        "layerId": ""
+      }
+    ]
+  }
 ]

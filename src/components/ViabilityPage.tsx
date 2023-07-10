@@ -1,14 +1,14 @@
 import React from "react";
 import { SizeCard } from "./SizeCard";
 import { SketchAttributesCard } from "@seasketch/geoprocessing/client-ui";
-import { TrawlingCard } from "./TrawlingCard";
+import { FishingEffortCard } from "./FishingEffortCard";
 
 const ReportPage = () => {
   return (
     <>
       <SizeCard />
-      <SketchAttributesCard autoHide />
-      <TrawlingCard />
+      {/* <SketchAttributesCard autoHide /> */}
+      <FishingEffortCard />
     </>
   );
 };
