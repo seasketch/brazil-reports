@@ -23,7 +23,7 @@ import styled from "styled-components";
 import project from "../../project";
 import { squareMeterToKilometer } from "@seasketch/geoprocessing";
 
-const metricGroup = project.getMetricGroup("priorityAreaOverlap");
+const metricGroup = project.getMetricGroup("miningOverlap");
 const totalMetrics = project.getPrecalcMetrics(
   metricGroup,
   "area",
@@ -68,12 +68,12 @@ const TableStyled = styled(ReportTableStyled)`
   }
 `;
 
-export const PriorityAreaCard = () => {
+export const MiningCard = () => {
   const [{ isCollection }] = useSketchProperties();
   return (
     <ResultsCard
       title="Priority Areas for Conservation"
-      functionName="priorityAreaOverlap"
+      functionName="miningOverlap"
       useChildCard
     >
       {(data: ReportResult) => {
@@ -81,7 +81,7 @@ export const PriorityAreaCard = () => {
           throw new Error("Protection results not found");
         return (
           <ToolbarCard
-            title="Priority Areas for Conservation"
+            title="Mining Areas"
             items={
               <>
                 <DataDownload
@@ -93,10 +93,6 @@ export const PriorityAreaCard = () => {
               </>
             }
           >
-            <p>
-              Plans should include a portion of priority conservation areas.
-            </p>
-
             {genSingleSizeTable(data)}
 
             {isCollection && (
@@ -106,15 +102,7 @@ export const PriorityAreaCard = () => {
             )}
 
             <Collapse title="Learn more">
-              <p>
-                {" "}
-                This report summarizes the proportion of priority conservation
-                areas within this plan.
-              </p>
-              <p>
-                If MPA boundaries overlap with each other, the overlap is only
-                counted once.
-              </p>
+              <p> Need to add info</p>
             </Collapse>
           </ToolbarCard>
         );

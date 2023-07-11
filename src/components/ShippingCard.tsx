@@ -19,25 +19,24 @@ import {
 import project from "../../project";
 import { Trans, useTranslation } from "react-i18next";
 
-const metricGroup = project.getMetricGroup("fishingEffortOverlap");
+const metricGroup = project.getMetricGroup("shippingOverlap");
 const precalcMetrics = project.getPrecalcMetrics(
   metricGroup,
   "sum",
   metricGroup.classKey
 );
 
-export const FishingEffortCard = () => {
+export const ShippingCard = () => {
   const [{ isCollection }] = useSketchProperties();
   const { t, i18n } = useTranslation();
   const mapLabel = t("Map");
-  const typeLabel = t("Type");
-  const percValueLabel = t("% Effort Found Within Plan");
+  const percValueLabel = t("% Intensity Found Within Plan");
 
   return (
     <>
       <ResultsCard
-        title={t("Southern Shelf Fishing Effort")}
-        functionName="fishingEffortOverlap"
+        title={t("Southern Shelf Shipping Intensity")}
+        functionName="shippingOverlap"
       >
         {(data: ReportResult) => {
           // Single sketch or collection top-level
@@ -51,7 +50,7 @@ export const FishingEffortCard = () => {
 
           return (
             <>
-              <Trans i18nKey="Fishing Effort Card">
+              <Trans i18nKey="Shipping Card">
                 <p></p>
               </Trans>
               <ClassTable
@@ -59,7 +58,7 @@ export const FishingEffortCard = () => {
                 metricGroup={metricGroup}
                 columnConfig={[
                   {
-                    columnLabel: typeLabel,
+                    columnLabel: "Metric",
                     type: "class",
                     width: 45,
                   },
@@ -87,7 +86,7 @@ export const FishingEffortCard = () => {
               )}
 
               <Collapse title={t("Learn more")}>
-                <Trans i18nKey="Fishing Effort Card - learn more">
+                <Trans i18nKey="Shipping Card - learn more">
                   <p>Need to add info</p>
                 </Trans>
               </Collapse>

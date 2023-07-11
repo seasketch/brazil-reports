@@ -168,19 +168,85 @@
     "src": "/Users/petermenzies/Library/CloudStorage/Box-Box/GIS/Brazil/Data_Products/south-brazilian-shelf-db/kernel_longline_preps.tif"
   },
   {
-    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/kernel_gillnet_preps.tif",
-    "band": 1,
-    "geo_type": "raster",
     "datasourceId": "gillnet",
-    "formats": [
-      "tif"
-    ],
-    "created": "2023-07-10T21:10:58.753Z",
-    "lastUpdated": "2023-07-10T21:10:58.753Z",
+    "geo_type": "raster",
     "keyStats": {
       "total": {
         "total": {
+          "count": null,
           "sum": 566139222.9722147,
+          "area": null
+        }
+      }
+    },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-07-10T21:10:58.753Z",
+    "lastUpdated": "2023-07-10T21:10:58.753Z",
+    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/kernel_gillnet_preps.tif"
+  },
+  {
+    "datasourceId": "mining_active",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 543,
+          "sum": null,
+          "area": 1245836426.3570294
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "mining_active_anm_clipped",
+    "classKeys": [],
+    "created": "2023-07-11T18:21:33.468Z",
+    "lastUpdated": "2023-07-11T18:21:33.468Z",
+    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/mining_active_anm_clipped.fgb",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "mining_potential",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 159,
+          "sum": null,
+          "area": 267539314623.91132
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "mining_potential_dnpm_clipped",
+    "classKeys": [],
+    "created": "2023-07-11T18:22:17.289Z",
+    "lastUpdated": "2023-07-11T18:22:17.289Z",
+    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/mining_potential_dnpm_clipped.fgb",
+    "propertiesToKeep": []
+  },
+  {
+    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/shipping_intensity_rasterized.tif",
+    "band": 1,
+    "geo_type": "raster",
+    "datasourceId": "shipping_intensity",
+    "formats": [
+      "tif"
+    ],
+    "created": "2023-07-11T21:04:29.322Z",
+    "lastUpdated": "2023-07-11T21:04:29.322Z",
+    "keyStats": {
+      "total": {
+        "total": {
+          "sum": 1044229,
           "count": null,
           "area": null
         }

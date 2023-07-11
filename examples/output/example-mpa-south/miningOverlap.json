@@ -1,0 +1,109 @@
+{
+  "metrics": [
+    {
+      "metricId": "miningOverlap",
+      "sketchId": "15454",
+      "classId": "mining_active",
+      "groupId": null,
+      "geographyId": null,
+      "value": 6518135.868295918,
+      "extra": {
+        "sketchName": "example-mpa-south"
+      }
+    },
+    {
+      "metricId": "miningOverlap",
+      "sketchId": "15454",
+      "classId": "mining_potential",
+      "groupId": null,
+      "geographyId": null,
+      "value": 10771268459.768291,
+      "extra": {
+        "sketchName": "example-mpa-south"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 15454,
+    "bbox": [
+      -51.010437,
+      -33.0546,
+      -46.43284,
+      -29.136082
+    ],
+    "type": "Feature",
+    "properties": {
+      "2947": "example-mpa-south",
+      "2948": [
+        "MPA"
+      ],
+      "id": "15454",
+      "name": "example-mpa-south",
+      "postId": null,
+      "userId": "128",
+      "authors": null,
+      "userSlug": "Peter",
+      "Zone Type": [
+        "MPA"
+      ],
+      "createdAt": "2023-07-10T20:46:50.726608+00:00",
+      "updatedAt": "2023-07-10T20:46:50.726608+00:00",
+      "description": null,
+      "collectionId": null,
+      "isCollection": false,
+      "sharedInForum": false,
+      "sketchClassId": "198",
+      "userAttributes": [
+        {
+          "label": "Zone Type",
+          "value": [
+            "MPA"
+          ],
+          "exportId": "Zone Type",
+          "fieldType": "MultipleChoice",
+          "valueLabel": [
+            "Marine Protected Area"
+          ],
+          "formElementId": 2948,
+          "alternateLanguages": {
+            "pt": {
+              "label": null,
+              "valueLabel": [
+                "Área Marinha Protegida"
+              ]
+            }
+          }
+        },
+        {
+          "label": "Description",
+          "value": null,
+          "exportId": "description",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 2949,
+          "alternateLanguages": {
+            "pt": {
+              "label": "Descrição: ",
+              "valueLabel": null
+            }
+          }
+        },
+        {
+          "label": "Author(s)",
+          "value": null,
+          "exportId": "authors",
+          "fieldType": "ShortText",
+          "valueLabel": null,
+          "formElementId": 2950,
+          "alternateLanguages": {
+            "pt": {
+              "label": "Autor(s)",
+              "valueLabel": null
+            }
+          }
+        }
+      ]
+    },
+    "geometry": null
+  }
+}

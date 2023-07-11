@@ -105,5 +105,36 @@
         "layerId": ""
       }
     ]
+  },
+  {
+    "metricId": "miningOverlap",
+    "type": "areaOverlap",
+    "classes": [
+      {
+        "classId": "mining_active",
+        "display": "Active Mining",
+        "datasourceId": "mining_active",
+        "layerId": ""
+      },
+      {
+        "classId": "mining_potential",
+        "display": "Potential Mining",
+        "datasourceId": "mining_potential",
+        "layerId": ""
+      }
+    ]
+  },
+  {
+    "metricId": "shippingOverlap",
+    "type": "valueOverlap",
+    "classes": [
+      {
+        "classId": "shipping_intensity",
+        "display": "Shipping Intensity",
+        "datasourceId": "shipping_intensity",
+        "noDataValue": 0,
+        "layerId": ""
+      }
+    ]
   }
 ]
