@@ -169,12 +169,12 @@ const genSingleSizeTable = (data: ReportResult) => {
         metricGroup={metricGroup}
         columnConfig={[
           {
-            columnLabel: "Boundary",
+            columnLabel: "Priority Level",
             type: "class",
             width: 20,
           },
           {
-            columnLabel: "Found Within Plan",
+            columnLabel: "Area Within Plan",
             type: "metricValue",
             metricId: METRIC_ID,
             valueFormatter: (val: string | number) =>
@@ -185,11 +185,11 @@ const genSingleSizeTable = (data: ReportResult) => {
                   )
                 )
               ),
-            valueLabel: "sq. km.",
+            valueLabel: "km²",
             width: 25,
           },
           {
-            columnLabel: " ",
+            columnLabel: "Percent Area Within Plan",
             type: "metricChart",
             metricId: PERC_METRIC_ID,
             valueFormatter: "percent",
