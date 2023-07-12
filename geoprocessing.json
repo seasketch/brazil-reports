@@ -20,6 +20,9 @@
   "geoprocessingFunctions": [
     "src/functions/boundaryAreaOverlap.ts",
     "src/functions/geomorphicOverlap.ts",
-    "src/functions/priorityAreaOverlap.ts"
+    "src/functions/priorityAreaOverlap.ts",
+    "src/functions/fishingEffortOverlap.ts",
+    "src/functions/miningOverlap.ts",
+    "src/functions/shippingOverlap.ts"
   ]
 }

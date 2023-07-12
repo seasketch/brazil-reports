@@ -84,12 +84,12 @@ export const MiningCard = () => {
             title="Mining Areas"
             items={
               <>
-                <DataDownload
+                {/* <DataDownload
                   filename="suma"
                   data={data.metrics}
                   formats={["csv", "json"]}
                   placement="left-end"
-                />
+                /> */}
               </>
             }
           >

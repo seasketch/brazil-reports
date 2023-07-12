@@ -61,7 +61,7 @@ export const FishingEffortCard = () => {
                   {
                     columnLabel: typeLabel,
                     type: "class",
-                    width: 45,
+                    width: 20,
                   },
                   {
                     columnLabel: percValueLabel,

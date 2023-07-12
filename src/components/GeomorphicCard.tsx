@@ -84,12 +84,12 @@ export const GeomorphicCard = () => {
             title="Geomorphic Regions"
             items={
               <>
-                <DataDownload
+                {/* <DataDownload
                   filename="suma"
                   data={data.metrics}
                   formats={["csv", "json"]}
                   placement="left-end"
-                />
+                /> */}
               </>
             }
           >
