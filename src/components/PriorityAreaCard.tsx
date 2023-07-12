@@ -18,6 +18,7 @@ import {
   useSketchProperties,
   ToolbarCard,
   DataDownload,
+  LayerToggle,
 } from "@seasketch/geoprocessing/client-ui";
 import styled from "styled-components";
 import project from "../../project";
@@ -32,6 +33,7 @@ const totalMetrics = project.getPrecalcMetrics(
 
 const METRIC_ID = metricGroup.metricId;
 const PERC_METRIC_ID = `${metricGroup.metricId}Perc`;
+const LAYER_ID = metricGroup.layerId;
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
 
@@ -84,12 +86,14 @@ export const PriorityAreaCard = () => {
             title="Priority Areas for Conservation"
             items={
               <>
-                <DataDownload
-                  filename="suma"
+                <LayerToggle label="Map" layerId={LAYER_ID} simple />
+
+                {/* <DataDownload
+                  filename="size"
                   data={data.metrics}
                   formats={["csv", "json"]}
                   placement="left-end"
-                />
+                /> */}
               </>
             }
           >
@@ -171,7 +175,7 @@ const genSingleSizeTable = (data: ReportResult) => {
           {
             columnLabel: "Priority Level",
             type: "class",
-            width: 20,
+            width: 30,
           },
           {
             columnLabel: "Area Within Plan",
@@ -213,11 +217,6 @@ const genSingleSizeTable = (data: ReportResult) => {
                   `${valueFormatter(value / 100, "percent0dig")}`;
               }
             },
-          },
-          {
-            type: "layerToggle",
-            width: 15,
-            columnLabel: "Map",
           },
         ]}
       />

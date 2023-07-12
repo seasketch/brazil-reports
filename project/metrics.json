@@ -45,6 +45,7 @@
   {
     "metricId": "priorityAreaOverlap",
     "type": "areaOverlap",
+    "layerId": "Gx38O_Msj",
     "classes": [
       {
         "classId": "Alta",
@@ -52,7 +53,7 @@
         "display": "Alta",
         "datasourceId": "priority_areas",
         "objectiveId": "eez",
-        "layerId": ""
+        "layerId": "Gx38O_Msj"
       },
       {
         "classId": "Muito Alta",
@@ -60,7 +61,7 @@
         "display": "Muito Alta",
         "datasourceId": "priority_areas",
         "objectiveId": "eez",
-        "layerId": ""
+        "layerId": "Gx38O_Msj"
       },
       {
         "classId": "Extremamente Alta",
@@ -68,7 +69,7 @@
         "display": "Extremamente Alta",
         "datasourceId": "priority_areas",
         "objectiveId": "eez",
-        "layerId": ""
+        "layerId": "Gx38O_Msj"
       }
     ]
   },
@@ -81,7 +82,7 @@
         "display": "Trawling",
         "datasourceId": "trawling",
         "noDataValue": 0,
-        "layerId": ""
+        "layerId": "nVmRI8vJX"
       },
       {
         "classId": "traps",
@@ -95,14 +96,14 @@
         "display": "Longline",
         "datasourceId": "longline",
         "noDataValue": 0,
-        "layerId": ""
+        "layerId": "Olt_SOCh0"
       },
       {
         "classId": "gillnet",
         "display": "Gillnet",
         "datasourceId": "gillnet",
         "noDataValue": 0,
-        "layerId": ""
+        "layerId": "awuKJnhRG"
       }
     ]
   },
@@ -114,13 +115,13 @@
         "classId": "mining_active",
         "display": "Active Mining",
         "datasourceId": "mining_active",
-        "layerId": ""
+        "layerId": "RBYzGzUz2"
       },
       {
         "classId": "mining_potential",
         "display": "Potential Mining",
         "datasourceId": "mining_potential",
-        "layerId": ""
+        "layerId": "HhykfJ_h9"
       }
     ]
   },
@@ -133,7 +134,7 @@
         "display": "Shipping Intensity",
         "datasourceId": "shipping_intensity",
         "noDataValue": 0,
-        "layerId": ""
+        "layerId": "ohTda51j7"
       }
     ]
   }
