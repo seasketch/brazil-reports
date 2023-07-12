@@ -1,0 +1,197 @@
+{
+  "metrics": [
+    {
+      "metricId": "ecozonesPelagicOverlap",
+      "sketchId": "15454",
+      "classId": "zone 1",
+      "groupId": null,
+      "geographyId": null,
+      "value": 6753519652.307712,
+      "extra": {
+        "sketchName": "example-mpa-south"
+      }
+    },
+    {
+      "metricId": "ecozonesPelagicOverlap",
+      "sketchId": "15454",
+      "classId": "zone 2",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "example-mpa-south"
+      }
+    },
+    {
+      "metricId": "ecozonesPelagicOverlap",
+      "sketchId": "15454",
+      "classId": "zone 3",
+      "groupId": null,
+      "geographyId": null,
+      "value": 15229690836.462204,
+      "extra": {
+        "sketchName": "example-mpa-south"
+      }
+    },
+    {
+      "metricId": "ecozonesPelagicOverlap",
+      "sketchId": "15454",
+      "classId": "zone 4",
+      "groupId": null,
+      "geographyId": null,
+      "value": 5896045909.554605,
+      "extra": {
+        "sketchName": "example-mpa-south"
+      }
+    },
+    {
+      "metricId": "ecozonesPelagicOverlap",
+      "sketchId": "15454",
+      "classId": "zone 5",
+      "groupId": null,
+      "geographyId": null,
+      "value": 10444056643.774944,
+      "extra": {
+        "sketchName": "example-mpa-south"
+      }
+    },
+    {
+      "metricId": "ecozonesPelagicOverlap",
+      "sketchId": "15454",
+      "classId": "zone 6",
+      "groupId": null,
+      "geographyId": null,
+      "value": 10961328523.022562,
+      "extra": {
+        "sketchName": "example-mpa-south"
+      }
+    },
+    {
+      "metricId": "ecozonesPelagicOverlap",
+      "sketchId": "15454",
+      "classId": "zone 7",
+      "groupId": null,
+      "geographyId": null,
+      "value": 24014547084.336292,
+      "extra": {
+        "sketchName": "example-mpa-south"
+      }
+    },
+    {
+      "metricId": "ecozonesPelagicOverlap",
+      "sketchId": "15454",
+      "classId": "zone 8",
+      "groupId": null,
+      "geographyId": null,
+      "value": 218613160.10706612,
+      "extra": {
+        "sketchName": "example-mpa-south"
+      }
+    },
+    {
+      "metricId": "ecozonesPelagicOverlap",
+      "sketchId": "15454",
+      "classId": "zone 9",
+      "groupId": null,
+      "geographyId": null,
+      "value": 22612971691.585625,
+      "extra": {
+        "sketchName": "example-mpa-south"
+      }
+    },
+    {
+      "metricId": "ecozonesPelagicOverlap",
+      "sketchId": "15454",
+      "classId": "zone 10",
+      "groupId": null,
+      "geographyId": null,
+      "value": 3132368127.4576545,
+      "extra": {
+        "sketchName": "example-mpa-south"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 15454,
+    "bbox": [
+      -51.010437,
+      -33.0546,
+      -46.43284,
+      -29.136082
+    ],
+    "type": "Feature",
+    "properties": {
+      "2947": "example-mpa-south",
+      "2948": [
+        "MPA"
+      ],
+      "id": "15454",
+      "name": "example-mpa-south",
+      "postId": null,
+      "userId": "128",
+      "authors": null,
+      "userSlug": "Peter",
+      "Zone Type": [
+        "MPA"
+      ],
+      "createdAt": "2023-07-10T20:46:50.726608+00:00",
+      "updatedAt": "2023-07-10T20:46:50.726608+00:00",
+      "description": null,
+      "collectionId": null,
+      "isCollection": false,
+      "sharedInForum": false,
+      "sketchClassId": "198",
+      "userAttributes": [
+        {
+          "label": "Zone Type",
+          "value": [
+            "MPA"
+          ],
+          "exportId": "Zone Type",
+          "fieldType": "MultipleChoice",
+          "valueLabel": [
+            "Marine Protected Area"
+          ],
+          "formElementId": 2948,
+          "alternateLanguages": {
+            "pt": {
+              "label": null,
+              "valueLabel": [
+                "Área Marinha Protegida"
+              ]
+            }
+          }
+        },
+        {
+          "label": "Description",
+          "value": null,
+          "exportId": "description",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 2949,
+          "alternateLanguages": {
+            "pt": {
+              "label": "Descrição: ",
+              "valueLabel": null
+            }
+          }
+        },
+        {
+          "label": "Author(s)",
+          "value": null,
+          "exportId": "authors",
+          "fieldType": "ShortText",
+          "valueLabel": null,
+          "formElementId": 2950,
+          "alternateLanguages": {
+            "pt": {
+              "label": "Autor(s)",
+              "valueLabel": null
+            }
+          }
+        }
+      ]
+    },
+    "geometry": null
+  }
+}

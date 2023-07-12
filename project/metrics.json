@@ -137,5 +137,155 @@
         "layerId": "ohTda51j7"
       }
     ]
+  },
+  {
+    "metricId": "ecozonesPelagicOverlap",
+    "type": "areaOverlap",
+    "layerId": "Qaj5XRtiU",
+    "classes": [
+      {
+        "classId": "zone 1",
+        "classKey": "zone",
+        "display": "1",
+        "datasourceId": "ecozones_pelagic",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "zone 2",
+        "classKey": "zone",
+        "display": "2",
+        "datasourceId": "ecozones_pelagic",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "zone 3",
+        "classKey": "zone",
+        "display": "3",
+        "datasourceId": "ecozones_pelagic",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "zone 4",
+        "classKey": "zone",
+        "display": "4",
+        "datasourceId": "ecozones_pelagic",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "zone 5",
+        "classKey": "zone",
+        "display": "5",
+        "datasourceId": "ecozones_pelagic",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "zone 6",
+        "classKey": "zone",
+        "display": "6",
+        "datasourceId": "ecozones_pelagic",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "zone 7",
+        "classKey": "zone",
+        "display": "7",
+        "datasourceId": "ecozones_pelagic",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "zone 8",
+        "classKey": "zone",
+        "display": "8",
+        "datasourceId": "ecozones_pelagic",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "zone 9",
+        "classKey": "zone",
+        "display": "9",
+        "datasourceId": "ecozones_pelagic",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "zone 10",
+        "classKey": "zone",
+        "display": "10",
+        "datasourceId": "ecozones_pelagic",
+        "objectiveId": "",
+        "layerId": ""
+      }
+    ]
+  },
+  {
+    "metricId": "ecozonesBenthicOverlap",
+    "type": "areaOverlap",
+    "layerId": "UmN9AuWc2",
+    "classes": [
+      {
+        "classId": "zone 1",
+        "classKey": "zone",
+        "display": "1",
+        "datasourceId": "ecozones_benthic",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "zone 2",
+        "classKey": "zone",
+        "display": "2",
+        "datasourceId": "ecozones_benthic",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "zone 3",
+        "classKey": "zone",
+        "display": "3",
+        "datasourceId": "ecozones_benthic",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "zone 4",
+        "classKey": "zone",
+        "display": "4",
+        "datasourceId": "ecozones_benthic",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "zone 5",
+        "classKey": "zone",
+        "display": "5",
+        "datasourceId": "ecozones_benthic",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "zone 6",
+        "classKey": "zone",
+        "display": "6",
+        "datasourceId": "ecozones_benthic",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "zone 7",
+        "classKey": "zone",
+        "display": "7",
+        "datasourceId": "ecozones_benthic",
+        "objectiveId": "",
+        "layerId": ""
+      }
+    ]
   }
 ]

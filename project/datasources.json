@@ -234,25 +234,193 @@
     "propertiesToKeep": []
   },
   {
-    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/shipping_intensity_rasterized.tif",
-    "band": 1,
-    "geo_type": "raster",
     "datasourceId": "shipping_intensity",
-    "formats": [
-      "tif"
-    ],
-    "created": "2023-07-11T21:04:29.322Z",
-    "lastUpdated": "2023-07-11T21:04:29.322Z",
+    "geo_type": "raster",
     "keyStats": {
       "total": {
         "total": {
-          "sum": 1044229,
           "count": null,
+          "sum": 1044229,
           "area": null
         }
       }
     },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
     "noDataValue": 0,
-    "measurementType": "quantitative"
+    "created": "2023-07-11T21:04:29.322Z",
+    "lastUpdated": "2023-07-11T21:04:29.322Z",
+    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/shipping_intensity_rasterized.tif"
+  },
+  {
+    "datasourceId": "oil_platforms",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 16,
+          "sum": null,
+          "area": 0
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "oil_platforms",
+    "classKeys": [],
+    "created": "2023-07-12T20:16:26.468Z",
+    "lastUpdated": "2023-07-12T20:16:26.468Z",
+    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/oil_platforms.fgb",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "oil_exploration",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 27,
+          "sum": null,
+          "area": 22653113180.664886
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "oil_expl_anp",
+    "classKeys": [],
+    "created": "2023-07-12T20:21:00.643Z",
+    "lastUpdated": "2023-07-12T20:21:00.643Z",
+    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/oil_expl_anp.fgb",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "ecozones_pelagic",
+    "geo_type": "vector",
+    "keyStats": {
+      "zone": {
+        "zone 4": {
+          "count": 2,
+          "area": 54928779558.6826
+        },
+        "zone 7": {
+          "count": 6,
+          "area": 51169900295.240906
+        },
+        "zone 2": {
+          "count": 4,
+          "area": 46408591040.50092
+        },
+        "zone 10": {
+          "count": 4,
+          "area": 31878296642.02845
+        },
+        "zone 8": {
+          "count": 5,
+          "area": 10327776808.869766
+        },
+        "zone 5": {
+          "count": 1,
+          "area": 48307094147.54872
+        },
+        "zone 9": {
+          "count": 2,
+          "area": 41421505499.52401
+        },
+        "zone 6": {
+          "count": 1,
+          "area": 48732980550.91305
+        },
+        "zone 3": {
+          "count": 1,
+          "area": 45435367105.853615
+        },
+        "zone 1": {
+          "count": 2,
+          "area": 29461332755.951107
+        }
+      },
+      "total": {
+        "total": {
+          "count": 28,
+          "sum": null,
+          "area": 408071624405.1132
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "ecozones_pelagic_gandra",
+    "classKeys": [
+      "zone"
+    ],
+    "created": "2023-07-12T22:06:51.033Z",
+    "lastUpdated": "2023-07-12T22:06:51.033Z",
+    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/ecozones_pelagic_gandra.fgb",
+    "propertiesToKeep": [
+      "zone"
+    ]
+  },
+  {
+    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/ecozones_benthic_gandra.fgb",
+    "layerName": "ecozones_benthic_gandra",
+    "geo_type": "vector",
+    "datasourceId": "ecozones_benthic",
+    "formats": [
+      "fgb"
+    ],
+    "classKeys": [
+      "zone"
+    ],
+    "created": "2023-07-12T22:29:40.473Z",
+    "lastUpdated": "2023-07-12T22:29:40.473Z",
+    "keyStats": {
+      "zone": {
+        "zone 3": {
+          "count": 199,
+          "area": 17474132877.81905
+        },
+        "zone 1": {
+          "count": 30,
+          "area": 143217044304.99664
+        },
+        "zone 2": {
+          "count": 19,
+          "area": 76328672615.80208
+        },
+        "zone 5": {
+          "count": 44,
+          "area": 74588670898.60631
+        },
+        "zone 7": {
+          "count": 141,
+          "area": 13245555384.885921
+        },
+        "zone 4": {
+          "count": 110,
+          "area": 43714294608.70005
+        },
+        "zone 6": {
+          "count": 30,
+          "area": 38829211521.04628
+        }
+      },
+      "total": {
+        "total": {
+          "count": 573,
+          "sum": null,
+          "area": 407397582211.857
+        }
+      }
+    },
+    "propertiesToKeep": [
+      "zone"
+    ]
   }
 ]
