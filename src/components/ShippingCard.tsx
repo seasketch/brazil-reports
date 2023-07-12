@@ -35,7 +35,7 @@ export const ShippingCard = () => {
   return (
     <>
       <ResultsCard
-        title={t("Southern Shelf Shipping Intensity")}
+        title={t("Shipping Intensity (Southern Shelf)")}
         functionName="shippingOverlap"
       >
         {(data: ReportResult) => {

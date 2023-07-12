@@ -159,7 +159,7 @@ const genSingleSizeTable = (data: ReportResult) => {
           {
             columnLabel: "Priority Level",
             type: "class",
-            width: 20,
+            width: 25,
           },
           {
             columnLabel: "Area Within Plan",

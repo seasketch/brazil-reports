@@ -36,7 +36,7 @@ export const FishingEffortCard = () => {
   return (
     <>
       <ResultsCard
-        title={t("Southern Shelf Fishing Effort")}
+        title={t("Fishing Effort (Southern Shelf)")}
         functionName="fishingEffortOverlap"
       >
         {(data: ReportResult) => {
@@ -88,7 +88,16 @@ export const FishingEffortCard = () => {
 
               <Collapse title={t("Learn more")}>
                 <Trans i18nKey="Fishing Effort Card - learn more">
-                  <p>Need to add info</p>
+                  <p>
+                    ℹ️ Hours of fishing effort is used as a proxy for measuring
+                    the potential economic loss to fisheries caused by the
+                    creation of protected areas. This report can be used to
+                    minimize the potential impact of a plan to fisheries, as
+                    well as identify and reduce conflict between conservation
+                    objectives and fishing activities. The higher the
+                    percentage, the greater the potential impact if access or
+                    activities are restricted.
+                  </p>
                 </Trans>
               </Collapse>
             </>
