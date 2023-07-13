@@ -30,7 +30,7 @@ export const ShippingCard = () => {
   const [{ isCollection }] = useSketchProperties();
   const { t, i18n } = useTranslation();
   const mapLabel = t("Map");
-  const percValueLabel = t("% Intensity Found Within Plan");
+  const percValueLabel = t("% Intensity Within Plan");
 
   return (
     <>
@@ -58,7 +58,7 @@ export const ShippingCard = () => {
                 metricGroup={metricGroup}
                 columnConfig={[
                   {
-                    columnLabel: "Metric",
+                    columnLabel: t("Metric"),
                     type: "class",
                     width: 20,
                   },

@@ -22,6 +22,7 @@ import {
 import styled from "styled-components";
 import project from "../../project";
 import { squareMeterToKilometer } from "@seasketch/geoprocessing";
+import { Trans, useTranslation } from "react-i18next";
 
 const metricGroup = project.getMetricGroup("miningOverlap");
 const totalMetrics = project.getPrecalcMetrics(
@@ -70,6 +71,7 @@ const TableStyled = styled(ReportTableStyled)`
 
 export const MiningCard = () => {
   const [{ isCollection }] = useSketchProperties();
+  const { t, i18n } = useTranslation();
   return (
     <ResultsCard
       title="Priority Areas for Conservation"
@@ -96,12 +98,12 @@ export const MiningCard = () => {
             {genSingleSizeTable(data)}
 
             {isCollection && (
-              <Collapse title="Show by MPA">
+              <Collapse title={t("Show by MPA")}>
                 {genNetworkSizeTable(data)}
               </Collapse>
             )}
 
-            <Collapse title="Learn more">
+            <Collapse title={t("Learn more")}>
               <p> Need to add info</p>
             </Collapse>
           </ToolbarCard>

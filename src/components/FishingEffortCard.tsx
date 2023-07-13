@@ -31,7 +31,7 @@ export const FishingEffortCard = () => {
   const { t, i18n } = useTranslation();
   const mapLabel = t("Map");
   const typeLabel = t("Type");
-  const percValueLabel = t("% Effort Found Within Plan");
+  const percValueLabel = t("% Effort Within Plan");
 
   return (
     <>

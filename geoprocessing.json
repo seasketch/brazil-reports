@@ -23,6 +23,8 @@
     "src/functions/priorityAreaOverlap.ts",
     "src/functions/fishingEffortOverlap.ts",
     "src/functions/miningOverlap.ts",
-    "src/functions/shippingOverlap.ts"
+    "src/functions/shippingOverlap.ts",
+    "src/functions/ecozonesPelagicOverlap.ts",
+    "src/functions/ecozonesBenthicOverlap.ts"
   ]
 }

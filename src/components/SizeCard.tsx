@@ -21,6 +21,7 @@ import {
   useSketchProperties,
   ToolbarCard,
   DataDownload,
+  InfoStatus,
 } from "@seasketch/geoprocessing/client-ui";
 import styled from "styled-components";
 import project from "../../project";
@@ -97,15 +98,28 @@ export const SizeCard = () => {
         return (
           <>
             <ToolbarCard
-              title={t("Size")}
+              title={t(" ")}
               items={
                 <>
-                  <DataDownload
+                  <InfoStatus
+                    size={30}
+                    msg={
+                      <span>
+                        <Trans i18nKey="Report info status">
+                          These are <b>draft</b> reports. Further changes or
+                          corrections may be made. Please report any issues.
+                          <br></br>
+                          <br></br>
+                        </Trans>
+                      </span>
+                    }
+                  />
+                  {/* <DataDownload
                     filename="size"
                     data={data.metrics}
                     formats={["csv", "json"]}
                     placement="left-end"
-                  />
+                  /> */}
                 </>
               }
             >
@@ -168,7 +182,7 @@ const genSingleSizeTable = (
   const boundaryLabel = t("Boundary");
   const foundWithinLabel = t("Found Within Plan");
   const areaWithinLabel = t("Area Within Plan");
-  const areaPercWithinLabel = t("% Within Plan");
+  const areaPercWithinLabel = t("% Area Within Plan");
   const mapLabel = t("Map");
   const sqKmLabel = t("km²");
 
@@ -203,7 +217,7 @@ const genSingleSizeTable = (
             width: 25,
           },
           {
-            columnLabel: foundWithinLabel,
+            columnLabel: areaWithinLabel,
             type: "metricValue",
             metricId: mg.metricId,
             valueFormatter: (val: string | number) =>
@@ -218,7 +232,7 @@ const genSingleSizeTable = (
             width: 20,
           },
           {
-            columnLabel: " ",
+            columnLabel: areaPercWithinLabel,
             type: "metricChart",
             metricId: project.getMetricGroupPercId(mg),
             valueFormatter: "percent",
@@ -245,11 +259,6 @@ const genSingleSizeTable = (
                   `${valueFormatter(value / 100, "percent0dig")}`;
               }
             },
-          },
-          {
-            type: "layerToggle",
-            width: 15,
-            columnLabel: mapLabel,
           },
         ]}
       />
