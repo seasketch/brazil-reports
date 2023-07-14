@@ -3,7 +3,7 @@
     {
       "metricId": "priorityAreaOverlap",
       "sketchId": "15454",
-      "classId": "Alta",
+      "classId": "High",
       "groupId": null,
       "geographyId": null,
       "value": 43682556154.56141,
@@ -14,7 +14,7 @@
     {
       "metricId": "priorityAreaOverlap",
       "sketchId": "15146",
-      "classId": "Alta",
+      "classId": "High",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -25,7 +25,7 @@
     {
       "metricId": "priorityAreaOverlap",
       "sketchId": "15543",
-      "classId": "Alta",
+      "classId": "High",
       "groupId": null,
       "geographyId": null,
       "value": 8915710410.465158,
@@ -36,7 +36,7 @@
     {
       "metricId": "priorityAreaOverlap",
       "sketchId": "15620",
-      "classId": "Alta",
+      "classId": "High",
       "groupId": null,
       "geographyId": null,
       "value": 52598266565.026566,
@@ -48,7 +48,7 @@
     {
       "metricId": "priorityAreaOverlap",
       "sketchId": "15454",
-      "classId": "Muito Alta",
+      "classId": "Very High",
       "groupId": null,
       "geographyId": null,
       "value": 20794021187.97609,
@@ -59,7 +59,7 @@
     {
       "metricId": "priorityAreaOverlap",
       "sketchId": "15146",
-      "classId": "Muito Alta",
+      "classId": "Very High",
       "groupId": null,
       "geographyId": null,
       "value": 62247581148.74069,
@@ -70,7 +70,7 @@
     {
       "metricId": "priorityAreaOverlap",
       "sketchId": "15543",
-      "classId": "Muito Alta",
+      "classId": "Very High",
       "groupId": null,
       "geographyId": null,
       "value": 39114070498.36204,
@@ -81,7 +81,7 @@
     {
       "metricId": "priorityAreaOverlap",
       "sketchId": "15620",
-      "classId": "Muito Alta",
+      "classId": "Very High",
       "groupId": null,
       "geographyId": null,
       "value": 122155672835.07883,
@@ -93,7 +93,7 @@
     {
       "metricId": "priorityAreaOverlap",
       "sketchId": "15454",
-      "classId": "Extremamente Alta",
+      "classId": "Extremely High",
       "groupId": null,
       "geographyId": null,
       "value": 34721906180.00027,
@@ -104,7 +104,7 @@
     {
       "metricId": "priorityAreaOverlap",
       "sketchId": "15146",
-      "classId": "Extremamente Alta",
+      "classId": "Extremely High",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -115,7 +115,7 @@
     {
       "metricId": "priorityAreaOverlap",
       "sketchId": "15543",
-      "classId": "Extremamente Alta",
+      "classId": "Extremely High",
       "groupId": null,
       "geographyId": null,
       "value": 63991384079.89917,
@@ -126,7 +126,7 @@
     {
       "metricId": "priorityAreaOverlap",
       "sketchId": "15620",
-      "classId": "Extremamente Alta",
+      "classId": "Extremely High",
       "groupId": null,
       "geographyId": null,
       "value": 98713290259.89944,

@@ -3,7 +3,7 @@
     {
       "metricId": "priorityAreaOverlap",
       "sketchId": "15454",
-      "classId": "Alta",
+      "classId": "High",
       "groupId": null,
       "geographyId": null,
       "value": 43682556154.56141,
@@ -14,7 +14,7 @@
     {
       "metricId": "priorityAreaOverlap",
       "sketchId": "15454",
-      "classId": "Muito Alta",
+      "classId": "Very High",
       "groupId": null,
       "geographyId": null,
       "value": 20794021187.97609,
@@ -25,7 +25,7 @@
     {
       "metricId": "priorityAreaOverlap",
       "sketchId": "15454",
-      "classId": "Extremamente Alta",
+      "classId": "Extremely High",
       "groupId": null,
       "geographyId": null,
       "value": 34721906180.00027,

@@ -48,25 +48,25 @@
     "layerId": "Gx38O_Msj",
     "classes": [
       {
-        "classId": "Alta",
-        "classKey": "prio",
-        "display": "Alta",
+        "classId": "High",
+        "classKey": "priority",
+        "display": "High",
         "datasourceId": "priority_areas",
         "objectiveId": "eez",
         "layerId": "Gx38O_Msj"
       },
       {
-        "classId": "Muito Alta",
-        "classKey": "prio",
-        "display": "Muito Alta",
+        "classId": "Very High",
+        "classKey": "priority",
+        "display": "Very High",
         "datasourceId": "priority_areas",
         "objectiveId": "eez",
         "layerId": "Gx38O_Msj"
       },
       {
-        "classId": "Extremamente Alta",
-        "classKey": "prio",
-        "display": "Extremamente Alta",
+        "classId": "Extremely High",
+        "classKey": "priority",
+        "display": "Extremely High",
         "datasourceId": "priority_areas",
         "objectiveId": "eez",
         "layerId": "Gx38O_Msj"

@@ -58,50 +58,6 @@
     ]
   },
   {
-    "datasourceId": "priority_areas",
-    "geo_type": "vector",
-    "keyStats": {
-      "prio": {
-        "Extremamente Alta": {
-          "count": 220,
-          "area": 650169151451.394
-        },
-        "Muito Alta": {
-          "count": 23,
-          "area": 210795004379.64093
-        },
-        "Alta": {
-          "count": 16,
-          "area": 376000627093.75806
-        },
-        "undefined": {
-          "count": 1,
-          "area": 1990779588083.5898
-        }
-      },
-      "total": {
-        "total": {
-          "count": 260,
-          "sum": null,
-          "area": 3227744371008.383
-        }
-      }
-    },
-    "formats": [
-      "fgb"
-    ],
-    "layerName": "priority_areas_mma",
-    "classKeys": [
-      "prio"
-    ],
-    "created": "2023-07-05T19:27:11.527Z",
-    "lastUpdated": "2023-07-05T19:27:11.527Z",
-    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/priority_areas_mma.fgb",
-    "propertiesToKeep": [
-      "prio"
-    ]
-  },
-  {
     "datasourceId": "trawling",
     "geo_type": "raster",
     "keyStats": {
@@ -368,18 +324,8 @@
     ]
   },
   {
-    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/ecozones_benthic_gandra.fgb",
-    "layerName": "ecozones_benthic_gandra",
-    "geo_type": "vector",
     "datasourceId": "ecozones_benthic",
-    "formats": [
-      "fgb"
-    ],
-    "classKeys": [
-      "zone"
-    ],
-    "created": "2023-07-12T22:29:40.473Z",
-    "lastUpdated": "2023-07-12T22:29:40.473Z",
+    "geo_type": "vector",
     "keyStats": {
       "zone": {
         "zone 3": {
@@ -419,8 +365,62 @@
         }
       }
     },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "ecozones_benthic_gandra",
+    "classKeys": [
+      "zone"
+    ],
+    "created": "2023-07-12T22:29:40.473Z",
+    "lastUpdated": "2023-07-12T22:29:40.473Z",
+    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/ecozones_benthic_gandra.fgb",
     "propertiesToKeep": [
       "zone"
+    ]
+  },
+  {
+    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/priority_areas_mma_translated.fgb",
+    "layerName": "priority_areas_mma_translated",
+    "geo_type": "vector",
+    "datasourceId": "priority_areas",
+    "formats": [
+      "fgb"
+    ],
+    "classKeys": [
+      "priority"
+    ],
+    "created": "2023-07-14T19:10:14.544Z",
+    "lastUpdated": "2023-07-14T19:10:14.544Z",
+    "keyStats": {
+      "priority": {
+        "Extremely High": {
+          "count": 220,
+          "area": 650169151451.394
+        },
+        "Very High": {
+          "count": 23,
+          "area": 210795004379.64093
+        },
+        "High": {
+          "count": 16,
+          "area": 376000627093.75806
+        },
+        "undefined": {
+          "count": 1,
+          "area": 1990779588083.5898
+        }
+      },
+      "total": {
+        "total": {
+          "count": 260,
+          "sum": null,
+          "area": 3227744371008.383
+        }
+      }
+    },
+    "propertiesToKeep": [
+      "priority"
     ]
   }
 ]
