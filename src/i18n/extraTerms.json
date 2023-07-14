@@ -27,5 +27,8 @@
   "Gillnet": "Gillnet",
   "Active Mining": "Active Mining",
   "Potential Mining": "Potential Mining",
-  "Shipping Intensity": "Shipping Intensity"
+  "Shipping Intensity": "Shipping Intensity",
+  "High": "High",
+  "Very High": "Very High",
+  "Extremely High": "Extremely High"
 }

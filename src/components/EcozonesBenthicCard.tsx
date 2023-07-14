@@ -1,286 +1,179 @@
 import React from "react";
 import {
-  ReportResult,
-  percentWithEdge,
-  keyBy,
-  toNullSketchArray,
-  nestMetrics,
-  valueFormatter,
-  toPercentMetric,
-} from "@seasketch/geoprocessing/client-core";
-import {
-  ClassTable,
   Collapse,
-  Column,
-  ReportTableStyled,
+  ClassTable,
+  SketchClassTable,
   ResultsCard,
-  Table,
   useSketchProperties,
   ToolbarCard,
-  DataDownload,
   LayerToggle,
 } from "@seasketch/geoprocessing/client-ui";
-import styled from "styled-components";
+import {
+  ReportResult,
+  toNullSketchArray,
+  flattenBySketchAllClass,
+  metricsWithSketchId,
+  toPercentMetric,
+  squareMeterToKilometer,
+  valueFormatter,
+} from "@seasketch/geoprocessing/client-core";
+
 import project from "../../project";
-import { squareMeterToKilometer } from "@seasketch/geoprocessing";
+import Translator from "./TranslatorAsync";
+import { Trans, useTranslation } from "react-i18next";
 
 const metricGroup = project.getMetricGroup("ecozonesBenthicOverlap");
-const totalMetrics = project.getPrecalcMetrics(
+const precalcMetrics = project.getPrecalcMetrics(
   metricGroup,
   "area",
   metricGroup.classKey
 );
 
-const METRIC_ID = metricGroup.metricId;
-const PERC_METRIC_ID = `${metricGroup.metricId}Perc`;
-const LAYER_ID = metricGroup.layerId;
-
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
-
-const TableStyled = styled(ReportTableStyled)`
-  font-size: 12px;
-  td {
-    text-align: right;
-  }
-
-  tr:nth-child(1) > th:nth-child(n + 1) {
-    text-align: center;
-  }
-
-  tr:nth-child(2) > th:nth-child(n + 1) {
-    text-align: center;
-  }
-
-  tr > td:nth-child(1),
-  tr > th:nth-child(1) {
-    border-right: 1px solid #777;
-  }
-
-  tr:nth-child(1) > th:nth-child(2) {
-    border-right: 1px solid #777;
-  }
-
-  tr > td:nth-child(3),
-  tr > th:nth-child(3) {
-    border-right: 1px solid #777;
-  }
-  tr > td:nth-child(5),
-  tr > th:nth-child(5) {
-    border-right: 1px solid #777;
-  }
-`;
 
 export const EcozonesBenthicCard = () => {
   const [{ isCollection }] = useSketchProperties();
-  return (
-    <ResultsCard
-      title="Benthic Ecozones Overlap"
-      functionName="ecozonesBenthicOverlap"
-      useChildCard
-    >
-      {(data: ReportResult) => {
-        if (Object.keys(data).length === 0)
-          throw new Error("Protection results not found");
-        return (
-          <ToolbarCard
-            title="Benthic Ecozones (Southern Shelf)"
-            items={
-              <>
-                <LayerToggle label="Map" layerId={LAYER_ID} simple />
+  const { t } = useTranslation();
 
-                {/* <DataDownload
-                  filename="suma"
-                  data={data.metrics}
-                  formats={["csv", "json"]}
-                  placement="left-end"
-                /> */}
-              </>
-            }
-          >
-            {genSingleSizeTable(data)}
-
-            {isCollection && (
-              <Collapse title="Show by MPA">
-                {genNetworkSizeTable(data)}
-              </Collapse>
-            )}
-
-            <Collapse title="Learn more">
-              <p> Need to add info</p>
-            </Collapse>
-          </ToolbarCard>
-        );
-      }}
-    </ResultsCard>
-  );
-};
-
-const genSingleSizeTable = (data: ReportResult) => {
-  const classesById = keyBy(metricGroup.classes, (c) => c.classId);
-  let singleMetrics = data.metrics.filter(
-    (m) => m.sketchId === data.sketch.properties.id
-  );
-
-  const finalMetrics = [
-    ...singleMetrics,
-    ...toPercentMetric(singleMetrics, totalMetrics, PERC_METRIC_ID),
-  ];
-
-  const aggMetrics = nestMetrics(finalMetrics, ["classId", "metricId"]);
-
-  // Use sketch ID for each table row, index into aggMetrics
-  const rows = Object.keys(aggMetrics).map((classId) => ({ classId }));
-
-  const areaColumns: Column<{ classId: string }>[] = [
-    {
-      Header: " ",
-      accessor: (row) => <b>{classesById[row.classId || "missing"].display}</b>,
-    },
-    {
-      Header: "Area Within Plan",
-      accessor: (row) => {
-        const value = aggMetrics[row.classId][METRIC_ID][0].value;
-        return (
-          Number.format(Math.round(squareMeterToKilometer(value))) + " sq. km."
-        );
-      },
-    },
-    {
-      Header: "% Within Plan",
-      accessor: (row) => {
-        const value = aggMetrics[row.classId][PERC_METRIC_ID][0].value;
-        return percentWithEdge(value);
-      },
-    },
-  ];
+  const mapLabel = t("Map");
+  const zoneLabel = t("Zone");
+  const areaWithin = t("Area Within Plan");
+  const percAreaWithin = `% ${t("Area Within Plan")}`;
+  const sqKmLabel = t("km²");
 
   return (
     <>
-      <ClassTable
-        rows={finalMetrics}
-        metricGroup={metricGroup}
-        columnConfig={[
-          {
-            columnLabel: "Zone",
-            type: "class",
-            width: 25,
-          },
-          {
-            columnLabel: "Area Within Plan",
-            type: "metricValue",
-            metricId: METRIC_ID,
-            valueFormatter: (val: string | number) =>
-              Number.format(
-                Math.round(
-                  squareMeterToKilometer(
-                    typeof val === "string" ? parseInt(val) : val
-                  )
-                )
-              ),
-            valueLabel: "km²",
-            width: 25,
-          },
-          {
-            columnLabel: "% Area Within Plan",
-            type: "metricChart",
-            metricId: PERC_METRIC_ID,
-            valueFormatter: "percent",
-            chartOptions: {
-              showTitle: true,
-              targetLabelPosition: "bottom",
-              targetLabelStyle: "tight",
-              barHeight: 11,
-            },
-            width: 30,
-            targetValueFormatter: (
-              value: number,
-              row: number,
-              numRows: number
-            ) => {
-              if (row === 0) {
-                return (value: number) =>
-                  `${valueFormatter(value / 100, "percent0dig")} Target`;
-              } else {
-                return (value: number) =>
-                  `${valueFormatter(value / 100, "percent0dig")}`;
+      <ResultsCard
+        title={t("Benthic Ecozones")}
+        functionName="ecozonesBenthicOverlap"
+        useChildCard
+      >
+        {(data: ReportResult) => {
+          let singleMetrics = data.metrics.filter(
+            (m) => m.sketchId === data.sketch.properties.id
+          );
+
+          const finalMetrics = [
+            ...singleMetrics,
+            ...toPercentMetric(
+              singleMetrics,
+              precalcMetrics,
+              project.getMetricGroupPercId(metricGroup)
+            ),
+          ];
+
+          return (
+            <ToolbarCard
+              title={t("Benthic Ecozones (Southern Shelf)")}
+              items={
+                <LayerToggle
+                  label={mapLabel}
+                  layerId={metricGroup.layerId}
+                  simple
+                />
               }
-            },
-          },
-          // {
-          //   type: "layerToggle",
-          //   width: 15,
-          //   columnLabel: "Map",
-          // },
-        ]}
-      />
+            >
+              <Translator>
+                <ClassTable
+                  rows={finalMetrics}
+                  metricGroup={metricGroup}
+                  columnConfig={[
+                    {
+                      columnLabel: zoneLabel,
+                      type: "class",
+                      width: 30,
+                    },
+                    {
+                      columnLabel: areaWithin,
+                      type: "metricValue",
+                      metricId: metricGroup.metricId,
+                      valueFormatter: (val: string | number) =>
+                        Number.format(
+                          Math.round(
+                            squareMeterToKilometer(
+                              typeof val === "string" ? parseInt(val) : val
+                            )
+                          )
+                        ),
+                      valueLabel: sqKmLabel,
+                      width: 30,
+                    },
+                    {
+                      columnLabel: percAreaWithin,
+                      type: "metricChart",
+                      metricId: project.getMetricGroupPercId(metricGroup),
+                      valueFormatter: "percent",
+                      chartOptions: {
+                        showTitle: true,
+                        targetLabelPosition: "bottom",
+                        targetLabelStyle: "tight",
+                        barHeight: 11,
+                      },
+                      width: 30,
+                      targetValueFormatter: (
+                        value: number,
+                        row: number,
+                        numRows: number
+                      ) => {
+                        if (row === 0) {
+                          return (value: number) =>
+                            `${valueFormatter(value / 100, "percent0dig")} ${t(
+                              "Target"
+                            )}`;
+                        } else {
+                          return (value: number) =>
+                            `${valueFormatter(value / 100, "percent0dig")}`;
+                        }
+                      },
+                    },
+                  ]}
+                />
+              </Translator>
+
+              {isCollection && (
+                <Collapse title={t("Show by MPA")}>
+                  {genSketchTable(data)}
+                </Collapse>
+              )}
+
+              <Collapse title={t("Learn more")}>
+                <Trans i18nKey="Priority Areas Card - learn more">
+                  <p>
+                    {" "}
+                    This report summarizes the proportion of benthic ecozones
+                    within this plan.
+                  </p>
+                  <p>
+                    If MPA boundaries overlap with each other, the overlap is
+                    only counted once.
+                  </p>
+                </Trans>
+              </Collapse>
+            </ToolbarCard>
+          );
+        }}
+      </ResultsCard>
     </>
   );
 };
 
-const genNetworkSizeTable = (data: ReportResult) => {
-  const sketches = toNullSketchArray(data.sketch);
-  const sketchesById = keyBy(sketches, (sk) => sk.properties.id);
-  const sketchIds = sketches.map((sk) => sk.properties.id);
-  const sketchMetrics = data.metrics.filter(
-    (m) => m.sketchId && sketchIds.includes(m.sketchId)
+const genSketchTable = (data: ReportResult) => {
+  // Build agg metric objects for each child sketch in collection with percValue for each class
+  const childSketches = toNullSketchArray(data.sketch);
+  const childSketchIds = childSketches.map((sk) => sk.properties.id);
+  const childSketchMetrics = toPercentMetric(
+    metricsWithSketchId(
+      data.metrics.filter((m) => m.metricId === metricGroup.metricId),
+      childSketchIds
+    ),
+    precalcMetrics
   );
-  const finalMetrics = [
-    ...sketchMetrics,
-    ...toPercentMetric(sketchMetrics, totalMetrics, PERC_METRIC_ID),
-  ];
-
-  const aggMetrics = nestMetrics(finalMetrics, [
-    "sketchId",
-    "classId",
-    "metricId",
-  ]);
-  // Use sketch ID for each table row, index into aggMetrics
-  const rows = Object.keys(aggMetrics).map((sketchId) => ({
-    sketchId,
-  }));
-
-  const classColumns: Column<{ sketchId: string }>[] = metricGroup.classes.map(
-    (curClass, index) => ({
-      Header: curClass.display,
-      style: { color: "#777" },
-      columns: [
-        {
-          Header: "Area" + " ".repeat(index),
-          accessor: (row) => {
-            const value =
-              aggMetrics[row.sketchId][curClass.classId as string][METRIC_ID][0]
-                .value;
-            return (
-              Number.format(Math.round(squareMeterToKilometer(value))) +
-              " sq. km."
-            );
-          },
-        },
-        {
-          Header: "% Area" + " ".repeat(index),
-          accessor: (row) => {
-            const value =
-              aggMetrics[row.sketchId][curClass.classId as string][
-                PERC_METRIC_ID
-              ][0].value;
-            return percentWithEdge(value);
-          },
-        },
-      ],
-    })
+  const sketchRows = flattenBySketchAllClass(
+    childSketchMetrics,
+    metricGroup.classes,
+    childSketches
   );
-
-  const columns: Column<any>[] = [
-    {
-      Header: " ",
-      accessor: (row) => <b>{sketchesById[row.sketchId].properties.name}</b>,
-    },
-    ...classColumns,
-  ];
-
   return (
-    <TableStyled>
-      <Table columns={columns} data={rows} />
-    </TableStyled>
+    <SketchClassTable rows={sketchRows} metricGroup={metricGroup} formatPerc />
   );
 };

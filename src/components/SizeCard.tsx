@@ -182,7 +182,7 @@ const genSingleSizeTable = (
   const boundaryLabel = t("Boundary");
   const foundWithinLabel = t("Found Within Plan");
   const areaWithinLabel = t("Area Within Plan");
-  const areaPercWithinLabel = t("% Area Within Plan");
+  const areaPercWithinLabel = `% ${t("Area Within Plan")}`;
   const mapLabel = t("Map");
   const sqKmLabel = t("km²");
 

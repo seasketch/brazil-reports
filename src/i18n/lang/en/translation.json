@@ -1,11 +1,12 @@
 {
   " ": " ",
   "% Area": "% Area",
-  "% Area Within Plan": "% Area Within Plan",
   "% Effort Within Plan": "% Effort Within Plan",
   "% Intensity Within Plan": "% Intensity Within Plan",
   "Area": "Area",
   "Area Within Plan": "Area Within Plan",
+  "Benthic Ecozones": "Benthic Ecozones",
+  "Benthic Ecozones (Southern Shelf)": "Benthic Ecozones (Southern Shelf)",
   "Boundary": "Boundary",
   "Fishing Effort (Southern Shelf)": "Fishing Effort (Southern Shelf)",
   "Fishing Effort Card": "<p></p>",
@@ -14,6 +15,12 @@
   "Learn more": "Learn more",
   "Map": "Map",
   "Metric": "Metric",
+  "Mining Areas": "Mining Areas",
+  "Pelagic Ecozones": "Pelagic Ecozones",
+  "Pelagic Ecozones (Southern Shelf)": "Pelagic Ecozones (Southern Shelf)",
+  "Priority Areas Card - learn more": "<0> This report summarizes the proportion of Active and potential mining areas within this plan.</0><p>If MPA boundaries overlap with each other, the overlap is only counted once.</p>",
+  "Priority Areas for Conservation": "Priority Areas for Conservation",
+  "Priority Level": "Priority Level",
   "Report info status": "These are <1>draft</1> reports. Further changes or corrections may be made. Please report any issues.<br></br><br></br>",
   "Representation": "Representation",
   "Results not found": "Results not found",
@@ -28,5 +35,6 @@
   "Target": "Target",
   "Type": "Type",
   "Viability": "Viability",
+  "Zone": "Zone",
   "km²": "km²"
 }
