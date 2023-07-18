@@ -380,18 +380,8 @@
     ]
   },
   {
-    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/priority_areas_mma_translated.fgb",
-    "layerName": "priority_areas_mma_translated",
-    "geo_type": "vector",
     "datasourceId": "priority_areas",
-    "formats": [
-      "fgb"
-    ],
-    "classKeys": [
-      "priority"
-    ],
-    "created": "2023-07-14T19:10:14.544Z",
-    "lastUpdated": "2023-07-14T19:10:14.544Z",
+    "geo_type": "vector",
     "keyStats": {
       "priority": {
         "Extremely High": {
@@ -419,8 +409,40 @@
         }
       }
     },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "priority_areas_mma_translated",
+    "classKeys": [
+      "priority"
+    ],
+    "created": "2023-07-14T19:10:14.544Z",
+    "lastUpdated": "2023-07-14T19:10:14.544Z",
+    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/priority_areas_mma_translated.fgb",
     "propertiesToKeep": [
       "priority"
     ]
+  },
+  {
+    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/oil_exp_anp.fgb",
+    "layerName": "oil_exp_anp",
+    "geo_type": "vector",
+    "datasourceId": "oil_gas_exploration",
+    "formats": [
+      "fgb"
+    ],
+    "classKeys": [],
+    "created": "2023-07-17T18:40:51.731Z",
+    "lastUpdated": "2023-07-17T18:40:51.731Z",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 27,
+          "sum": null,
+          "area": 22653113180.664886
+        }
+      }
+    },
+    "propertiesToKeep": []
   }
 ]

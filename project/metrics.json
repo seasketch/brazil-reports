@@ -287,5 +287,17 @@
         "layerId": ""
       }
     ]
+  },
+  {
+    "metricId": "oilExplorationOverlap",
+    "type": "areaOverlap",
+    "classes": [
+      {
+        "classId": "oil_gas_exploration",
+        "display": "Oil and Gas Exploration",
+        "datasourceId": "oil_gas_exploration",
+        "layerId": "ElSJFfo1x"
+      }
+    ]
   }
 ]
