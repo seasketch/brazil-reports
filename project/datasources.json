@@ -190,28 +190,6 @@
     "propertiesToKeep": []
   },
   {
-    "datasourceId": "shipping_intensity",
-    "geo_type": "raster",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": null,
-          "sum": 1044229,
-          "area": null
-        }
-      }
-    },
-    "formats": [
-      "tif"
-    ],
-    "measurementType": "quantitative",
-    "band": 1,
-    "noDataValue": 0,
-    "created": "2023-07-11T21:04:29.322Z",
-    "lastUpdated": "2023-07-11T21:04:29.322Z",
-    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/shipping_intensity_rasterized.tif"
-  },
-  {
     "datasourceId": "oil_platforms",
     "geo_type": "vector",
     "keyStats": {
@@ -424,16 +402,8 @@
     ]
   },
   {
-    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/oil_exp_anp.fgb",
-    "layerName": "oil_exp_anp",
-    "geo_type": "vector",
     "datasourceId": "oil_gas_exploration",
-    "formats": [
-      "fgb"
-    ],
-    "classKeys": [],
-    "created": "2023-07-17T18:40:51.731Z",
-    "lastUpdated": "2023-07-17T18:40:51.731Z",
+    "geo_type": "vector",
     "keyStats": {
       "total": {
         "total": {
@@ -443,6 +413,58 @@
         }
       }
     },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "oil_exp_anp",
+    "classKeys": [],
+    "created": "2023-07-17T18:40:51.731Z",
+    "lastUpdated": "2023-07-17T18:40:51.731Z",
+    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/oil_exp_anp.fgb",
     "propertiesToKeep": []
+  },
+  {
+    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/shipping_intensity_clipped.fgb",
+    "layerName": "shipping_intensity_clipped",
+    "geo_type": "vector",
+    "datasourceId": "shipping_intensity",
+    "formats": [
+      "fgb"
+    ],
+    "classKeys": [
+      "intensity"
+    ],
+    "created": "2023-07-21T20:38:02.142Z",
+    "lastUpdated": "2023-07-21T20:38:02.142Z",
+    "keyStats": {
+      "intensity": {
+        "Low": {
+          "count": 1944,
+          "area": 280878500879.52954
+        },
+        "Medium": {
+          "count": 3149,
+          "area": 47695315451.504616
+        },
+        "High": {
+          "count": 1407,
+          "area": 113902892619.22852
+        },
+        "undefined": {
+          "count": 401,
+          "area": 137135903518.0804
+        }
+      },
+      "total": {
+        "total": {
+          "count": 6901,
+          "sum": null,
+          "area": 579612612468.3446
+        }
+      }
+    },
+    "propertiesToKeep": [
+      "intensity"
+    ]
   }
 ]

@@ -3,7 +3,29 @@
     {
       "metricId": "shippingOverlap",
       "sketchId": "15146",
-      "classId": "shipping_intensity",
+      "classId": "Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "example-mpa1"
+      }
+    },
+    {
+      "metricId": "shippingOverlap",
+      "sketchId": "15146",
+      "classId": "Medium",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "example-mpa1"
+      }
+    },
+    {
+      "metricId": "shippingOverlap",
+      "sketchId": "15146",
+      "classId": "High",
       "groupId": null,
       "geographyId": null,
       "value": 0,

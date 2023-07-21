@@ -1,47 +1,80 @@
 import {
+  Sketch,
+  Feature,
   GeoprocessingHandler,
   Metric,
   Polygon,
   ReportResult,
-  Sketch,
   SketchCollection,
   toNullSketch,
+  overlapFeatures,
   rekeyMetrics,
-  sortMetrics,
-  overlapRaster,
-  getCogFilename,
+  getFlatGeobufFilename,
+  isInternalVectorDatasource,
 } from "@seasketch/geoprocessing";
-import { loadCogWindow } from "@seasketch/geoprocessing/dataproviders";
+import { fgbFetchAll } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
 import project from "../../project";
-
-const metricGroup = project.getMetricGroup("shippingOverlap");
 
 export async function shippingOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>
 ): Promise<ReportResult> {
   const box = sketch.bbox || bbox(sketch);
+  const metricGroup = project.getMetricGroup("shippingOverlap");
+
+  let cachedFeatures: Record<string, Feature<Polygon>[]> = {};
+
+  const polysByBoundary = (
+    await Promise.all(
+      metricGroup.classes.map(async (curClass) => {
+        if (!curClass.datasourceId) {
+          throw new Error(`Missing datasourceId ${curClass.classId}`);
+        }
+        const ds = project.getDatasourceById(curClass.datasourceId);
+        if (isInternalVectorDatasource(ds)) {
+          const url = `${project.dataBucketUrl()}${getFlatGeobufFilename(ds)}`;
+
+          // Fetch features overlapping with sketch, pull from cache if already fetched
+          const dsFeatures =
+            cachedFeatures[curClass.datasourceId] ||
+            (await fgbFetchAll<Feature<Polygon>>(url, box));
+          cachedFeatures[curClass.datasourceId] = dsFeatures;
+
+          // If this is a sub-class, filter by class name, exclude null geometry too
+          // ToDo: should do deeper match to classKey
+          const finalFeatures =
+            ds.classKeys.length > 0
+              ? dsFeatures.filter((feat) => {
+                  return (
+                    feat.geometry &&
+                    feat.properties![ds.classKeys[0]] === curClass.classId
+                  );
+                }, [])
+              : dsFeatures;
+
+          return finalFeatures;
+        }
+        return [];
+      })
+    )
+  ).reduce<Record<string, Feature<Polygon>[]>>((acc, polys, classIndex) => {
+    return {
+      ...acc,
+      [metricGroup.classes[classIndex].classId]: polys,
+    };
+  }, {});
+
   const metrics: Metric[] = (
     await Promise.all(
       metricGroup.classes.map(async (curClass) => {
-        // start raster load and move on in loop while awaiting finish
-        if (!curClass.datasourceId)
-          throw new Error(`Expected datasourceId for ${curClass}`);
-        const url = `${project.dataBucketUrl()}${getCogFilename(
-          curClass.datasourceId
-        )}`;
-        const raster = await loadCogWindow(url, {
-          windowBox: box,
-        });
-        // start analysis as soon as source load done
-        const overlapResult = await overlapRaster(
+        const overlapResult = await overlapFeatures(
           metricGroup.metricId,
-          raster,
+          polysByBoundary[curClass.classId],
           sketch
         );
         return overlapResult.map(
-          (metrics): Metric => ({
-            ...metrics,
+          (metric): Metric => ({
+            ...metric,
             classId: curClass.classId,
           })
         );
@@ -54,17 +87,15 @@ export async function shippingOverlap(
   );
 
   return {
-    metrics: sortMetrics(rekeyMetrics(metrics)),
+    metrics: rekeyMetrics(metrics),
     sketch: toNullSketch(sketch, true),
   };
 }
 
 export default new GeoprocessingHandler(shippingOverlap, {
   title: "shippingOverlap",
-  description: "ocean use metrics",
-  timeout: 520, // seconds
+  description: "Calculate sketch overlap with shipping intensity polygons",
   executionMode: "async",
-  // Specify any Sketch Class form attributes that are required
+  timeout: 600,
   requiresProperties: [],
-  memory: 10240,
 });

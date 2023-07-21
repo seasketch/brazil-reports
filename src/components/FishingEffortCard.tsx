@@ -31,12 +31,12 @@ export const FishingEffortCard = () => {
   const { t, i18n } = useTranslation();
   const mapLabel = t("Map");
   const typeLabel = t("Type");
-  const percValueLabel = t("% Effort Within Plan");
+  const percValueLabel = t("% Density Within Plan");
 
   return (
     <>
       <ResultsCard
-        title={t("Fishing Effort (Southern Shelf)")}
+        title={t("Fishing Kernel Density Estimation (Southern Shelf)")}
         functionName="fishingEffortOverlap"
       >
         {(data: ReportResult) => {

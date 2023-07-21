@@ -127,14 +127,29 @@
   },
   {
     "metricId": "shippingOverlap",
-    "type": "valueOverlap",
+    "type": "areaOverlap",
+    "layerId": "ohTda51j7",
     "classes": [
       {
-        "classId": "shipping_intensity",
-        "display": "Shipping Intensity",
+        "classId": "Low",
+        "classKey": "intensity",
+        "display": "Low",
         "datasourceId": "shipping_intensity",
-        "noDataValue": 0,
-        "layerId": "ohTda51j7"
+        "objectiveId": ""
+      },
+      {
+        "classId": "Medium",
+        "classKey": "intensity",
+        "display": "Medium",
+        "datasourceId": "shipping_intensity",
+        "objectiveId": ""
+      },
+      {
+        "classId": "High",
+        "classKey": "intensity",
+        "display": "High",
+        "datasourceId": "shipping_intensity",
+        "objectiveId": ""
       }
     ]
   },

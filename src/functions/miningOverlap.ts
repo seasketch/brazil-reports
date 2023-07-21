@@ -43,8 +43,7 @@ export async function miningOverlap(
           // If this is a sub-class, filter by class name, exclude null geometry too
           // ToDo: should do deeper match to classKey
           const finalFeatures =
-            ds.classKeys.length > 0 &&
-            curClass.classId !== `${ds.datasourceId}_all`
+            ds.classKeys.length > 0
               ? dsFeatures.filter((feat) => {
                   return (
                     feat.geometry &&
@@ -95,7 +94,7 @@ export async function miningOverlap(
 
 export default new GeoprocessingHandler(miningOverlap, {
   title: "miningOverlap",
-  description: "Calculate sketch overlap with priority area polygons",
+  description: "Calculate sketch overlap with mining area polygons",
   executionMode: "async",
   timeout: 600,
   requiresProperties: [],

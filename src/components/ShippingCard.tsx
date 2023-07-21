@@ -1,11 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   Collapse,
-  ResultsCard,
-  SketchClassTable,
   ClassTable,
+  SketchClassTable,
+  ResultsCard,
   useSketchProperties,
-  Dropdown,
+  ToolbarCard,
+  LayerToggle,
 } from "@seasketch/geoprocessing/client-ui";
 import {
   ReportResult,
@@ -13,72 +14,122 @@ import {
   flattenBySketchAllClass,
   metricsWithSketchId,
   toPercentMetric,
-  sortMetrics,
-  Metric,
+  squareMeterToKilometer,
+  valueFormatter,
 } from "@seasketch/geoprocessing/client-core";
+
 import project from "../../project";
+import Translator from "./TranslatorAsync";
 import { Trans, useTranslation } from "react-i18next";
 
 const metricGroup = project.getMetricGroup("shippingOverlap");
 const precalcMetrics = project.getPrecalcMetrics(
   metricGroup,
-  "sum",
+  "area",
   metricGroup.classKey
 );
 
+const Number = new Intl.NumberFormat("en", { style: "decimal" });
+
 export const ShippingCard = () => {
   const [{ isCollection }] = useSketchProperties();
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
+
   const mapLabel = t("Map");
-  const percValueLabel = t("% Intensity Within Plan");
+  const typeLabel = t("Intensity");
+  const areaWithin = t("Area Within Plan");
+  const percAreaWithin = `% ${t("Area Within Plan")}`;
+  const sqKmLabel = t("km²");
 
   return (
     <>
       <ResultsCard
-        title={t("Shipping Intensity (Southern Shelf)")}
+        title={t("Shipping Intensity")}
         functionName="shippingOverlap"
+        useChildCard
       >
         {(data: ReportResult) => {
-          // Single sketch or collection top-level
-          const parentMetrics = metricsWithSketchId(
-            toPercentMetric(
-              data.metrics.filter((m) => m.metricId === metricGroup.metricId),
-              precalcMetrics
-            ),
-            [data.sketch.properties.id]
+          let singleMetrics = data.metrics.filter(
+            (m) => m.sketchId === data.sketch.properties.id
           );
 
+          const finalMetrics = [
+            ...singleMetrics,
+            ...toPercentMetric(
+              singleMetrics,
+              precalcMetrics,
+              project.getMetricGroupPercId(metricGroup)
+            ),
+          ];
+
           return (
-            <>
-              <Trans i18nKey="Shipping Card">
-                <p></p>
-              </Trans>
-              <ClassTable
-                rows={parentMetrics}
-                metricGroup={metricGroup}
-                columnConfig={[
-                  {
-                    columnLabel: t("Metric"),
-                    type: "class",
-                    width: 20,
-                  },
-                  {
-                    columnLabel: percValueLabel,
-                    type: "metricChart",
-                    metricId: metricGroup.metricId,
-                    valueFormatter: "percent",
-                    chartOptions: {
-                      showTitle: true,
+            <ToolbarCard
+              title={t("Shipping Intensity")}
+              items={
+                <LayerToggle
+                  label={mapLabel}
+                  layerId={metricGroup.layerId}
+                  simple
+                />
+              }
+            >
+              <Translator>
+                <ClassTable
+                  rows={finalMetrics}
+                  metricGroup={metricGroup}
+                  columnConfig={[
+                    {
+                      columnLabel: typeLabel,
+                      type: "class",
+                      width: 30,
                     },
-                    width: 45,
-                  },
-                  {
-                    columnLabel: mapLabel,
-                    type: "layerToggle",
-                    width: 10,
-                  },
-                ]}
-              />
+                    {
+                      columnLabel: areaWithin,
+                      type: "metricValue",
+                      metricId: metricGroup.metricId,
+                      valueFormatter: (val: string | number) =>
+                        Number.format(
+                          Math.round(
+                            squareMeterToKilometer(
+                              typeof val === "string" ? parseInt(val) : val
+                            )
+                          )
+                        ),
+                      valueLabel: sqKmLabel,
+                      width: 30,
+                    },
+                    {
+                      columnLabel: percAreaWithin,
+                      type: "metricChart",
+                      metricId: project.getMetricGroupPercId(metricGroup),
+                      valueFormatter: "percent",
+                      chartOptions: {
+                        showTitle: true,
+                        targetLabelPosition: "bottom",
+                        targetLabelStyle: "tight",
+                        barHeight: 11,
+                      },
+                      width: 30,
+                      targetValueFormatter: (
+                        value: number,
+                        row: number,
+                        numRows: number
+                      ) => {
+                        if (row === 0) {
+                          return (value: number) =>
+                            `${valueFormatter(value / 100, "percent0dig")} ${t(
+                              "Target"
+                            )}`;
+                        } else {
+                          return (value: number) =>
+                            `${valueFormatter(value / 100, "percent0dig")}`;
+                        }
+                      },
+                    },
+                  ]}
+                />
+              </Translator>
+
               {isCollection && (
                 <Collapse title={t("Show by MPA")}>
                   {genSketchTable(data)}
@@ -86,11 +137,19 @@ export const ShippingCard = () => {
               )}
 
               <Collapse title={t("Learn more")}>
-                <Trans i18nKey="Shipping Card - learn more">
-                  <p>Need to add info</p>
+                <Trans i18nKey="Priority Areas Card - learn more">
+                  <p>
+                    {" "}
+                    This report summarizes the estimated amount of shipping
+                    intensity in this plan.
+                  </p>
+                  <p>
+                    If MPA boundaries overlap with each other, the overlap is
+                    only counted once.
+                  </p>
                 </Trans>
               </Collapse>
-            </>
+            </ToolbarCard>
           );
         }}
       </ResultsCard>
@@ -99,10 +158,14 @@ export const ShippingCard = () => {
 };
 
 const genSketchTable = (data: ReportResult) => {
+  // Build agg metric objects for each child sketch in collection with percValue for each class
   const childSketches = toNullSketchArray(data.sketch);
   const childSketchIds = childSketches.map((sk) => sk.properties.id);
   const childSketchMetrics = toPercentMetric(
-    metricsWithSketchId(data.metrics, childSketchIds),
+    metricsWithSketchId(
+      data.metrics.filter((m) => m.metricId === metricGroup.metricId),
+      childSketchIds
+    ),
     precalcMetrics
   );
   const sketchRows = flattenBySketchAllClass(
@@ -110,7 +173,6 @@ const genSketchTable = (data: ReportResult) => {
     metricGroup.classes,
     childSketches
   );
-
   return (
     <SketchClassTable rows={sketchRows} metricGroup={metricGroup} formatPerc />
   );
