@@ -112,15 +112,51 @@
     "type": "areaOverlap",
     "classes": [
       {
-        "classId": "mining_active",
+        "classId": "mining_active_all",
         "display": "Active Mining",
         "datasourceId": "mining_active",
-        "layerId": "RBYzGzUz2"
+        "layerId": "rmz5haLwD"
       },
       {
-        "classId": "mining_potential",
+        "classId": "mining_potential_all",
         "display": "Potential Mining",
         "datasourceId": "mining_potential",
+        "layerId": "HhykfJ_h9"
+      },
+      {
+        "classId": "mining_active_central-east",
+        "display": "Active Mining",
+        "datasourceId": "mining_active_central-east",
+        "layerId": "rmz5haLwD"
+      },
+      {
+        "classId": "mining_active_south",
+        "display": "Active Mining",
+        "datasourceId": "mining_active_south",
+        "layerId": "rmz5haLwD"
+      },
+      {
+        "classId": "mining_potential_central-east",
+        "display": "Potential Mining",
+        "datasourceId": "mining_potential_central-east",
+        "layerId": "HhykfJ_h9"
+      },
+      {
+        "classId": "mining_potential_north",
+        "display": "Potential Mining",
+        "datasourceId": "mining_potential_north",
+        "layerId": "HhykfJ_h9"
+      },
+      {
+        "classId": "mining_potential_northeast",
+        "display": "Potential Mining",
+        "datasourceId": "mining_potential_northeast",
+        "layerId": "HhykfJ_h9"
+      },
+      {
+        "classId": "mining_potential_south",
+        "display": "Potential Mining",
+        "datasourceId": "mining_potential_south",
         "layerId": "HhykfJ_h9"
       }
     ]

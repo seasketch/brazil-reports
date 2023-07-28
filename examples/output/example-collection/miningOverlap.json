@@ -3,7 +3,7 @@
     {
       "metricId": "miningOverlap",
       "sketchId": "15454",
-      "classId": "mining_active",
+      "classId": "mining_active_all",
       "groupId": null,
       "geographyId": null,
       "value": 6518135.868295918,
@@ -14,7 +14,7 @@
     {
       "metricId": "miningOverlap",
       "sketchId": "15146",
-      "classId": "mining_active",
+      "classId": "mining_active_all",
       "groupId": null,
       "geographyId": null,
       "value": 0,
@@ -25,7 +25,7 @@
     {
       "metricId": "miningOverlap",
       "sketchId": "15543",
-      "classId": "mining_active",
+      "classId": "mining_active_all",
       "groupId": null,
       "geographyId": null,
       "value": 77309449.78551447,
@@ -36,7 +36,7 @@
     {
       "metricId": "miningOverlap",
       "sketchId": "15620",
-      "classId": "mining_active",
+      "classId": "mining_active_all",
       "groupId": null,
       "geographyId": null,
       "value": 83827585.6538104,
@@ -48,7 +48,7 @@
     {
       "metricId": "miningOverlap",
       "sketchId": "15454",
-      "classId": "mining_potential",
+      "classId": "mining_potential_all",
       "groupId": null,
       "geographyId": null,
       "value": 10771268459.768291,
@@ -59,7 +59,7 @@
     {
       "metricId": "miningOverlap",
       "sketchId": "15146",
-      "classId": "mining_potential",
+      "classId": "mining_potential_all",
       "groupId": null,
       "geographyId": null,
       "value": 787826708.8450367,
@@ -70,7 +70,7 @@
     {
       "metricId": "miningOverlap",
       "sketchId": "15543",
-      "classId": "mining_potential",
+      "classId": "mining_potential_all",
       "groupId": null,
       "geographyId": null,
       "value": 22594408079.595238,
@@ -81,10 +81,280 @@
     {
       "metricId": "miningOverlap",
       "sketchId": "15620",
-      "classId": "mining_potential",
+      "classId": "mining_potential_all",
       "groupId": null,
       "geographyId": null,
       "value": 34153503248.208565,
+      "extra": {
+        "sketchName": "example-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "miningOverlap",
+      "sketchId": "15454",
+      "classId": "mining_active_central-east",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "example-mpa-south"
+      }
+    },
+    {
+      "metricId": "miningOverlap",
+      "sketchId": "15146",
+      "classId": "mining_active_central-east",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "example-mpa1"
+      }
+    },
+    {
+      "metricId": "miningOverlap",
+      "sketchId": "15543",
+      "classId": "mining_active_central-east",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2060348.553369621,
+      "extra": {
+        "sketchName": "Test"
+      }
+    },
+    {
+      "metricId": "miningOverlap",
+      "sketchId": "15620",
+      "classId": "mining_active_central-east",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2060348.553369621,
+      "extra": {
+        "sketchName": "example-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "miningOverlap",
+      "sketchId": "15454",
+      "classId": "mining_active_south",
+      "groupId": null,
+      "geographyId": null,
+      "value": 6518135.868295918,
+      "extra": {
+        "sketchName": "example-mpa-south"
+      }
+    },
+    {
+      "metricId": "miningOverlap",
+      "sketchId": "15146",
+      "classId": "mining_active_south",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "example-mpa1"
+      }
+    },
+    {
+      "metricId": "miningOverlap",
+      "sketchId": "15543",
+      "classId": "mining_active_south",
+      "groupId": null,
+      "geographyId": null,
+      "value": 75249101.23214485,
+      "extra": {
+        "sketchName": "Test"
+      }
+    },
+    {
+      "metricId": "miningOverlap",
+      "sketchId": "15620",
+      "classId": "mining_active_south",
+      "groupId": null,
+      "geographyId": null,
+      "value": 81767237.10044077,
+      "extra": {
+        "sketchName": "example-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "miningOverlap",
+      "sketchId": "15454",
+      "classId": "mining_potential_central-east",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "example-mpa-south"
+      }
+    },
+    {
+      "metricId": "miningOverlap",
+      "sketchId": "15146",
+      "classId": "mining_potential_central-east",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "example-mpa1"
+      }
+    },
+    {
+      "metricId": "miningOverlap",
+      "sketchId": "15543",
+      "classId": "mining_potential_central-east",
+      "groupId": null,
+      "geographyId": null,
+      "value": 15257315703.948866,
+      "extra": {
+        "sketchName": "Test"
+      }
+    },
+    {
+      "metricId": "miningOverlap",
+      "sketchId": "15620",
+      "classId": "mining_potential_central-east",
+      "groupId": null,
+      "geographyId": null,
+      "value": 15257315703.948866,
+      "extra": {
+        "sketchName": "example-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "miningOverlap",
+      "sketchId": "15454",
+      "classId": "mining_potential_north",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "example-mpa-south"
+      }
+    },
+    {
+      "metricId": "miningOverlap",
+      "sketchId": "15146",
+      "classId": "mining_potential_north",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "example-mpa1"
+      }
+    },
+    {
+      "metricId": "miningOverlap",
+      "sketchId": "15543",
+      "classId": "mining_potential_north",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Test"
+      }
+    },
+    {
+      "metricId": "miningOverlap",
+      "sketchId": "15620",
+      "classId": "mining_potential_north",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "example-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "miningOverlap",
+      "sketchId": "15454",
+      "classId": "mining_potential_northeast",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "example-mpa-south"
+      }
+    },
+    {
+      "metricId": "miningOverlap",
+      "sketchId": "15146",
+      "classId": "mining_potential_northeast",
+      "groupId": null,
+      "geographyId": null,
+      "value": 787826708.8450367,
+      "extra": {
+        "sketchName": "example-mpa1"
+      }
+    },
+    {
+      "metricId": "miningOverlap",
+      "sketchId": "15543",
+      "classId": "mining_potential_northeast",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Test"
+      }
+    },
+    {
+      "metricId": "miningOverlap",
+      "sketchId": "15620",
+      "classId": "mining_potential_northeast",
+      "groupId": null,
+      "geographyId": null,
+      "value": 787826708.8450367,
+      "extra": {
+        "sketchName": "example-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "miningOverlap",
+      "sketchId": "15454",
+      "classId": "mining_potential_south",
+      "groupId": null,
+      "geographyId": null,
+      "value": 10771268459.768291,
+      "extra": {
+        "sketchName": "example-mpa-south"
+      }
+    },
+    {
+      "metricId": "miningOverlap",
+      "sketchId": "15146",
+      "classId": "mining_potential_south",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "example-mpa1"
+      }
+    },
+    {
+      "metricId": "miningOverlap",
+      "sketchId": "15543",
+      "classId": "mining_potential_south",
+      "groupId": null,
+      "geographyId": null,
+      "value": 7337092375.646372,
+      "extra": {
+        "sketchName": "Test"
+      }
+    },
+    {
+      "metricId": "miningOverlap",
+      "sketchId": "15620",
+      "classId": "mining_potential_south",
+      "groupId": null,
+      "geographyId": null,
+      "value": 18108360835.414665,
       "extra": {
         "sketchName": "example-collection",
         "isCollection": true

@@ -424,18 +424,8 @@
     "propertiesToKeep": []
   },
   {
-    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/shipping_intensity_clipped.fgb",
-    "layerName": "shipping_intensity_clipped",
-    "geo_type": "vector",
     "datasourceId": "shipping_intensity",
-    "formats": [
-      "fgb"
-    ],
-    "classKeys": [
-      "intensity"
-    ],
-    "created": "2023-07-21T20:38:02.142Z",
-    "lastUpdated": "2023-07-21T20:38:02.142Z",
+    "geo_type": "vector",
     "keyStats": {
       "intensity": {
         "Low": {
@@ -463,8 +453,150 @@
         }
       }
     },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "shipping_intensity_clipped",
+    "classKeys": [
+      "intensity"
+    ],
+    "created": "2023-07-21T20:38:02.142Z",
+    "lastUpdated": "2023-07-21T20:38:02.142Z",
+    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/shipping_intensity_clipped.fgb",
     "propertiesToKeep": [
       "intensity"
     ]
+  },
+  {
+    "datasourceId": "mining_active_central-east",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 164,
+          "sum": null,
+          "area": 539055700.3251766
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "mining_active_central-east",
+    "classKeys": [],
+    "created": "2023-07-26T23:32:56.477Z",
+    "lastUpdated": "2023-07-26T23:32:56.477Z",
+    "src": "/Users/petermenzies/Library/CloudStorage/Box-Box/GIS/Brazil/Data_Products/region-test/mining_active_central-east.fgb",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "mining_active_south",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 368,
+          "sum": null,
+          "area": 696540431.481384
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "mining_active_south",
+    "classKeys": [],
+    "created": "2023-07-26T23:33:34.870Z",
+    "lastUpdated": "2023-07-26T23:33:34.870Z",
+    "src": "/Users/petermenzies/Library/CloudStorage/Box-Box/GIS/Brazil/Data_Products/region-test/mining_active_south.fgb",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "mining_potential_central-east",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 28,
+          "sum": null,
+          "area": 61474305634.50131
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "mining_potential_central-east",
+    "classKeys": [],
+    "created": "2023-07-26T23:34:34.387Z",
+    "lastUpdated": "2023-07-26T23:34:34.387Z",
+    "src": "/Users/petermenzies/Library/CloudStorage/Box-Box/GIS/Brazil/Data_Products/region-test/mining_potential_central-east.fgb",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "mining_potential_north",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 15,
+          "sum": null,
+          "area": 65155946688.930725
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "mining_potential_north",
+    "classKeys": [],
+    "created": "2023-07-26T23:35:12.032Z",
+    "lastUpdated": "2023-07-26T23:35:12.032Z",
+    "src": "/Users/petermenzies/Library/CloudStorage/Box-Box/GIS/Brazil/Data_Products/region-test/mining_potential_north.fgb",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "mining_potential_northeast",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 86,
+          "sum": null,
+          "area": 98479921048.17107
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "mining_potential_northeast",
+    "classKeys": [],
+    "created": "2023-07-26T23:35:44.679Z",
+    "lastUpdated": "2023-07-26T23:35:44.679Z",
+    "src": "/Users/petermenzies/Library/CloudStorage/Box-Box/GIS/Brazil/Data_Products/region-test/mining_potential_northeast.fgb",
+    "propertiesToKeep": []
+  },
+  {
+    "src": "/Users/petermenzies/Library/CloudStorage/Box-Box/GIS/Brazil/Data_Products/region-test/mining_potential_south.fgb",
+    "layerName": "mining_potential_south",
+    "geo_type": "vector",
+    "datasourceId": "mining_potential_south",
+    "formats": [
+      "fgb"
+    ],
+    "classKeys": [],
+    "created": "2023-07-26T23:36:42.040Z",
+    "lastUpdated": "2023-07-26T23:36:42.040Z",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 35,
+          "sum": null,
+          "area": 42303438767.39601
+        }
+      }
+    },
+    "propertiesToKeep": []
   }
 ]

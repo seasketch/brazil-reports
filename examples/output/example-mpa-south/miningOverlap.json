@@ -3,7 +3,7 @@
     {
       "metricId": "miningOverlap",
       "sketchId": "15454",
-      "classId": "mining_active",
+      "classId": "mining_active_all",
       "groupId": null,
       "geographyId": null,
       "value": 6518135.868295918,
@@ -14,7 +14,73 @@
     {
       "metricId": "miningOverlap",
       "sketchId": "15454",
-      "classId": "mining_potential",
+      "classId": "mining_potential_all",
+      "groupId": null,
+      "geographyId": null,
+      "value": 10771268459.768291,
+      "extra": {
+        "sketchName": "example-mpa-south"
+      }
+    },
+    {
+      "metricId": "miningOverlap",
+      "sketchId": "15454",
+      "classId": "mining_active_central-east",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "example-mpa-south"
+      }
+    },
+    {
+      "metricId": "miningOverlap",
+      "sketchId": "15454",
+      "classId": "mining_active_south",
+      "groupId": null,
+      "geographyId": null,
+      "value": 6518135.868295918,
+      "extra": {
+        "sketchName": "example-mpa-south"
+      }
+    },
+    {
+      "metricId": "miningOverlap",
+      "sketchId": "15454",
+      "classId": "mining_potential_central-east",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "example-mpa-south"
+      }
+    },
+    {
+      "metricId": "miningOverlap",
+      "sketchId": "15454",
+      "classId": "mining_potential_north",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "example-mpa-south"
+      }
+    },
+    {
+      "metricId": "miningOverlap",
+      "sketchId": "15454",
+      "classId": "mining_potential_northeast",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "example-mpa-south"
+      }
+    },
+    {
+      "metricId": "miningOverlap",
+      "sketchId": "15454",
+      "classId": "mining_potential_south",
       "groupId": null,
       "geographyId": null,
       "value": 10771268459.768291,
