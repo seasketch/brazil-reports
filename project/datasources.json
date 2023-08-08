@@ -51,7 +51,7 @@
       "Class"
     ],
     "created": "2023-06-29T20:22:43.922Z",
-    "lastUpdated": "2023-06-29T20:22:43.922Z",
+    "lastUpdated": "2023-08-08T17:27:10.027Z",
     "src": "data/src/Brazil/Data_Products/geomorphology-clipped-to-eez/Abyssal_Classification.shp",
     "propertiesToKeep": [
       "Class"
@@ -76,7 +76,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-07-05T21:31:11.430Z",
-    "lastUpdated": "2023-07-05T21:31:11.430Z",
+    "lastUpdated": "2023-08-08T17:27:17.343Z",
     "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/kernel_trawling_preps.tif"
   },
   {
@@ -98,8 +98,8 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-07-10T20:44:51.499Z",
-    "lastUpdated": "2023-07-10T20:44:51.499Z",
-    "src": "/Users/petermenzies/Library/CloudStorage/Box-Box/GIS/Brazil/Data_Products/south-brazilian-shelf-db/kernel_traps_preps.tif"
+    "lastUpdated": "2023-08-08T17:27:24.496Z",
+    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/kernel_traps_preps.tif"
   },
   {
     "datasourceId": "longline",
@@ -120,8 +120,8 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-07-10T21:09:46.866Z",
-    "lastUpdated": "2023-07-10T21:09:46.866Z",
-    "src": "/Users/petermenzies/Library/CloudStorage/Box-Box/GIS/Brazil/Data_Products/south-brazilian-shelf-db/kernel_longline_preps.tif"
+    "lastUpdated": "2023-08-08T17:27:31.283Z",
+    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/kernel_longline_preps.tif"
   },
   {
     "datasourceId": "gillnet",
@@ -142,7 +142,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-07-10T21:10:58.753Z",
-    "lastUpdated": "2023-07-10T21:10:58.753Z",
+    "lastUpdated": "2023-08-08T17:27:38.016Z",
     "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/kernel_gillnet_preps.tif"
   },
   {
@@ -163,7 +163,7 @@
     "layerName": "mining_active_anm_clipped",
     "classKeys": [],
     "created": "2023-07-11T18:21:33.468Z",
-    "lastUpdated": "2023-07-11T18:21:33.468Z",
+    "lastUpdated": "2023-08-08T17:27:38.305Z",
     "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/mining_active_anm_clipped.fgb",
     "propertiesToKeep": []
   },
@@ -185,7 +185,7 @@
     "layerName": "mining_potential_dnpm_clipped",
     "classKeys": [],
     "created": "2023-07-11T18:22:17.289Z",
-    "lastUpdated": "2023-07-11T18:22:17.289Z",
+    "lastUpdated": "2023-08-08T17:27:38.591Z",
     "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/mining_potential_dnpm_clipped.fgb",
     "propertiesToKeep": []
   },
@@ -207,7 +207,7 @@
     "layerName": "oil_platforms",
     "classKeys": [],
     "created": "2023-07-12T20:16:26.468Z",
-    "lastUpdated": "2023-07-12T20:16:26.468Z",
+    "lastUpdated": "2023-08-08T17:27:38.796Z",
     "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/oil_platforms.fgb",
     "propertiesToKeep": []
   },
@@ -226,11 +226,11 @@
     "formats": [
       "fgb"
     ],
-    "layerName": "oil_expl_anp",
+    "layerName": "oil_exp_anp",
     "classKeys": [],
     "created": "2023-07-12T20:21:00.643Z",
-    "lastUpdated": "2023-07-12T20:21:00.643Z",
-    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/oil_expl_anp.fgb",
+    "lastUpdated": "2023-08-08T17:42:14.808Z",
+    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/oil_exp_anp.fgb",
     "propertiesToKeep": []
   },
   {
@@ -295,7 +295,7 @@
       "zone"
     ],
     "created": "2023-07-12T22:06:51.033Z",
-    "lastUpdated": "2023-07-12T22:06:51.033Z",
+    "lastUpdated": "2023-08-08T17:27:39.187Z",
     "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/ecozones_pelagic_gandra.fgb",
     "propertiesToKeep": [
       "zone"
@@ -351,7 +351,7 @@
       "zone"
     ],
     "created": "2023-07-12T22:29:40.473Z",
-    "lastUpdated": "2023-07-12T22:29:40.473Z",
+    "lastUpdated": "2023-08-08T17:27:39.647Z",
     "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/ecozones_benthic_gandra.fgb",
     "propertiesToKeep": [
       "zone"
@@ -395,7 +395,7 @@
       "priority"
     ],
     "created": "2023-07-14T19:10:14.544Z",
-    "lastUpdated": "2023-07-14T19:10:14.544Z",
+    "lastUpdated": "2023-08-08T17:27:40.786Z",
     "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/priority_areas_mma_translated.fgb",
     "propertiesToKeep": [
       "priority"
@@ -419,7 +419,7 @@
     "layerName": "oil_exp_anp",
     "classKeys": [],
     "created": "2023-07-17T18:40:51.731Z",
-    "lastUpdated": "2023-07-17T18:40:51.731Z",
+    "lastUpdated": "2023-08-08T17:27:41.011Z",
     "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/oil_exp_anp.fgb",
     "propertiesToKeep": []
   },
@@ -461,7 +461,7 @@
       "intensity"
     ],
     "created": "2023-07-21T20:38:02.142Z",
-    "lastUpdated": "2023-07-21T20:38:02.142Z",
+    "lastUpdated": "2023-08-08T17:27:43.741Z",
     "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/shipping_intensity_clipped.fgb",
     "propertiesToKeep": [
       "intensity"
@@ -485,8 +485,8 @@
     "layerName": "mining_active_central-east",
     "classKeys": [],
     "created": "2023-07-26T23:32:56.477Z",
-    "lastUpdated": "2023-07-26T23:32:56.477Z",
-    "src": "/Users/petermenzies/Library/CloudStorage/Box-Box/GIS/Brazil/Data_Products/region-test/mining_active_central-east.fgb",
+    "lastUpdated": "2023-08-08T17:27:44.007Z",
+    "src": "data/src/Brazil/Data_Products/region-test/mining_active_central-east.fgb",
     "propertiesToKeep": []
   },
   {
@@ -507,8 +507,8 @@
     "layerName": "mining_active_south",
     "classKeys": [],
     "created": "2023-07-26T23:33:34.870Z",
-    "lastUpdated": "2023-07-26T23:33:34.870Z",
-    "src": "/Users/petermenzies/Library/CloudStorage/Box-Box/GIS/Brazil/Data_Products/region-test/mining_active_south.fgb",
+    "lastUpdated": "2023-08-08T17:27:44.248Z",
+    "src": "data/src/Brazil/Data_Products/region-test/mining_active_south.fgb",
     "propertiesToKeep": []
   },
   {
@@ -529,8 +529,8 @@
     "layerName": "mining_potential_central-east",
     "classKeys": [],
     "created": "2023-07-26T23:34:34.387Z",
-    "lastUpdated": "2023-07-26T23:34:34.387Z",
-    "src": "/Users/petermenzies/Library/CloudStorage/Box-Box/GIS/Brazil/Data_Products/region-test/mining_potential_central-east.fgb",
+    "lastUpdated": "2023-08-08T17:27:44.533Z",
+    "src": "data/src/Brazil/Data_Products/region-test/mining_potential_central-east.fgb",
     "propertiesToKeep": []
   },
   {
@@ -551,8 +551,8 @@
     "layerName": "mining_potential_north",
     "classKeys": [],
     "created": "2023-07-26T23:35:12.032Z",
-    "lastUpdated": "2023-07-26T23:35:12.032Z",
-    "src": "/Users/petermenzies/Library/CloudStorage/Box-Box/GIS/Brazil/Data_Products/region-test/mining_potential_north.fgb",
+    "lastUpdated": "2023-08-08T17:27:44.784Z",
+    "src": "data/src/Brazil/Data_Products/region-test/mining_potential_north.fgb",
     "propertiesToKeep": []
   },
   {
@@ -573,21 +573,13 @@
     "layerName": "mining_potential_northeast",
     "classKeys": [],
     "created": "2023-07-26T23:35:44.679Z",
-    "lastUpdated": "2023-07-26T23:35:44.679Z",
-    "src": "/Users/petermenzies/Library/CloudStorage/Box-Box/GIS/Brazil/Data_Products/region-test/mining_potential_northeast.fgb",
+    "lastUpdated": "2023-08-08T17:27:45.049Z",
+    "src": "data/src/Brazil/Data_Products/region-test/mining_potential_northeast.fgb",
     "propertiesToKeep": []
   },
   {
-    "src": "/Users/petermenzies/Library/CloudStorage/Box-Box/GIS/Brazil/Data_Products/region-test/mining_potential_south.fgb",
-    "layerName": "mining_potential_south",
-    "geo_type": "vector",
     "datasourceId": "mining_potential_south",
-    "formats": [
-      "fgb"
-    ],
-    "classKeys": [],
-    "created": "2023-07-26T23:36:42.040Z",
-    "lastUpdated": "2023-07-26T23:36:42.040Z",
+    "geo_type": "vector",
     "keyStats": {
       "total": {
         "total": {
@@ -597,6 +589,14 @@
         }
       }
     },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "mining_potential_south",
+    "classKeys": [],
+    "created": "2023-07-26T23:36:42.040Z",
+    "lastUpdated": "2023-08-08T17:27:45.285Z",
+    "src": "data/src/Brazil/Data_Products/region-test/mining_potential_south.fgb",
     "propertiesToKeep": []
   }
 ]
