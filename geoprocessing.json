@@ -25,6 +25,7 @@
     "src/functions/miningOverlap.ts",
     "src/functions/shippingOverlap.ts",
     "src/functions/ecozonesPelagicOverlap.ts",
-    "src/functions/ecozonesBenthicOverlap.ts"
+    "src/functions/ecozonesBenthicOverlap.ts",
+    "src/functions/oilExplorationOverlap.ts"
   ]
 }
