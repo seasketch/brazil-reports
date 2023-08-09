@@ -6,7 +6,7 @@
       "classId": "gillnet",
       "groupId": null,
       "geographyId": null,
-      "value": 82756476.82064915,
+      "value": 82579776.71819973,
       "extra": {
         "sketchName": "example-mpa-south"
       }
@@ -17,7 +17,7 @@
       "classId": "longline",
       "groupId": null,
       "geographyId": null,
-      "value": 98920747.48249817,
+      "value": 98747942.8931833,
       "extra": {
         "sketchName": "example-mpa-south"
       }
@@ -28,7 +28,7 @@
       "classId": "traps",
       "groupId": null,
       "geographyId": null,
-      "value": 127341.54578329189,
+      "value": 125039.46434928828,
       "extra": {
         "sketchName": "example-mpa-south"
       }
@@ -39,7 +39,7 @@
       "classId": "trawling",
       "groupId": null,
       "geographyId": null,
-      "value": 2856173280.18174,
+      "value": 2813287484.8640566,
       "extra": {
         "sketchName": "example-mpa-south"
       }

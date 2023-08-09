@@ -6,7 +6,7 @@
       "classId": "gillnet",
       "groupId": null,
       "geographyId": null,
-      "value": 281.342257540673,
+      "value": 194.5144119784236,
       "extra": {
         "sketchName": "Existing MPA 1"
       }
@@ -17,7 +17,7 @@
       "classId": "gillnet",
       "groupId": null,
       "geographyId": null,
-      "value": 560647.0011493862,
+      "value": 489821.6362515092,
       "extra": {
         "sketchName": "Existing MPA 2"
       }
@@ -28,7 +28,7 @@
       "classId": "gillnet",
       "groupId": null,
       "geographyId": null,
-      "value": 860.4596977233887,
+      "value": 410.2655563354492,
       "extra": {
         "sketchName": "Existing MPA 3"
       }
@@ -39,7 +39,7 @@
       "classId": "gillnet",
       "groupId": null,
       "geographyId": null,
-      "value": 202.9637771844864,
+      "value": 144.8977346420288,
       "extra": {
         "sketchName": "Existing MPA 4"
       }
@@ -50,7 +50,7 @@
       "classId": "gillnet",
       "groupId": null,
       "geographyId": null,
-      "value": 40345.45481300354,
+      "value": 39644.65752983093,
       "extra": {
         "sketchName": "Existing MPA 5"
       }
@@ -72,7 +72,7 @@
       "classId": "gillnet",
       "groupId": null,
       "geographyId": null,
-      "value": 1.2585026076816774e-10,
+      "value": 9.754968057287816e-11,
       "extra": {
         "sketchName": "Existing MPA 7"
       }
@@ -94,7 +94,7 @@
       "classId": "gillnet",
       "groupId": null,
       "geographyId": null,
-      "value": 0.31055613825163586,
+      "value": 0.27837222296042624,
       "extra": {
         "sketchName": "Existing MPA 8"
       }
@@ -105,7 +105,7 @@
       "classId": "gillnet",
       "groupId": null,
       "geographyId": null,
-      "value": 566.0215655673455,
+      "value": 478.7696853410671,
       "extra": {
         "sketchName": "Existing MPA 16"
       }
@@ -116,7 +116,7 @@
       "classId": "gillnet",
       "groupId": null,
       "geographyId": null,
-      "value": 1182.7701323286067,
+      "value": 1024.5530292366868,
       "extra": {
         "sketchName": "Existing MPA 9"
       }
@@ -127,7 +127,7 @@
       "classId": "gillnet",
       "groupId": null,
       "geographyId": null,
-      "value": 848480.3411178589,
+      "value": 773237.4937019348,
       "extra": {
         "sketchName": "Existing MPA 10"
       }
@@ -138,7 +138,7 @@
       "classId": "gillnet",
       "groupId": null,
       "geographyId": null,
-      "value": 128472.08068294078,
+      "value": 123126.5676208213,
       "extra": {
         "sketchName": "Existing MPA 11"
       }
@@ -149,7 +149,7 @@
       "classId": "gillnet",
       "groupId": null,
       "geographyId": null,
-      "value": 380.71001625061035,
+      "value": 272.1411991119385,
       "extra": {
         "sketchName": "Existing MPA 12"
       }
@@ -171,7 +171,7 @@
       "classId": "gillnet",
       "groupId": null,
       "geographyId": null,
-      "value": 94559.77165222168,
+      "value": 94375.19979858398,
       "extra": {
         "sketchName": "Existing MPA 14"
       }
@@ -182,7 +182,7 @@
       "classId": "gillnet",
       "groupId": null,
       "geographyId": null,
-      "value": 1675979.2274181368,
+      "value": 1522730.9748915387,
       "extra": {
         "sketchName": "Existing MPAS",
         "isCollection": true
@@ -194,7 +194,7 @@
       "classId": "longline",
       "groupId": null,
       "geographyId": null,
-      "value": 0.011664901915709791,
+      "value": 0.007951323146766498,
       "extra": {
         "sketchName": "Existing MPA 1"
       }
@@ -205,7 +205,7 @@
       "classId": "longline",
       "groupId": null,
       "geographyId": null,
-      "value": 479.686437210491,
+      "value": 390.6687768896845,
       "extra": {
         "sketchName": "Existing MPA 2"
       }
@@ -216,7 +216,7 @@
       "classId": "longline",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0984555003233254,
+      "value": 0.04590819031000137,
       "extra": {
         "sketchName": "Existing MPA 3"
       }
@@ -227,7 +227,7 @@
       "classId": "longline",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0050833050736400764,
+      "value": 0.0036411148248589598,
       "extra": {
         "sketchName": "Existing MPA 4"
       }
@@ -238,7 +238,7 @@
       "classId": "longline",
       "groupId": null,
       "geographyId": null,
-      "value": 15.082635725731961,
+      "value": 14.9169742455706,
       "extra": {
         "sketchName": "Existing MPA 5"
       }
@@ -260,7 +260,7 @@
       "classId": "longline",
       "groupId": null,
       "geographyId": null,
-      "value": 2.800296855743128e-22,
+      "value": 2.1161776610246751e-22,
       "extra": {
         "sketchName": "Existing MPA 7"
       }
@@ -282,7 +282,7 @@
       "classId": "longline",
       "groupId": null,
       "geographyId": null,
-      "value": 1.7848933712237475e-10,
+      "value": 1.1887402058155444e-10,
       "extra": {
         "sketchName": "Existing MPA 8"
       }
@@ -293,7 +293,7 @@
       "classId": "longline",
       "groupId": null,
       "geographyId": null,
-      "value": 5.875075803469979e-7,
+      "value": 4.5788450538910396e-7,
       "extra": {
         "sketchName": "Existing MPA 16"
       }
@@ -304,7 +304,7 @@
       "classId": "longline",
       "groupId": null,
       "geographyId": null,
-      "value": 0.000006885336885758162,
+      "value": 0.000005776137974267403,
       "extra": {
         "sketchName": "Existing MPA 9"
       }
@@ -315,7 +315,7 @@
       "classId": "longline",
       "groupId": null,
       "geographyId": null,
-      "value": 34.71964830345287,
+      "value": 28.972504985926548,
       "extra": {
         "sketchName": "Existing MPA 10"
       }
@@ -326,7 +326,7 @@
       "classId": "longline",
       "groupId": null,
       "geographyId": null,
-      "value": 8.843150309309348,
+      "value": 8.059918839254756,
       "extra": {
         "sketchName": "Existing MPA 11"
       }
@@ -337,7 +337,7 @@
       "classId": "longline",
       "groupId": null,
       "geographyId": null,
-      "value": 0.0011884200757776853,
+      "value": 0.0008571787766413763,
       "extra": {
         "sketchName": "Existing MPA 12"
       }
@@ -359,7 +359,7 @@
       "classId": "longline",
       "groupId": null,
       "geographyId": null,
-      "value": 160323.94157409668,
+      "value": 160045.95957946777,
       "extra": {
         "sketchName": "Existing MPA 14"
       }
@@ -370,7 +370,7 @@
       "classId": "longline",
       "groupId": null,
       "geographyId": null,
-      "value": 160862.38984524607,
+      "value": 160488.63611846883,
       "extra": {
         "sketchName": "Existing MPAS",
         "isCollection": true
@@ -382,7 +382,7 @@
       "classId": "traps",
       "groupId": null,
       "geographyId": null,
-      "value": 82.64186199009418,
+      "value": 39.66744388639927,
       "extra": {
         "sketchName": "Existing MPA 1"
       }
@@ -393,7 +393,7 @@
       "classId": "traps",
       "groupId": null,
       "geographyId": null,
-      "value": 48688.497893452644,
+      "value": 44666.64366698265,
       "extra": {
         "sketchName": "Existing MPA 2"
       }
@@ -404,7 +404,7 @@
       "classId": "traps",
       "groupId": null,
       "geographyId": null,
-      "value": 110.4491696357727,
+      "value": 53.066380977630615,
       "extra": {
         "sketchName": "Existing MPA 3"
       }
@@ -415,7 +415,7 @@
       "classId": "traps",
       "groupId": null,
       "geographyId": null,
-      "value": 28.783340841531754,
+      "value": 20.584068030118942,
       "extra": {
         "sketchName": "Existing MPA 4"
       }
@@ -426,7 +426,7 @@
       "classId": "traps",
       "groupId": null,
       "geographyId": null,
-      "value": 9050.338344573975,
+      "value": 8443.562566757202,
       "extra": {
         "sketchName": "Existing MPA 5"
       }
@@ -448,7 +448,7 @@
       "classId": "traps",
       "groupId": null,
       "geographyId": null,
-      "value": 50.51840782165527,
+      "value": 39.39664006233215,
       "extra": {
         "sketchName": "Existing MPA 7"
       }
@@ -470,7 +470,7 @@
       "classId": "traps",
       "groupId": null,
       "geographyId": null,
-      "value": 484346.05488436087,
+      "value": 467437.311847514,
       "extra": {
         "sketchName": "Existing MPA 8"
       }
@@ -481,7 +481,7 @@
       "classId": "traps",
       "groupId": null,
       "geographyId": null,
-      "value": 813822.7008972168,
+      "value": 772239.6675109863,
       "extra": {
         "sketchName": "Existing MPA 16"
       }
@@ -492,7 +492,7 @@
       "classId": "traps",
       "groupId": null,
       "geographyId": null,
-      "value": 176597.9474875927,
+      "value": 170728.20085406303,
       "extra": {
         "sketchName": "Existing MPA 9"
       }
@@ -503,7 +503,7 @@
       "classId": "traps",
       "groupId": null,
       "geographyId": null,
-      "value": 1204168.5420417786,
+      "value": 1098304.0747184753,
       "extra": {
         "sketchName": "Existing MPA 10"
       }
@@ -514,7 +514,7 @@
       "classId": "traps",
       "groupId": null,
       "geographyId": null,
-      "value": 548785.6057491302,
+      "value": 523076.34054374695,
       "extra": {
         "sketchName": "Existing MPA 11"
       }
@@ -525,7 +525,7 @@
       "classId": "traps",
       "groupId": null,
       "geographyId": null,
-      "value": 81045.90283203125,
+      "value": 56526.696044921875,
       "extra": {
         "sketchName": "Existing MPA 12"
       }
@@ -547,7 +547,7 @@
       "classId": "traps",
       "groupId": null,
       "geographyId": null,
-      "value": 102761.84907531738,
+      "value": 102384.65669250488,
       "extra": {
         "sketchName": "Existing MPA 14"
       }
@@ -558,7 +558,7 @@
       "classId": "traps",
       "groupId": null,
       "geographyId": null,
-      "value": 3469539.8319857437,
+      "value": 3243959.8689789074,
       "extra": {
         "sketchName": "Existing MPAS",
         "isCollection": true
@@ -570,7 +570,7 @@
       "classId": "trawling",
       "groupId": null,
       "geographyId": null,
-      "value": 7812883.46875,
+      "value": 4428505.4375,
       "extra": {
         "sketchName": "Existing MPA 1"
       }
@@ -581,7 +581,7 @@
       "classId": "trawling",
       "groupId": null,
       "geographyId": null,
-      "value": 560725334.6875,
+      "value": 513751374.53125,
       "extra": {
         "sketchName": "Existing MPA 2"
       }
@@ -592,7 +592,7 @@
       "classId": "trawling",
       "groupId": null,
       "geographyId": null,
-      "value": 2967941.046875,
+      "value": 1413620.234375,
       "extra": {
         "sketchName": "Existing MPA 3"
       }
@@ -603,7 +603,7 @@
       "classId": "trawling",
       "groupId": null,
       "geographyId": null,
-      "value": 1700853.609375,
+      "value": 1219843.078125,
       "extra": {
         "sketchName": "Existing MPA 4"
       }
@@ -614,7 +614,7 @@
       "classId": "trawling",
       "groupId": null,
       "geographyId": null,
-      "value": 75661548.21875,
+      "value": 71610721.328125,
       "extra": {
         "sketchName": "Existing MPA 5"
       }
@@ -636,7 +636,7 @@
       "classId": "trawling",
       "groupId": null,
       "geographyId": null,
-      "value": 2524424.8046875,
+      "value": 1929560.765625,
       "extra": {
         "sketchName": "Existing MPA 7"
       }
@@ -658,7 +658,7 @@
       "classId": "trawling",
       "groupId": null,
       "geographyId": null,
-      "value": 972244332.421875,
+      "value": 953074814.828125,
       "extra": {
         "sketchName": "Existing MPA 8"
       }
@@ -669,7 +669,7 @@
       "classId": "trawling",
       "groupId": null,
       "geographyId": null,
-      "value": 60334530.33984375,
+      "value": 57296238.4765625,
       "extra": {
         "sketchName": "Existing MPA 16"
       }
@@ -680,7 +680,7 @@
       "classId": "trawling",
       "groupId": null,
       "geographyId": null,
-      "value": 243672115.58203125,
+      "value": 238007629.109375,
       "extra": {
         "sketchName": "Existing MPA 9"
       }
@@ -691,7 +691,7 @@
       "classId": "trawling",
       "groupId": null,
       "geographyId": null,
-      "value": 78687722.50195312,
+      "value": 72576223.25976562,
       "extra": {
         "sketchName": "Existing MPA 10"
       }
@@ -702,7 +702,7 @@
       "classId": "trawling",
       "groupId": null,
       "geographyId": null,
-      "value": 133937385.54101562,
+      "value": 130331086.3125,
       "extra": {
         "sketchName": "Existing MPA 11"
       }
@@ -713,7 +713,7 @@
       "classId": "trawling",
       "groupId": null,
       "geographyId": null,
-      "value": 2633801.8828125,
+      "value": 1850756.828125,
       "extra": {
         "sketchName": "Existing MPA 12"
       }
@@ -735,7 +735,7 @@
       "classId": "trawling",
       "groupId": null,
       "geographyId": null,
-      "value": 26220217.775390625,
+      "value": 26176599.287109375,
       "extra": {
         "sketchName": "Existing MPA 14"
       }
@@ -746,7 +746,7 @@
       "classId": "trawling",
       "groupId": null,
       "geographyId": null,
-      "value": 2169123091.8808594,
+      "value": 2073666973.4765625,
       "extra": {
         "sketchName": "Existing MPAS",
         "isCollection": true

@@ -17,7 +17,7 @@
       "classId": "gillnet",
       "groupId": null,
       "geographyId": null,
-      "value": 82756476.82064915,
+      "value": 82579776.71819973,
       "extra": {
         "sketchName": "example-mpa-south"
       }
@@ -28,7 +28,7 @@
       "classId": "gillnet",
       "groupId": null,
       "geographyId": null,
-      "value": 210384443.2622794,
+      "value": 209319200.94933534,
       "extra": {
         "sketchName": "Test"
       }
@@ -39,7 +39,7 @@
       "classId": "gillnet",
       "groupId": null,
       "geographyId": null,
-      "value": 293140920.08292854,
+      "value": 291898977.66753507,
       "extra": {
         "sketchName": "example-collection",
         "isCollection": true
@@ -62,7 +62,7 @@
       "classId": "longline",
       "groupId": null,
       "geographyId": null,
-      "value": 98920747.48249817,
+      "value": 98747942.8931833,
       "extra": {
         "sketchName": "example-mpa-south"
       }
@@ -73,7 +73,7 @@
       "classId": "longline",
       "groupId": null,
       "geographyId": null,
-      "value": 123313985.44952199,
+      "value": 123040441.34155025,
       "extra": {
         "sketchName": "Test"
       }
@@ -84,7 +84,7 @@
       "classId": "longline",
       "groupId": null,
       "geographyId": null,
-      "value": 222234732.93202016,
+      "value": 221788384.23473388,
       "extra": {
         "sketchName": "example-collection",
         "isCollection": true
@@ -107,7 +107,7 @@
       "classId": "traps",
       "groupId": null,
       "geographyId": null,
-      "value": 127341.54578329189,
+      "value": 125039.46434928828,
       "extra": {
         "sketchName": "example-mpa-south"
       }
@@ -118,7 +118,7 @@
       "classId": "traps",
       "groupId": null,
       "geographyId": null,
-      "value": 28665754.6545299,
+      "value": 28374922.60824111,
       "extra": {
         "sketchName": "Test"
       }
@@ -129,7 +129,7 @@
       "classId": "traps",
       "groupId": null,
       "geographyId": null,
-      "value": 28793096.20031319,
+      "value": 28499962.07258984,
       "extra": {
         "sketchName": "example-collection",
         "isCollection": true
@@ -152,7 +152,7 @@
       "classId": "trawling",
       "groupId": null,
       "geographyId": null,
-      "value": 2856173280.18174,
+      "value": 2813287484.8640566,
       "extra": {
         "sketchName": "example-mpa-south"
       }
@@ -163,7 +163,7 @@
       "classId": "trawling",
       "groupId": null,
       "geographyId": null,
-      "value": 5579021761.89008,
+      "value": 5513862930.157237,
       "extra": {
         "sketchName": "Test"
       }
@@ -174,7 +174,7 @@
       "classId": "trawling",
       "groupId": null,
       "geographyId": null,
-      "value": 8435195042.07182,
+      "value": 8327150415.021235,
       "extra": {
         "sketchName": "example-collection",
         "isCollection": true
