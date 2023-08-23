@@ -30,6 +30,19 @@
       "console": "integratedTerminal",
       "internalConsoleOptions": "neverOpen",
       "port": 9229        
+  },
+  {
+    "name": "ts-node script",
+    "type": "node",
+    "request": "launch",
+    "runtimeExecutable": "node",
+    "runtimeArgs": ["--nolazy", "-r", "ts-node/register/transpile-only"],
+
+    "args": ["${input:tsnodeScript}"],
+    
+    "cwd": "${workspaceRoot}",
+    "internalConsoleOptions": "openOnSessionStart",
+    "skipFiles": ["<node_internals>/**", "node_modules/**"]
   }
   ],
   "inputs": [
@@ -38,6 +51,12 @@
       "id": "testNamePattern",
       "description": "jest -t 'regex pattern to select tests'",
       "default": "name of my test"
+    },
+    {
+      "type": "promptString",
+      "id": "tsnodeScript",
+      "description": "full path to script to run with ts-node",
+      "default": "/path/to/script.ts"
     }
   ]
 }
