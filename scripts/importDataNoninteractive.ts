@@ -34,7 +34,7 @@ const vectorMapperInputs: ImportVectorDatasourceAnswers[] = [
   {
     geo_type: "vector",
     src: "data/src/fromDatabase/usos_humanos.eolico_parques.json",
-    layerName: "eolico_parques",
+    layerName: "usos_humanos.eolico_parques",
     classKeys: "",
     propertiesToKeep: "",
     formats: ["fgb"],
@@ -43,7 +43,7 @@ const vectorMapperInputs: ImportVectorDatasourceAnswers[] = [
   {
     geo_type: "vector",
     src: "data/src/fromDatabase/usos_humanos.eolico_torres.json",
-    layerName: "eolico_torres",
+    layerName: "usos_humanos.eolico_torres",
     classKeys: "",
     propertiesToKeep: "",
     formats: ["fgb"],
@@ -52,7 +52,7 @@ const vectorMapperInputs: ImportVectorDatasourceAnswers[] = [
   {
     geo_type: "vector",
     src: "data/src/fromDatabase/usos_humanos.eolico_linhas_transmissao.json",
-    layerName: "eolico_linhas_transmissao",
+    layerName: "usos_humanos.eolico_linhas_transmissao",
     classKeys: "",
     propertiesToKeep: "",
     formats: ["fgb"],
@@ -70,7 +70,7 @@ const vectorMapperInputs: ImportVectorDatasourceAnswers[] = [
   {
     geo_type: "vector",
     src: "data/src/fromDatabase/usos_humanos.mineracao_areas_potenciais.json",
-    layerName: "mineracao_areas_potenciais",
+    layerName: "usos_humanos.mineracao_areas_potenciais",
     classKeys: "",
     propertiesToKeep: "",
     formats: ["fgb"],
@@ -79,7 +79,7 @@ const vectorMapperInputs: ImportVectorDatasourceAnswers[] = [
   {
     geo_type: "vector",
     src: "data/src/fromDatabase/usos_humanos.mineracao_processos.json",
-    layerName: "mineracao_processos",
+    layerName: "usos_humanos.mineracao_processos",
     classKeys: "",
     propertiesToKeep: "",
     formats: ["fgb"],
@@ -88,7 +88,7 @@ const vectorMapperInputs: ImportVectorDatasourceAnswers[] = [
   {
     geo_type: "vector",
     src: "data/src/fromDatabase/usos_humanos.petroleo_blocos_concessao.json",
-    layerName: "petroleo_blocos_concessao",
+    layerName: "usos_humanos.petroleo_blocos_concessao",
     classKeys: "",
     propertiesToKeep: "",
     formats: ["fgb"],
@@ -97,7 +97,7 @@ const vectorMapperInputs: ImportVectorDatasourceAnswers[] = [
   {
     geo_type: "vector",
     src: "data/src/fromDatabase/usos_humanos.petroleo_campos_producao.json",
-    layerName: "petroleo_campos_producao",
+    layerName: "usos_humanos.petroleo_campos_producao",
     classKeys: "",
     propertiesToKeep: "",
     formats: ["fgb"],
@@ -106,7 +106,7 @@ const vectorMapperInputs: ImportVectorDatasourceAnswers[] = [
   {
     geo_type: "vector",
     src: "data/src/fromDatabase/usos_humanos.petroleo_campos_producao.json",
-    layerName: "petroleo_campos_producao",
+    layerName: "usos_humanos.petroleo_campos_producao",
     classKeys: "",
     propertiesToKeep: "",
     formats: ["fgb"],
@@ -115,29 +115,11 @@ const vectorMapperInputs: ImportVectorDatasourceAnswers[] = [
   {
     geo_type: "vector",
     src: "data/src/fromDatabase/usos_humanos.petroleo_plataformas.json",
-    layerName: "petroleo_plataformas",
+    layerName: "usos_humanos.petroleo_plataformas",
     classKeys: "",
     propertiesToKeep: "",
     formats: ["fgb"],
     datasourceId: "oil_platforms"
-  },
-  {
-    geo_type: "vector",
-    src: "data/src/fromDatabase/usos_humanos.portos.json",
-    layerName: "portos",
-    classKeys: "",
-    propertiesToKeep: "",
-    formats: ["fgb"],
-    datasourceId: "ports"
-  },
-  {
-    geo_type: "vector",
-    src: "data/src/fromDatabase/usos_humanos.portos.json",
-    layerName: "portos",
-    classKeys: "",
-    propertiesToKeep: "",
-    formats: ["fgb"],
-    datasourceId: "ports"
   }
 ]
 
