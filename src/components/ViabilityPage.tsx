@@ -4,7 +4,7 @@ import { SketchAttributesCard } from "@seasketch/geoprocessing/client-ui";
 import { FishingEffortCard } from "./FishingEffortCard";
 import { MiningCard } from "./MiningCard";
 import { ShippingCard } from "./ShippingCard";
-import { OilExplorationCard } from "./OilExplorationCard";
+import { OilCard } from "./OilCard";
 
 const ReportPage = () => {
   return (
@@ -14,7 +14,7 @@ const ReportPage = () => {
       <FishingEffortCard />
       <MiningCard />
       <ShippingCard />
-      <OilExplorationCard />
+      <OilCard />
     </>
   );
 };

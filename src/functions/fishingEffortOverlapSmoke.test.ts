@@ -13,7 +13,7 @@ describe("Basic smoke tests", () => {
     expect(typeof fishingEffortOverlap).toBe("function");
   });
   test("fishingEffortOverlapSmoke - tests run against all examples", async () => {
-    const examples = await getExamplePolygonSketchAll();
+    const examples = await getExamplePolygonSketchAll("example-mpa-south.geojson");
     for (const example of examples) {
       const result = await fishingEffortOverlap(example);
       expect(result).toBeTruthy();

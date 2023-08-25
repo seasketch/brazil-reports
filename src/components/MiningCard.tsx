@@ -30,14 +30,6 @@ const precalcMetrics = project.getPrecalcMetrics(
   metricGroup.classKey
 );
 
-// Mapping region ids to display names for report
-const regions: { [id: string]: string } = {};
-regions["all"] = "All";
-regions["north"] = "North";
-regions["south"] = "South";
-regions["northeast"] = "Northeast";
-regions["central-east"] = "Central-East";
-
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
 
 export const MiningCard = () => {
@@ -77,43 +69,11 @@ export const MiningCard = () => {
             ),
           ];
 
-          console.log(parentMetrics);
-
-          // grouping metrics by region suffix
-          const groupedMetrics = parentMetrics.reduce<Record<string, any>>(
-            (groups, metric) => {
-              // get region id from classId suffix (i.e. "south", "central-east")
-              const region: string | undefined = metric.classId
-                ?.replace("mining_potential_", "")
-                .replace("mining_active_", "");
-
-              if (!region) {
-                console.log(metric.classId);
-                return groups;
-              }
-              // adds metric to the region's metric array
-              groups[region] = [...(groups[region] || []), metric];
-              return groups;
-            },
-            {}
-          );
-
           return (
             <>
-              <p>
-                {t("Mining overlap with region:  ")}
-                <select onChange={regionSwitcher}>
-                  {Object.keys(regions).map((region: string) => {
-                    return (
-                      <option key={region} value={region}>
-                        {regions[region]}
-                      </option>
-                    );
-                  })}
-                </select>
-              </p>
+              <p>{t("Mining overlap with region:  ")}</p>
               <ClassTable
-                rows={groupedMetrics[region]}
+                rows={parentMetrics}
                 metricGroup={metricGroup}
                 columnConfig={[
                   {
@@ -153,10 +113,15 @@ export const MiningCard = () => {
                   },
                 ]}
               />
+              {isCollection && (
+                <Collapse title={t("Show by MPA")}>
+                  {genSketchTable(data)}
+                </Collapse>
+              )}
               <Collapse title={t("Learn more")}>
                 <p>
                   This report summarizes overlap with active and potential
-                  mining areas by region.
+                  mining areas.
                 </p>
               </Collapse>
             </>
@@ -164,5 +129,26 @@ export const MiningCard = () => {
         }}
       </ResultsCard>
     </>
+  );
+};
+
+const genSketchTable = (data: ReportResult) => {
+  // Build agg metric objects for each child sketch in collection with percValue for each class
+  const childSketches = toNullSketchArray(data.sketch);
+  const childSketchIds = childSketches.map((sk) => sk.properties.id);
+  const childSketchMetrics = toPercentMetric(
+    metricsWithSketchId(
+      data.metrics.filter((m) => m.metricId === metricGroup.metricId),
+      childSketchIds
+    ),
+    precalcMetrics
+  );
+  const sketchRows = flattenBySketchAllClass(
+    childSketchMetrics,
+    metricGroup.classes,
+    childSketches
+  );
+  return (
+    <SketchClassTable rows={sketchRows} metricGroup={metricGroup} formatPerc />
   );
 };
