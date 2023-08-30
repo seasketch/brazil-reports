@@ -404,7 +404,7 @@
       "classId": "Extremely High",
       "groupId": null,
       "geographyId": null,
-      "value": 314379.393784162,
+      "value": 314379.3937841706,
       "extra": {
         "sketchName": "Existing MPA 4"
       }
@@ -437,7 +437,7 @@
       "classId": "Extremely High",
       "groupId": null,
       "geographyId": null,
-      "value": 22380337.634963527,
+      "value": 22380337.634963594,
       "extra": {
         "sketchName": "Existing MPA 8"
       }
@@ -492,7 +492,7 @@
       "classId": "Extremely High",
       "groupId": null,
       "geographyId": null,
-      "value": 1482843.7207576497,
+      "value": 1482843.7207581925,
       "extra": {
         "sketchName": "Existing MPA 5"
       }
@@ -558,7 +558,7 @@
       "classId": "Extremely High",
       "groupId": null,
       "geographyId": null,
-      "value": 67968369.95127057,
+      "value": 67968369.95127119,
       "extra": {
         "sketchName": "Existing MPAS",
         "isCollection": true

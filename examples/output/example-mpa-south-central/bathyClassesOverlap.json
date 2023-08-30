@@ -2,85 +2,85 @@
   "metrics": [
     {
       "metricId": "bathyClassesOverlap",
-      "sketchId": "15454",
+      "sketchId": "18758",
       "classId": "Plataforma Interna (<50 m)",
       "groupId": null,
       "geographyId": null,
-      "value": 5267024477.943588,
+      "value": 46117640.71999436,
       "extra": {
-        "sketchName": "example-mpa-south"
+        "sketchName": "example-mpa-south-central"
       }
     },
     {
       "metricId": "bathyClassesOverlap",
-      "sketchId": "15454",
+      "sketchId": "18758",
       "classId": "Plataforma Externa Rasa (50 - 100 m)",
       "groupId": null,
       "geographyId": null,
-      "value": 10052442998.85596,
+      "value": 6338172065.094814,
       "extra": {
-        "sketchName": "example-mpa-south"
+        "sketchName": "example-mpa-south-central"
       }
     },
     {
       "metricId": "bathyClassesOverlap",
-      "sketchId": "15454",
+      "sketchId": "18758",
       "classId": "Plataforma Externa Profunda (100 - 200 m)",
       "groupId": null,
       "geographyId": null,
-      "value": 19305620954.979668,
+      "value": 6419936975.722414,
       "extra": {
-        "sketchName": "example-mpa-south"
+        "sketchName": "example-mpa-south-central"
       }
     },
     {
       "metricId": "bathyClassesOverlap",
-      "sketchId": "15454",
+      "sketchId": "18758",
       "classId": "Talude (200 - 1200 m )",
       "groupId": null,
       "geographyId": null,
-      "value": 12015902618.799845,
+      "value": 9702978883.54532,
       "extra": {
-        "sketchName": "example-mpa-south"
+        "sketchName": "example-mpa-south-central"
       }
     },
     {
       "metricId": "bathyClassesOverlap",
-      "sketchId": "15454",
+      "sketchId": "18758",
       "classId": "Bacia Oceânica (> 1200 m)",
       "groupId": null,
       "geographyId": null,
-      "value": 52610940191.13663,
+      "value": 112710365555.21497,
       "extra": {
-        "sketchName": "example-mpa-south"
+        "sketchName": "example-mpa-south-central"
       }
     }
   ],
   "sketch": {
-    "id": 15454,
+    "id": 18758,
     "bbox": [
-      -51.010437,
-      -33.0546,
-      -46.43284,
-      -29.136082
+      -42.92171,
+      -25.854633,
+      -37.67963,
+      -20.928179
     ],
     "type": "Feature",
     "properties": {
-      "2947": "example-mpa-south",
+      "2947": "example-mpa-south-central",
       "2948": [
         "MPA"
       ],
-      "id": "15454",
-      "name": "example-mpa-south",
+      "id": "18758",
+      "name": "example-mpa-south-central",
       "postId": null,
       "userId": "128",
       "authors": null,
       "userSlug": "Peter",
-      "Zone Type": [
+      "createdAt": "2023-08-30T22:24:43.616144+00:00",
+      "updatedAt": "2023-08-30T22:24:43.616144+00:00",
+      "zone_type": [
         "MPA"
       ],
-      "createdAt": "2023-07-10T20:46:50.726608+00:00",
-      "updatedAt": "2023-07-10T20:46:50.726608+00:00",
       "description": null,
       "collectionId": null,
       "isCollection": false,
@@ -92,7 +92,7 @@
           "value": [
             "MPA"
           ],
-          "exportId": "Zone Type",
+          "exportId": "zone_type",
           "fieldType": "MultipleChoice",
           "valueLabel": [
             "Marine Protected Area"

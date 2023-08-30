@@ -94,7 +94,7 @@
       "classId": "mining_process",
       "groupId": null,
       "geographyId": null,
-      "value": 40746689.813431405,
+      "value": 40746689.813426994,
       "extra": {
         "sketchName": "Existing MPA 2"
       }
@@ -182,7 +182,7 @@
       "classId": "mining_process",
       "groupId": null,
       "geographyId": null,
-      "value": 40746689.813431405,
+      "value": 40746689.813426994,
       "extra": {
         "sketchName": "Existing MPAS",
         "isCollection": true

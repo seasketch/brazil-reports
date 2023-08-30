@@ -61,7 +61,7 @@
       "classId": "eez",
       "groupId": null,
       "geographyId": null,
-      "value": 37122223.61339818,
+      "value": 37122223.61339826,
       "extra": {
         "sketchName": "Existing MPA 6"
       }
@@ -83,7 +83,7 @@
       "classId": "eez",
       "groupId": null,
       "geographyId": null,
-      "value": 384653297.2054343,
+      "value": 384653297.2054339,
       "extra": {
         "sketchName": "Existing MPA 15"
       }
@@ -127,7 +127,7 @@
       "classId": "eez",
       "groupId": null,
       "geographyId": null,
-      "value": 905211824.7480696,
+      "value": 905211824.7480686,
       "extra": {
         "sketchName": "Existing MPA 10"
       }
@@ -138,7 +138,7 @@
       "classId": "eez",
       "groupId": null,
       "geographyId": null,
-      "value": 1445004188.9438193,
+      "value": 1445004188.9438198,
       "extra": {
         "sketchName": "Existing MPA 11"
       }
@@ -160,7 +160,7 @@
       "classId": "eez",
       "groupId": null,
       "geographyId": null,
-      "value": 49697699.9858456,
+      "value": 49697699.985845566,
       "extra": {
         "sketchName": "Existing MPA 13"
       }
@@ -182,7 +182,7 @@
       "classId": "eez",
       "groupId": null,
       "geographyId": null,
-      "value": 14037772174.104677,
+      "value": 14037772174.104675,
       "extra": {
         "sketchName": "Existing MPAS",
         "isCollection": true

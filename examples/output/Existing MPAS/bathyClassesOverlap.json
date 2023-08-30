@@ -6,7 +6,7 @@
       "classId": "Plataforma Interna (<50 m)",
       "groupId": null,
       "geographyId": null,
-      "value": 134144005.34402974,
+      "value": 134144005.34402972,
       "extra": {
         "sketchName": "Existing MPA 14"
       }
@@ -17,7 +17,7 @@
       "classId": "Plataforma Interna (<50 m)",
       "groupId": null,
       "geographyId": null,
-      "value": 1365237799.4535687,
+      "value": 1365237799.4535663,
       "extra": {
         "sketchName": "Existing MPA 11"
       }
@@ -138,7 +138,7 @@
       "classId": "Plataforma Interna (<50 m)",
       "groupId": null,
       "geographyId": null,
-      "value": 13447203.752713827,
+      "value": 13447203.752712723,
       "extra": {
         "sketchName": "Existing MPA 12"
       }
@@ -160,7 +160,7 @@
       "classId": "Plataforma Interna (<50 m)",
       "groupId": null,
       "geographyId": null,
-      "value": 22819434.46429232,
+      "value": 22819434.46429618,
       "extra": {
         "sketchName": "Existing MPA 1"
       }
@@ -171,7 +171,7 @@
       "classId": "Plataforma Interna (<50 m)",
       "groupId": null,
       "geographyId": null,
-      "value": 46549773.478637464,
+      "value": 46549773.47863743,
       "extra": {
         "sketchName": "Existing MPA 13"
       }
@@ -182,7 +182,7 @@
       "classId": "Plataforma Interna (<50 m)",
       "groupId": null,
       "geographyId": null,
-      "value": 12674764187.164818,
+      "value": 12674764187.164816,
       "extra": {
         "sketchName": "Existing MPAS",
         "isCollection": true
