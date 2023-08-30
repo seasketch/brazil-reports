@@ -21,10 +21,7 @@
     "src/functions/boundaryAreaOverlap.ts",
     "src/functions/windFarmOverlap.ts",
     "src/functions/priorityAreaOverlap.ts",
-    "src/functions/fishingEffortOverlap.ts",
     "src/functions/miningOverlap.ts",
-    "src/functions/shippingOverlap.ts",
-    "src/functions/powerLinesOverlap.ts",
     "src/functions/bathyClassesOverlap.ts",
     "src/functions/oilAreasOverlap.ts"
   ]

@@ -142,11 +142,11 @@ export const OilCard = () => {
               )}
 
               <Collapse title={t("Learn more")}>
-                <Trans i18nKey="Priority Areas Card - learn more">
+                <Trans i18nKey="Oil Card - learn more">
                   <p>
                     {" "}
-                    This report summarizes the proportion of Active and
-                    potential mining areas within this plan.
+                    This report summarizes overlap with oil blocks under
+                    concession and oil production fields.
                   </p>
                   <p>
                     If MPA boundaries overlap with each other, the overlap is

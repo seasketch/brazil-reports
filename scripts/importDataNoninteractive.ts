@@ -105,15 +105,6 @@ const vectorMapperInputs: ImportVectorDatasourceAnswers[] = [
   },
   {
     geo_type: "vector",
-    src: "data/src/fromDatabase/usos_humanos.petroleo_campos_producao.json",
-    layerName: "usos_humanos.petroleo_campos_producao",
-    classKeys: "",
-    propertiesToKeep: "",
-    formats: ["fgb"],
-    datasourceId: "oil_production_fields"
-  },
-  {
-    geo_type: "vector",
     src: "data/src/fromDatabase/usos_humanos.petroleo_plataformas.json",
     layerName: "usos_humanos.petroleo_plataformas",
     classKeys: "",

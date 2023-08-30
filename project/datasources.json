@@ -153,7 +153,7 @@
         "total": {
           "count": 135,
           "sum": null,
-          "area": 365651078733.426
+          "area": 365651078733.4261
         }
       }
     },
@@ -162,8 +162,8 @@
     ],
     "layerName": "usos_humanos.mineracao_areas_potenciais",
     "classKeys": [],
-    "created": "2023-08-23T18:17:15.043Z",
-    "lastUpdated": "2023-08-23T18:17:15.087Z",
+    "created": "2023-08-30T22:00:10.939Z",
+    "lastUpdated": "2023-08-30T22:00:10.948Z",
     "src": "data/src/fromDatabase/usos_humanos.mineracao_areas_potenciais.json",
     "propertiesToKeep": []
   },
@@ -184,8 +184,8 @@
     ],
     "layerName": "usos_humanos.petroleo_plataformas",
     "classKeys": [],
-    "created": "2023-08-23T18:17:14.985Z",
-    "lastUpdated": "2023-08-23T18:17:14.989Z",
+    "created": "2023-08-30T22:00:10.838Z",
+    "lastUpdated": "2023-08-30T22:00:10.840Z",
     "src": "data/src/fromDatabase/usos_humanos.petroleo_plataformas.json",
     "propertiesToKeep": []
   },
@@ -373,7 +373,7 @@
       "priority"
     ],
     "created": "2023-07-14T19:10:14.544Z",
-    "lastUpdated": "2023-08-08T17:27:40.786Z",
+    "lastUpdated": "2023-08-30T22:30:20.599Z",
     "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/priority_areas_mma_translated.fgb",
     "propertiesToKeep": [
       "priority"
@@ -453,7 +453,7 @@
         "total": {
           "count": 81,
           "sum": null,
-          "area": 53449119379.33059
+          "area": 53449119379.33058
         }
       }
     },
@@ -462,8 +462,8 @@
     ],
     "layerName": "usos_humanos.eolico_parques",
     "classKeys": [],
-    "created": "2023-08-23T18:17:14.693Z",
-    "lastUpdated": "2023-08-23T18:17:14.733Z",
+    "created": "2023-08-30T22:00:10.822Z",
+    "lastUpdated": "2023-08-30T22:00:10.823Z",
     "src": "data/src/fromDatabase/usos_humanos.eolico_parques.json",
     "propertiesToKeep": []
   },
@@ -484,8 +484,8 @@
     ],
     "layerName": "usos_humanos.eolico_torres",
     "classKeys": [],
-    "created": "2023-08-23T18:17:20.338Z",
-    "lastUpdated": "2023-08-23T18:17:20.340Z",
+    "created": "2023-08-30T22:00:13.126Z",
+    "lastUpdated": "2023-08-30T22:00:13.127Z",
     "src": "data/src/fromDatabase/usos_humanos.eolico_torres.json",
     "propertiesToKeep": []
   },
@@ -506,8 +506,8 @@
     ],
     "layerName": "usos_humanos.eolico_linhas_transmissao",
     "classKeys": [],
-    "created": "2023-08-23T18:17:17.997Z",
-    "lastUpdated": "2023-08-23T18:17:18.000Z",
+    "created": "2023-08-30T22:00:12.034Z",
+    "lastUpdated": "2023-08-30T22:00:12.035Z",
     "src": "data/src/fromDatabase/usos_humanos.eolico_linhas_transmissao.json",
     "propertiesToKeep": []
   },
@@ -518,7 +518,7 @@
       "class": {
         "Plataforma Externa Rasa (50 - 100 m)": {
           "count": 408,
-          "area": 195473959993.6156
+          "area": 195473959993.61505
         },
         "Plataforma Interna (<50 m)": {
           "count": 221,
@@ -530,7 +530,7 @@
         },
         "Talude (200 - 1200 m )": {
           "count": 61,
-          "area": 184372460414.18106
+          "area": 184372460414.1811
         },
         "Bacia Oceânica (> 1200 m)": {
           "count": 4,
@@ -552,8 +552,8 @@
     "classKeys": [
       "class"
     ],
-    "created": "2023-08-23T18:17:18.797Z",
-    "lastUpdated": "2023-08-23T18:17:18.799Z",
+    "created": "2023-08-30T22:00:12.818Z",
+    "lastUpdated": "2023-08-30T22:00:12.819Z",
     "src": "data/src/fromDatabase/public.batimetria_classes.json",
     "propertiesToKeep": [
       "class"
@@ -567,7 +567,7 @@
         "total": {
           "count": 821,
           "sum": null,
-          "area": 14745682385.508148
+          "area": 14745682385.508146
         }
       }
     },
@@ -576,8 +576,8 @@
     ],
     "layerName": "usos_humanos.mineracao_processos",
     "classKeys": [],
-    "created": "2023-08-23T18:17:15.344Z",
-    "lastUpdated": "2023-08-23T18:17:15.347Z",
+    "created": "2023-08-30T22:00:10.921Z",
+    "lastUpdated": "2023-08-30T22:00:10.923Z",
     "src": "data/src/fromDatabase/usos_humanos.mineracao_processos.json",
     "propertiesToKeep": []
   },
@@ -589,7 +589,7 @@
         "total": {
           "count": 123,
           "sum": null,
-          "area": 91968171767.41112
+          "area": 91968171767.41115
         }
       }
     },
@@ -598,8 +598,8 @@
     ],
     "layerName": "usos_humanos.petroleo_blocos_concessao",
     "classKeys": [],
-    "created": "2023-08-23T18:17:15.234Z",
-    "lastUpdated": "2023-08-23T18:17:15.238Z",
+    "created": "2023-08-30T22:00:11.029Z",
+    "lastUpdated": "2023-08-30T22:00:11.030Z",
     "src": "data/src/fromDatabase/usos_humanos.petroleo_blocos_concessao.json",
     "propertiesToKeep": []
   },
@@ -611,7 +611,7 @@
         "total": {
           "count": 150,
           "sum": null,
-          "area": 23608185910.286736
+          "area": 23608185910.286747
         }
       }
     },
@@ -620,22 +620,14 @@
     ],
     "layerName": "usos_humanos.petroleo_campos_producao",
     "classKeys": [],
-    "created": "2023-08-23T18:17:15.481Z",
-    "lastUpdated": "2023-08-23T18:17:15.487Z",
+    "created": "2023-08-30T22:00:11.068Z",
+    "lastUpdated": "2023-08-30T22:00:11.069Z",
     "src": "data/src/fromDatabase/usos_humanos.petroleo_campos_producao.json",
     "propertiesToKeep": []
   },
   {
-    "src": "data/src/fromDatabase/usos_humanos.portos.json",
-    "layerName": "usos_humanos.portos",
-    "geo_type": "vector",
     "datasourceId": "ports",
-    "formats": [
-      "fgb"
-    ],
-    "classKeys": [],
-    "created": "2023-08-23T18:22:30.972Z",
-    "lastUpdated": "2023-08-23T18:22:30.972Z",
+    "geo_type": "vector",
     "keyStats": {
       "total": {
         "total": {
@@ -645,6 +637,14 @@
         }
       }
     },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "usos_humanos.portos",
+    "classKeys": [],
+    "created": "2023-08-23T18:22:30.972Z",
+    "lastUpdated": "2023-08-23T18:22:30.972Z",
+    "src": "data/src/fromDatabase/usos_humanos.portos.json",
     "propertiesToKeep": []
   }
 ]

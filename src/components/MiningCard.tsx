@@ -71,7 +71,6 @@ export const MiningCard = () => {
 
           return (
             <>
-              <p>{t("Mining overlap with region:  ")}</p>
               <ClassTable
                 rows={parentMetrics}
                 metricGroup={metricGroup}
@@ -122,6 +121,10 @@ export const MiningCard = () => {
                 <p>
                   This report summarizes overlap with active and potential
                   mining areas.
+                </p>
+                <p>
+                  If MPA boundaries overlap with each other, the overlap is only
+                  counted once.
                 </p>
               </Collapse>
             </>

@@ -15,13 +15,13 @@
   {
     "metricId": "windFarmOverlap",
     "type": "areaOverlap",
+    "layerId": "XkZ7wQWwC",
     "classes": [
       {
         "classId": "wind_farms",
         "display": "Wind Farms",
         "datasourceId": "wind_farms",
-        "objectiveId": "",
-        "layerId": ""
+        "objectiveId": ""
       }
     ]
   },
@@ -49,7 +49,7 @@
         "display": "High",
         "datasourceId": "priority_areas",
         "objectiveId": "eez",
-        "layerId": "Gx38O_Msj"
+        "layerId": ""
       },
       {
         "classId": "Very High",
@@ -57,7 +57,7 @@
         "display": "Very High",
         "datasourceId": "priority_areas",
         "objectiveId": "eez",
-        "layerId": "Gx38O_Msj"
+        "layerId": ""
       },
       {
         "classId": "Extremely High",
@@ -65,7 +65,7 @@
         "display": "Extremely High",
         "datasourceId": "priority_areas",
         "objectiveId": "eez",
-        "layerId": "Gx38O_Msj"
+        "layerId": ""
       }
     ]
   },
@@ -111,13 +111,13 @@
         "classId": "mining_process",
         "display": "Mining Areas (Process)",
         "datasourceId": "mining_process",
-        "layerId": ""
+        "layerId": "rmz5haLwD"
       },
       {
         "classId": "mining_potential",
         "display": "Mining Potential Areas",
         "datasourceId": "mining_potential",
-        "layerId": ""
+        "layerId": "HhykfJ_h9"
       }
     ]
   },
@@ -173,7 +173,7 @@
         "display": "Plataforma Interna (<50 m)",
         "datasourceId": "bathymetric_classes",
         "objectiveId": "",
-        "layerId": ""
+        "layerId": "ObnqmsWIT"
       },
       {
         "classId": "Plataforma Externa Rasa (50 - 100 m)",
@@ -217,13 +217,13 @@
         "classId": "oil_blocks_concession",
         "display": "Oil Blocks Under Concession",
         "datasourceId": "oil_blocks_concession",
-        "layerId": ""
+        "layerId": "zxv2SutcS"
       },
       {
         "classId": "oil_production_fields",
         "display": "Oil Production Fields",
         "datasourceId": "oil_production_fields",
-        "layerId": ""
+        "layerId": "UGqS92gF1"
       }
     ]
   }

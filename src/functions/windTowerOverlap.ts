@@ -70,6 +70,21 @@ export async function windTowerOverlap(
     };
   }, {});
 
+  // if (isSketchCollection(sketch) && metricGroup.datasourceId) {
+  //   const collectionMetric = {
+  //     metricId: metricGroup.metricId,
+  //     sketchId: sketch.properties.id,
+  //     classId: metricGroup.metricId,
+  //     groupId: null,
+  //     geographyId: null,
+  //     value: project.getDatasourceById(metricGroup.datasourceId),
+  //     extra: {
+  //       sketchName: sketch.properties.name,
+  //       isCollection: true
+  //     }
+  //   }
+  // }
+
   // loop through sketches and metricGroup classes if collection, else just loop through classes
   const metrics: Metric[] = isSketchCollection(sketch) ?
     sketch.features.map((curSketch) => {

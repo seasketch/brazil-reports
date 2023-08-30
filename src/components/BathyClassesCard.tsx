@@ -36,7 +36,7 @@ export const BathyClassesCard = () => {
   const { t } = useTranslation();
 
   const mapLabel = t("Map");
-  const zoneLabel = t("Zone");
+  const classLabel = t("Class");
   const areaWithin = t("Area Within Plan");
   const percAreaWithin = `% ${t("Area Within Plan")}`;
   const sqKmLabel = t("km²");
@@ -79,7 +79,7 @@ export const BathyClassesCard = () => {
                   metricGroup={metricGroup}
                   columnConfig={[
                     {
-                      columnLabel: zoneLabel,
+                      columnLabel: classLabel,
                       type: "class",
                       width: 30,
                     },
@@ -137,11 +137,11 @@ export const BathyClassesCard = () => {
               )}
 
               <Collapse title={t("Learn more")}>
-                <Trans i18nKey="Priority Areas Card - learn more">
+                <Trans i18nKey="Bathy Classes Card - learn more">
                   <p>
                     {" "}
-                    This report summarizes the proportion of benthic ecozones
-                    within this plan.
+                    This report summarizes the proportions of bathymetric
+                    classes within this plan.
                   </p>
                   <p>
                     If MPA boundaries overlap with each other, the overlap is
