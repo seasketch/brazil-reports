@@ -165,7 +165,7 @@
   {
     "metricId": "bathyClassesOverlap",
     "type": "areaOverlap",
-    "layerId": "UmN9AuWc2",
+    "layerId": "ObnqmsWIT",
     "classes": [
       {
         "classId": "Plataforma Interna (<50 m)",
@@ -173,7 +173,7 @@
         "display": "Plataforma Interna (<50 m)",
         "datasourceId": "bathymetric_classes",
         "objectiveId": "",
-        "layerId": "ObnqmsWIT"
+        "layerId": ""
       },
       {
         "classId": "Plataforma Externa Rasa (50 - 100 m)",
