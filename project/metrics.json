@@ -226,5 +226,17 @@
         "layerId": "UGqS92gF1"
       }
     ]
+  },
+  {
+    "metricId": "oilPlatformOverlap",
+    "type": "countOverlap",
+    "classes": [
+      {
+        "classId": "oil_platforms",
+        "display": "Oil Platforms",
+        "datasourceId": "oil_platforms",
+        "layerId": "nZgYOJGRE"
+      }
+    ]
   }
 ]

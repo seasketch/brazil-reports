@@ -7,7 +7,7 @@ import { genClipLoader } from "@seasketch/geoprocessing/dataproviders";
 
 const clipLoader = genClipLoader(project, [
   {
-    datasourceId: "global-clipping-osm-land",
+    datasourceId: "brazil-land",
     operation: "difference",
     options: {
       unionProperty: "gid",

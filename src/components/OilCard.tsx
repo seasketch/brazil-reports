@@ -44,7 +44,7 @@ export const OilCard = () => {
   return (
     <>
       <ResultsCard
-        title={t("Oil and Gas Exploration")}
+        title={t("Oil and Gas")}
         functionName="oilAreasOverlap"
         useChildCard
       >
@@ -64,7 +64,7 @@ export const OilCard = () => {
 
           return (
             <ToolbarCard
-              title={t("Oil and Gas Exploration")}
+              title={t("Oil and Gas")}
               items={
                 <LayerToggle
                   label={mapLabel}

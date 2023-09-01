@@ -646,5 +646,27 @@
     "lastUpdated": "2023-08-23T18:22:30.972Z",
     "src": "data/src/fromDatabase/usos_humanos.portos.json",
     "propertiesToKeep": []
+  },
+  {
+    "src": "data/src/Brazil/Data_Products/brazil-data-db/unidades_federacao_dissolved.fgb",
+    "layerName": "unidades_federacao_dissolved",
+    "geo_type": "vector",
+    "datasourceId": "brazil-land",
+    "formats": [
+      "fgb"
+    ],
+    "classKeys": [],
+    "created": "2023-09-01T18:45:52.625Z",
+    "lastUpdated": "2023-09-01T18:45:52.625Z",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 381,
+          "sum": null,
+          "area": 8560199070580.312
+        }
+      }
+    },
+    "propertiesToKeep": []
   }
 ]

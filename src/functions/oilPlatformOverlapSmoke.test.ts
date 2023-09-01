@@ -2,7 +2,7 @@
  * @jest-environment node
  * @group smoke
  */
-import { windTowerOverlap } from "./windTowerOverlap";
+import { oilPlatformOverlap } from "./oilPlatformOverlap";
 import {
   getExamplePolygonSketchAll,
   writeResultOutput,
@@ -10,14 +10,14 @@ import {
 
 describe("Basic smoke tests", () => {
   test("handler function is present", () => {
-    expect(typeof windTowerOverlap).toBe("function");
+    expect(typeof oilPlatformOverlap).toBe("function");
   });
-  test("windTowerOverlapSmoke - tests run against all examples", async () => {
+  test("oilPlatformOverlapSmoke - tests run against all examples", async () => {
     const examples = await getExamplePolygonSketchAll();
     for (const example of examples) {
-      const result = await windTowerOverlap(example);
+      const result = await oilPlatformOverlap(example);
       expect(result).toBeTruthy();
-      writeResultOutput(result, "windTowerOverlap", example.properties.name);
+      writeResultOutput(result, "oilPlatformOverlap", example.properties.name);
     }
   }, 120000);
 });
