@@ -140,11 +140,11 @@ export const PriorityAreaCard = () => {
                 <Trans i18nKey="Priority Areas Card - learn more">
                   <p>
                     {" "}
-                    This report summarizes the proportion of priority
-                    conservation areas within this plan.
+                    This report summarizes the amount of priority conservation
+                    areas within this plan.
                   </p>
                   <p>
-                    If MPA boundaries overlap with each other, the overlap is
+                    If zone boundaries overlap with each other, the overlap is
                     only counted once.
                   </p>
                 </Trans>

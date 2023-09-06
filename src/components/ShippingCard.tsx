@@ -144,7 +144,7 @@ export const ShippingCard = () => {
                     intensity in this plan.
                   </p>
                   <p>
-                    If MPA boundaries overlap with each other, the overlap is
+                    If zone boundaries overlap with each other, the overlap is
                     only counted once.
                   </p>
                 </Trans>

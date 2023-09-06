@@ -1,20 +1,24 @@
 import React from "react";
 import { SizeCard } from "./SizeCard";
 import { SketchAttributesCard } from "@seasketch/geoprocessing/client-ui";
-import { FishingEffortCard } from "./FishingEffortCard";
 import { MiningCard } from "./MiningCard";
-import { ShippingCard } from "./ShippingCard";
-import { OilExplorationCard } from "./OilExplorationCard";
+import { WindCard } from "./WindCard";
+import { OilCard } from "./OilCard";
+import { OilPlatformCard } from "./OilPlatformCard";
+import { FishingIntensityCard } from "./FishingIntensityCard";
+import { MarineTrafficCard } from "./MarineTrafficCard";
 
 const ReportPage = () => {
   return (
     <>
       <SizeCard />
       {/* <SketchAttributesCard autoHide /> */}
-      <FishingEffortCard />
+      <FishingIntensityCard />
       <MiningCard />
-      <ShippingCard />
-      <OilExplorationCard />
+      <WindCard />
+      <OilCard />
+      <OilPlatformCard />
+      <MarineTrafficCard />
     </>
   );
 };

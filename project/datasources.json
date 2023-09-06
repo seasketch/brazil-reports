@@ -146,47 +146,25 @@
     "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/kernel_gillnet_preps.tif"
   },
   {
-    "datasourceId": "mining_active",
-    "geo_type": "vector",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": 543,
-          "sum": null,
-          "area": 1245836426.3570294
-        }
-      }
-    },
-    "formats": [
-      "fgb"
-    ],
-    "layerName": "mining_active_anm_clipped",
-    "classKeys": [],
-    "created": "2023-07-11T18:21:33.468Z",
-    "lastUpdated": "2023-08-08T17:27:38.305Z",
-    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/mining_active_anm_clipped.fgb",
-    "propertiesToKeep": []
-  },
-  {
     "datasourceId": "mining_potential",
     "geo_type": "vector",
     "keyStats": {
       "total": {
         "total": {
-          "count": 159,
+          "count": 135,
           "sum": null,
-          "area": 267539314623.91132
+          "area": 365651078733.4261
         }
       }
     },
     "formats": [
       "fgb"
     ],
-    "layerName": "mining_potential_dnpm_clipped",
+    "layerName": "usos_humanos.mineracao_areas_potenciais",
     "classKeys": [],
-    "created": "2023-07-11T18:22:17.289Z",
-    "lastUpdated": "2023-08-08T17:27:38.591Z",
-    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/mining_potential_dnpm_clipped.fgb",
+    "created": "2023-09-05T23:01:17.143Z",
+    "lastUpdated": "2023-09-05T23:01:17.145Z",
+    "src": "data/src/fromDatabase/usos_humanos.mineracao_areas_potenciais.json",
     "propertiesToKeep": []
   },
   {
@@ -195,7 +173,7 @@
     "keyStats": {
       "total": {
         "total": {
-          "count": 16,
+          "count": 63,
           "sum": null,
           "area": 0
         }
@@ -204,11 +182,11 @@
     "formats": [
       "fgb"
     ],
-    "layerName": "oil_platforms",
+    "layerName": "usos_humanos.petroleo_plataformas",
     "classKeys": [],
-    "created": "2023-07-12T20:16:26.468Z",
-    "lastUpdated": "2023-08-08T17:27:38.796Z",
-    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/oil_platforms.fgb",
+    "created": "2023-09-05T23:01:17.160Z",
+    "lastUpdated": "2023-09-05T23:01:17.162Z",
+    "src": "data/src/fromDatabase/usos_humanos.petroleo_plataformas.json",
     "propertiesToKeep": []
   },
   {
@@ -395,7 +373,7 @@
       "priority"
     ],
     "created": "2023-07-14T19:10:14.544Z",
-    "lastUpdated": "2023-08-08T17:27:40.786Z",
+    "lastUpdated": "2023-08-30T22:30:20.599Z",
     "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/priority_areas_mma_translated.fgb",
     "propertiesToKeep": [
       "priority"
@@ -468,135 +446,319 @@
     ]
   },
   {
-    "datasourceId": "mining_active_central-east",
+    "datasourceId": "wind_farms",
     "geo_type": "vector",
     "keyStats": {
       "total": {
         "total": {
-          "count": 164,
+          "count": 81,
           "sum": null,
-          "area": 539055700.3251766
+          "area": 53449119379.33058
         }
       }
     },
     "formats": [
       "fgb"
     ],
-    "layerName": "mining_active_central-east",
+    "layerName": "usos_humanos.eolico_parques",
     "classKeys": [],
-    "created": "2023-07-26T23:32:56.477Z",
-    "lastUpdated": "2023-08-08T17:27:44.007Z",
-    "src": "data/src/Brazil/Data_Products/region-test/mining_active_central-east.fgb",
+    "created": "2023-09-05T23:01:17.125Z",
+    "lastUpdated": "2023-09-05T23:01:17.127Z",
+    "src": "data/src/fromDatabase/usos_humanos.eolico_parques.json",
     "propertiesToKeep": []
   },
   {
-    "datasourceId": "mining_active_south",
+    "datasourceId": "wind_towers",
     "geo_type": "vector",
     "keyStats": {
       "total": {
         "total": {
-          "count": 368,
+          "count": 12784,
           "sum": null,
-          "area": 696540431.481384
+          "area": 0
         }
       }
     },
     "formats": [
       "fgb"
     ],
-    "layerName": "mining_active_south",
+    "layerName": "usos_humanos.eolico_torres",
     "classKeys": [],
-    "created": "2023-07-26T23:33:34.870Z",
-    "lastUpdated": "2023-08-08T17:27:44.248Z",
-    "src": "data/src/Brazil/Data_Products/region-test/mining_active_south.fgb",
+    "created": "2023-09-05T23:01:19.421Z",
+    "lastUpdated": "2023-09-05T23:01:19.422Z",
+    "src": "data/src/fromDatabase/usos_humanos.eolico_torres.json",
     "propertiesToKeep": []
   },
   {
-    "datasourceId": "mining_potential_central-east",
+    "datasourceId": "power_lines",
     "geo_type": "vector",
     "keyStats": {
       "total": {
         "total": {
-          "count": 28,
+          "count": 2450,
           "sum": null,
-          "area": 61474305634.50131
+          "area": 0
         }
       }
     },
     "formats": [
       "fgb"
     ],
-    "layerName": "mining_potential_central-east",
+    "layerName": "usos_humanos.eolico_linhas_transmissao",
     "classKeys": [],
-    "created": "2023-07-26T23:34:34.387Z",
-    "lastUpdated": "2023-08-08T17:27:44.533Z",
-    "src": "data/src/Brazil/Data_Products/region-test/mining_potential_central-east.fgb",
+    "created": "2023-09-05T23:01:18.436Z",
+    "lastUpdated": "2023-09-05T23:01:18.437Z",
+    "src": "data/src/fromDatabase/usos_humanos.eolico_linhas_transmissao.json",
     "propertiesToKeep": []
   },
   {
-    "datasourceId": "mining_potential_north",
+    "datasourceId": "bathymetric_classes",
     "geo_type": "vector",
     "keyStats": {
+      "class": {
+        "Plataforma Externa Rasa (50 - 100 m)": {
+          "count": 408,
+          "area": 195473959993.61505
+        },
+        "Plataforma Interna (<50 m)": {
+          "count": 221,
+          "area": 392729041241.2966
+        },
+        "Plataforma Externa Profunda (100 - 200 m)": {
+          "count": 748,
+          "area": 117619623384.75525
+        },
+        "Talude (200 - 1200 m )": {
+          "count": 61,
+          "area": 184372460414.1811
+        },
+        "Bacia Oceânica (> 1200 m)": {
+          "count": 4,
+          "area": 4865824872637.069
+        }
+      },
       "total": {
         "total": {
-          "count": 15,
+          "count": 1442,
           "sum": null,
-          "area": 65155946688.930725
+          "area": 5756019957670.928
         }
       }
     },
     "formats": [
       "fgb"
     ],
-    "layerName": "mining_potential_north",
+    "layerName": "batimetria_classes",
+    "classKeys": [
+      "class"
+    ],
+    "created": "2023-09-05T23:01:19.116Z",
+    "lastUpdated": "2023-09-05T23:01:19.117Z",
+    "src": "data/src/fromDatabase/public.batimetria_classes.json",
+    "propertiesToKeep": [
+      "class"
+    ]
+  },
+  {
+    "datasourceId": "oil_blocks_concession",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 123,
+          "sum": null,
+          "area": 91968171767.41115
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "usos_humanos.petroleo_blocos_concessao",
     "classKeys": [],
-    "created": "2023-07-26T23:35:12.032Z",
-    "lastUpdated": "2023-08-08T17:27:44.784Z",
-    "src": "data/src/Brazil/Data_Products/region-test/mining_potential_north.fgb",
+    "created": "2023-09-05T23:01:17.214Z",
+    "lastUpdated": "2023-09-05T23:01:17.216Z",
+    "src": "data/src/fromDatabase/usos_humanos.petroleo_blocos_concessao.json",
     "propertiesToKeep": []
   },
   {
-    "datasourceId": "mining_potential_northeast",
+    "datasourceId": "oil_production_fields",
     "geo_type": "vector",
     "keyStats": {
       "total": {
         "total": {
-          "count": 86,
+          "count": 150,
           "sum": null,
-          "area": 98479921048.17107
+          "area": 23608185910.286747
         }
       }
     },
     "formats": [
       "fgb"
     ],
-    "layerName": "mining_potential_northeast",
+    "layerName": "usos_humanos.petroleo_campos_producao",
     "classKeys": [],
-    "created": "2023-07-26T23:35:44.679Z",
-    "lastUpdated": "2023-08-08T17:27:45.049Z",
-    "src": "data/src/Brazil/Data_Products/region-test/mining_potential_northeast.fgb",
+    "created": "2023-09-05T23:01:17.340Z",
+    "lastUpdated": "2023-09-05T23:01:17.341Z",
+    "src": "data/src/fromDatabase/usos_humanos.petroleo_campos_producao.json",
     "propertiesToKeep": []
   },
   {
-    "datasourceId": "mining_potential_south",
+    "datasourceId": "ports",
     "geo_type": "vector",
     "keyStats": {
       "total": {
         "total": {
-          "count": 35,
+          "count": 122,
           "sum": null,
-          "area": 42303438767.39601
+          "area": 0
         }
       }
     },
     "formats": [
       "fgb"
     ],
-    "layerName": "mining_potential_south",
+    "layerName": "usos_humanos.portos",
     "classKeys": [],
-    "created": "2023-07-26T23:36:42.040Z",
-    "lastUpdated": "2023-08-08T17:27:45.285Z",
-    "src": "data/src/Brazil/Data_Products/region-test/mining_potential_south.fgb",
+    "created": "2023-08-23T18:22:30.972Z",
+    "lastUpdated": "2023-08-23T18:22:30.972Z",
+    "src": "data/src/fromDatabase/usos_humanos.portos.json",
     "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "brazil-land",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 381,
+          "sum": null,
+          "area": 8560199070580.312
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "unidades_federacao_dissolved",
+    "classKeys": [],
+    "created": "2023-09-01T18:45:52.625Z",
+    "lastUpdated": "2023-09-01T18:45:52.625Z",
+    "src": "data/src/Brazil/Data_Products/brazil-data-db/unidades_federacao_dissolved.fgb",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "mining_process",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 821,
+          "sum": null,
+          "area": 14745682385.508146
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "usos_humanos.mineracao_processos",
+    "classKeys": [],
+    "created": "2023-09-05T23:01:17.185Z",
+    "lastUpdated": "2023-09-05T23:01:17.186Z",
+    "src": "data/src/fromDatabase/usos_humanos.mineracao_processos.json",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "fishing_intensity",
+    "geo_type": "vector",
+    "keyStats": {
+      "intensity": {
+        "Medium": {
+          "count": 318,
+          "area": 1928628340729.383
+        },
+        "Low": {
+          "count": 406,
+          "area": 1889107483067.0803
+        },
+        "Very Low": {
+          "count": 203,
+          "area": 1613663538623.641
+        },
+        "High": {
+          "count": 155,
+          "area": 1565192332388.0823
+        },
+        "Very High": {
+          "count": 97,
+          "area": 376963452231.017
+        }
+      },
+      "total": {
+        "total": {
+          "count": 1179,
+          "sum": null,
+          "area": 7373555147039.208
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "fishing_intensity_all_gfw_levels",
+    "classKeys": [
+      "intensity"
+    ],
+    "created": "2023-09-06T17:43:51.827Z",
+    "lastUpdated": "2023-09-06T17:43:51.827Z",
+    "src": "data/src/Brazil/Data_Products/gfw/fishing_intensity_all_gfw_levels.fgb",
+    "propertiesToKeep": [
+      "intensity"
+    ]
+  },
+  {
+    "src": "data/src/Brazil/Data_Products/shipping/marine_traffic_northeast_classes.fgb",
+    "layerName": "marine_traffic_northeast_classes",
+    "geo_type": "vector",
+    "datasourceId": "marine_traffic_northeast",
+    "formats": [
+      "fgb"
+    ],
+    "classKeys": [
+      "intensity_class"
+    ],
+    "created": "2023-09-06T21:14:50.564Z",
+    "lastUpdated": "2023-09-06T21:14:50.564Z",
+    "keyStats": {
+      "intensity_class": {
+        "Low": {
+          "count": 27782,
+          "area": 479674154577.77155
+        },
+        "undefined": {
+          "count": 60145,
+          "area": 683121152775.1826
+        },
+        "Medium": {
+          "count": 20409,
+          "area": 980377649039.4193
+        },
+        "High": {
+          "count": 6840,
+          "area": 383550170235.19037
+        }
+      },
+      "total": {
+        "total": {
+          "count": 115176,
+          "sum": null,
+          "area": 2526723126627.6855
+        }
+      }
+    },
+    "propertiesToKeep": [
+      "intensity_class"
+    ]
   }
 ]

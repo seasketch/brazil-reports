@@ -13,31 +13,27 @@
     ]
   },
   {
-    "metricId": "geomorphicOverlap",
+    "metricId": "windFarmOverlap",
     "type": "areaOverlap",
+    "layerId": "XkZ7wQWwC",
     "classes": [
       {
-        "classId": "Hills",
-        "classKey": "Class",
-        "display": "Abyssal Hill",
-        "datasourceId": "abyssal_classification",
-        "objectiveId": "eez",
-        "layerId": ""
-      },
+        "classId": "wind_farms",
+        "display": "Wind Farms",
+        "datasourceId": "wind_farms",
+        "objectiveId": ""
+      }
+    ]
+  },
+  {
+    "metricId": "windTowerOverlap",
+    "type": "countOverlap",
+    "classes": [
       {
-        "classId": "Mountains",
-        "classKey": "Class",
-        "display": "Abyssal Mountain",
-        "datasourceId": "abyssal_classification",
-        "objectiveId": "eez",
-        "layerId": ""
-      },
-      {
-        "classId": "Plains",
-        "classKey": "Class",
-        "display": "Abyssal Plain",
-        "datasourceId": "abyssal_classification",
-        "objectiveId": "eez",
+        "classId": "wind_towers",
+        "display": "Wind Towers",
+        "datasourceId": "wind_towers",
+        "objectiveId": "",
         "layerId": ""
       }
     ]
@@ -53,7 +49,7 @@
         "display": "High",
         "datasourceId": "priority_areas",
         "objectiveId": "eez",
-        "layerId": "Gx38O_Msj"
+        "layerId": ""
       },
       {
         "classId": "Very High",
@@ -61,7 +57,7 @@
         "display": "Very High",
         "datasourceId": "priority_areas",
         "objectiveId": "eez",
-        "layerId": "Gx38O_Msj"
+        "layerId": ""
       },
       {
         "classId": "Extremely High",
@@ -69,7 +65,7 @@
         "display": "Extremely High",
         "datasourceId": "priority_areas",
         "objectiveId": "eez",
-        "layerId": "Gx38O_Msj"
+        "layerId": ""
       }
     ]
   },
@@ -112,51 +108,15 @@
     "type": "areaOverlap",
     "classes": [
       {
-        "classId": "mining_active_all",
-        "display": "Active Mining",
-        "datasourceId": "mining_active",
+        "classId": "mining_process",
+        "display": "Mining Areas (Process)",
+        "datasourceId": "mining_process",
         "layerId": "rmz5haLwD"
       },
       {
-        "classId": "mining_potential_all",
-        "display": "Potential Mining",
+        "classId": "mining_potential",
+        "display": "Mining Potential Areas",
         "datasourceId": "mining_potential",
-        "layerId": "HhykfJ_h9"
-      },
-      {
-        "classId": "mining_active_central-east",
-        "display": "Active Mining",
-        "datasourceId": "mining_active_central-east",
-        "layerId": "rmz5haLwD"
-      },
-      {
-        "classId": "mining_active_south",
-        "display": "Active Mining",
-        "datasourceId": "mining_active_south",
-        "layerId": "rmz5haLwD"
-      },
-      {
-        "classId": "mining_potential_central-east",
-        "display": "Potential Mining",
-        "datasourceId": "mining_potential_central-east",
-        "layerId": "HhykfJ_h9"
-      },
-      {
-        "classId": "mining_potential_north",
-        "display": "Potential Mining",
-        "datasourceId": "mining_potential_north",
-        "layerId": "HhykfJ_h9"
-      },
-      {
-        "classId": "mining_potential_northeast",
-        "display": "Potential Mining",
-        "datasourceId": "mining_potential_northeast",
-        "layerId": "HhykfJ_h9"
-      },
-      {
-        "classId": "mining_potential_south",
-        "display": "Potential Mining",
-        "datasourceId": "mining_potential_south",
         "layerId": "HhykfJ_h9"
       }
     ]
@@ -190,164 +150,170 @@
     ]
   },
   {
-    "metricId": "ecozonesPelagicOverlap",
+    "metricId": "powerLinesOverlap",
     "type": "areaOverlap",
-    "layerId": "Qaj5XRtiU",
     "classes": [
       {
-        "classId": "zone 1",
-        "classKey": "zone",
-        "display": "1",
-        "datasourceId": "ecozones_pelagic",
-        "objectiveId": "",
-        "layerId": ""
-      },
-      {
-        "classId": "zone 2",
-        "classKey": "zone",
-        "display": "2",
-        "datasourceId": "ecozones_pelagic",
-        "objectiveId": "",
-        "layerId": ""
-      },
-      {
-        "classId": "zone 3",
-        "classKey": "zone",
-        "display": "3",
-        "datasourceId": "ecozones_pelagic",
-        "objectiveId": "",
-        "layerId": ""
-      },
-      {
-        "classId": "zone 4",
-        "classKey": "zone",
-        "display": "4",
-        "datasourceId": "ecozones_pelagic",
-        "objectiveId": "",
-        "layerId": ""
-      },
-      {
-        "classId": "zone 5",
-        "classKey": "zone",
-        "display": "5",
-        "datasourceId": "ecozones_pelagic",
-        "objectiveId": "",
-        "layerId": ""
-      },
-      {
-        "classId": "zone 6",
-        "classKey": "zone",
-        "display": "6",
-        "datasourceId": "ecozones_pelagic",
-        "objectiveId": "",
-        "layerId": ""
-      },
-      {
-        "classId": "zone 7",
-        "classKey": "zone",
-        "display": "7",
-        "datasourceId": "ecozones_pelagic",
-        "objectiveId": "",
-        "layerId": ""
-      },
-      {
-        "classId": "zone 8",
-        "classKey": "zone",
-        "display": "8",
-        "datasourceId": "ecozones_pelagic",
-        "objectiveId": "",
-        "layerId": ""
-      },
-      {
-        "classId": "zone 9",
-        "classKey": "zone",
-        "display": "9",
-        "datasourceId": "ecozones_pelagic",
-        "objectiveId": "",
-        "layerId": ""
-      },
-      {
-        "classId": "zone 10",
-        "classKey": "zone",
-        "display": "10",
-        "datasourceId": "ecozones_pelagic",
+        "classId": "power_lines",
+        "display": "Power Lines",
+        "datasourceId": "power_lines",
         "objectiveId": "",
         "layerId": ""
       }
     ]
   },
   {
-    "metricId": "ecozonesBenthicOverlap",
+    "metricId": "bathyClassesOverlap",
     "type": "areaOverlap",
-    "layerId": "UmN9AuWc2",
+    "layerId": "ObnqmsWIT",
     "classes": [
       {
-        "classId": "zone 1",
-        "classKey": "zone",
-        "display": "1",
-        "datasourceId": "ecozones_benthic",
+        "classId": "Plataforma Interna (<50 m)",
+        "classKey": "class",
+        "display": "Plataforma Interna (<50 m)",
+        "datasourceId": "bathymetric_classes",
         "objectiveId": "",
         "layerId": ""
       },
       {
-        "classId": "zone 2",
-        "classKey": "zone",
-        "display": "2",
-        "datasourceId": "ecozones_benthic",
+        "classId": "Plataforma Externa Rasa (50 - 100 m)",
+        "classKey": "class",
+        "display": "Plataforma Externa Rasa (50 - 100 m)",
+        "datasourceId": "bathymetric_classes",
         "objectiveId": "",
         "layerId": ""
       },
       {
-        "classId": "zone 3",
-        "classKey": "zone",
-        "display": "3",
-        "datasourceId": "ecozones_benthic",
+        "classId": "Plataforma Externa Profunda (100 - 200 m)",
+        "classKey": "class",
+        "display": "Plataforma Externa Profunda (100 - 200 m)",
+        "datasourceId": "bathymetric_classes",
         "objectiveId": "",
         "layerId": ""
       },
       {
-        "classId": "zone 4",
-        "classKey": "zone",
-        "display": "4",
-        "datasourceId": "ecozones_benthic",
+        "classId": "Talude (200 - 1200 m )",
+        "classKey": "class",
+        "display": "Talude (200 - 1200 m)",
+        "datasourceId": "bathymetric_classes",
         "objectiveId": "",
         "layerId": ""
       },
       {
-        "classId": "zone 5",
-        "classKey": "zone",
-        "display": "5",
-        "datasourceId": "ecozones_benthic",
-        "objectiveId": "",
-        "layerId": ""
-      },
-      {
-        "classId": "zone 6",
-        "classKey": "zone",
-        "display": "6",
-        "datasourceId": "ecozones_benthic",
-        "objectiveId": "",
-        "layerId": ""
-      },
-      {
-        "classId": "zone 7",
-        "classKey": "zone",
-        "display": "7",
-        "datasourceId": "ecozones_benthic",
+        "classId": "Bacia Oceânica (> 1200 m)",
+        "classKey": "class",
+        "display": "Bacia Oceânica (> 1200 m)",
+        "datasourceId": "bathymetric_classes",
         "objectiveId": "",
         "layerId": ""
       }
     ]
   },
   {
-    "metricId": "oilExplorationOverlap",
+    "metricId": "oilAreasOverlap",
     "type": "areaOverlap",
     "classes": [
       {
-        "classId": "oil_gas_exploration",
-        "display": "Oil and Gas Exploration",
-        "datasourceId": "oil_gas_exploration",
-        "layerId": "ElSJFfo1x"
+        "classId": "oil_blocks_concession",
+        "display": "Oil Blocks Under Concession",
+        "datasourceId": "oil_blocks_concession",
+        "layerId": "zxv2SutcS"
+      },
+      {
+        "classId": "oil_production_fields",
+        "display": "Oil Production Fields",
+        "datasourceId": "oil_production_fields",
+        "layerId": "UGqS92gF1"
+      }
+    ]
+  },
+  {
+    "metricId": "oilPlatformOverlap",
+    "type": "countOverlap",
+    "classes": [
+      {
+        "classId": "oil_platforms",
+        "display": "Oil Platforms",
+        "datasourceId": "oil_platforms",
+        "layerId": "nZgYOJGRE"
+      }
+    ]
+  },
+  {
+    "metricId": "fishingIntensityOverlap",
+    "type": "areaOverlap",
+    "layerId": "",
+    "classes": [
+      {
+        "classId": "Very Low",
+        "classKey": "intensity",
+        "display": "Very Low",
+        "datasourceId": "fishing_intensity",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "Low",
+        "classKey": "intensity",
+        "display": "Low",
+        "datasourceId": "fishing_intensity",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "Medium",
+        "classKey": "intensity",
+        "display": "Medium",
+        "datasourceId": "fishing_intensity",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "High",
+        "classKey": "intensity",
+        "display": "High",
+        "datasourceId": "fishing_intensity",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "Very High",
+        "classKey": "intensity",
+        "display": "Very High",
+        "datasourceId": "fishing_intensity",
+        "objectiveId": "",
+        "layerId": ""
+      }
+    ]
+  },
+  {
+    "metricId": "marineTrafficOverlap",
+    "type": "areaOverlap",
+    "layerId": "",
+    "classes": [
+      {
+        "classId": "Low",
+        "classKey": "intensity_class",
+        "display": "Low",
+        "datasourceId": "marine_traffic_northeast",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "Medium",
+        "classKey": "intensity_class",
+        "display": "Medium",
+        "datasourceId": "marine_traffic_northeast",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "High",
+        "classKey": "intensity_class",
+        "display": "High",
+        "datasourceId": "marine_traffic_northeast",
+        "objectiveId": "",
+        "layerId": ""
       }
     ]
   }

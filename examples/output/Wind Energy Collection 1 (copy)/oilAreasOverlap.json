@@ -1,0 +1,290 @@
+{
+  "metrics": [
+    {
+      "metricId": "oilAreasOverlap",
+      "sketchId": "18891",
+      "classId": "oil_blocks_concession",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Wind Farm 6"
+      }
+    },
+    {
+      "metricId": "oilAreasOverlap",
+      "sketchId": "18890",
+      "classId": "oil_blocks_concession",
+      "groupId": null,
+      "geographyId": null,
+      "value": 3619958436.132948,
+      "extra": {
+        "sketchName": "Wind Farm 3"
+      }
+    },
+    {
+      "metricId": "oilAreasOverlap",
+      "sketchId": "18889",
+      "classId": "oil_blocks_concession",
+      "groupId": null,
+      "geographyId": null,
+      "value": 3619958436.132948,
+      "extra": {
+        "sketchName": "Wind Energy Collection 1 (copy)",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "oilAreasOverlap",
+      "sketchId": "18891",
+      "classId": "oil_production_fields",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Wind Farm 6"
+      }
+    },
+    {
+      "metricId": "oilAreasOverlap",
+      "sketchId": "18890",
+      "classId": "oil_production_fields",
+      "groupId": null,
+      "geographyId": null,
+      "value": 544990689.3823507,
+      "extra": {
+        "sketchName": "Wind Farm 3"
+      }
+    },
+    {
+      "metricId": "oilAreasOverlap",
+      "sketchId": "18889",
+      "classId": "oil_production_fields",
+      "groupId": null,
+      "geographyId": null,
+      "value": 544990689.3823507,
+      "extra": {
+        "sketchName": "Wind Energy Collection 1 (copy)",
+        "isCollection": true
+      }
+    }
+  ],
+  "sketch": {
+    "id": 18889,
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": 18891,
+        "bbox": [
+          -53.369446,
+          -34.168247,
+          -48.132656,
+          -28.374582
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Wind Farm 6",
+          "2948": [
+            "MPA"
+          ],
+          "id": "18891",
+          "name": "Wind Farm 6",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-09-05T19:38:45.99842+00:00",
+          "updatedAt": "2023-09-05T19:39:17.688456+00:00",
+          "zone_type": [
+            "MPA"
+          ],
+          "description": null,
+          "collectionId": "18889",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "MPA"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Marine Protected Area"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Área Marinha Protegida"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 18890,
+        "bbox": [
+          -39.038746,
+          -5.147504,
+          -35.282337,
+          -3.0137126
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Wind Farm 3",
+          "2948": [
+            "Renewable Energy"
+          ],
+          "id": "18890",
+          "name": "Wind Farm 3",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-09-05T19:38:45.99842+00:00",
+          "updatedAt": "2023-09-05T19:38:45.99842+00:00",
+          "zone_type": [
+            "Renewable Energy"
+          ],
+          "description": null,
+          "collectionId": "18889",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "Renewable Energy"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Renewable Energy Zone"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Zona de Energia Renovável"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      }
+    ],
+    "properties": {
+      "3431": "Wind Energy Collection 1",
+      "id": "18889",
+      "name": "Wind Energy Collection 1 (copy)",
+      "postId": null,
+      "userId": "128",
+      "authors": null,
+      "userSlug": "Peter",
+      "createdAt": "2023-09-05T19:38:45.99842+00:00",
+      "updatedAt": "2023-09-05T19:39:17.688456+00:00",
+      "description": null,
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "304",
+      "userAttributes": [
+        {
+          "label": "Description",
+          "value": null,
+          "exportId": "description",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 3432,
+          "alternateLanguages": {
+            "pt": {
+              "label": "Descrição",
+              "valueLabel": null
+            }
+          }
+        },
+        {
+          "label": "Authors",
+          "value": null,
+          "exportId": "authors",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 3433,
+          "alternateLanguages": {
+            "pt": {
+              "label": "Autores",
+              "valueLabel": null
+            }
+          }
+        }
+      ]
+    }
+  }
+}

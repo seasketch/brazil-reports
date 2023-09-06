@@ -2,7 +2,7 @@
   "editor.tabSize": 2,
   "editor.minimap.enabled": false,
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "vscode.typescript-language-features",
     "editor.formatOnSave": true
   },
   "[javascript]": {
@@ -18,9 +18,11 @@
     "editor.formatOnSave": true
   },
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "files.associations": { "*.geojson": "json"},
+  "files.associations": {
+    "*.geojson": "json"
+  },
   "json.schemas": [
     {
       "fileMatch": [

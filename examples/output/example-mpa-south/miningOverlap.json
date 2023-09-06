@@ -3,10 +3,10 @@
     {
       "metricId": "miningOverlap",
       "sketchId": "15454",
-      "classId": "mining_active_all",
+      "classId": "mining_process",
       "groupId": null,
       "geographyId": null,
-      "value": 6518135.868295918,
+      "value": 6518210.571515502,
       "extra": {
         "sketchName": "example-mpa-south"
       }
@@ -14,76 +14,10 @@
     {
       "metricId": "miningOverlap",
       "sketchId": "15454",
-      "classId": "mining_potential_all",
+      "classId": "mining_potential",
       "groupId": null,
       "geographyId": null,
-      "value": 10771268459.768291,
-      "extra": {
-        "sketchName": "example-mpa-south"
-      }
-    },
-    {
-      "metricId": "miningOverlap",
-      "sketchId": "15454",
-      "classId": "mining_active_central-east",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "example-mpa-south"
-      }
-    },
-    {
-      "metricId": "miningOverlap",
-      "sketchId": "15454",
-      "classId": "mining_active_south",
-      "groupId": null,
-      "geographyId": null,
-      "value": 6518135.868295918,
-      "extra": {
-        "sketchName": "example-mpa-south"
-      }
-    },
-    {
-      "metricId": "miningOverlap",
-      "sketchId": "15454",
-      "classId": "mining_potential_central-east",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "example-mpa-south"
-      }
-    },
-    {
-      "metricId": "miningOverlap",
-      "sketchId": "15454",
-      "classId": "mining_potential_north",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "example-mpa-south"
-      }
-    },
-    {
-      "metricId": "miningOverlap",
-      "sketchId": "15454",
-      "classId": "mining_potential_northeast",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "example-mpa-south"
-      }
-    },
-    {
-      "metricId": "miningOverlap",
-      "sketchId": "15454",
-      "classId": "mining_potential_south",
-      "groupId": null,
-      "geographyId": null,
-      "value": 10771268459.768291,
+      "value": 10771269179.775198,
       "extra": {
         "sketchName": "example-mpa-south"
       }
