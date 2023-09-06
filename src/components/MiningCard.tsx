@@ -123,8 +123,8 @@ export const MiningCard = () => {
                   mining areas.
                 </p>
                 <p>
-                  If MPA boundaries overlap with each other, the overlap is only
-                  counted once.
+                  If zone boundaries overlap with each other, the overlap is
+                  only counted once.
                 </p>
               </Collapse>
             </>

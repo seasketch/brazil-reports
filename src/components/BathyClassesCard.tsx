@@ -44,7 +44,7 @@ export const BathyClassesCard = () => {
   return (
     <>
       <ResultsCard
-        title={t("Benthic Ecozones")}
+        title={t("Bathymetric Classes")}
         functionName="bathyClassesOverlap"
         useChildCard
       >
@@ -144,7 +144,7 @@ export const BathyClassesCard = () => {
                     classes within this plan.
                   </p>
                   <p>
-                    If MPA boundaries overlap with each other, the overlap is
+                    If zone boundaries overlap with each other, the overlap is
                     only counted once.
                   </p>
                 </Trans>

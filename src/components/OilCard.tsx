@@ -149,7 +149,7 @@ export const OilCard = () => {
                     concession and oil production fields.
                   </p>
                   <p>
-                    If MPA boundaries overlap with each other, the overlap is
+                    If zone boundaries overlap with each other, the overlap is
                     only counted once.
                   </p>
                 </Trans>

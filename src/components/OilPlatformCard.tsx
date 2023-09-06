@@ -22,30 +22,30 @@ import project from "../../project";
 import Translator from "./TranslatorAsync";
 import { Trans, useTranslation } from "react-i18next";
 
-const metricGroup = project.getMetricGroup("priorityAreaOverlap");
+const metricGroup = project.getMetricGroup("oilPlatformOverlap");
 const precalcMetrics = project.getPrecalcMetrics(
   metricGroup,
-  "area",
+  "count",
   metricGroup.classKey
 );
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
 
-export const PriorityAreaCard = () => {
+export const OilPlatformCard = () => {
   const [{ isCollection }] = useSketchProperties();
   const { t } = useTranslation();
 
   const mapLabel = t("Map");
-  const priorityLabel = t("Priority Level");
-  const areaWithin = t("Area Within Plan");
-  const percAreaWithin = `% ${t("Area Within Plan")}`;
+  const typeLabel = t("Type");
+  const pointsWithin = t("Points Within Plan");
+  const percPointsWithin = `% ${t("Points Within Plan")}`;
   const sqKmLabel = t("km²");
 
   return (
     <>
       <ResultsCard
-        title={t("Priority Areas for Conservation")}
-        functionName="priorityAreaOverlap"
+        title={t("Oil Platforms")}
+        functionName="oilPlatformOverlap"
         useChildCard
       >
         {(data: ReportResult) => {
@@ -64,7 +64,7 @@ export const PriorityAreaCard = () => {
 
           return (
             <ToolbarCard
-              title={t("Priority Areas for Conservation")}
+              title={t("Oil Platforms")}
               items={
                 <LayerToggle
                   label={mapLabel}
@@ -79,12 +79,12 @@ export const PriorityAreaCard = () => {
                   metricGroup={metricGroup}
                   columnConfig={[
                     {
-                      columnLabel: priorityLabel,
+                      columnLabel: typeLabel,
                       type: "class",
                       width: 30,
                     },
                     {
-                      columnLabel: areaWithin,
+                      columnLabel: pointsWithin,
                       type: "metricValue",
                       metricId: metricGroup.metricId,
                       valueFormatter: (val: string | number) =>
@@ -99,7 +99,7 @@ export const PriorityAreaCard = () => {
                       width: 30,
                     },
                     {
-                      columnLabel: percAreaWithin,
+                      columnLabel: percPointsWithin,
                       type: "metricChart",
                       metricId: project.getMetricGroupPercId(metricGroup),
                       valueFormatter: "percent",
@@ -126,6 +126,11 @@ export const PriorityAreaCard = () => {
                         }
                       },
                     },
+                    {
+                      columnLabel: mapLabel,
+                      type: "layerToggle",
+                      width: 10,
+                    },
                   ]}
                 />
               </Translator>
@@ -137,12 +142,8 @@ export const PriorityAreaCard = () => {
               )}
 
               <Collapse title={t("Learn more")}>
-                <Trans i18nKey="Priority Areas Card - learn more">
-                  <p>
-                    {" "}
-                    This report summarizes the amount of priority conservation
-                    areas within this plan.
-                  </p>
+                <Trans i18nKey="Oil Card - learn more">
+                  <p> This report summarizes overlap with oil platforms.</p>
                   <p>
                     If zone boundaries overlap with each other, the overlap is
                     only counted once.
