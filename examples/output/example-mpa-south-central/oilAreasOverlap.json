@@ -6,7 +6,7 @@
       "classId": "oil_blocks_concession",
       "groupId": null,
       "geographyId": null,
-      "value": 30637859916.788326,
+      "value": 30637860022.235416,
       "extra": {
         "sketchName": "example-mpa-south-central"
       }
@@ -17,7 +17,7 @@
       "classId": "oil_production_fields",
       "groupId": null,
       "geographyId": null,
-      "value": 10420476358.555647,
+      "value": 10420476812.3672,
       "extra": {
         "sketchName": "example-mpa-south-central"
       }

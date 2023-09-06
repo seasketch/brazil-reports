@@ -94,7 +94,7 @@
       "classId": "mining_process",
       "groupId": null,
       "geographyId": null,
-      "value": 40746689.813426994,
+      "value": 40746606.04380843,
       "extra": {
         "sketchName": "Existing MPA 2"
       }
@@ -182,7 +182,7 @@
       "classId": "mining_process",
       "groupId": null,
       "geographyId": null,
-      "value": 40746689.813426994,
+      "value": 40746606.04380843,
       "extra": {
         "sketchName": "Existing MPAS",
         "isCollection": true
@@ -205,7 +205,7 @@
       "classId": "mining_potential",
       "groupId": null,
       "geographyId": null,
-      "value": 149691043.6610067,
+      "value": 149691313.80545786,
       "extra": {
         "sketchName": "Existing MPA 11"
       }
@@ -249,7 +249,7 @@
       "classId": "mining_potential",
       "groupId": null,
       "geographyId": null,
-      "value": 770323524.3595963,
+      "value": 770324174.2648821,
       "extra": {
         "sketchName": "Existing MPA 8"
       }
@@ -271,7 +271,7 @@
       "classId": "mining_potential",
       "groupId": null,
       "geographyId": null,
-      "value": 77895431.72350924,
+      "value": 77894766.8326942,
       "extra": {
         "sketchName": "Existing MPA 10"
       }
@@ -282,7 +282,7 @@
       "classId": "mining_potential",
       "groupId": null,
       "geographyId": null,
-      "value": 51803203.63330204,
+      "value": 51803092.330298655,
       "extra": {
         "sketchName": "Existing MPA 2"
       }
@@ -348,7 +348,7 @@
       "classId": "mining_potential",
       "groupId": null,
       "geographyId": null,
-      "value": 36103443.793551154,
+      "value": 36102481.227680266,
       "extra": {
         "sketchName": "Existing MPA 1"
       }
@@ -370,7 +370,7 @@
       "classId": "mining_potential",
       "groupId": null,
       "geographyId": null,
-      "value": 1085816647.1709652,
+      "value": 1085815828.461013,
       "extra": {
         "sketchName": "Existing MPAS",
         "isCollection": true

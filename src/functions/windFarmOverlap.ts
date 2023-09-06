@@ -14,6 +14,7 @@ import {
 } from "@seasketch/geoprocessing";
 import { fgbFetchAll } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
+import truncate from "@turf/truncate";
 import project from "../../project";
 
 export async function windFarmOverlap(
@@ -52,7 +53,12 @@ export async function windFarmOverlap(
               }, [])
               : dsFeatures;
 
-          return finalFeatures;
+          // truncate vertex precision to 6 decimal places - without this turf throws an error when overlapFeatures() is called
+          const finalFeaturesTrunc = finalFeatures.map((feat) => {
+            const trunc = truncate(feat)
+            return trunc
+          })
+          return finalFeaturesTrunc;
         }
         return [];
       })

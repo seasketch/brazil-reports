@@ -162,8 +162,8 @@
     ],
     "layerName": "usos_humanos.mineracao_areas_potenciais",
     "classKeys": [],
-    "created": "2023-08-30T22:00:10.939Z",
-    "lastUpdated": "2023-08-30T22:00:10.948Z",
+    "created": "2023-09-05T23:01:17.143Z",
+    "lastUpdated": "2023-09-05T23:01:17.145Z",
     "src": "data/src/fromDatabase/usos_humanos.mineracao_areas_potenciais.json",
     "propertiesToKeep": []
   },
@@ -184,8 +184,8 @@
     ],
     "layerName": "usos_humanos.petroleo_plataformas",
     "classKeys": [],
-    "created": "2023-08-30T22:00:10.838Z",
-    "lastUpdated": "2023-08-30T22:00:10.840Z",
+    "created": "2023-09-05T23:01:17.160Z",
+    "lastUpdated": "2023-09-05T23:01:17.162Z",
     "src": "data/src/fromDatabase/usos_humanos.petroleo_plataformas.json",
     "propertiesToKeep": []
   },
@@ -462,8 +462,8 @@
     ],
     "layerName": "usos_humanos.eolico_parques",
     "classKeys": [],
-    "created": "2023-08-30T22:00:10.822Z",
-    "lastUpdated": "2023-08-30T22:00:10.823Z",
+    "created": "2023-09-05T23:01:17.125Z",
+    "lastUpdated": "2023-09-05T23:01:17.127Z",
     "src": "data/src/fromDatabase/usos_humanos.eolico_parques.json",
     "propertiesToKeep": []
   },
@@ -484,8 +484,8 @@
     ],
     "layerName": "usos_humanos.eolico_torres",
     "classKeys": [],
-    "created": "2023-08-30T22:00:13.126Z",
-    "lastUpdated": "2023-08-30T22:00:13.127Z",
+    "created": "2023-09-05T23:01:19.421Z",
+    "lastUpdated": "2023-09-05T23:01:19.422Z",
     "src": "data/src/fromDatabase/usos_humanos.eolico_torres.json",
     "propertiesToKeep": []
   },
@@ -506,8 +506,8 @@
     ],
     "layerName": "usos_humanos.eolico_linhas_transmissao",
     "classKeys": [],
-    "created": "2023-08-30T22:00:12.034Z",
-    "lastUpdated": "2023-08-30T22:00:12.035Z",
+    "created": "2023-09-05T23:01:18.436Z",
+    "lastUpdated": "2023-09-05T23:01:18.437Z",
     "src": "data/src/fromDatabase/usos_humanos.eolico_linhas_transmissao.json",
     "propertiesToKeep": []
   },
@@ -552,34 +552,12 @@
     "classKeys": [
       "class"
     ],
-    "created": "2023-08-30T22:00:12.818Z",
-    "lastUpdated": "2023-08-30T22:00:12.819Z",
+    "created": "2023-09-05T23:01:19.116Z",
+    "lastUpdated": "2023-09-05T23:01:19.117Z",
     "src": "data/src/fromDatabase/public.batimetria_classes.json",
     "propertiesToKeep": [
       "class"
     ]
-  },
-  {
-    "datasourceId": "mining_process",
-    "geo_type": "vector",
-    "keyStats": {
-      "total": {
-        "total": {
-          "count": 821,
-          "sum": null,
-          "area": 14745682385.508146
-        }
-      }
-    },
-    "formats": [
-      "fgb"
-    ],
-    "layerName": "usos_humanos.mineracao_processos",
-    "classKeys": [],
-    "created": "2023-08-30T22:00:10.921Z",
-    "lastUpdated": "2023-08-30T22:00:10.923Z",
-    "src": "data/src/fromDatabase/usos_humanos.mineracao_processos.json",
-    "propertiesToKeep": []
   },
   {
     "datasourceId": "oil_blocks_concession",
@@ -598,8 +576,8 @@
     ],
     "layerName": "usos_humanos.petroleo_blocos_concessao",
     "classKeys": [],
-    "created": "2023-08-30T22:00:11.029Z",
-    "lastUpdated": "2023-08-30T22:00:11.030Z",
+    "created": "2023-09-05T23:01:17.214Z",
+    "lastUpdated": "2023-09-05T23:01:17.216Z",
     "src": "data/src/fromDatabase/usos_humanos.petroleo_blocos_concessao.json",
     "propertiesToKeep": []
   },
@@ -620,8 +598,8 @@
     ],
     "layerName": "usos_humanos.petroleo_campos_producao",
     "classKeys": [],
-    "created": "2023-08-30T22:00:11.068Z",
-    "lastUpdated": "2023-08-30T22:00:11.069Z",
+    "created": "2023-09-05T23:01:17.340Z",
+    "lastUpdated": "2023-09-05T23:01:17.341Z",
     "src": "data/src/fromDatabase/usos_humanos.petroleo_campos_producao.json",
     "propertiesToKeep": []
   },
@@ -648,16 +626,8 @@
     "propertiesToKeep": []
   },
   {
-    "src": "data/src/Brazil/Data_Products/brazil-data-db/unidades_federacao_dissolved.fgb",
-    "layerName": "unidades_federacao_dissolved",
-    "geo_type": "vector",
     "datasourceId": "brazil-land",
-    "formats": [
-      "fgb"
-    ],
-    "classKeys": [],
-    "created": "2023-09-01T18:45:52.625Z",
-    "lastUpdated": "2023-09-01T18:45:52.625Z",
+    "geo_type": "vector",
     "keyStats": {
       "total": {
         "total": {
@@ -667,6 +637,36 @@
         }
       }
     },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "unidades_federacao_dissolved",
+    "classKeys": [],
+    "created": "2023-09-01T18:45:52.625Z",
+    "lastUpdated": "2023-09-01T18:45:52.625Z",
+    "src": "data/src/Brazil/Data_Products/brazil-data-db/unidades_federacao_dissolved.fgb",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "mining_process",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 821,
+          "sum": null,
+          "area": 14745682385.508146
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "usos_humanos.mineracao_processos",
+    "classKeys": [],
+    "created": "2023-09-05T23:01:17.185Z",
+    "lastUpdated": "2023-09-05T23:01:17.186Z",
+    "src": "data/src/fromDatabase/usos_humanos.mineracao_processos.json",
     "propertiesToKeep": []
   }
 ]
