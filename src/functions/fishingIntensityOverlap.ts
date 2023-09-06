@@ -14,13 +14,14 @@ import {
 } from "@seasketch/geoprocessing";
 import { fgbFetchAll } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
+import truncate from "@turf/truncate";
 import project from "../../project";
 
-export async function shippingOverlap(
+export async function fishingIntensityOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>
 ): Promise<ReportResult> {
   const box = sketch.bbox || bbox(sketch);
-  const metricGroup = project.getMetricGroup("shippingOverlap");
+  const metricGroup = project.getMetricGroup("fishingIntensityOverlap");
 
   let cachedFeatures: Record<string, Feature<Polygon>[]> = {};
 
@@ -43,16 +44,22 @@ export async function shippingOverlap(
           // If this is a sub-class, filter by class name, exclude null geometry too
           // ToDo: should do deeper match to classKey
           const finalFeatures =
-            ds.classKeys.length > 0
+            ds.classKeys.length > 0 &&
+              curClass.classId !== `${ds.datasourceId}_all`
               ? dsFeatures.filter((feat) => {
-                  return (
-                    feat.geometry &&
-                    feat.properties![ds.classKeys[0]] === curClass.classId
-                  );
-                }, [])
+                return (
+                  feat.geometry &&
+                  feat.properties![ds.classKeys[0]] === curClass.classId
+                );
+              }, [])
               : dsFeatures;
 
-          return finalFeatures;
+          // truncate vertex precision to 6 decimal places - without this turf throws an error when overlapFeatures() is called
+          const finalFeaturesTrunc = finalFeatures.map((feat) => {
+            const trunc = truncate(feat)
+            return trunc
+          })
+          return finalFeaturesTrunc;
         }
         return [];
       })
@@ -92,9 +99,9 @@ export async function shippingOverlap(
   };
 }
 
-export default new GeoprocessingHandler(shippingOverlap, {
-  title: "shippingOverlap",
-  description: "Calculate sketch overlap with shipping intensity polygons",
+export default new GeoprocessingHandler(fishingIntensityOverlap, {
+  title: "fishingIntensityOverlap",
+  description: "Calculate sketch overlap with bathymetric classes",
   executionMode: "async",
   timeout: 600,
   requiresProperties: [],

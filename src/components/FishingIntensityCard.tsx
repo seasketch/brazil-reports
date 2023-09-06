@@ -22,7 +22,7 @@ import project from "../../project";
 import Translator from "./TranslatorAsync";
 import { Trans, useTranslation } from "react-i18next";
 
-const metricGroup = project.getMetricGroup("bathyClassesOverlap");
+const metricGroup = project.getMetricGroup("fishingIntensityOverlap");
 const precalcMetrics = project.getPrecalcMetrics(
   metricGroup,
   "area",
@@ -31,7 +31,7 @@ const precalcMetrics = project.getPrecalcMetrics(
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
 
-export const BathyClassesCard = () => {
+export const FishingIntensityCard = () => {
   const [{ isCollection }] = useSketchProperties();
   const { t } = useTranslation();
 
@@ -44,8 +44,8 @@ export const BathyClassesCard = () => {
   return (
     <>
       <ResultsCard
-        title={t("Bathymetric Classes")}
-        functionName="bathyClassesOverlap"
+        title={t("Fishing Intensity")}
+        functionName="fishingIntensityOverlap"
         useChildCard
       >
         {(data: ReportResult) => {
@@ -64,7 +64,7 @@ export const BathyClassesCard = () => {
 
           return (
             <ToolbarCard
-              title={t("Bathymetric Classes")}
+              title={t("Fishing Intensity")}
               items={
                 <LayerToggle
                   label={mapLabel}
@@ -140,8 +140,10 @@ export const BathyClassesCard = () => {
                 <Trans i18nKey="Bathy Classes Card - learn more">
                   <p>
                     {" "}
-                    This report summarizes bathymetric class overlap within this
-                    plan.
+                    This report summarizes the amount of fishing intensity
+                    overlap within this plan. Fishing intensity is fishing
+                    effort per unit area - intensity values have been grouped
+                    into 5 classes.
                   </p>
                   <p>
                     If zone boundaries overlap with each other, the overlap is

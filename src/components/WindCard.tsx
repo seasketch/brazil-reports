@@ -69,16 +69,7 @@ export const WindCard = () => {
           console.log(finalMetrics);
 
           return (
-            <ToolbarCard
-              title={t("Wind Farms")}
-              items={
-                <LayerToggle
-                  label={mapLabel}
-                  layerId={metricGroup.layerId}
-                  simple
-                />
-              }
-            >
+            <ToolbarCard title={t("Wind Farms")}>
               <Translator>
                 <ClassTable
                   rows={finalMetrics}
@@ -131,6 +122,11 @@ export const WindCard = () => {
                             `${valueFormatter(value / 100, "percent0dig")}`;
                         }
                       },
+                    },
+                    {
+                      columnLabel: mapLabel,
+                      type: "layerToggle",
+                      width: 10,
                     },
                   ]}
                 />

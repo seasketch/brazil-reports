@@ -39,12 +39,12 @@ export const OilPlatformCard = () => {
   const typeLabel = t("Type");
   const pointsWithin = t("Points Within Plan");
   const percPointsWithin = `% ${t("Points Within Plan")}`;
-  const sqKmLabel = t("km²");
+  const pointLabel = t("Platforms");
 
   return (
     <>
       <ResultsCard
-        title={t("Oil Platforms")}
+        title={t("Oil Exploration Platforms")}
         functionName="oilPlatformOverlap"
         useChildCard
       >
@@ -64,7 +64,7 @@ export const OilPlatformCard = () => {
 
           return (
             <ToolbarCard
-              title={t("Oil Platforms")}
+              title={t("Oil Exploration Platforms")}
               items={
                 <LayerToggle
                   label={mapLabel}
@@ -87,15 +87,7 @@ export const OilPlatformCard = () => {
                       columnLabel: pointsWithin,
                       type: "metricValue",
                       metricId: metricGroup.metricId,
-                      valueFormatter: (val: string | number) =>
-                        Number.format(
-                          Math.round(
-                            squareMeterToKilometer(
-                              typeof val === "string" ? parseInt(val) : val
-                            )
-                          )
-                        ),
-                      valueLabel: sqKmLabel,
+                      valueLabel: pointLabel,
                       width: 30,
                     },
                     {
@@ -143,7 +135,11 @@ export const OilPlatformCard = () => {
 
               <Collapse title={t("Learn more")}>
                 <Trans i18nKey="Oil Card - learn more">
-                  <p> This report summarizes overlap with oil platforms.</p>
+                  <p>
+                    {" "}
+                    This report summarizes overlap with oil exploration
+                    platforms.
+                  </p>
                   <p>
                     If zone boundaries overlap with each other, the overlap is
                     only counted once.
@@ -162,19 +158,14 @@ const genSketchTable = (data: ReportResult) => {
   // Build agg metric objects for each child sketch in collection with percValue for each class
   const childSketches = toNullSketchArray(data.sketch);
   const childSketchIds = childSketches.map((sk) => sk.properties.id);
-  const childSketchMetrics = toPercentMetric(
-    metricsWithSketchId(
-      data.metrics.filter((m) => m.metricId === metricGroup.metricId),
-      childSketchIds
-    ),
-    precalcMetrics
+  const childSketchMetrics = metricsWithSketchId(
+    data.metrics.filter((m) => m.metricId === metricGroup.metricId),
+    childSketchIds
   );
   const sketchRows = flattenBySketchAllClass(
     childSketchMetrics,
     metricGroup.classes,
     childSketches
   );
-  return (
-    <SketchClassTable rows={sketchRows} metricGroup={metricGroup} formatPerc />
-  );
+  return <SketchClassTable rows={sketchRows} metricGroup={metricGroup} />;
 };

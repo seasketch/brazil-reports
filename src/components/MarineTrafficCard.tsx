@@ -22,7 +22,7 @@ import project from "../../project";
 import Translator from "./TranslatorAsync";
 import { Trans, useTranslation } from "react-i18next";
 
-const metricGroup = project.getMetricGroup("bathyClassesOverlap");
+const metricGroup = project.getMetricGroup("marineTrafficOverlap");
 const precalcMetrics = project.getPrecalcMetrics(
   metricGroup,
   "area",
@@ -31,7 +31,7 @@ const precalcMetrics = project.getPrecalcMetrics(
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
 
-export const BathyClassesCard = () => {
+export const MarineTrafficCard = () => {
   const [{ isCollection }] = useSketchProperties();
   const { t } = useTranslation();
 
@@ -44,8 +44,8 @@ export const BathyClassesCard = () => {
   return (
     <>
       <ResultsCard
-        title={t("Bathymetric Classes")}
-        functionName="bathyClassesOverlap"
+        title={t("Marine Traffic Intensity")}
+        functionName="marineTrafficOverlap"
         useChildCard
       >
         {(data: ReportResult) => {
@@ -64,7 +64,7 @@ export const BathyClassesCard = () => {
 
           return (
             <ToolbarCard
-              title={t("Bathymetric Classes")}
+              title={t("Marine Traffic Intensity")}
               items={
                 <LayerToggle
                   label={mapLabel}
@@ -140,8 +140,9 @@ export const BathyClassesCard = () => {
                 <Trans i18nKey="Bathy Classes Card - learn more">
                   <p>
                     {" "}
-                    This report summarizes bathymetric class overlap within this
-                    plan.
+                    This report summarizes the amount of marine traffic overlap
+                    within this plan. Intensity values have been grouped into 3
+                    classes.
                   </p>
                   <p>
                     If zone boundaries overlap with each other, the overlap is

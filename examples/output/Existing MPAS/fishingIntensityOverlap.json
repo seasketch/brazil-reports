@@ -1,0 +1,2324 @@
+{
+  "metrics": [
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16067",
+      "classId": "Very Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 14"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16060",
+      "classId": "Very Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 11"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16051",
+      "classId": "Very Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1142928.8000070849,
+      "extra": {
+        "sketchName": "Existing MPA 4"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16053",
+      "classId": "Very Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 17277476.982513685,
+      "extra": {
+        "sketchName": "Existing MPA 6"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16050",
+      "classId": "Very Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 3"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16056",
+      "classId": "Very Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 8"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16057",
+      "classId": "Very Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 16"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16059",
+      "classId": "Very Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 10"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16049",
+      "classId": "Very Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 2"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16055",
+      "classId": "Very Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 142811345.8907267,
+      "extra": {
+        "sketchName": "Existing MPA 15"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16052",
+      "classId": "Very Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 5"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16058",
+      "classId": "Very Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 9"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16065",
+      "classId": "Very Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 12"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16054",
+      "classId": "Very Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 7"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16048",
+      "classId": "Very Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 1"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16066",
+      "classId": "Very Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 13"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16068",
+      "classId": "Very Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 161231751.67324746,
+      "extra": {
+        "sketchName": "Existing MPAS",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16067",
+      "classId": "Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 14"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16060",
+      "classId": "Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2349558.136569748,
+      "extra": {
+        "sketchName": "Existing MPA 11"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16051",
+      "classId": "Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 17661696.054154675,
+      "extra": {
+        "sketchName": "Existing MPA 4"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16053",
+      "classId": "Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 13180093.335747689,
+      "extra": {
+        "sketchName": "Existing MPA 6"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16050",
+      "classId": "Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 3"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16056",
+      "classId": "Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 25587921.213820588,
+      "extra": {
+        "sketchName": "Existing MPA 8"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16057",
+      "classId": "Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 16"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16059",
+      "classId": "Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 10"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16049",
+      "classId": "Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 2"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16055",
+      "classId": "Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 100936706.82297795,
+      "extra": {
+        "sketchName": "Existing MPA 15"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16052",
+      "classId": "Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 5"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16058",
+      "classId": "Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 9"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16065",
+      "classId": "Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 12"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16054",
+      "classId": "Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 7"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16048",
+      "classId": "Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 1"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16066",
+      "classId": "Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 22135468.577528875,
+      "extra": {
+        "sketchName": "Existing MPA 13"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16068",
+      "classId": "Low",
+      "groupId": null,
+      "geographyId": null,
+      "value": 181851444.1407995,
+      "extra": {
+        "sketchName": "Existing MPAS",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16067",
+      "classId": "Medium",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 14"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16060",
+      "classId": "Medium",
+      "groupId": null,
+      "geographyId": null,
+      "value": 82420269.81303333,
+      "extra": {
+        "sketchName": "Existing MPA 11"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16051",
+      "classId": "Medium",
+      "groupId": null,
+      "geographyId": null,
+      "value": 7328180.840682849,
+      "extra": {
+        "sketchName": "Existing MPA 4"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16053",
+      "classId": "Medium",
+      "groupId": null,
+      "geographyId": null,
+      "value": 6664653.295072159,
+      "extra": {
+        "sketchName": "Existing MPA 6"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16050",
+      "classId": "Medium",
+      "groupId": null,
+      "geographyId": null,
+      "value": 5136561.021602409,
+      "extra": {
+        "sketchName": "Existing MPA 3"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16056",
+      "classId": "Medium",
+      "groupId": null,
+      "geographyId": null,
+      "value": 57500374.48715225,
+      "extra": {
+        "sketchName": "Existing MPA 8"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16057",
+      "classId": "Medium",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 16"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16059",
+      "classId": "Medium",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2353824.9177908134,
+      "extra": {
+        "sketchName": "Existing MPA 10"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16049",
+      "classId": "Medium",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 2"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16055",
+      "classId": "Medium",
+      "groupId": null,
+      "geographyId": null,
+      "value": 53745240.57536285,
+      "extra": {
+        "sketchName": "Existing MPA 15"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16052",
+      "classId": "Medium",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 5"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16058",
+      "classId": "Medium",
+      "groupId": null,
+      "geographyId": null,
+      "value": 57826271.49518414,
+      "extra": {
+        "sketchName": "Existing MPA 9"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16065",
+      "classId": "Medium",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 12"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16054",
+      "classId": "Medium",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 7"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16048",
+      "classId": "Medium",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 1"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16066",
+      "classId": "Medium",
+      "groupId": null,
+      "geographyId": null,
+      "value": 27562560.233256593,
+      "extra": {
+        "sketchName": "Existing MPA 13"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16068",
+      "classId": "Medium",
+      "groupId": null,
+      "geographyId": null,
+      "value": 300537936.67913735,
+      "extra": {
+        "sketchName": "Existing MPAS",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16067",
+      "classId": "High",
+      "groupId": null,
+      "geographyId": null,
+      "value": 118891489.26765957,
+      "extra": {
+        "sketchName": "Existing MPA 14"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16060",
+      "classId": "High",
+      "groupId": null,
+      "geographyId": null,
+      "value": 382058072.0212172,
+      "extra": {
+        "sketchName": "Existing MPA 11"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16051",
+      "classId": "High",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 4"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16053",
+      "classId": "High",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 6"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16050",
+      "classId": "High",
+      "groupId": null,
+      "geographyId": null,
+      "value": 4453276.227659398,
+      "extra": {
+        "sketchName": "Existing MPA 3"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16056",
+      "classId": "High",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1093499814.3665628,
+      "extra": {
+        "sketchName": "Existing MPA 8"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16057",
+      "classId": "High",
+      "groupId": null,
+      "geographyId": null,
+      "value": 435866568.1141418,
+      "extra": {
+        "sketchName": "Existing MPA 16"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16059",
+      "classId": "High",
+      "groupId": null,
+      "geographyId": null,
+      "value": 275222246.5679647,
+      "extra": {
+        "sketchName": "Existing MPA 10"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16049",
+      "classId": "High",
+      "groupId": null,
+      "geographyId": null,
+      "value": 123520593.85295258,
+      "extra": {
+        "sketchName": "Existing MPA 2"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16055",
+      "classId": "High",
+      "groupId": null,
+      "geographyId": null,
+      "value": 5596876.737417875,
+      "extra": {
+        "sketchName": "Existing MPA 15"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16052",
+      "classId": "High",
+      "groupId": null,
+      "geographyId": null,
+      "value": 69926055.7334894,
+      "extra": {
+        "sketchName": "Existing MPA 5"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16058",
+      "classId": "High",
+      "groupId": null,
+      "geographyId": null,
+      "value": 936202546.1567894,
+      "extra": {
+        "sketchName": "Existing MPA 9"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16065",
+      "classId": "High",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 12"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16054",
+      "classId": "High",
+      "groupId": null,
+      "geographyId": null,
+      "value": 7159639.13135206,
+      "extra": {
+        "sketchName": "Existing MPA 7"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16048",
+      "classId": "High",
+      "groupId": null,
+      "geographyId": null,
+      "value": 36383517.290405884,
+      "extra": {
+        "sketchName": "Existing MPA 1"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16066",
+      "classId": "High",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 13"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16068",
+      "classId": "High",
+      "groupId": null,
+      "geographyId": null,
+      "value": 3488594720.9556303,
+      "extra": {
+        "sketchName": "Existing MPAS",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16067",
+      "classId": "Very High",
+      "groupId": null,
+      "geographyId": null,
+      "value": 396890935.96266043,
+      "extra": {
+        "sketchName": "Existing MPA 14"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16060",
+      "classId": "Very High",
+      "groupId": null,
+      "geographyId": null,
+      "value": 978165236.1306776,
+      "extra": {
+        "sketchName": "Existing MPA 11"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16051",
+      "classId": "Very High",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 4"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16053",
+      "classId": "Very High",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 6"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16050",
+      "classId": "Very High",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 3"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16056",
+      "classId": "Very High",
+      "groupId": null,
+      "geographyId": null,
+      "value": 5419042127.523551,
+      "extra": {
+        "sketchName": "Existing MPA 8"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16057",
+      "classId": "Very High",
+      "groupId": null,
+      "geographyId": null,
+      "value": 136513259.48778024,
+      "extra": {
+        "sketchName": "Existing MPA 16"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16059",
+      "classId": "Very High",
+      "groupId": null,
+      "geographyId": null,
+      "value": 627635411.3117688,
+      "extra": {
+        "sketchName": "Existing MPA 10"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16049",
+      "classId": "Very High",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1093102363.8443239,
+      "extra": {
+        "sketchName": "Existing MPA 2"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16055",
+      "classId": "Very High",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 15"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16052",
+      "classId": "Very High",
+      "groupId": null,
+      "geographyId": null,
+      "value": 99525089.86726215,
+      "extra": {
+        "sketchName": "Existing MPA 5"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16058",
+      "classId": "Very High",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1044555502.2962768,
+      "extra": {
+        "sketchName": "Existing MPA 9"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16065",
+      "classId": "Very High",
+      "groupId": null,
+      "geographyId": null,
+      "value": 17996785.152312998,
+      "extra": {
+        "sketchName": "Existing MPA 12"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16054",
+      "classId": "Very High",
+      "groupId": null,
+      "geographyId": null,
+      "value": 6618865.980509928,
+      "extra": {
+        "sketchName": "Existing MPA 7"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16048",
+      "classId": "Very High",
+      "groupId": null,
+      "geographyId": null,
+      "value": 4021841.0593977016,
+      "extra": {
+        "sketchName": "Existing MPA 1"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16066",
+      "classId": "Very High",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 13"
+      }
+    },
+    {
+      "metricId": "fishingIntensityOverlap",
+      "sketchId": "16068",
+      "classId": "Very High",
+      "groupId": null,
+      "geographyId": null,
+      "value": 9824067418.616522,
+      "extra": {
+        "sketchName": "Existing MPAS",
+        "isCollection": true
+      }
+    }
+  ],
+  "sketch": {
+    "id": 16068,
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": 16067,
+        "bbox": [
+          -42.300457,
+          -23.067293,
+          -41.923473,
+          -22.93174
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Existing MPA 14",
+          "2948": [
+            "MPA"
+          ],
+          "id": "16067",
+          "name": "Existing MPA 14",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-07-24T18:22:42.548616+00:00",
+          "updatedAt": "2023-07-24T18:24:59.730829+00:00",
+          "zone_type": [
+            "MPA"
+          ],
+          "description": null,
+          "collectionId": "16068",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "MPA"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Marine Protected Area"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Área Marinha Protegida"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 16060,
+        "bbox": [
+          -45.356983,
+          -23.640846,
+          -44.598053,
+          -23.334478
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Existing MPA 11",
+          "2948": [
+            "MPA"
+          ],
+          "id": "16060",
+          "name": "Existing MPA 11",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-07-24T17:30:51.873269+00:00",
+          "updatedAt": "2023-07-24T18:24:54.914569+00:00",
+          "zone_type": [
+            "MPA"
+          ],
+          "description": null,
+          "collectionId": "16068",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "MPA"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Marine Protected Area"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Área Marinha Protegida"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 16051,
+        "bbox": [
+          -48.605694,
+          -27.450634,
+          -48.532944,
+          -27.364834
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Existing MPA 4",
+          "2948": [
+            "MPA"
+          ],
+          "id": "16051",
+          "name": "Existing MPA 4",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-07-24T16:55:56.997222+00:00",
+          "updatedAt": "2023-07-24T18:23:25.463071+00:00",
+          "zone_type": [
+            "MPA"
+          ],
+          "description": null,
+          "collectionId": "16068",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "MPA"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Marine Protected Area"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Área Marinha Protegida"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 16053,
+        "bbox": [
+          -48.72521,
+          -25.882204,
+          -48.56632,
+          -25.838867
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Existing MPA 6",
+          "2948": [
+            "MPA"
+          ],
+          "id": "16053",
+          "name": "Existing MPA 6",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-07-24T17:15:52.088263+00:00",
+          "updatedAt": "2023-07-24T18:23:30.163847+00:00",
+          "zone_type": [
+            "MPA"
+          ],
+          "description": null,
+          "collectionId": "16068",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "MPA"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Marine Protected Area"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Área Marinha Protegida"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 16050,
+        "bbox": [
+          -48.571404,
+          -27.673046,
+          -48.524452,
+          -27.623442
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Existing MPA 3",
+          "2948": [
+            "MPA"
+          ],
+          "id": "16050",
+          "name": "Existing MPA 3",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-07-24T16:46:34.87658+00:00",
+          "updatedAt": "2023-07-24T18:23:23.214996+00:00",
+          "zone_type": [
+            "MPA"
+          ],
+          "description": null,
+          "collectionId": "16068",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "MPA"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Marine Protected Area"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Área Marinha Protegida"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 16056,
+        "bbox": [
+          -48.116875,
+          -25.489443,
+          -46.361526,
+          -23.985676
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Existing MPA 8",
+          "2948": [
+            "MPA"
+          ],
+          "id": "16056",
+          "name": "Existing MPA 8",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-07-24T17:22:44.35927+00:00",
+          "updatedAt": "2023-07-24T18:24:49.638668+00:00",
+          "zone_type": [
+            "MPA"
+          ],
+          "description": null,
+          "collectionId": "16068",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "MPA"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Marine Protected Area"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Área Marinha Protegida"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 16057,
+        "bbox": [
+          -46.34803,
+          -24.506659,
+          -46.064594,
+          -24.178541
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Existing MPA 16",
+          "2948": [
+            "MPA"
+          ],
+          "id": "16057",
+          "name": "Existing MPA 16",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-07-24T17:24:17.682402+00:00",
+          "updatedAt": "2023-07-24T18:25:02.327515+00:00",
+          "zone_type": [
+            "MPA"
+          ],
+          "description": null,
+          "collectionId": "16068",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "MPA"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Marine Protected Area"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Área Marinha Protegida"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 16059,
+        "bbox": [
+          -45.473774,
+          -24.01135,
+          -44.91308,
+          -23.707327
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Existing MPA 10",
+          "2948": [
+            "MPA"
+          ],
+          "id": "16059",
+          "name": "Existing MPA 10",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-07-24T17:28:29.489244+00:00",
+          "updatedAt": "2023-07-24T18:24:53.014438+00:00",
+          "zone_type": [
+            "MPA"
+          ],
+          "description": null,
+          "collectionId": "16068",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "MPA"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Marine Protected Area"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Área Marinha Protegida"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 16049,
+        "bbox": [
+          -49.217533,
+          -28.83531,
+          -48.4073,
+          -27.769037
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Existing MPA 2",
+          "2948": [
+            "MPA"
+          ],
+          "id": "16049",
+          "name": "Existing MPA 2",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-07-24T16:44:53.778097+00:00",
+          "updatedAt": "2023-07-24T18:23:20.387344+00:00",
+          "zone_type": [
+            "MPA"
+          ],
+          "description": null,
+          "collectionId": "16068",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "MPA"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Marine Protected Area"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Área Marinha Protegida"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 16055,
+        "bbox": [
+          -48.741974,
+          -25.488396,
+          -48.10513,
+          -25.23054
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Existing MPA 15",
+          "2948": [
+            "MPA"
+          ],
+          "id": "16055",
+          "name": "Existing MPA 15",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-07-24T17:21:00.254647+00:00",
+          "updatedAt": "2023-07-24T18:25:01.162684+00:00",
+          "zone_type": [
+            "MPA"
+          ],
+          "description": null,
+          "collectionId": "16068",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "MPA"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Marine Protected Area"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Área Marinha Protegida"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 16052,
+        "bbox": [
+          -48.42545,
+          -27.29917,
+          -48.307877,
+          -27.157816
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Existing MPA 5",
+          "2948": [
+            "MPA"
+          ],
+          "id": "16052",
+          "name": "Existing MPA 5",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-07-24T16:57:37.947424+00:00",
+          "updatedAt": "2023-07-24T18:23:27.655645+00:00",
+          "zone_type": [
+            "MPA"
+          ],
+          "description": null,
+          "collectionId": "16068",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "MPA"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Marine Protected Area"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Área Marinha Protegida"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 16058,
+        "bbox": [
+          -46.324986,
+          -24.127693,
+          -45.40611,
+          -23.757141
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Existing MPA 9",
+          "2948": [
+            "MPA"
+          ],
+          "id": "16058",
+          "name": "Existing MPA 9",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-07-24T17:26:20.027558+00:00",
+          "updatedAt": "2023-07-24T18:24:51.206626+00:00",
+          "zone_type": [
+            "MPA"
+          ],
+          "description": null,
+          "collectionId": "16068",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "MPA"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Marine Protected Area"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Área Marinha Protegida"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 16065,
+        "bbox": [
+          -44.33397,
+          -23.223154,
+          -44.265545,
+          -23.17661
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Existing MPA 12",
+          "2948": [
+            "MPA"
+          ],
+          "id": "16065",
+          "name": "Existing MPA 12",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-07-24T18:21:03.913426+00:00",
+          "updatedAt": "2023-07-24T18:24:56.429442+00:00",
+          "zone_type": [
+            "MPA"
+          ],
+          "description": null,
+          "collectionId": "16068",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "MPA"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Marine Protected Area"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Área Marinha Protegida"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 16054,
+        "bbox": [
+          -48.381496,
+          -25.762794,
+          -48.32234,
+          -25.719755
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Existing MPA 7",
+          "2948": [
+            "MPA"
+          ],
+          "id": "16054",
+          "name": "Existing MPA 7",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-07-24T17:17:01.503196+00:00",
+          "updatedAt": "2023-07-24T18:24:47.976122+00:00",
+          "zone_type": [
+            "MPA"
+          ],
+          "description": null,
+          "collectionId": "16068",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "MPA"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Marine Protected Area"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Área Marinha Protegida"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 16048,
+        "bbox": [
+          -51.16479,
+          -31.491245,
+          -50.89793,
+          -31.252829
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Existing MPA 1",
+          "2948": [
+            "MPA"
+          ],
+          "id": "16048",
+          "name": "Existing MPA 1",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-07-24T16:38:35.003776+00:00",
+          "updatedAt": "2023-07-24T18:23:16.850674+00:00",
+          "zone_type": [
+            "MPA"
+          ],
+          "description": null,
+          "collectionId": "16068",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "MPA"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Marine Protected Area"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Área Marinha Protegida"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 16066,
+        "bbox": [
+          -43.10869,
+          -22.768661,
+          -43.022755,
+          -22.676037
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Existing MPA 13",
+          "2948": [
+            "MPA"
+          ],
+          "id": "16066",
+          "name": "Existing MPA 13",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-07-24T18:21:49.52952+00:00",
+          "updatedAt": "2023-07-24T18:24:58.169616+00:00",
+          "zone_type": [
+            "MPA"
+          ],
+          "description": null,
+          "collectionId": "16068",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "MPA"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Marine Protected Area"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Área Marinha Protegida"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      }
+    ],
+    "properties": {
+      "3431": "Existing MPAS",
+      "id": "16068",
+      "name": "Existing MPAS",
+      "postId": null,
+      "userId": "128",
+      "authors": null,
+      "userSlug": "Peter",
+      "createdAt": "2023-07-24T18:23:10.63411+00:00",
+      "updatedAt": "2023-07-24T18:25:02.327515+00:00",
+      "description": null,
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "304",
+      "userAttributes": [
+        {
+          "label": "Description",
+          "value": null,
+          "exportId": "description",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 3432,
+          "alternateLanguages": {
+            "pt": {
+              "label": "Descrição",
+              "valueLabel": null
+            }
+          }
+        },
+        {
+          "label": "Authors",
+          "value": null,
+          "exportId": "authors",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 3433,
+          "alternateLanguages": {
+            "pt": {
+              "label": "Autores",
+              "valueLabel": null
+            }
+          }
+        }
+      ]
+    }
+  }
+}

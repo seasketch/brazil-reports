@@ -668,5 +668,97 @@
     "lastUpdated": "2023-09-05T23:01:17.186Z",
     "src": "data/src/fromDatabase/usos_humanos.mineracao_processos.json",
     "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "fishing_intensity",
+    "geo_type": "vector",
+    "keyStats": {
+      "intensity": {
+        "Medium": {
+          "count": 318,
+          "area": 1928628340729.383
+        },
+        "Low": {
+          "count": 406,
+          "area": 1889107483067.0803
+        },
+        "Very Low": {
+          "count": 203,
+          "area": 1613663538623.641
+        },
+        "High": {
+          "count": 155,
+          "area": 1565192332388.0823
+        },
+        "Very High": {
+          "count": 97,
+          "area": 376963452231.017
+        }
+      },
+      "total": {
+        "total": {
+          "count": 1179,
+          "sum": null,
+          "area": 7373555147039.208
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "fishing_intensity_all_gfw_levels",
+    "classKeys": [
+      "intensity"
+    ],
+    "created": "2023-09-06T17:43:51.827Z",
+    "lastUpdated": "2023-09-06T17:43:51.827Z",
+    "src": "data/src/Brazil/Data_Products/gfw/fishing_intensity_all_gfw_levels.fgb",
+    "propertiesToKeep": [
+      "intensity"
+    ]
+  },
+  {
+    "src": "data/src/Brazil/Data_Products/shipping/marine_traffic_northeast_classes.fgb",
+    "layerName": "marine_traffic_northeast_classes",
+    "geo_type": "vector",
+    "datasourceId": "marine_traffic_northeast",
+    "formats": [
+      "fgb"
+    ],
+    "classKeys": [
+      "intensity_class"
+    ],
+    "created": "2023-09-06T21:14:50.564Z",
+    "lastUpdated": "2023-09-06T21:14:50.564Z",
+    "keyStats": {
+      "intensity_class": {
+        "Low": {
+          "count": 27782,
+          "area": 479674154577.77155
+        },
+        "undefined": {
+          "count": 60145,
+          "area": 683121152775.1826
+        },
+        "Medium": {
+          "count": 20409,
+          "area": 980377649039.4193
+        },
+        "High": {
+          "count": 6840,
+          "area": 383550170235.19037
+        }
+      },
+      "total": {
+        "total": {
+          "count": 115176,
+          "sum": null,
+          "area": 2526723126627.6855
+        }
+      }
+    },
+    "propertiesToKeep": [
+      "intensity_class"
+    ]
   }
 ]

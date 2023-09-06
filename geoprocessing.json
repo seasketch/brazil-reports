@@ -23,6 +23,8 @@
     "src/functions/priorityAreaOverlap.ts",
     "src/functions/miningOverlap.ts",
     "src/functions/bathyClassesOverlap.ts",
-    "src/functions/oilAreasOverlap.ts"
+    "src/functions/oilAreasOverlap.ts",
+    "src/functions/fishingIntensityOverlap.ts",
+    "src/functions/marineTrafficOverlap.ts"
   ]
 }

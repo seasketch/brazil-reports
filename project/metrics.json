@@ -238,5 +238,83 @@
         "layerId": "nZgYOJGRE"
       }
     ]
+  },
+  {
+    "metricId": "fishingIntensityOverlap",
+    "type": "areaOverlap",
+    "layerId": "",
+    "classes": [
+      {
+        "classId": "Very Low",
+        "classKey": "intensity",
+        "display": "Very Low",
+        "datasourceId": "fishing_intensity",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "Low",
+        "classKey": "intensity",
+        "display": "Low",
+        "datasourceId": "fishing_intensity",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "Medium",
+        "classKey": "intensity",
+        "display": "Medium",
+        "datasourceId": "fishing_intensity",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "High",
+        "classKey": "intensity",
+        "display": "High",
+        "datasourceId": "fishing_intensity",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "Very High",
+        "classKey": "intensity",
+        "display": "Very High",
+        "datasourceId": "fishing_intensity",
+        "objectiveId": "",
+        "layerId": ""
+      }
+    ]
+  },
+  {
+    "metricId": "marineTrafficOverlap",
+    "type": "areaOverlap",
+    "layerId": "",
+    "classes": [
+      {
+        "classId": "Low",
+        "classKey": "intensity_class",
+        "display": "Low",
+        "datasourceId": "marine_traffic_northeast",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "Medium",
+        "classKey": "intensity_class",
+        "display": "Medium",
+        "datasourceId": "marine_traffic_northeast",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "High",
+        "classKey": "intensity_class",
+        "display": "High",
+        "datasourceId": "marine_traffic_northeast",
+        "objectiveId": "",
+        "layerId": ""
+      }
+    ]
   }
 ]
