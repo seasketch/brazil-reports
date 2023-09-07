@@ -22,10 +22,15 @@ import {
   ToolbarCard,
   DataDownload,
   InfoStatus,
+  KeySection,
 } from "@seasketch/geoprocessing/client-ui";
 import styled from "styled-components";
 import project from "../../project";
-import { Metric, squareMeterToKilometer } from "@seasketch/geoprocessing";
+import {
+  Metric,
+  dataClassSchema,
+  squareMeterToKilometer,
+} from "@seasketch/geoprocessing";
 import Translator from "../components/TranslatorAsync";
 import { Trans, useTranslation } from "react-i18next";
 import { TFunction } from "i18next";
@@ -38,7 +43,7 @@ const boundaryTotalMetrics: Metric[] = [
     sketchId: null,
     groupId: null,
     geographyId: null,
-    value: 3032525677797.563,
+    value: 3512062245697.731,
   },
 ];
 
@@ -133,6 +138,30 @@ export const SizeCard = () => {
                   targets for each boundary.
                 </Trans>
               </p>
+              <p>
+                {/* present amount of existing protected coastal land and total with proposed plan */}
+                Currently,{" "}
+                <b>
+                  115,433.7 km<sup>2</sup>
+                </b>{" "}
+                of coastal land is protected.
+              </p>
+              <p>
+                <KeySection>
+                  <div style={{ textAlign: "center" }}>
+                    Proposed plan + protected coastland =
+                    <b>
+                      {" " +
+                        Math.round(
+                          // get value of last object in metric array which will represent either the sole sketch or the total for a collection
+                          data.metrics[data.metrics.length - 1].value / 1e6 +
+                            115433.7
+                        ).toLocaleString("en-US")}
+                      km<sup>2</sup>
+                    </b>
+                  </div>
+                </KeySection>
+              </p>
               {genSingleSizeTable(data, metricGroup, t)}
               {isCollection && (
                 <Collapse title={t("Show by MPA")}>
@@ -190,6 +219,8 @@ const genSingleSizeTable = (
   let singleMetrics = data.metrics.filter(
     (m) => m.sketchId === data.sketch.properties.id
   );
+
+  // singleMetrics[0].value += 115433731804.85054;
 
   const finalMetrics = sortMetricsDisplayOrder(
     [

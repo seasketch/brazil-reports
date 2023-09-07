@@ -29,8 +29,6 @@ const precalcMetrics = project.getPrecalcMetrics(
   metricGroup.classKey
 );
 
-console.log(metricGroup);
-
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
 
 export const WindCard = () => {
@@ -55,8 +53,6 @@ export const WindCard = () => {
             (m) => m.sketchId === data.sketch.properties.id
           );
 
-          console.log(data.metrics);
-
           const finalMetrics = [
             ...singleMetrics,
             ...toPercentMetric(
@@ -65,8 +61,6 @@ export const WindCard = () => {
               project.getMetricGroupPercId(metricGroup)
             ),
           ];
-
-          console.log(finalMetrics);
 
           return (
             <ToolbarCard title={t("Wind Farms")}>
