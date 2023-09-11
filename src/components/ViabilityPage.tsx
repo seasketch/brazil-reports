@@ -6,7 +6,7 @@ import { WindCard } from "./WindCard";
 import { OilCard } from "./OilCard";
 import { OilPlatformCard } from "./OilPlatformCard";
 import { FishingIntensityCard } from "./FishingIntensityCard";
-import { MarineTrafficCard } from "./MarineTrafficCard";
+import { ShippingIntensityCard } from "./ShippingIntensityCard";
 
 const ReportPage = () => {
   return (
@@ -18,7 +18,7 @@ const ReportPage = () => {
       <WindCard />
       <OilCard />
       <OilPlatformCard />
-      <MarineTrafficCard />
+      <ShippingIntensityCard />
     </>
   );
 };

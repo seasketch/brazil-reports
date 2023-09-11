@@ -22,7 +22,7 @@ import project from "../../project";
 import Translator from "./TranslatorAsync";
 import { Trans, useTranslation } from "react-i18next";
 
-const metricGroup = project.getMetricGroup("shippingOverlap");
+const metricGroup = project.getMetricGroup("shippingIntensityOverlap");
 const precalcMetrics = project.getPrecalcMetrics(
   metricGroup,
   "area",
@@ -31,12 +31,12 @@ const precalcMetrics = project.getPrecalcMetrics(
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
 
-export const ShippingCard = () => {
+export const ShippingIntensityCard = () => {
   const [{ isCollection }] = useSketchProperties();
   const { t } = useTranslation();
 
   const mapLabel = t("Map");
-  const typeLabel = t("Intensity");
+  const classLabel = t("Class");
   const areaWithin = t("Area Within Plan");
   const percAreaWithin = `% ${t("Area Within Plan")}`;
   const sqKmLabel = t("km²");
@@ -45,7 +45,7 @@ export const ShippingCard = () => {
     <>
       <ResultsCard
         title={t("Shipping Intensity")}
-        functionName="shippingOverlap"
+        functionName="shippingIntensityOverlap"
         useChildCard
       >
         {(data: ReportResult) => {
@@ -79,7 +79,7 @@ export const ShippingCard = () => {
                   metricGroup={metricGroup}
                   columnConfig={[
                     {
-                      columnLabel: typeLabel,
+                      columnLabel: classLabel,
                       type: "class",
                       width: 30,
                     },
@@ -137,11 +137,12 @@ export const ShippingCard = () => {
               )}
 
               <Collapse title={t("Learn more")}>
-                <Trans i18nKey="Priority Areas Card - learn more">
+                <Trans i18nKey="Bathy Classes Card - learn more">
                   <p>
                     {" "}
-                    This report summarizes the estimated amount of shipping
-                    intensity in this plan.
+                    This report summarizes the amount of shipping intensity
+                    overlap within this plan. Intensity values have been grouped
+                    into 3 classes.
                   </p>
                   <p>
                     If zone boundaries overlap with each other, the overlap is

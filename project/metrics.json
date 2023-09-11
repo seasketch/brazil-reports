@@ -242,7 +242,7 @@
   {
     "metricId": "fishingIntensityOverlap",
     "type": "areaOverlap",
-    "layerId": "",
+    "layerId": "eIC6JVm0d",
     "classes": [
       {
         "classId": "Very Low",
@@ -287,15 +287,15 @@
     ]
   },
   {
-    "metricId": "marineTrafficOverlap",
+    "metricId": "shippingIntensityOverlap",
     "type": "areaOverlap",
-    "layerId": "sJoCfflqF",
+    "layerId": "vjLBMMU7f",
     "classes": [
       {
         "classId": "Low",
         "classKey": "intensity_class",
         "display": "Low",
-        "datasourceId": "marine_traffic_northeast",
+        "datasourceId": "shipping_intensity_simplified",
         "objectiveId": "",
         "layerId": ""
       },
@@ -303,7 +303,7 @@
         "classId": "Medium",
         "classKey": "intensity_class",
         "display": "Medium",
-        "datasourceId": "marine_traffic_northeast",
+        "datasourceId": "shipping_intensity_simplified",
         "objectiveId": "",
         "layerId": ""
       },
@@ -311,7 +311,7 @@
         "classId": "High",
         "classKey": "intensity_class",
         "display": "High",
-        "datasourceId": "marine_traffic_northeast",
+        "datasourceId": "shipping_intensity_simplified",
         "objectiveId": "",
         "layerId": ""
       }

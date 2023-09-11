@@ -718,18 +718,8 @@
     ]
   },
   {
-    "src": "data/src/Brazil/Data_Products/shipping/marine_traffic_northeast_classes.fgb",
-    "layerName": "marine_traffic_northeast_classes",
-    "geo_type": "vector",
     "datasourceId": "marine_traffic_northeast",
-    "formats": [
-      "fgb"
-    ],
-    "classKeys": [
-      "intensity_class"
-    ],
-    "created": "2023-09-06T21:14:50.564Z",
-    "lastUpdated": "2023-09-06T21:14:50.564Z",
+    "geo_type": "vector",
     "keyStats": {
       "intensity_class": {
         "Low": {
@@ -754,6 +744,60 @@
           "count": 115176,
           "sum": null,
           "area": 2526723126627.6855
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "marine_traffic_northeast_classes",
+    "classKeys": [
+      "intensity_class"
+    ],
+    "created": "2023-09-06T21:14:50.564Z",
+    "lastUpdated": "2023-09-06T21:14:50.564Z",
+    "src": "data/src/Brazil/Data_Products/shipping/marine_traffic_northeast_classes.fgb",
+    "propertiesToKeep": [
+      "intensity_class"
+    ]
+  },
+  {
+    "src": "data/src/Brazil/Data_Products/shipping/shipping_intensity_simplified.fgb",
+    "layerName": "shipping_intensity_simplified",
+    "geo_type": "vector",
+    "datasourceId": "shipping_intensity_simplified",
+    "formats": [
+      "fgb"
+    ],
+    "classKeys": [
+      "intensity_class"
+    ],
+    "created": "2023-09-08T17:03:17.954Z",
+    "lastUpdated": "2023-09-08T17:03:17.954Z",
+    "keyStats": {
+      "intensity_class": {
+        "Low": {
+          "count": 31101,
+          "area": 659820201212.5327
+        },
+        "undefined": {
+          "count": 63669,
+          "area": 1242603712838.2473
+        },
+        "Medium": {
+          "count": 21881,
+          "area": 1452997153157.0447
+        },
+        "High": {
+          "count": 7222,
+          "area": 864258112549.7513
+        }
+      },
+      "total": {
+        "total": {
+          "count": 123873,
+          "sum": null,
+          "area": 4219679179757.6206
         }
       }
     },

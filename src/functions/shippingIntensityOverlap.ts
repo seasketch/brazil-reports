@@ -17,11 +17,11 @@ import bbox from "@turf/bbox";
 import truncate from "@turf/truncate";
 import project from "../../project";
 
-export async function marineTrafficOverlap(
+export async function shippingIntensityOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>
 ): Promise<ReportResult> {
   const box = sketch.bbox || bbox(sketch);
-  const metricGroup = project.getMetricGroup("marineTrafficOverlap");
+  const metricGroup = project.getMetricGroup("shippingIntensityOverlap");
 
   let cachedFeatures: Record<string, Feature<Polygon>[]> = {};
 
@@ -98,8 +98,8 @@ export async function marineTrafficOverlap(
   };
 }
 
-export default new GeoprocessingHandler(marineTrafficOverlap, {
-  title: "marineTrafficOverlap",
+export default new GeoprocessingHandler(shippingIntensityOverlap, {
+  title: "shippingIntensityOverlap",
   description: "Calculate sketch overlap with shipping intensity polygons",
   executionMode: "async",
   timeout: 600,

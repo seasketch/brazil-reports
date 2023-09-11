@@ -1,34 +1,34 @@
 {
   "metrics": [
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "15454",
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 11909298969.408422,
       "extra": {
         "sketchName": "example-mpa-south"
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "15454",
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 28460236390.664948,
       "extra": {
         "sketchName": "example-mpa-south"
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "15454",
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 19857808875.9943,
       "extra": {
         "sketchName": "example-mpa-south"
       }

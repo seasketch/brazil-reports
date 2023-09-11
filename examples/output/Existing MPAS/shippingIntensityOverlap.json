@@ -1,29 +1,29 @@
 {
   "metrics": [
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16067",
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
-      "value": 33770609.06343069,
+      "value": 36179547.011565425,
       "extra": {
         "sketchName": "Existing MPA 14"
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16060",
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
-      "value": 130923228.52311225,
+      "value": 163385609.15317792,
       "extra": {
         "sketchName": "Existing MPA 11"
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16051",
       "classId": "Low",
       "groupId": null,
@@ -34,7 +34,7 @@
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16053",
       "classId": "Low",
       "groupId": null,
@@ -45,7 +45,7 @@
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16050",
       "classId": "Low",
       "groupId": null,
@@ -56,18 +56,18 @@
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16056",
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 146093927.7899843,
       "extra": {
         "sketchName": "Existing MPA 8"
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16057",
       "classId": "Low",
       "groupId": null,
@@ -78,29 +78,29 @@
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16059",
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 14859667.008006988,
       "extra": {
         "sketchName": "Existing MPA 10"
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16049",
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 6535277.498998984,
       "extra": {
         "sketchName": "Existing MPA 2"
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16055",
       "classId": "Low",
       "groupId": null,
@@ -111,29 +111,29 @@
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16052",
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 669306.5476286545,
       "extra": {
         "sketchName": "Existing MPA 5"
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16058",
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 28083521.4815631,
       "extra": {
         "sketchName": "Existing MPA 9"
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16065",
       "classId": "Low",
       "groupId": null,
@@ -144,18 +144,18 @@
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16054",
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 590288.699498969,
       "extra": {
         "sketchName": "Existing MPA 7"
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16048",
       "classId": "Low",
       "groupId": null,
@@ -166,7 +166,7 @@
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16066",
       "classId": "Low",
       "groupId": null,
@@ -177,41 +177,41 @@
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16068",
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
-      "value": 164693837.58654293,
+      "value": 396397145.1904243,
       "extra": {
         "sketchName": "Existing MPAS",
         "isCollection": true
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16067",
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 106085062.2156908,
+      "value": 148123205.82095796,
       "extra": {
         "sketchName": "Existing MPA 14"
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16060",
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 518058706.0975983,
+      "value": 670358166.6763558,
       "extra": {
         "sketchName": "Existing MPA 11"
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16051",
       "classId": "Medium",
       "groupId": null,
@@ -222,7 +222,7 @@
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16053",
       "classId": "Medium",
       "groupId": null,
@@ -233,7 +233,7 @@
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16050",
       "classId": "Medium",
       "groupId": null,
@@ -244,51 +244,51 @@
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16056",
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 473543110.68094075,
       "extra": {
         "sketchName": "Existing MPA 8"
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16057",
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 14006543.0504395,
       "extra": {
         "sketchName": "Existing MPA 16"
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16059",
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 32634035.03383769,
       "extra": {
         "sketchName": "Existing MPA 10"
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16049",
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 805205899.9296623,
       "extra": {
         "sketchName": "Existing MPA 2"
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16055",
       "classId": "Medium",
       "groupId": null,
@@ -299,29 +299,29 @@
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16052",
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 17855895.65719999,
       "extra": {
         "sketchName": "Existing MPA 5"
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16058",
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 210001552.86351034,
       "extra": {
         "sketchName": "Existing MPA 9"
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16065",
       "classId": "Medium",
       "groupId": null,
@@ -332,18 +332,18 @@
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16054",
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 3349643.279985276,
       "extra": {
         "sketchName": "Existing MPA 7"
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16048",
       "classId": "Medium",
       "groupId": null,
@@ -354,7 +354,7 @@
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16066",
       "classId": "Medium",
       "groupId": null,
@@ -365,151 +365,151 @@
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16068",
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 624143768.3132892,
+      "value": 2375078052.9928904,
       "extra": {
         "sketchName": "Existing MPAS",
         "isCollection": true
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16067",
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 200242502.00632823,
+      "value": 515782363.60121983,
       "extra": {
         "sketchName": "Existing MPA 14"
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16060",
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 253968266.15060243,
+      "value": 1444991954.602522,
       "extra": {
         "sketchName": "Existing MPA 11"
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16051",
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 26132803.574665148,
       "extra": {
         "sketchName": "Existing MPA 4"
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16053",
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 23208802.02180868,
       "extra": {
         "sketchName": "Existing MPA 6"
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16050",
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 9589853.740784232,
       "extra": {
         "sketchName": "Existing MPA 3"
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16056",
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 5020612488.227923,
       "extra": {
         "sketchName": "Existing MPA 8"
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16057",
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 510580891.6440824,
       "extra": {
         "sketchName": "Existing MPA 16"
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16059",
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 905211824.7480686,
       "extra": {
         "sketchName": "Existing MPA 10"
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16049",
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 1030470596.8431922,
       "extra": {
         "sketchName": "Existing MPA 2"
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16055",
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 332561727.00841945,
       "extra": {
         "sketchName": "Existing MPA 15"
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16052",
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 112504485.10000464,
       "extra": {
         "sketchName": "Existing MPA 5"
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16058",
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 1590496880.4800527,
       "extra": {
         "sketchName": "Existing MPA 9"
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16065",
       "classId": "High",
       "groupId": null,
@@ -520,18 +520,18 @@
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16054",
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 13778509.538080644,
       "extra": {
         "sketchName": "Existing MPA 7"
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16048",
       "classId": "High",
       "groupId": null,
@@ -542,23 +542,23 @@
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16066",
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 49696444.566064894,
       "extra": {
         "sketchName": "Existing MPA 13"
       }
     },
     {
-      "metricId": "marineTrafficOverlap",
+      "metricId": "shippingIntensityOverlap",
       "sketchId": "16068",
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 455141846.80243367,
+      "value": 11586364729.830505,
       "extra": {
         "sketchName": "Existing MPAS",
         "isCollection": true
