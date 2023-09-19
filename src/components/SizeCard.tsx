@@ -139,29 +139,29 @@ export const SizeCard = () => {
                 </Trans>
               </p>
               <p>
-                {/* present amount of existing protected coastal land and total with proposed plan */}
-                Currently,{" "}
-                <b>
-                  115,433.7 km<sup>2</sup>
-                </b>{" "}
-                of coastal land is protected.
+                <Trans i18nKey="SizeCard - protected coastland">
+                  {/* present amount of existing protected coastal land and total with proposed plan */}
+                  Currently,{" "}
+                  <b>
+                    115,433.7 km<sup>2</sup>
+                  </b>{" "}
+                  of coastal land is protected.
+                </Trans>
               </p>
-              <p>
-                <KeySection>
-                  <div style={{ textAlign: "center" }}>
-                    Proposed plan + protected coastland =
-                    <b>
-                      {" " +
-                        Math.round(
-                          // get value of last object in metric array which will represent either the sole sketch or the total for a collection
-                          data.metrics[data.metrics.length - 1].value / 1e6 +
-                            115433.7
-                        ).toLocaleString("en-US")}
-                      km<sup>2</sup>
-                    </b>
-                  </div>
-                </KeySection>
-              </p>
+              <KeySection>
+                <div style={{ textAlign: "center" }}>
+                  {t("Proposed plan + protected coastland")} =
+                  <b>
+                    {" " +
+                      Math.round(
+                        // get value of last object in metric array which will represent either the sole sketch or the total for a collection
+                        data.metrics[data.metrics.length - 1].value / 1e6 +
+                          115433.7
+                      ).toLocaleString("en-US")}
+                    km<sup>2</sup>
+                  </b>
+                </div>
+              </KeySection>
               {genSingleSizeTable(data, metricGroup, t)}
               {isCollection && (
                 <Collapse title={t("Show by MPA")}>

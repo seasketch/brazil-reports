@@ -37,8 +37,8 @@ export const OilPlatformCard = () => {
 
   const mapLabel = t("Map");
   const typeLabel = t("Type");
-  const pointsWithin = t("Points Within Plan");
-  const percPointsWithin = `% ${t("Points Within Plan")}`;
+  const pointsWithin = t("Platforms Within Plan");
+  const percPointsWithin = `% ${t("Platforms Within Plan")}`;
   const pointLabel = t("Platforms");
 
   return (
@@ -81,7 +81,7 @@ export const OilPlatformCard = () => {
                     {
                       columnLabel: typeLabel,
                       type: "class",
-                      width: 30,
+                      width: 23,
                     },
                     {
                       columnLabel: pointsWithin,
@@ -117,11 +117,6 @@ export const OilPlatformCard = () => {
                             `${valueFormatter(value / 100, "percent0dig")}`;
                         }
                       },
-                    },
-                    {
-                      columnLabel: mapLabel,
-                      type: "layerToggle",
-                      width: 10,
                     },
                   ]}
                 />

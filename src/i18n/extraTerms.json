@@ -30,5 +30,21 @@
   "Shipping Intensity": "Shipping Intensity",
   "High": "High",
   "Very High": "Very High",
-  "Extremely High": "Extremely High"
+  "Extremely High": "Extremely High",
+  "Wind Farms": "Wind Farms",
+  "Wind Towers": "Wind Towers",
+  "Mining Areas (Process)": "Mining Areas (Process)",
+  "Mining Potential Areas": "Mining Potential Areas",
+  "Low": "Low",
+  "Medium": "Medium",
+  "Power Lines": "Power Lines",
+  "Plataforma Interna (<50 m)": "Plataforma Interna (<50 m)",
+  "Plataforma Externa Rasa (50 - 100 m)": "Plataforma Externa Rasa (50 - 100 m)",
+  "Plataforma Externa Profunda (100 - 200 m)": "Plataforma Externa Profunda (100 - 200 m)",
+  "Talude (200 - 1200 m)": "Talude (200 - 1200 m)",
+  "Bacia Oceânica (> 1200 m)": "Bacia Oceânica (> 1200 m)",
+  "Oil Blocks Under Concession": "Oil Blocks Under Concession",
+  "Oil Production Fields": "Oil Production Fields",
+  "Oil Platforms": "Oil Platforms",
+  "Very Low": "Very Low"
 }

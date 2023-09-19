@@ -230,12 +230,12 @@
   {
     "metricId": "oilPlatformOverlap",
     "type": "countOverlap",
+    "layerId": "nZgYOJGRE",
     "classes": [
       {
         "classId": "oil_platforms",
         "display": "Oil Platforms",
-        "datasourceId": "oil_platforms",
-        "layerId": "nZgYOJGRE"
+        "datasourceId": "oil_platforms"
       }
     ]
   },
@@ -289,7 +289,7 @@
   {
     "metricId": "shippingIntensityOverlap",
     "type": "areaOverlap",
-    "layerId": "vjLBMMU7f",
+    "layerId": "sJoCfflqF",
     "classes": [
       {
         "classId": "Low",
