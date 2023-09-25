@@ -6,7 +6,7 @@
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
-      "value": 11909298969.408422,
+      "value": 0,
       "extra": {
         "sketchName": "example-mpa-south"
       }
@@ -17,7 +17,7 @@
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 28460236390.664948,
+      "value": 0,
       "extra": {
         "sketchName": "example-mpa-south"
       }
@@ -28,7 +28,7 @@
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 19857808875.9943,
+      "value": 0,
       "extra": {
         "sketchName": "example-mpa-south"
       }
