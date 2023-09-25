@@ -44,7 +44,7 @@ export const WindCard = () => {
   return (
     <>
       <ResultsCard
-        title={t("Wind Farms")}
+        title={t("Wind Energy")}
         functionName="windFarmOverlap"
         useChildCard
       >
@@ -64,7 +64,7 @@ export const WindCard = () => {
 
           return (
             <ToolbarCard
-              title={t("Wind Farms")}
+              title={t("Wind Energy")}
               items={
                 <LayerToggle
                   label={mapLabel}

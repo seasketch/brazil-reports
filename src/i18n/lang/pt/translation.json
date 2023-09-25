@@ -140,5 +140,17 @@
   "Trawling": "Pesca de arrasto",
   "Very High": "Muito alto",
   "Wind Farms": "Parques Eólicos",
-  "Shipping Intensity": "Intensidade de Envio"
+  "Shipping Intensity": "Intensidade de Transporte Marítimo",
+  "Shipping": "Transporte Marítimo",
+  "Wind Energy": "Energia Eólica",
+  "Intensity Class": "Aula de Intensidade",
+  "Bathy Classes Card - learn more": "<0> Este relatório resume a quantidade de sobreposição de intensidade de pesca dentro deste plano. A intensidade da pesca é o esforço de pesca por unidade de área. Os valores de intensidade foram agrupados em cinco classes.</0><p>Se os limites da zona se sobrepõem, a sobreposição só é contada uma vez.</p>",
+  "Fishing Intensity Card - learn more": "<0> Este relatório resume a quantidade de sobreposição de intensidade de pesca dentro deste plano. A intensidade da pesca é o esforço de pesca por unidade de área. Os valores de intensidade foram agrupados em cinco classes.</0><p>Se os limites da zona se sobrepõem, a sobreposição só é contada uma vez.</p>",
+  "Oil Card - learn more": "<0> Este relatório resume a sobreposição com blocos petrolíferos sob concessão e campos de produção de petróleo.</0><p>Se os limites das zonas se sobrepuserem, a sobreposição será contada apenas uma vez.</p>",
+  "Oil Platforms - learn more": "<0> Este relatório resume a sobreposição com plataformas de exploração de petróleo.</0><p>Se os limites da zona se sobrepuserem, a sobreposição será contada apenas uma vez.</p>",
+  "Shipping Classes Card - learn more": "<0> Este relatório resume a quantidade de sobreposição de intensidade de envio dentro deste plano. Os valores de intensidade foram agrupados em três classes.</0><p>Se os limites da zona se sobrepuserem, a sobreposição será contada apenas uma vez.</p>",
+  "Wind Card - learn more": "<0> Este relatório resume a quantidade de área do parque eólico dentro deste plano.</0><p>Se os limites da zona se sobrepuserem, a sobreposição será contada apenas uma vez.</p>",
+  "Mining Card - learn more": "<p>Este relatório resume a sobreposição com áreas de mineração ativas e potenciais.</p><p>Se os limites da zona se sobrepuserem, a sobreposição será contada apenas uma vez.</p>",
+  "Intensity": "Intensidade",
+  "Depth": "Profundidade"
 }

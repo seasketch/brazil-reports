@@ -295,7 +295,7 @@
         "classId": "Low",
         "classKey": "intensity_class",
         "display": "Low",
-        "datasourceId": "shipping_intensity_simplified",
+        "datasourceId": "marine_traffic_northeast",
         "objectiveId": "",
         "layerId": ""
       },
@@ -303,7 +303,7 @@
         "classId": "Medium",
         "classKey": "intensity_class",
         "display": "Medium",
-        "datasourceId": "shipping_intensity_simplified",
+        "datasourceId": "marine_traffic_northeast",
         "objectiveId": "",
         "layerId": ""
       },
@@ -311,7 +311,7 @@
         "classId": "High",
         "classKey": "intensity_class",
         "display": "High",
-        "datasourceId": "shipping_intensity_simplified",
+        "datasourceId": "marine_traffic_northeast",
         "objectiveId": "",
         "layerId": ""
       }

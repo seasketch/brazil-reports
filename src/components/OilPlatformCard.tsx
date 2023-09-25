@@ -129,7 +129,7 @@ export const OilPlatformCard = () => {
               )}
 
               <Collapse title={t("Learn more")}>
-                <Trans i18nKey="Oil Card - learn more">
+                <Trans i18nKey="Oil Platforms - learn more">
                   <p>
                     {" "}
                     This report summarizes overlap with oil exploration
