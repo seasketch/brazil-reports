@@ -36,7 +36,7 @@ export const FishingIntensityCard = () => {
   const { t } = useTranslation();
 
   const mapLabel = t("Map");
-  const classLabel = t("Class");
+  const classLabel = t("Intensity");
   const areaWithin = t("Area Within Plan");
   const percAreaWithin = `% ${t("Area Within Plan")}`;
   const sqKmLabel = t("km²");
@@ -137,7 +137,7 @@ export const FishingIntensityCard = () => {
               )}
 
               <Collapse title={t("Learn more")}>
-                <Trans i18nKey="Bathy Classes Card - learn more">
+                <Trans i18nKey="Fishing Intensity Card - learn more">
                   <p>
                     {" "}
                     This report summarizes the amount of fishing intensity

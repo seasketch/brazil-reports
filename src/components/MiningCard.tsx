@@ -118,14 +118,16 @@ export const MiningCard = () => {
                 </Collapse>
               )}
               <Collapse title={t("Learn more")}>
-                <p>
-                  This report summarizes overlap with active and potential
-                  mining areas.
-                </p>
-                <p>
-                  If zone boundaries overlap with each other, the overlap is
-                  only counted once.
-                </p>
+                <Trans i18nKey="Mining Card - learn more">
+                  <p>
+                    This report summarizes overlap with active and potential
+                    mining areas.
+                  </p>
+                  <p>
+                    If zone boundaries overlap with each other, the overlap is
+                    only counted once.
+                  </p>
+                </Trans>
               </Collapse>
             </>
           );

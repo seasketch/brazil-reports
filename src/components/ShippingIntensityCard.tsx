@@ -36,7 +36,7 @@ export const ShippingIntensityCard = () => {
   const { t } = useTranslation();
 
   const mapLabel = t("Map");
-  const classLabel = t("Class");
+  const classLabel = t("Intensity");
   const areaWithin = t("Area Within Plan");
   const percAreaWithin = `% ${t("Area Within Plan")}`;
   const sqKmLabel = t("km²");
@@ -64,7 +64,7 @@ export const ShippingIntensityCard = () => {
 
           return (
             <ToolbarCard
-              title={t("Shipping Intensity")}
+              title={t("Shipping")}
               items={
                 <LayerToggle
                   label={mapLabel}
@@ -137,7 +137,7 @@ export const ShippingIntensityCard = () => {
               )}
 
               <Collapse title={t("Learn more")}>
-                <Trans i18nKey="Bathy Classes Card - learn more">
+                <Trans i18nKey="Shipping Classes Card - learn more">
                   <p>
                     {" "}
                     This report summarizes the amount of shipping intensity

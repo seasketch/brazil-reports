@@ -36,7 +36,7 @@ export const BathyClassesCard = () => {
   const { t } = useTranslation();
 
   const mapLabel = t("Map");
-  const classLabel = t("Class");
+  const classLabel = t("Depth");
   const areaWithin = t("Area Within Plan");
   const percAreaWithin = `% ${t("Area Within Plan")}`;
   const sqKmLabel = t("km²");

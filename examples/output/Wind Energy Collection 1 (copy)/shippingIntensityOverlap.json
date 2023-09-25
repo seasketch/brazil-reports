@@ -6,7 +6,7 @@
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
-      "value": 3840253578.709245,
+      "value": 0,
       "extra": {
         "sketchName": "Wind Farm 6"
       }
@@ -17,7 +17,7 @@
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
-      "value": 3118716723.0484977,
+      "value": 2878121731.5348034,
       "extra": {
         "sketchName": "Wind Farm 3"
       }
@@ -28,7 +28,7 @@
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
-      "value": 6958970301.757743,
+      "value": 2878121731.5348034,
       "extra": {
         "sketchName": "Wind Energy Collection 1 (copy)",
         "isCollection": true
@@ -40,7 +40,7 @@
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 31310401388.34632,
+      "value": 0,
       "extra": {
         "sketchName": "Wind Farm 6"
       }
@@ -51,7 +51,7 @@
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 14160747498.311775,
+      "value": 10599572897.8904,
       "extra": {
         "sketchName": "Wind Farm 3"
       }
@@ -62,7 +62,7 @@
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 45471148886.6581,
+      "value": 10599572897.8904,
       "extra": {
         "sketchName": "Wind Energy Collection 1 (copy)",
         "isCollection": true
@@ -74,7 +74,7 @@
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 35962557096.09537,
+      "value": 0,
       "extra": {
         "sketchName": "Wind Farm 6"
       }
@@ -85,7 +85,7 @@
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 10735471714.223856,
+      "value": 8274500259.584064,
       "extra": {
         "sketchName": "Wind Farm 3"
       }
@@ -96,7 +96,7 @@
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 46698028810.31922,
+      "value": 8274500259.584064,
       "extra": {
         "sketchName": "Wind Energy Collection 1 (copy)",
         "isCollection": true
