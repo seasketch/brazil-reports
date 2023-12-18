@@ -14,6 +14,7 @@ import {
 } from "@seasketch/geoprocessing";
 import { fgbFetchAll } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
+import area from "@turf/area";
 import truncate from "@turf/truncate";
 import project from "../../project";
 
@@ -83,6 +84,9 @@ export async function fishingIntensityOverlap(
           (metric): Metric => ({
             ...metric,
             classId: curClass.classId,
+            extra: {
+              sketchOverlapProportion: metric.value / area(sketch),
+            }
           })
         );
       })

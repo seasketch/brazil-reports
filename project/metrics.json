@@ -287,6 +287,53 @@
     ]
   },
   {
+    "metricId": "fishingIntensityFlipOverlap",
+    "type": "areaOverlap",
+    "layerId": "eIC6JVm0d",
+    "classes": [
+      {
+        "classId": "Very Low",
+        "classKey": "intensity",
+        "display": "Very Low",
+        "datasourceId": "fishing_intensity",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "Low",
+        "classKey": "intensity",
+        "display": "Low",
+        "datasourceId": "fishing_intensity",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "Medium",
+        "classKey": "intensity",
+        "display": "Medium",
+        "datasourceId": "fishing_intensity",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "High",
+        "classKey": "intensity",
+        "display": "High",
+        "datasourceId": "fishing_intensity",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "Very High",
+        "classKey": "intensity",
+        "display": "Very High",
+        "datasourceId": "fishing_intensity",
+        "objectiveId": "",
+        "layerId": ""
+      }
+    ]
+  },
+  {
     "metricId": "shippingIntensityOverlap",
     "type": "areaOverlap",
     "layerId": "sJoCfflqF",

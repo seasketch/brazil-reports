@@ -8,7 +8,7 @@
       "geographyId": null,
       "value": 17372855224.516685,
       "extra": {
-        "sketchName": "example-mpa-south-central"
+        "sketchOverlapProportion": 0.12820405679742747
       }
     },
     {
@@ -19,7 +19,7 @@
       "geographyId": null,
       "value": 52523881942.04236,
       "extra": {
-        "sketchName": "example-mpa-south-central"
+        "sketchOverlapProportion": 0.38760322679810444
       }
     },
     {
@@ -30,7 +30,7 @@
       "geographyId": null,
       "value": 35181263730.926704,
       "extra": {
-        "sketchName": "example-mpa-south-central"
+        "sketchOverlapProportion": 0.259622305906281
       }
     },
     {
@@ -41,7 +41,7 @@
       "geographyId": null,
       "value": 21577140744.608177,
       "extra": {
-        "sketchName": "example-mpa-south-central"
+        "sketchOverlapProportion": 0.15922984113998978
       }
     },
     {
@@ -52,7 +52,7 @@
       "geographyId": null,
       "value": 7501270820.767644,
       "extra": {
-        "sketchName": "example-mpa-south-central"
+        "sketchOverlapProportion": 0.055356090747906116
       }
     }
   ],

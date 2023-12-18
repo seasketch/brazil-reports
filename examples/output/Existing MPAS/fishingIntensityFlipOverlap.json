@@ -1,938 +1,943 @@
 {
   "metrics": [
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16067",
       "classId": "Very Low",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 14"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16060",
       "classId": "Very Low",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 11"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16051",
       "classId": "Very Low",
       "groupId": null,
       "geographyId": null,
-      "value": 1142891.457782,
+      "value": 0.00008141436565657787,
       "extra": {
-        "sketchOverlapProportion": 0.00008141436565657787
+        "sketchName": "Existing MPA 4"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16053",
       "classId": "Very Low",
       "groupId": null,
       "geographyId": null,
-      "value": 17277476.982514,
+      "value": 0.001230768520579677,
       "extra": {
-        "sketchOverlapProportion": 0.001230768520579677
+        "sketchName": "Existing MPA 6"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16050",
       "classId": "Very Low",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 3"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16056",
       "classId": "Very Low",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 8"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16057",
       "classId": "Very Low",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 16"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16059",
       "classId": "Very Low",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 10"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16049",
       "classId": "Very Low",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 2"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16055",
       "classId": "Very Low",
       "groupId": null,
       "geographyId": null,
-      "value": 142811064.980645,
+      "value": 0.010173207774869285,
       "extra": {
-        "sketchOverlapProportion": 0.010173207774869285
+        "sketchName": "Existing MPA 15"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16052",
       "classId": "Very Low",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 5"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16058",
       "classId": "Very Low",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 9"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16065",
       "classId": "Very Low",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 12"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16054",
       "classId": "Very Low",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 7"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16048",
       "classId": "Very Low",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 1"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16066",
       "classId": "Very Low",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 13"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16068",
       "classId": "Very Low",
       "groupId": null,
       "geographyId": null,
-      "value": 161231433.420941,
+      "value": 0.01148539066110554,
       "extra": {
-        "sketchOverlapProportion": 0.01148539066110554
+        "sketchName": "Existing MPAS",
+        "isCollection": true
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16067",
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 14"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16060",
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
-      "value": 2349558.13657,
+      "value": 0.00016737178667283796,
       "extra": {
-        "sketchOverlapProportion": 0.00016737178667283796
+        "sketchName": "Existing MPA 11"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16051",
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
-      "value": 17661673.251183,
+      "value": 0.001258136907392204,
       "extra": {
-        "sketchOverlapProportion": 0.001258136907392204
+        "sketchName": "Existing MPA 4"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16053",
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
-      "value": 13180093.335748,
+      "value": 0.0009388896302601386,
       "extra": {
-        "sketchOverlapProportion": 0.0009388896302601386
+        "sketchName": "Existing MPA 6"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16050",
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 3"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16056",
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
-      "value": 25587921.213821,
+      "value": 0.0018227665977455332,
       "extra": {
-        "sketchOverlapProportion": 0.0018227665977455332
+        "sketchName": "Existing MPA 8"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16057",
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 16"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16059",
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 10"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16049",
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 2"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16055",
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
-      "value": 100936481.044664,
+      "value": 0.007190253737486584,
       "extra": {
-        "sketchOverlapProportion": 0.007190253737486584
+        "sketchName": "Existing MPA 15"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16052",
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 5"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16058",
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 9"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16065",
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 12"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16054",
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 7"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16048",
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 1"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16066",
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
-      "value": 22135437.798392,
+      "value": 0.001576827453399752,
       "extra": {
-        "sketchOverlapProportion": 0.001576827453399752
+        "sketchName": "Existing MPA 13"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16068",
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
-      "value": 181851164.780376,
+      "value": 0.012954246112956907,
       "extra": {
-        "sketchOverlapProportion": 0.012954246112956907
+        "sketchName": "Existing MPAS",
+        "isCollection": true
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16067",
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 14"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16060",
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 82420413.833008,
+      "value": 0.005871253708020028,
       "extra": {
-        "sketchOverlapProportion": 0.005871253708020028
+        "sketchName": "Existing MPA 11"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16051",
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 7328175.398929,
+      "value": 0.0005220257334688607,
       "extra": {
-        "sketchOverlapProportion": 0.0005220257334688607
+        "sketchName": "Existing MPA 4"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16053",
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 6664669.972594,
+      "value": 0.00047476063840935675,
       "extra": {
-        "sketchOverlapProportion": 0.00047476063840935675
+        "sketchName": "Existing MPA 6"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16050",
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 5136500.164834,
+      "value": 0.00036590080341175683,
       "extra": {
-        "sketchOverlapProportion": 0.00036590080341175683
+        "sketchName": "Existing MPA 3"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16056",
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 57500374.487152,
+      "value": 0.004096063963040046,
       "extra": {
-        "sketchOverlapProportion": 0.004096063963040046
+        "sketchName": "Existing MPA 8"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16057",
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 16"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16059",
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 2353713.194496,
+      "value": 0.00016766777401530016,
       "extra": {
-        "sketchOverlapProportion": 0.00016766777401530016
+        "sketchName": "Existing MPA 10"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16049",
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 2"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16055",
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 53745126.148895,
+      "value": 0.0038285572289049937,
       "extra": {
-        "sketchOverlapProportion": 0.0038285572289049937
+        "sketchName": "Existing MPA 15"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16052",
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 5"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16058",
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 57826338.866938,
+      "value": 0.004119284176146214,
       "extra": {
-        "sketchOverlapProportion": 0.004119284176146214
+        "sketchName": "Existing MPA 9"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16065",
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 12"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16054",
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 7"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16048",
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 1"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16066",
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 27562183.814695,
+      "value": 0.0019634040451559777,
       "extra": {
-        "sketchOverlapProportion": 0.0019634040451559777
+        "sketchName": "Existing MPA 13"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16068",
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 300537495.881542,
+      "value": 0.021408918070572606,
       "extra": {
-        "sketchOverlapProportion": 0.021408918070572606
+        "sketchName": "Existing MPAS",
+        "isCollection": true
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16067",
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 118891433.664285,
+      "value": 0.008469282527112189,
       "extra": {
-        "sketchOverlapProportion": 0.008469282527112189
+        "sketchName": "Existing MPA 14"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16060",
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 382057928.593297,
+      "value": 0.027216061235469047,
       "extra": {
-        "sketchOverlapProportion": 0.027216061235469047
+        "sketchName": "Existing MPA 11"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16051",
       "classId": "High",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 4"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16053",
       "classId": "High",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 6"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16050",
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 4453172.785761,
+      "value": 0.0003172236830043945,
       "extra": {
-        "sketchOverlapProportion": 0.0003172236830043945
+        "sketchName": "Existing MPA 3"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16056",
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 1093500736.208633,
+      "value": 0.07789599631464572,
       "extra": {
-        "sketchOverlapProportion": 0.07789599631464572
+        "sketchName": "Existing MPA 8"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16057",
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 435866478.659292,
+      "value": 0.031049136494448543,
       "extra": {
-        "sketchOverlapProportion": 0.031049136494448543
+        "sketchName": "Existing MPA 16"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16059",
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 275221925.487971,
+      "value": 0.019605552500908716,
       "extra": {
-        "sketchOverlapProportion": 0.019605552500908716
+        "sketchName": "Existing MPA 10"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16049",
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 123520539.011099,
+      "value": 0.008799038841941713,
       "extra": {
-        "sketchOverlapProportion": 0.008799038841941713
+        "sketchName": "Existing MPA 2"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16055",
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 5596873.805239,
+      "value": 0.0003986957181373614,
       "extra": {
-        "sketchOverlapProportion": 0.0003986957181373614
+        "sketchName": "Existing MPA 15"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16052",
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 69925884.698752,
+      "value": 0.004981200539176486,
       "extra": {
-        "sketchOverlapProportion": 0.004981200539176486
+        "sketchName": "Existing MPA 5"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16058",
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 936201810.235908,
+      "value": 0.0666907395167835,
       "extra": {
-        "sketchOverlapProportion": 0.0666907395167835
+        "sketchName": "Existing MPA 9"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16065",
       "classId": "High",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 12"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16054",
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 7159851.882655,
+      "value": 0.0005100351352285628,
       "extra": {
-        "sketchOverlapProportion": 0.0005100351352285628
+        "sketchName": "Existing MPA 7"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16048",
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 36383855.602479,
+      "value": 0.002591819637680214,
       "extra": {
-        "sketchOverlapProportion": 0.002591819637680214
+        "sketchName": "Existing MPA 1"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16066",
       "classId": "High",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 13"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16068",
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 3488594516.384551,
+      "value": 0.24851153418861213,
       "extra": {
-        "sketchOverlapProportion": 0.24851153418861213
+        "sketchName": "Existing MPAS",
+        "isCollection": true
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16067",
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
-      "value": 396889178.671352,
+      "value": 0.02827257172802471,
       "extra": {
-        "sketchOverlapProportion": 0.02827257172802471
+        "sketchName": "Existing MPA 14"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16060",
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
-      "value": 978164371.819201,
+      "value": 0.06967996067979663,
       "extra": {
-        "sketchOverlapProportion": 0.06967996067979663
+        "sketchName": "Existing MPA 11"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16051",
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 4"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16053",
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 6"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16050",
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 3"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16056",
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
-      "value": 5419042161.222715,
+      "value": 0.38602780431871264,
       "extra": {
-        "sketchOverlapProportion": 0.38602780431871264
+        "sketchName": "Existing MPA 8"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16057",
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
-      "value": 136513921.651684,
+      "value": 0.009724628055347309,
       "extra": {
-        "sketchOverlapProportion": 0.009724628055347309
+        "sketchName": "Existing MPA 16"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16059",
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
-      "value": 627634860.42862,
+      "value": 0.04470983983458701,
       "extra": {
-        "sketchOverlapProportion": 0.04470983983458701
+        "sketchName": "Existing MPA 10"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16049",
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
-      "value": 1093100349.073758,
+      "value": 0.07786747456449968,
       "extra": {
-        "sketchOverlapProportion": 0.07786747456449968
+        "sketchName": "Existing MPA 2"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16055",
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 15"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16052",
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
-      "value": 99524383.468328,
+      "value": 0.007089662357929247,
       "extra": {
-        "sketchOverlapProportion": 0.007089662357929247
+        "sketchName": "Existing MPA 5"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16058",
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
-      "value": 1044555355.233391,
+      "value": 0.07440935100219213,
       "extra": {
-        "sketchOverlapProportion": 0.07440935100219213
+        "sketchName": "Existing MPA 9"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16065",
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
-      "value": 17996845.73394,
+      "value": 0.0012820130636828101,
       "extra": {
-        "sketchOverlapProportion": 0.0012820130636828101
+        "sketchName": "Existing MPA 12"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16054",
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
-      "value": 6618962.768514,
+      "value": 0.00047150466602390316,
       "extra": {
-        "sketchOverlapProportion": 0.00047150466602390316
+        "sketchName": "Existing MPA 7"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16048",
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
-      "value": 4021915.970594,
+      "value": 0.00028650291787588793,
       "extra": {
-        "sketchOverlapProportion": 0.00028650291787588793
+        "sketchName": "Existing MPA 1"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16066",
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
       "value": 0,
       "extra": {
-        "sketchOverlapProportion": 0
+        "sketchName": "Existing MPA 13"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "16068",
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
-      "value": 9824062306.042095,
+      "value": 0.6998213131886718,
       "extra": {
-        "sketchOverlapProportion": 0.6998213131886718
+        "sketchName": "Existing MPAS",
+        "isCollection": true
       }
     }
   ],

@@ -1,58 +1,58 @@
 {
   "metrics": [
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "15454",
       "classId": "Very Low",
       "groupId": null,
       "geographyId": null,
-      "value": 69259149.606008,
+      "value": 0.0006978527258832477,
       "extra": {
-        "sketchOverlapProportion": 0.0006978527258832477
+        "sketchName": "example-mpa-south"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "15454",
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
-      "value": 3759987903.383858,
+      "value": 0.03788550426320636,
       "extra": {
-        "sketchOverlapProportion": 0.03788550426320636
+        "sketchName": "example-mpa-south"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "15454",
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 31754187078.317905,
+      "value": 0.3199540585882168,
       "extra": {
-        "sketchOverlapProportion": 0.3199540585882168
+        "sketchName": "example-mpa-south"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "15454",
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 45086999217.73509,
+      "value": 0.45429499907204884,
       "extra": {
-        "sketchOverlapProportion": 0.45429499907204884
+        "sketchName": "example-mpa-south"
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
+      "metricId": "fishingIntensityFlipOverlap",
       "sketchId": "15454",
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
-      "value": 18624234930.23827,
+      "value": 0.1876571281555171,
       "extra": {
-        "sketchOverlapProportion": 0.1876571281555171
+        "sketchName": "example-mpa-south"
       }
     }
   ],

@@ -16,11 +16,13 @@ import {
   toPercentMetric,
   squareMeterToKilometer,
   valueFormatter,
+  Metric,
 } from "@seasketch/geoprocessing/client-core";
 
 import project from "../../project";
 import Translator from "./TranslatorAsync";
 import { Trans, useTranslation } from "react-i18next";
+import { area } from "@seasketch/geoprocessing";
 
 const metricGroup = project.getMetricGroup("fishingIntensityOverlap");
 const precalcMetrics = project.getPrecalcMetrics(
@@ -53,6 +55,18 @@ export const FishingIntensityCard = () => {
             (m) => m.sketchId === data.sketch.properties.id
           );
 
+          // need to fix this
+          // @ts-ignore
+          const flipMetrics: Metric[] = singleMetrics.map((m) => {
+            return {
+              ...m,
+              metricId: "fishingIntensityFlipOverlap",
+              value: m.extra?.sketchOverlapProportion,
+            };
+          });
+
+          console.log("flipMetrics", flipMetrics);
+
           const finalMetrics = [
             ...singleMetrics,
             ...toPercentMetric(
@@ -60,6 +74,7 @@ export const FishingIntensityCard = () => {
               precalcMetrics,
               project.getMetricGroupPercId(metricGroup)
             ),
+            ...flipMetrics,
           ];
 
           return (
@@ -102,6 +117,45 @@ export const FishingIntensityCard = () => {
                       columnLabel: percAreaWithin,
                       type: "metricChart",
                       metricId: project.getMetricGroupPercId(metricGroup),
+                      valueFormatter: "percent",
+                      chartOptions: {
+                        showTitle: true,
+                        targetLabelPosition: "bottom",
+                        targetLabelStyle: "tight",
+                        barHeight: 11,
+                      },
+                      width: 30,
+                      targetValueFormatter: (
+                        value: number,
+                        row: number,
+                        numRows: number
+                      ) => {
+                        if (row === 0) {
+                          return (value: number) =>
+                            `${valueFormatter(value / 100, "percent0dig")} ${t(
+                              "Target"
+                            )}`;
+                        } else {
+                          return (value: number) =>
+                            `${valueFormatter(value / 100, "percent0dig")}`;
+                        }
+                      },
+                    },
+                  ]}
+                />
+                <ClassTable
+                  rows={finalMetrics}
+                  metricGroup={metricGroup}
+                  columnConfig={[
+                    {
+                      columnLabel: classLabel,
+                      type: "class",
+                      width: 30,
+                    },
+                    {
+                      columnLabel: "% area of plan overlapping class",
+                      type: "metricChart",
+                      metricId: "fishingIntensityFlipOverlap",
                       valueFormatter: "percent",
                       chartOptions: {
                         showTitle: true,
