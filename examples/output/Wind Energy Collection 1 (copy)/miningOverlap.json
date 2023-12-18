@@ -6,7 +6,7 @@
       "classId": "mining_process",
       "groupId": null,
       "geographyId": null,
-      "value": 440921485.6331057,
+      "value": 440921737.345759,
       "extra": {
         "sketchName": "Wind Farm 6"
       }
@@ -17,7 +17,7 @@
       "classId": "mining_process",
       "groupId": null,
       "geographyId": null,
-      "value": 384118490.31061023,
+      "value": 384118651.933311,
       "extra": {
         "sketchName": "Wind Farm 3"
       }
@@ -28,7 +28,7 @@
       "classId": "mining_process",
       "groupId": null,
       "geographyId": null,
-      "value": 825039975.9437159,
+      "value": 825040389.27907,
       "extra": {
         "sketchName": "Wind Energy Collection 1 (copy)",
         "isCollection": true
@@ -40,7 +40,7 @@
       "classId": "mining_potential",
       "groupId": null,
       "geographyId": null,
-      "value": 18074874711.99086,
+      "value": 18074879810.989265,
       "extra": {
         "sketchName": "Wind Farm 6"
       }
@@ -51,7 +51,7 @@
       "classId": "mining_potential",
       "groupId": null,
       "geographyId": null,
-      "value": 8364525172.716949,
+      "value": 8364522073.53772,
       "extra": {
         "sketchName": "Wind Farm 3"
       }
@@ -62,7 +62,7 @@
       "classId": "mining_potential",
       "groupId": null,
       "geographyId": null,
-      "value": 26439399884.70781,
+      "value": 26439401884.526985,
       "extra": {
         "sketchName": "Wind Energy Collection 1 (copy)",
         "isCollection": true

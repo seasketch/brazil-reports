@@ -17,7 +17,7 @@
       "classId": "oil_blocks_concession",
       "groupId": null,
       "geographyId": null,
-      "value": 3619958436.132948,
+      "value": 3619958999.251402,
       "extra": {
         "sketchName": "Wind Farm 3"
       }
@@ -28,7 +28,7 @@
       "classId": "oil_blocks_concession",
       "groupId": null,
       "geographyId": null,
-      "value": 3619958436.132948,
+      "value": 3619958999.251402,
       "extra": {
         "sketchName": "Wind Energy Collection 1 (copy)",
         "isCollection": true
@@ -51,7 +51,7 @@
       "classId": "oil_production_fields",
       "groupId": null,
       "geographyId": null,
-      "value": 544990689.3823507,
+      "value": 544990636.687648,
       "extra": {
         "sketchName": "Wind Farm 3"
       }
@@ -62,7 +62,7 @@
       "classId": "oil_production_fields",
       "groupId": null,
       "geographyId": null,
-      "value": 544990689.3823507,
+      "value": 544990636.687648,
       "extra": {
         "sketchName": "Wind Energy Collection 1 (copy)",
         "isCollection": true

@@ -1,5 +1,7 @@
 {
+  "(Not answered)": "(Tidak dijawab)",
   "% Area": "% Luas",
+  "% Within Plan": "% Dalam Rencana",
   "Activity": "Aktivitas",
   "Area": "Daerah",
   "Area Within Plan": "Area Dalam Rencana",
@@ -62,6 +64,7 @@
   "ReportError - message part 1": "Ada yang salah. Harap tutup laporan ini dan coba lagi.",
   "ReportError - message part 2": "Jika kesalahan berlanjut, harap laporkan.",
   "Representation": "Perwakilan",
+  "Results not found": "Hasil tidak ditemukan",
   "ResultsCard - no result message": "Laporan berjalan selesai, tetapi tidak ada hasil yang dikembalikan",
   "Show by MPA": "Ditunjukkan oleh MPA",
   "Size": "Ukuran",

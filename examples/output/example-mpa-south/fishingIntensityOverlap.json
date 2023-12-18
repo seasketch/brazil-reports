@@ -6,7 +6,7 @@
       "classId": "Very Low",
       "groupId": null,
       "geographyId": null,
-      "value": 69259033.57786389,
+      "value": 69259149.606008,
       "extra": {
         "sketchName": "example-mpa-south"
       }
@@ -17,7 +17,7 @@
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
-      "value": 3759987961.1776466,
+      "value": 3759987903.383858,
       "extra": {
         "sketchName": "example-mpa-south"
       }
@@ -28,7 +28,7 @@
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 31754188517.306076,
+      "value": 31754187078.317905,
       "extra": {
         "sketchName": "example-mpa-south"
       }
@@ -39,7 +39,7 @@
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 45087003705.600685,
+      "value": 45086999217.73509,
       "extra": {
         "sketchName": "example-mpa-south"
       }
@@ -50,7 +50,7 @@
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
-      "value": 18624231489.182026,
+      "value": 18624234930.23827,
       "extra": {
         "sketchName": "example-mpa-south"
       }

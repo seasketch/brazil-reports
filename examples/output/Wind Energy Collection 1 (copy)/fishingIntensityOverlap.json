@@ -17,7 +17,7 @@
       "classId": "Very Low",
       "groupId": null,
       "geographyId": null,
-      "value": 180237429.86788255,
+      "value": 180237161.256148,
       "extra": {
         "sketchName": "Wind Farm 3"
       }
@@ -28,7 +28,7 @@
       "classId": "Very Low",
       "groupId": null,
       "geographyId": null,
-      "value": 180237429.86788255,
+      "value": 180237161.256148,
       "extra": {
         "sketchName": "Wind Energy Collection 1 (copy)",
         "isCollection": true
@@ -40,7 +40,7 @@
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
-      "value": 3451991.9413876412,
+      "value": 3452035.555327,
       "extra": {
         "sketchName": "Wind Farm 6"
       }
@@ -51,7 +51,7 @@
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
-      "value": 2028205327.7731445,
+      "value": 2028204857.830614,
       "extra": {
         "sketchName": "Wind Farm 3"
       }
@@ -62,7 +62,7 @@
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
-      "value": 2031657319.7145321,
+      "value": 2031656893.385941,
       "extra": {
         "sketchName": "Wind Energy Collection 1 (copy)",
         "isCollection": true
@@ -74,7 +74,7 @@
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 238063879.33326292,
+      "value": 238064703.679481,
       "extra": {
         "sketchName": "Wind Farm 6"
       }
@@ -85,7 +85,7 @@
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 5648934506.769023,
+      "value": 5648932196.046635,
       "extra": {
         "sketchName": "Wind Farm 3"
       }
@@ -96,7 +96,7 @@
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 5886998386.102285,
+      "value": 5886996899.726115,
       "extra": {
         "sketchName": "Wind Energy Collection 1 (copy)",
         "isCollection": true
@@ -108,7 +108,7 @@
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 8024599699.583611,
+      "value": 8024607243.042818,
       "extra": {
         "sketchName": "Wind Farm 6"
       }
@@ -119,7 +119,7 @@
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 17748187046.3811,
+      "value": 17748185361.624718,
       "extra": {
         "sketchName": "Wind Farm 3"
       }
@@ -130,7 +130,7 @@
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 25772786745.96471,
+      "value": 25772792604.667538,
       "extra": {
         "sketchName": "Wind Energy Collection 1 (copy)",
         "isCollection": true
@@ -142,7 +142,7 @@
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
-      "value": 44207722809.35015,
+      "value": 44207736359.91662,
       "extra": {
         "sketchName": "Wind Farm 6"
       }
@@ -153,7 +153,7 @@
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
-      "value": 5949708466.514012,
+      "value": 5949707584.031639,
       "extra": {
         "sketchName": "Wind Farm 3"
       }
@@ -164,7 +164,7 @@
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
-      "value": 50157431275.86417,
+      "value": 50157443943.94826,
       "extra": {
         "sketchName": "Wind Energy Collection 1 (copy)",
         "isCollection": true

@@ -1,5 +1,7 @@
 {
+  "(Not answered)": "(Kaore i whakautua)",
   "% Area": "% Rohe",
+  "% Within Plan": "% I Roto Mahere",
   "Activity": "Mahi",
   "Area": "Rohe",
   "Area Within Plan": "Te Rohe o Roto Mahere",
@@ -62,6 +64,7 @@
   "ReportError - message part 1": "Kua he tetahi. Katia koa tenei purongo ka ngana ano.",
   "ReportError - message part 2": "Mena kei te haere tonu te hapa, me ripoata mai.",
   "Representation": "Māngai",
+  "Results not found": "Nga hua kaore i kitea",
   "ResultsCard - no result message": "Kua oti te whakahaere ripoata, engari karekau he hua i hoki mai",
   "Show by MPA": "Whakaatuhia e MPA",
   "Size": "Rahi",

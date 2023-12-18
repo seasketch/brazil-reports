@@ -6,7 +6,7 @@
       "classId": "Plataforma Interna (<50 m)",
       "groupId": null,
       "geographyId": null,
-      "value": 46117385.74873986,
+      "value": 46118265.948909,
       "extra": {
         "sketchName": "example-mpa-south-central"
       }
@@ -17,7 +17,7 @@
       "classId": "Plataforma Externa Rasa (50 - 100 m)",
       "groupId": null,
       "geographyId": null,
-      "value": 6338172721.392452,
+      "value": 6338181517.390916,
       "extra": {
         "sketchName": "example-mpa-south-central"
       }
@@ -28,7 +28,7 @@
       "classId": "Plataforma Externa Profunda (100 - 200 m)",
       "groupId": null,
       "geographyId": null,
-      "value": 6419935008.663304,
+      "value": 6419937424.465868,
       "extra": {
         "sketchName": "example-mpa-south-central"
       }
@@ -39,7 +39,7 @@
       "classId": "Talude (200 - 1200 m )",
       "groupId": null,
       "geographyId": null,
-      "value": 9702980788.662243,
+      "value": 9702984698.620338,
       "extra": {
         "sketchName": "example-mpa-south-central"
       }
@@ -50,7 +50,7 @@
       "classId": "Bacia Oceânica (> 1200 m)",
       "groupId": null,
       "geographyId": null,
-      "value": 112710365213.14085,
+      "value": 112710362150.8646,
       "extra": {
         "sketchName": "example-mpa-south-central"
       }

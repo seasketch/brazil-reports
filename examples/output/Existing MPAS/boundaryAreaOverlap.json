@@ -6,7 +6,7 @@
       "classId": "eez",
       "groupId": null,
       "geographyId": null,
-      "value": 40401058.52990908,
+      "value": 40401471.714405,
       "extra": {
         "sketchName": "Existing MPA 1"
       }
@@ -17,7 +17,7 @@
       "classId": "eez",
       "groupId": null,
       "geographyId": null,
-      "value": 1216622590.999404,
+      "value": 1216620521.402371,
       "extra": {
         "sketchName": "Existing MPA 2"
       }
@@ -28,7 +28,7 @@
       "classId": "eez",
       "groupId": null,
       "geographyId": null,
-      "value": 9589853.740784232,
+      "value": 9589689.443324,
       "extra": {
         "sketchName": "Existing MPA 3"
       }
@@ -39,7 +39,7 @@
       "classId": "eez",
       "groupId": null,
       "geographyId": null,
-      "value": 26132803.574665148,
+      "value": 26132737.988257,
       "extra": {
         "sketchName": "Existing MPA 4"
       }
@@ -50,7 +50,7 @@
       "classId": "eez",
       "groupId": null,
       "geographyId": null,
-      "value": 169451145.60074937,
+      "value": 169450268.16708,
       "extra": {
         "sketchName": "Existing MPA 5"
       }
@@ -61,7 +61,7 @@
       "classId": "eez",
       "groupId": null,
       "geographyId": null,
-      "value": 37122223.61339826,
+      "value": 37122240.290911,
       "extra": {
         "sketchName": "Existing MPA 6"
       }
@@ -72,7 +72,7 @@
       "classId": "eez",
       "groupId": null,
       "geographyId": null,
-      "value": 13778509.538080644,
+      "value": 13778819.09273,
       "extra": {
         "sketchName": "Existing MPA 7"
       }
@@ -83,7 +83,7 @@
       "classId": "eez",
       "groupId": null,
       "geographyId": null,
-      "value": 384653297.2054339,
+      "value": 384652732.726276,
       "extra": {
         "sketchName": "Existing MPA 15"
       }
@@ -94,7 +94,7 @@
       "classId": "eez",
       "groupId": null,
       "geographyId": null,
-      "value": 6595570222.277855,
+      "value": 6595571177.900383,
       "extra": {
         "sketchName": "Existing MPA 8"
       }
@@ -105,7 +105,7 @@
       "classId": "eez",
       "groupId": null,
       "geographyId": null,
-      "value": 572360004.9062968,
+      "value": 572360577.718253,
       "extra": {
         "sketchName": "Existing MPA 16"
       }
@@ -116,7 +116,7 @@
       "classId": "eez",
       "groupId": null,
       "geographyId": null,
-      "value": 2038583514.3894556,
+      "value": 2038582698.791372,
       "extra": {
         "sketchName": "Existing MPA 9"
       }
@@ -127,7 +127,7 @@
       "classId": "eez",
       "groupId": null,
       "geographyId": null,
-      "value": 905211824.7480686,
+      "value": 905210841.090129,
       "extra": {
         "sketchName": "Existing MPA 10"
       }
@@ -138,7 +138,7 @@
       "classId": "eez",
       "groupId": null,
       "geographyId": null,
-      "value": 1445004188.9438198,
+      "value": 1445003325.015751,
       "extra": {
         "sketchName": "Existing MPA 11"
       }
@@ -149,7 +149,7 @@
       "classId": "eez",
       "groupId": null,
       "geographyId": null,
-      "value": 17996785.152312998,
+      "value": 17996845.73394,
       "extra": {
         "sketchName": "Existing MPA 12"
       }
@@ -160,7 +160,7 @@
       "classId": "eez",
       "groupId": null,
       "geographyId": null,
-      "value": 49697699.985845566,
+      "value": 49697292.767104,
       "extra": {
         "sketchName": "Existing MPA 13"
       }
@@ -171,7 +171,7 @@
       "classId": "eez",
       "groupId": null,
       "geographyId": null,
-      "value": 515782425.4096801,
+      "value": 515780612.515153,
       "extra": {
         "sketchName": "Existing MPA 14"
       }
@@ -182,7 +182,7 @@
       "classId": "eez",
       "groupId": null,
       "geographyId": null,
-      "value": 14037772174.104675,
+      "value": 14037765878.107864,
       "extra": {
         "sketchName": "Existing MPAS",
         "isCollection": true

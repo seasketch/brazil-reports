@@ -6,7 +6,7 @@
       "classId": "mining_process",
       "groupId": null,
       "geographyId": null,
-      "value": 6518210.571515502,
+      "value": 6518210.571516,
       "extra": {
         "sketchName": "example-mpa-south"
       }
@@ -17,7 +17,7 @@
       "classId": "mining_potential",
       "groupId": null,
       "geographyId": null,
-      "value": 10771269179.775198,
+      "value": 10771272158.721289,
       "extra": {
         "sketchName": "example-mpa-south"
       }

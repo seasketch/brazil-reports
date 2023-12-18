@@ -1,5 +1,7 @@
 {
+  "(Not answered)": "(जवाब नहीं दिया)",
   "% Area": "% क्षेत्र",
+  "% Within Plan": "योजना के भीतर %",
   "Activity": "गतिविधि",
   "Area": "क्षेत्र",
   "Area Within Plan": "योजना के भीतर क्षेत्र",
@@ -62,6 +64,7 @@
   "ReportError - message part 1": "कुछ गलत हो गया। कृपया इस रिपोर्ट को बंद करें और पुनः प्रयास करें।",
   "ReportError - message part 2": "यदि त्रुटि बनी रहती है, तो कृपया इसकी रिपोर्ट करें।",
   "Representation": "प्रतिनिधित्व",
+  "Results not found": "परिणाम नहीं मिले",
   "ResultsCard - no result message": "रिपोर्ट रन पूरा हुआ, लेकिन कोई परिणाम नहीं लौटा",
   "Show by MPA": "एमपीए द्वारा दिखाएं",
   "Size": "आकार",

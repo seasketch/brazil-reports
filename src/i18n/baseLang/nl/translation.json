@@ -1,5 +1,7 @@
 {
+  "(Not answered)": "(Niet geantwoord)",
   "% Area": "% Gebied",
+  "% Within Plan": "% binnen plan",
   "Activity": "Activiteit",
   "Area": "Gebied",
   "Area Within Plan": "Gebied binnen plan",
@@ -62,6 +64,7 @@
   "ReportError - message part 1": "Er is iets fout gegaan. Sluit dit rapport en probeer het opnieuw.",
   "ReportError - message part 2": "Als de fout zich blijft voordoen, meld dit dan.",
   "Representation": "Vertegenwoordiging",
+  "Results not found": "Resultaten niet gevonden",
   "ResultsCard - no result message": "Rapportrun voltooid, maar er zijn geen resultaten geretourneerd",
   "Show by MPA": "Toon door MPA",
   "Size": "Maat",

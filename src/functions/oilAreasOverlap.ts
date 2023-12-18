@@ -54,12 +54,7 @@ export async function oilAreasOverlap(
               }, [])
               : dsFeatures;
 
-          // truncate vertex precision to 6 decimal places - without this turf throws an error when overlapFeatures() is called
-          const finalFeaturesTrunc = finalFeatures.map((feat) => {
-            const trunc = truncate(feat)
-            return trunc
-          })
-          return finalFeaturesTrunc;
+          return finalFeatures;
         }
         return [];
       })

@@ -1,5 +1,7 @@
 {
+  "(Not answered)": "(Akuphendulwanga)",
   "% Area": "% Indawo",
+  "% Within Plan": "% Ngaphakathi kohlelo",
   "Activity": "Umsebenzi",
   "Area": "Indawo",
   "Area Within Plan": "Indawo Ngaphakathi Kwepulani",
@@ -62,6 +64,7 @@
   "ReportError - message part 1": "Kukhona into engahambanga kahle. Sicela uvale lo mbiko bese uzama futhi.",
   "ReportError - message part 2": "Uma iphutha liqhubeka, sicela ulibike.",
   "Representation": "Ukumelwa",
+  "Results not found": "Imiphumela ayitholakali",
   "ResultsCard - no result message": "Ukuqaliswa kombiko kuqediwe, kodwa ayikho imiphumela ebuyisiwe",
   "Show by MPA": "Bonisa nge-MPA",
   "Size": "Usayizi",

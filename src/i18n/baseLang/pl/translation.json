@@ -1,5 +1,7 @@
 {
+  "(Not answered)": "(Bez odpowiedzi)",
   "% Area": "% Obszar",
+  "% Within Plan": "% w ramach planu",
   "Activity": "Działalność",
   "Area": "Obszar",
   "Area Within Plan": "Obszar w planie",
@@ -62,6 +64,7 @@
   "ReportError - message part 1": "Coś poszło nie tak. Zamknij ten raport i spróbuj ponownie.",
   "ReportError - message part 2": "Jeśli błąd będzie się powtarzał, zgłoś go.",
   "Representation": "Reprezentacja",
+  "Results not found": "Nie znaleziono wyników",
   "ResultsCard - no result message": "Przebieg raportu został zakończony, ale nie zwrócono żadnych wyników",
   "Show by MPA": "Pokaż przez MPA",
   "Size": "Rozmiar",
