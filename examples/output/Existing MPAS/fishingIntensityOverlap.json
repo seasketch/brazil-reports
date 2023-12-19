@@ -8,6 +8,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 14",
         "sketchOverlapProportion": 0
       }
     },
@@ -19,6 +20,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 11",
         "sketchOverlapProportion": 0
       }
     },
@@ -28,9 +30,10 @@
       "classId": "Very Low",
       "groupId": null,
       "geographyId": null,
-      "value": 1142891.457782,
+      "value": 1142928.8000070849,
       "extra": {
-        "sketchOverlapProportion": 0.00008141436565657787
+        "sketchName": "Existing MPA 4",
+        "sketchOverlapProportion": 0.04373540698538639
       }
     },
     {
@@ -39,9 +42,10 @@
       "classId": "Very Low",
       "groupId": null,
       "geographyId": null,
-      "value": 17277476.982514,
+      "value": 17277476.982513685,
       "extra": {
-        "sketchOverlapProportion": 0.001230768520579677
+        "sketchName": "Existing MPA 6",
+        "sketchOverlapProportion": 0.4654213918443609
       }
     },
     {
@@ -52,6 +56,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 3",
         "sketchOverlapProportion": 0
       }
     },
@@ -63,6 +68,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 8",
         "sketchOverlapProportion": 0
       }
     },
@@ -74,6 +80,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 16",
         "sketchOverlapProportion": 0
       }
     },
@@ -85,6 +92,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 10",
         "sketchOverlapProportion": 0
       }
     },
@@ -96,6 +104,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 2",
         "sketchOverlapProportion": 0
       }
     },
@@ -105,9 +114,10 @@
       "classId": "Very Low",
       "groupId": null,
       "geographyId": null,
-      "value": 142811064.980645,
+      "value": 142811345.8907267,
       "extra": {
-        "sketchOverlapProportion": 0.010173207774869285
+        "sketchName": "Existing MPA 15",
+        "sketchOverlapProportion": 0.37127290193083073
       }
     },
     {
@@ -118,6 +128,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 5",
         "sketchOverlapProportion": 0
       }
     },
@@ -129,6 +140,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 9",
         "sketchOverlapProportion": 0
       }
     },
@@ -140,6 +152,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 12",
         "sketchOverlapProportion": 0
       }
     },
@@ -151,6 +164,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 7",
         "sketchOverlapProportion": 0
       }
     },
@@ -162,6 +176,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 1",
         "sketchOverlapProportion": 0
       }
     },
@@ -173,6 +188,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 13",
         "sketchOverlapProportion": 0
       }
     },
@@ -182,9 +198,11 @@
       "classId": "Very Low",
       "groupId": null,
       "geographyId": null,
-      "value": 161231433.420941,
+      "value": 161231751.67324746,
       "extra": {
-        "sketchOverlapProportion": 0.01148539066110554
+        "sketchName": "Existing MPAS",
+        "isCollection": true,
+        "sketchOverlapProportion": 0.011485413331945778
       }
     },
     {
@@ -195,6 +213,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 14",
         "sketchOverlapProportion": 0
       }
     },
@@ -204,9 +223,10 @@
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
-      "value": 2349558.13657,
+      "value": 2349558.136569748,
       "extra": {
-        "sketchOverlapProportion": 0.00016737178667283796
+        "sketchName": "Existing MPA 11",
+        "sketchOverlapProportion": 0.0016259870764022408
       }
     },
     {
@@ -215,9 +235,10 @@
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
-      "value": 17661673.251183,
+      "value": 17661696.054154675,
       "extra": {
-        "sketchOverlapProportion": 0.001258136907392204
+        "sketchName": "Existing MPA 4",
+        "sketchOverlapProportion": 0.675843906440943
       }
     },
     {
@@ -226,9 +247,10 @@
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
-      "value": 13180093.335748,
+      "value": 13180093.335747689,
       "extra": {
-        "sketchOverlapProportion": 0.0009388896302601386
+        "sketchName": "Existing MPA 6",
+        "sketchOverlapProportion": 0.3550459011562116
       }
     },
     {
@@ -239,6 +261,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 3",
         "sketchOverlapProportion": 0
       }
     },
@@ -248,9 +271,10 @@
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
-      "value": 25587921.213821,
+      "value": 25587921.213820588,
       "extra": {
-        "sketchOverlapProportion": 0.0018227665977455332
+        "sketchName": "Existing MPA 8",
+        "sketchOverlapProportion": 0.003879561637808446
       }
     },
     {
@@ -261,6 +285,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 16",
         "sketchOverlapProportion": 0
       }
     },
@@ -272,6 +297,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 10",
         "sketchOverlapProportion": 0
       }
     },
@@ -283,6 +309,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 2",
         "sketchOverlapProportion": 0
       }
     },
@@ -292,9 +319,10 @@
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
-      "value": 100936481.044664,
+      "value": 100936706.82297795,
       "extra": {
-        "sketchOverlapProportion": 0.007190253737486584
+        "sketchName": "Existing MPA 15",
+        "sketchOverlapProportion": 0.26240957131083176
       }
     },
     {
@@ -305,6 +333,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 5",
         "sketchOverlapProportion": 0
       }
     },
@@ -316,6 +345,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 9",
         "sketchOverlapProportion": 0
       }
     },
@@ -327,6 +357,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 12",
         "sketchOverlapProportion": 0
       }
     },
@@ -338,6 +369,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 7",
         "sketchOverlapProportion": 0
       }
     },
@@ -349,6 +381,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 1",
         "sketchOverlapProportion": 0
       }
     },
@@ -358,9 +391,10 @@
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
-      "value": 22135437.798392,
+      "value": 22135468.577528875,
       "extra": {
-        "sketchOverlapProportion": 0.001576827453399752
+        "sketchName": "Existing MPA 13",
+        "sketchOverlapProportion": 0.4454022738242082
       }
     },
     {
@@ -369,9 +403,11 @@
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
-      "value": 181851164.780376,
+      "value": 181851444.1407995,
       "extra": {
-        "sketchOverlapProportion": 0.012954246112956907
+        "sketchName": "Existing MPAS",
+        "isCollection": true,
+        "sketchOverlapProportion": 0.012954266013317096
       }
     },
     {
@@ -382,6 +418,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 14",
         "sketchOverlapProportion": 0
       }
     },
@@ -391,9 +428,10 @@
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 82420413.833008,
+      "value": 82420269.81303333,
       "extra": {
-        "sketchOverlapProportion": 0.005871253708020028
+        "sketchName": "Existing MPA 11",
+        "sketchOverlapProportion": 0.05703808365654357
       }
     },
     {
@@ -402,9 +440,10 @@
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 7328175.398929,
+      "value": 7328180.840682849,
       "extra": {
-        "sketchOverlapProportion": 0.0005220257334688607
+        "sketchName": "Existing MPA 4",
+        "sketchOverlapProportion": 0.28042076770467994
       }
     },
     {
@@ -413,9 +452,10 @@
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 6664669.972594,
+      "value": 6664653.295072159,
       "extra": {
-        "sketchOverlapProportion": 0.00047476063840935675
+        "sketchName": "Existing MPA 6",
+        "sketchOverlapProportion": 0.17953270699720542
       }
     },
     {
@@ -424,9 +464,10 @@
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 5136500.164834,
+      "value": 5136561.021602409,
       "extra": {
-        "sketchOverlapProportion": 0.00036590080341175683
+        "sketchName": "Existing MPA 3",
+        "sketchOverlapProportion": 0.5356245424012437
       }
     },
     {
@@ -435,9 +476,10 @@
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 57500374.487152,
+      "value": 57500374.48715225,
       "extra": {
-        "sketchOverlapProportion": 0.004096063963040046
+        "sketchName": "Existing MPA 8",
+        "sketchOverlapProportion": 0.008718029305932327
       }
     },
     {
@@ -448,6 +490,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 16",
         "sketchOverlapProportion": 0
       }
     },
@@ -457,9 +500,10 @@
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 2353713.194496,
+      "value": 2353824.9177908134,
       "extra": {
-        "sketchOverlapProportion": 0.00016766777401530016
+        "sketchName": "Existing MPA 10",
+        "sketchOverlapProportion": 0.002600302883190794
       }
     },
     {
@@ -470,6 +514,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 2",
         "sketchOverlapProportion": 0
       }
     },
@@ -479,9 +524,10 @@
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 53745126.148895,
+      "value": 53745240.57536285,
       "extra": {
-        "sketchOverlapProportion": 0.0038285572289049937
+        "sketchName": "Existing MPA 15",
+        "sketchOverlapProportion": 0.13972385253377337
       }
     },
     {
@@ -492,6 +538,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 5",
         "sketchOverlapProportion": 0
       }
     },
@@ -501,9 +548,10 @@
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 57826338.866938,
+      "value": 57826271.49518414,
       "extra": {
-        "sketchOverlapProportion": 0.004119284176146214
+        "sketchName": "Existing MPA 9",
+        "sketchOverlapProportion": 0.028365907546789245
       }
     },
     {
@@ -514,6 +562,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 12",
         "sketchOverlapProportion": 0
       }
     },
@@ -525,6 +574,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 7",
         "sketchOverlapProportion": 0
       }
     },
@@ -536,6 +586,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 1",
         "sketchOverlapProportion": 0
       }
     },
@@ -545,9 +596,10 @@
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 27562183.814695,
+      "value": 27562560.233256593,
       "extra": {
-        "sketchOverlapProportion": 0.0019634040451559777
+        "sketchName": "Existing MPA 13",
+        "sketchOverlapProportion": 0.5546043426779665
       }
     },
     {
@@ -556,9 +608,11 @@
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 300537495.881542,
+      "value": 300537936.67913735,
       "extra": {
-        "sketchOverlapProportion": 0.021408918070572606
+        "sketchName": "Existing MPAS",
+        "isCollection": true,
+        "sketchOverlapProportion": 0.02140894947097932
       }
     },
     {
@@ -567,9 +621,10 @@
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 118891433.664285,
+      "value": 118891489.26765957,
       "extra": {
-        "sketchOverlapProportion": 0.008469282527112189
+        "sketchName": "Existing MPA 14",
+        "sketchOverlapProportion": 0.23050705764785503
       }
     },
     {
@@ -578,9 +633,10 @@
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 382057928.593297,
+      "value": 382058072.0212172,
       "extra": {
-        "sketchOverlapProportion": 0.027216061235469047
+        "sketchName": "Existing MPA 11",
+        "sketchOverlapProportion": 0.2643992833684941
       }
     },
     {
@@ -591,6 +647,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 4",
         "sketchOverlapProportion": 0
       }
     },
@@ -602,6 +659,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 6",
         "sketchOverlapProportion": 0
       }
     },
@@ -611,9 +669,10 @@
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 4453172.785761,
+      "value": 4453276.227659398,
       "extra": {
-        "sketchOverlapProportion": 0.0003172236830043945
+        "sketchName": "Existing MPA 3",
+        "sketchOverlapProportion": 0.46437373791429915
       }
     },
     {
@@ -622,9 +681,10 @@
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 1093500736.208633,
+      "value": 1093499814.3665628,
       "extra": {
-        "sketchOverlapProportion": 0.07789599631464572
+        "sketchName": "Existing MPA 8",
+        "sketchOverlapProportion": 0.16579306678792713
       }
     },
     {
@@ -633,9 +693,10 @@
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 435866478.659292,
+      "value": 435866568.1141418,
       "extra": {
-        "sketchOverlapProportion": 0.031049136494448543
+        "sketchName": "Existing MPA 16",
+        "sketchOverlapProportion": 0.7615252015826982
       }
     },
     {
@@ -644,9 +705,10 @@
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 275221925.487971,
+      "value": 275222246.5679647,
       "extra": {
-        "sketchOverlapProportion": 0.019605552500908716
+        "sketchName": "Existing MPA 10",
+        "sketchOverlapProportion": 0.30404181545525116
       }
     },
     {
@@ -655,9 +717,10 @@
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 123520539.011099,
+      "value": 123520593.85295258,
       "extra": {
-        "sketchOverlapProportion": 0.008799038841941713
+        "sketchName": "Existing MPA 2",
+        "sketchOverlapProportion": 0.1015274537615528
       }
     },
     {
@@ -666,9 +729,10 @@
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 5596873.805239,
+      "value": 5596876.737417875,
       "extra": {
-        "sketchOverlapProportion": 0.0003986957181373614
+        "sketchName": "Existing MPA 15",
+        "sketchOverlapProportion": 0.014550445240116075
       }
     },
     {
@@ -677,9 +741,10 @@
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 69925884.698752,
+      "value": 69926055.7334894,
       "extra": {
-        "sketchOverlapProportion": 0.004981200539176486
+        "sketchName": "Existing MPA 5",
+        "sketchOverlapProportion": 0.412662041826764
       }
     },
     {
@@ -688,9 +753,10 @@
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 936201810.235908,
+      "value": 936202546.1567894,
       "extra": {
-        "sketchOverlapProportion": 0.0666907395167835
+        "sketchName": "Existing MPA 9",
+        "sketchOverlapProportion": 0.4592416938305252
       }
     },
     {
@@ -701,6 +767,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 12",
         "sketchOverlapProportion": 0
       }
     },
@@ -710,9 +777,10 @@
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 7159851.882655,
+      "value": 7159639.13135206,
       "extra": {
-        "sketchOverlapProportion": 0.0005100351352285628
+        "sketchName": "Existing MPA 7",
+        "sketchOverlapProportion": 0.5196236292150849
       }
     },
     {
@@ -721,9 +789,10 @@
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 36383855.602479,
+      "value": 36383517.290405884,
       "extra": {
-        "sketchOverlapProportion": 0.002591819637680214
+        "sketchName": "Existing MPA 1",
+        "sketchOverlapProportion": 0.900558515403031
       }
     },
     {
@@ -734,6 +803,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 13",
         "sketchOverlapProportion": 0
       }
     },
@@ -743,9 +813,11 @@
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 3488594516.384551,
+      "value": 3488594720.9556303,
       "extra": {
-        "sketchOverlapProportion": 0.24851153418861213
+        "sketchName": "Existing MPAS",
+        "isCollection": true,
+        "sketchOverlapProportion": 0.24851154876132117
       }
     },
     {
@@ -754,9 +826,10 @@
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
-      "value": 396889178.671352,
+      "value": 396890935.96266043,
       "extra": {
-        "sketchOverlapProportion": 0.02827257172802471
+        "sketchName": "Existing MPA 14",
+        "sketchOverlapProportion": 0.7694929420044017
       }
     },
     {
@@ -765,9 +838,10 @@
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
-      "value": 978164371.819201,
+      "value": 978165236.1306776,
       "extra": {
-        "sketchOverlapProportion": 0.06967996067979663
+        "sketchName": "Existing MPA 11",
+        "sketchOverlapProportion": 0.6769289968949076
       }
     },
     {
@@ -778,6 +852,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 4",
         "sketchOverlapProportion": 0
       }
     },
@@ -789,6 +864,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 6",
         "sketchOverlapProportion": 0
       }
     },
@@ -800,6 +876,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 3",
         "sketchOverlapProportion": 0
       }
     },
@@ -809,9 +886,10 @@
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
-      "value": 5419042161.222715,
+      "value": 5419042127.523551,
       "extra": {
-        "sketchOverlapProportion": 0.38602780431871264
+        "sketchName": "Existing MPA 8",
+        "sketchOverlapProportion": 0.8216184416049
       }
     },
     {
@@ -820,9 +898,10 @@
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
-      "value": 136513921.651684,
+      "value": 136513259.48778024,
       "extra": {
-        "sketchOverlapProportion": 0.009724628055347309
+        "sketchName": "Existing MPA 16",
+        "sketchOverlapProportion": 0.23850943168212693
       }
     },
     {
@@ -831,9 +910,10 @@
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
-      "value": 627634860.42862,
+      "value": 627635411.3117688,
       "extra": {
-        "sketchOverlapProportion": 0.04470983983458701
+        "sketchName": "Existing MPA 10",
+        "sketchOverlapProportion": 0.6933575039040663
       }
     },
     {
@@ -842,9 +922,10 @@
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
-      "value": 1093100349.073758,
+      "value": 1093102363.8443239,
       "extra": {
-        "sketchOverlapProportion": 0.07786747456449968
+        "sketchName": "Existing MPA 2",
+        "sketchOverlapProportion": 0.8984728476448773
       }
     },
     {
@@ -855,6 +936,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 15",
         "sketchOverlapProportion": 0
       }
     },
@@ -864,9 +946,10 @@
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
-      "value": 99524383.468328,
+      "value": 99525089.86726215,
       "extra": {
-        "sketchOverlapProportion": 0.007089662357929247
+        "sketchName": "Existing MPA 5",
+        "sketchOverlapProportion": 0.5873379581732506
       }
     },
     {
@@ -875,9 +958,10 @@
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
-      "value": 1044555355.233391,
+      "value": 1044555502.2962768,
       "extra": {
-        "sketchOverlapProportion": 0.07440935100219213
+        "sketchName": "Existing MPA 9",
+        "sketchOverlapProportion": 0.5123927937856724
       }
     },
     {
@@ -886,9 +970,10 @@
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
-      "value": 17996845.73394,
+      "value": 17996785.152312998,
       "extra": {
-        "sketchOverlapProportion": 0.0012820130636828101
+        "sketchName": "Existing MPA 12",
+        "sketchOverlapProportion": 1
       }
     },
     {
@@ -897,9 +982,10 @@
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
-      "value": 6618962.768514,
+      "value": 6618865.980509928,
       "extra": {
-        "sketchOverlapProportion": 0.00047150466602390316
+        "sketchName": "Existing MPA 7",
+        "sketchOverlapProportion": 0.4803760495441805
       }
     },
     {
@@ -908,9 +994,10 @@
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
-      "value": 4021915.970594,
+      "value": 4021841.0593977016,
       "extra": {
-        "sketchOverlapProportion": 0.00028650291787588793
+        "sketchName": "Existing MPA 1",
+        "sketchOverlapProportion": 0.09954791299392106
       }
     },
     {
@@ -921,6 +1008,7 @@
       "geographyId": null,
       "value": 0,
       "extra": {
+        "sketchName": "Existing MPA 13",
         "sketchOverlapProportion": 0
       }
     },
@@ -930,9 +1018,11 @@
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
-      "value": 9824062306.042095,
+      "value": 9824067418.616522,
       "extra": {
-        "sketchOverlapProportion": 0.6998213131886718
+        "sketchName": "Existing MPAS",
+        "isCollection": true,
+        "sketchOverlapProportion": 0.6998216773851149
       }
     }
   ],

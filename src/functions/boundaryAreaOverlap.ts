@@ -88,7 +88,6 @@ export async function boundaryAreaOverlap(
       (metricsSoFar, curClassMetrics) => [...metricsSoFar, ...curClassMetrics],
       []
     );
-  console.log("the  metrics", metrics);
 
   return {
     metrics: sortMetrics(rekeyMetrics(metrics)),

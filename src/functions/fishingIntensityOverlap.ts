@@ -17,6 +17,7 @@ import bbox from "@turf/bbox";
 import area from "@turf/area";
 import truncate from "@turf/truncate";
 import project from "../../project";
+import { overlapFeaturesFlip } from "../../scripts/overlapFeauturesFlip";
 
 export async function fishingIntensityOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>
@@ -75,7 +76,7 @@ export async function fishingIntensityOverlap(
   const metrics: Metric[] = (
     await Promise.all(
       metricGroup.classes.map(async (curClass) => {
-        const overlapResult = await overlapFeatures(
+        const overlapResult = await overlapFeaturesFlip(
           metricGroup.metricId,
           polysByBoundary[curClass.classId],
           sketch
@@ -84,9 +85,9 @@ export async function fishingIntensityOverlap(
           (metric): Metric => ({
             ...metric,
             classId: curClass.classId,
-            extra: {
-              sketchOverlapProportion: metric.value / area(sketch),
-            }
+            // extra: {
+            //   sketchOverlapProportion: metric.value / area(sketch),
+            // }
           })
         );
       })

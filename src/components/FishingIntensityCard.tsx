@@ -22,7 +22,7 @@ import {
 import project from "../../project";
 import Translator from "./TranslatorAsync";
 import { Trans, useTranslation } from "react-i18next";
-import { area } from "@seasketch/geoprocessing";
+import { area, externalRasterDatasourceSchema } from "@seasketch/geoprocessing";
 
 const metricGroup = project.getMetricGroup("fishingIntensityOverlap");
 const precalcMetrics = project.getPrecalcMetrics(
@@ -38,9 +38,10 @@ export const FishingIntensityCard = () => {
   const { t } = useTranslation();
 
   const mapLabel = t("Map");
-  const classLabel = t("Intensity");
-  const areaWithin = t("Area Within Plan");
-  const percAreaWithin = `% ${t("Area Within Plan")}`;
+  const classLabel = t("Intensity Class");
+  const areaWithin = t("Area Overlap");
+  const percAreaWithin = `% ${t("Class Area Overlap")}`;
+  const percPlanAreaWithin = `% ${t("Plan Area Overlap")}`;
   const sqKmLabel = t("km²");
 
   return (
@@ -55,7 +56,7 @@ export const FishingIntensityCard = () => {
             (m) => m.sketchId === data.sketch.properties.id
           );
 
-          // need to fix this
+          // need to fix this and line 245
           // @ts-ignore
           const flipMetrics: Metric[] = singleMetrics.map((m) => {
             return {
@@ -64,8 +65,6 @@ export const FishingIntensityCard = () => {
               value: m.extra?.sketchOverlapProportion,
             };
           });
-
-          console.log("flipMetrics", flipMetrics);
 
           const finalMetrics = [
             ...singleMetrics,
@@ -96,7 +95,7 @@ export const FishingIntensityCard = () => {
                     {
                       columnLabel: classLabel,
                       type: "class",
-                      width: 30,
+                      width: 17,
                     },
                     {
                       columnLabel: areaWithin,
@@ -111,7 +110,7 @@ export const FishingIntensityCard = () => {
                           )
                         ),
                       valueLabel: sqKmLabel,
-                      width: 30,
+                      width: 20,
                     },
                     {
                       columnLabel: percAreaWithin,
@@ -124,7 +123,7 @@ export const FishingIntensityCard = () => {
                         targetLabelStyle: "tight",
                         barHeight: 11,
                       },
-                      width: 30,
+                      width: 20,
                       targetValueFormatter: (
                         value: number,
                         row: number,
@@ -141,19 +140,8 @@ export const FishingIntensityCard = () => {
                         }
                       },
                     },
-                  ]}
-                />
-                <ClassTable
-                  rows={finalMetrics}
-                  metricGroup={metricGroup}
-                  columnConfig={[
                     {
-                      columnLabel: classLabel,
-                      type: "class",
-                      width: 30,
-                    },
-                    {
-                      columnLabel: "% area of plan overlapping class",
+                      columnLabel: percPlanAreaWithin,
                       type: "metricChart",
                       metricId: "fishingIntensityFlipOverlap",
                       valueFormatter: "percent",
@@ -163,7 +151,7 @@ export const FishingIntensityCard = () => {
                         targetLabelStyle: "tight",
                         barHeight: 11,
                       },
-                      width: 30,
+                      width: 20,
                       targetValueFormatter: (
                         value: number,
                         row: number,
@@ -185,25 +173,43 @@ export const FishingIntensityCard = () => {
               </Translator>
 
               {isCollection && (
-                <Collapse title={t("Show by MPA")}>
+                <Collapse title={t("Show Class Overlap by MPA")}>
                   {genSketchTable(data)}
                 </Collapse>
               )}
 
+              {isCollection && (
+                <Collapse title={t("Show Plan Overlap by MPA")}>
+                  {genFlipSketchTable(data)}
+                </Collapse>
+              )}
+
               <Collapse title={t("Learn more")}>
-                <Trans i18nKey="Fishing Intensity Card - learn more">
-                  <p>
-                    {" "}
-                    This report summarizes the amount of fishing intensity
-                    overlap within this plan. Fishing intensity is fishing
-                    effort per unit area - intensity values have been grouped
-                    into 5 classes.
-                  </p>
-                  <p>
-                    If zone boundaries overlap with each other, the overlap is
-                    only counted once.
-                  </p>
-                </Trans>
+                {/* <Trans i18nKey="Fishing Intensity Card - learn more"> */}
+                <p>
+                  {" "}
+                  This report summarizes the amount of fishing intensity overlap
+                  within this plan. Fishing intensity is fishing effort per unit
+                  area - intensity values have been grouped into 5 classes.
+                </p>
+                <p>
+                  <b>Class Area Overlap</b> and <b>Plan Area Overlap</b> are
+                  defined as follows:
+                  <li>
+                    <b>Class Area Overlap</b>: The percentage of a given
+                    intensity class's area that overlaps with the proposed plan.
+                  </li>
+                  <li>
+                    <b>Plan Area Overlap</b>: The percentage of the{" "}
+                    <i>proposed plan's area</i> that overlaps with the given
+                    intensity class.
+                  </li>
+                </p>
+                <p>
+                  If zone boundaries overlap with each other, the overlap is
+                  only counted once.
+                </p>
+                {/* </Trans> */}
               </Collapse>
             </ToolbarCard>
           );
@@ -226,6 +232,39 @@ const genSketchTable = (data: ReportResult) => {
   );
   const sketchRows = flattenBySketchAllClass(
     childSketchMetrics,
+    metricGroup.classes,
+    childSketches
+  );
+  return (
+    <SketchClassTable rows={sketchRows} metricGroup={metricGroup} formatPerc />
+  );
+};
+
+const genFlipSketchTable = (data: ReportResult) => {
+  // Build agg metric objects for each child sketch in collection with percValue for each class
+  const childSketches = toNullSketchArray(data.sketch);
+  const childSketchIds = childSketches.map((sk) => sk.properties.id);
+  const childSketchMetrics = metricsWithSketchId(
+    data.metrics.filter((m) => m.metricId === metricGroup.metricId),
+    childSketchIds
+  );
+
+  const childFlipMetrics = childSketchMetrics.map((m): Metric => {
+    return {
+      ...m,
+      metricId: "fishingIntensityFlipOverlap",
+      // @ts-ignore
+      value: m.extra?.sketchOverlapProportion,
+    };
+  });
+
+  const childFlipSketchMetrics = metricsWithSketchId(
+    childFlipMetrics,
+    childSketchIds
+  );
+
+  const sketchRows = flattenBySketchAllClass(
+    childFlipSketchMetrics,
     metricGroup.classes,
     childSketches
   );
