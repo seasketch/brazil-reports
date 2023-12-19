@@ -17,7 +17,7 @@ import bbox from "@turf/bbox";
 import area from "@turf/area";
 import truncate from "@turf/truncate";
 import project from "../../project";
-import { overlapFeaturesFlip } from "../../scripts/overlapFeauturesFlip";
+import { overlapFeaturesFlip } from "../../scripts/overlapFeaturesFlip";
 
 export async function fishingIntensityOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>
