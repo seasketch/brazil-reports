@@ -18,6 +18,10 @@ import {
   valueFormatter,
   Metric,
 } from "@seasketch/geoprocessing/client-core";
+import {
+  SketchClassTableOrdered,
+  SketchClassTableStyled,
+} from "./SketchClassTableOrdered";
 
 import project from "../../project";
 import Translator from "./TranslatorAsync";
@@ -219,6 +223,15 @@ export const FishingIntensityCard = () => {
   );
 };
 
+const sketchTableColumnOrder = [
+  "MPA",
+  "Very Low",
+  "Low",
+  "Medium",
+  "High",
+  "Very High",
+];
+
 const genSketchTable = (data: ReportResult) => {
   // Build agg metric objects for each child sketch in collection with percValue for each class
   const childSketches = toNullSketchArray(data.sketch);
@@ -235,8 +248,26 @@ const genSketchTable = (data: ReportResult) => {
     metricGroup.classes,
     childSketches
   );
+  const classOrder = {
+    sketchId: null,
+    sketchName: null,
+    "Very Low": null,
+    Low: null,
+    Medium: null,
+    High: null,
+    "Very High": null,
+  };
+  const sketchRowsOrdered = sketchRows.map((curSketch) =>
+    Object.assign({}, classOrder, curSketch)
+  );
+
   return (
-    <SketchClassTable rows={sketchRows} metricGroup={metricGroup} formatPerc />
+    <SketchClassTableOrdered
+      rows={sketchRowsOrdered}
+      metricGroup={metricGroup}
+      formatPerc
+      columnOrder={sketchTableColumnOrder}
+    />
   );
 };
 
@@ -269,6 +300,11 @@ const genFlipSketchTable = (data: ReportResult) => {
     childSketches
   );
   return (
-    <SketchClassTable rows={sketchRows} metricGroup={metricGroup} formatPerc />
+    <SketchClassTableOrdered
+      rows={sketchRows}
+      metricGroup={metricGroup}
+      formatPerc
+      columnOrder={sketchTableColumnOrder}
+    />
   );
 };

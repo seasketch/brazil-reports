@@ -85,9 +85,6 @@ export async function fishingIntensityOverlap(
           (metric): Metric => ({
             ...metric,
             classId: curClass.classId,
-            // extra: {
-            //   sketchOverlapProportion: metric.value / area(sketch),
-            // }
           })
         );
       })
