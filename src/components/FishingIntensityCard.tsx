@@ -99,7 +99,7 @@ export const FishingIntensityCard = () => {
                     {
                       columnLabel: classLabel,
                       type: "class",
-                      width: 17,
+                      width: 23,
                     },
                     {
                       columnLabel: areaWithin,
