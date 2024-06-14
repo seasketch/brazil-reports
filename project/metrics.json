@@ -363,5 +363,187 @@
         "layerId": ""
       }
     ]
+  },
+  {
+    "metricId": "habitatsServicesOverlap",
+    "type": "areaOverlap",
+    "layerId": "",
+    "classes": [
+      {
+        "classId": "Circalittoral biogenic",
+        "classKey": "habitat",
+        "display": "Circalittoral biogenic",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Circalittoral coarse sediment",
+        "classKey": "habitat",
+        "display": "Circalittoral coarse sediment",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Circalittoral mixed sediment",
+        "classKey": "habitat",
+        "display": "Circalittoral mixed sediment",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Circalittoral mud",
+        "classKey": "habitat",
+        "display": "Circalittoral mud",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Circalittoral sand",
+        "classKey": "habitat",
+        "display": "Circalittoral sand",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Abyssal mud",
+        "classKey": "habitat",
+        "display": "Abyssal mud",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Abyssal rock",
+        "classKey": "habitat",
+        "display": "Abyssal rock",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Abyssal seabed",
+        "classKey": "habitat",
+        "display": "Abyssal seabed",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Infralittoral biogenic",
+        "classKey": "habitat",
+        "display": "Infralittoral biogenic",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Infralittoral coarse sediment",
+        "classKey": "habitat",
+        "display": "Infralittoral coarse sediment",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Infralittoral mixed sediment",
+        "classKey": "habitat",
+        "display": "Infralittoral mixed sediment",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Infralittoral mud",
+        "classKey": "habitat",
+        "display": "Infralittoral mud",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Infralittoral sand",
+        "classKey": "habitat",
+        "display": "Infralittoral sand",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Lower bathyal biogenic",
+        "classKey": "habitat",
+        "display": "Lower bathyal biogenic",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Lower bathyal rock",
+        "classKey": "habitat",
+        "display": "Lower bathyal rock",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Lower bathyal seabed",
+        "classKey": "habitat",
+        "display": "Lower bathyal seabed",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Mid bathyal biogenic",
+        "classKey": "habitat",
+        "display": "Mid bathyal biogenic",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Mid bathyal rock",
+        "classKey": "habitat",
+        "display": "Mid bathyal rock",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Mid bathyal seabed",
+        "classKey": "habitat",
+        "display": "Mid bathyal seabed",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Offshore circalittoral biogenic",
+        "classKey": "habitat",
+        "display": "Offshore circalittoral biogenic",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Offshore circalittoral coarse sediment",
+        "classKey": "habitat",
+        "display": "Offshore circalittoral coarse sediment",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Offshore circalittoral mixed sediment",
+        "classKey": "habitat",
+        "display": "Offshore circalittoral mixed sediment",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Offshore circalittoral mud",
+        "classKey": "habitat",
+        "display": "Offshore circalittoral mud",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Offshore circalittoral sand",
+        "classKey": "habitat",
+        "display": "Offshore circalittoral sand",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Upper bathyal biogenic",
+        "classKey": "habitat",
+        "display": "Upper bathyal biogenic",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      }
+    ]
   }
 ]

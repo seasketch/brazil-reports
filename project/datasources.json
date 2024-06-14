@@ -762,18 +762,8 @@
     ]
   },
   {
-    "src": "data/src/Brazil/Data_Products/shipping/shipping_intensity_simplified.fgb",
-    "layerName": "shipping_intensity_simplified",
-    "geo_type": "vector",
     "datasourceId": "shipping_intensity_simplified",
-    "formats": [
-      "fgb"
-    ],
-    "classKeys": [
-      "intensity_class"
-    ],
-    "created": "2023-09-08T17:03:17.954Z",
-    "lastUpdated": "2023-09-08T17:03:17.954Z",
+    "geo_type": "vector",
     "keyStats": {
       "intensity_class": {
         "Low": {
@@ -801,8 +791,154 @@
         }
       }
     },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "shipping_intensity_simplified",
+    "classKeys": [
+      "intensity_class"
+    ],
+    "created": "2023-09-08T17:03:17.954Z",
+    "lastUpdated": "2023-09-08T17:03:17.954Z",
+    "src": "data/src/Brazil/Data_Products/shipping/shipping_intensity_simplified.fgb",
     "propertiesToKeep": [
       "intensity_class"
+    ]
+  },
+  {
+    "src": "data/src/Brazil/Data_Products/benthic_habitats_ecosystem_services/habitats_services.fgb",
+    "layerName": "habitats_services",
+    "geo_type": "vector",
+    "datasourceId": "habitats_services",
+    "formats": [
+      "fgb"
+    ],
+    "classKeys": [
+      "habitat"
+    ],
+    "created": "2024-06-14T22:49:00.435Z",
+    "lastUpdated": "2024-06-14T22:49:00.435Z",
+    "keyStats": {
+      "habitat": {
+        "Mid bathyal biogenic": {
+          "count": 3,
+          "area": 141208766.72235742
+        },
+        "Lower bathyal biogenic": {
+          "count": 7,
+          "area": 14631301.07884821
+        },
+        "Abyssal mud": {
+          "count": 127,
+          "area": 1971724990910.8425
+        },
+        "Abyssal seabed": {
+          "count": 153,
+          "area": 2269062750745.284
+        },
+        "Abyssal rock": {
+          "count": 304,
+          "area": 291806105553.1497
+        },
+        "Lower bathyal rock": {
+          "count": 142,
+          "area": 88369835022.12964
+        },
+        "Mid bathyal rock": {
+          "count": 154,
+          "area": 27813724895.411076
+        },
+        "Upper bathyal rock": {
+          "count": 95,
+          "area": 36853484090.77646
+        },
+        "Circalittoral biogenic": {
+          "count": 89,
+          "area": 512255957.15179247
+        },
+        "Infralittoral biogenic": {
+          "count": 2867,
+          "area": 35366759507.33208
+        },
+        "Upper bathyal biogenic": {
+          "count": 97,
+          "area": 1100544554.8853052
+        },
+        "Offshore circalittoral biogenic": {
+          "count": 193,
+          "area": 12148680801.887373
+        },
+        "Circalittoral mud": {
+          "count": 430,
+          "area": 107319869713.60844
+        },
+        "Circalittoral mixed sediment": {
+          "count": 246,
+          "area": 5515331018.991146
+        },
+        "Infralittoral mixed sediment": {
+          "count": 773,
+          "area": 36535808114.99655
+        },
+        "Circalittoral sand": {
+          "count": 426,
+          "area": 25976981999.998497
+        },
+        "Circalittoral coarse sediment": {
+          "count": 244,
+          "area": 10260042974.963547
+        },
+        "Offshore circalittoral mud": {
+          "count": 210,
+          "area": 153409863709.8338
+        },
+        "Infralittoral mud": {
+          "count": 781,
+          "area": 44917828282.15171
+        },
+        "Offshore circalittoral mixed sediment": {
+          "count": 358,
+          "area": 45520021404.76338
+        },
+        "Infralittoral sand": {
+          "count": 714,
+          "area": 109589478214.27135
+        },
+        "Offshore circalittoral sand": {
+          "count": 347,
+          "area": 17966977841.45405
+        },
+        "Infralittoral coarse sediment": {
+          "count": 1039,
+          "area": 97060427131.24356
+        },
+        "Offshore circalittoral coarse sediment": {
+          "count": 482,
+          "area": 20050611212.07473
+        },
+        "Mid bathyal seabed": {
+          "count": 150,
+          "area": 84436407064.49776
+        },
+        "Upper bathyal seabed": {
+          "count": 954,
+          "area": 100224994934.21555
+        },
+        "Lower bathyal seabed": {
+          "count": 152,
+          "area": 174056338711.92923
+        }
+      },
+      "total": {
+        "total": {
+          "count": 11537,
+          "sum": null,
+          "area": 5767755954435.626
+        }
+      }
+    },
+    "propertiesToKeep": [
+      "habitat"
     ]
   }
 ]
