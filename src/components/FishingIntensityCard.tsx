@@ -60,14 +60,17 @@ export const FishingIntensityCard = () => {
             (m) => m.sketchId === data.sketch.properties.id
           );
 
-          // need to fix this and line 245
-          // @ts-ignore
+          // need better way to type protect this, and line 287
           const flipMetrics: Metric[] = singleMetrics.map((m) => {
-            return {
-              ...m,
-              metricId: "fishingIntensityFlipOverlap",
-              value: m.extra?.sketchOverlapProportion,
-            };
+            return typeof m.extra?.sketchOverlapProportion === "number"
+              ? {
+                  ...m,
+                  metricId: "fishingIntensityFlipOverlap",
+                  value: m.extra.sketchOverlapProportion,
+                }
+              : {
+                  ...m,
+                };
           });
 
           const finalMetrics = [
@@ -281,12 +284,15 @@ const genFlipSketchTable = (data: ReportResult) => {
   );
 
   const childFlipMetrics = childSketchMetrics.map((m): Metric => {
-    return {
-      ...m,
-      metricId: "fishingIntensityFlipOverlap",
-      // @ts-ignore
-      value: m.extra?.sketchOverlapProportion,
-    };
+    return typeof m.extra?.sketchOverlapProportion === "number"
+      ? {
+          ...m,
+          metricId: "fishingIntensityFlipOverlap",
+          value: m.extra.sketchOverlapProportion,
+        }
+      : {
+          ...m,
+        };
   });
 
   const childFlipSketchMetrics = metricsWithSketchId(
