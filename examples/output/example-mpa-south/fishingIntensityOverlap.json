@@ -6,9 +6,10 @@
       "classId": "Very Low",
       "groupId": null,
       "geographyId": null,
-      "value": 69259149.606008,
+      "value": 69259033.57786389,
       "extra": {
-        "sketchOverlapProportion": 0.0006978527258832477
+        "sketchName": "example-mpa-south",
+        "sketchOverlapProportion": 0.0006978515567877983
       }
     },
     {
@@ -17,9 +18,10 @@
       "classId": "Low",
       "groupId": null,
       "geographyId": null,
-      "value": 3759987903.383858,
+      "value": 3759987961.1776466,
       "extra": {
-        "sketchOverlapProportion": 0.03788550426320636
+        "sketchName": "example-mpa-south",
+        "sketchOverlapProportion": 0.03788550484553452
       }
     },
     {
@@ -28,9 +30,10 @@
       "classId": "Medium",
       "groupId": null,
       "geographyId": null,
-      "value": 31754187078.317905,
+      "value": 31754188517.306076,
       "extra": {
-        "sketchOverlapProportion": 0.3199540585882168
+        "sketchName": "example-mpa-south",
+        "sketchOverlapProportion": 0.31995407308741036
       }
     },
     {
@@ -39,9 +42,10 @@
       "classId": "High",
       "groupId": null,
       "geographyId": null,
-      "value": 45086999217.73509,
+      "value": 45087003705.600685,
       "extra": {
-        "sketchOverlapProportion": 0.45429499907204884
+        "sketchName": "example-mpa-south",
+        "sketchOverlapProportion": 0.45429504429162276
       }
     },
     {
@@ -50,9 +54,10 @@
       "classId": "Very High",
       "groupId": null,
       "geographyId": null,
-      "value": 18624234930.23827,
+      "value": 18624231489.182026,
       "extra": {
-        "sketchOverlapProportion": 0.1876571281555171
+        "sketchName": "example-mpa-south",
+        "sketchOverlapProportion": 0.1876570934835569
       }
     }
   ],

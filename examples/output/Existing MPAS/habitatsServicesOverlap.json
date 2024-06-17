@@ -1,0 +1,6460 @@
+{
+  "metrics": [
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16067",
+      "classId": "Circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 14"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16060",
+      "classId": "Circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 11"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16051",
+      "classId": "Circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 4"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16053",
+      "classId": "Circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16050",
+      "classId": "Circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16056",
+      "classId": "Circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 8"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16057",
+      "classId": "Circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 16"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16059",
+      "classId": "Circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 10"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16049",
+      "classId": "Circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 2"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16055",
+      "classId": "Circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 15"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16052",
+      "classId": "Circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 5"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16058",
+      "classId": "Circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 9"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16065",
+      "classId": "Circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 12"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16054",
+      "classId": "Circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 7"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16048",
+      "classId": "Circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 1"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16066",
+      "classId": "Circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 13"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16068",
+      "classId": "Circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPAS",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16067",
+      "classId": "Circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 14"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16060",
+      "classId": "Circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 11"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16051",
+      "classId": "Circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 4"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16053",
+      "classId": "Circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16050",
+      "classId": "Circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16056",
+      "classId": "Circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 8"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16057",
+      "classId": "Circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 16"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16059",
+      "classId": "Circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 10"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16049",
+      "classId": "Circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 2"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16055",
+      "classId": "Circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 15"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16052",
+      "classId": "Circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 7062077.828358,
+      "extra": {
+        "sketchName": "Existing MPA 5"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16058",
+      "classId": "Circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 9"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16065",
+      "classId": "Circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 12"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16054",
+      "classId": "Circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 7"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16048",
+      "classId": "Circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 1"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16066",
+      "classId": "Circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 13"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16068",
+      "classId": "Circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 7062077.828358,
+      "extra": {
+        "sketchName": "Existing MPAS",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16067",
+      "classId": "Circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 14"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16060",
+      "classId": "Circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1192717.953727,
+      "extra": {
+        "sketchName": "Existing MPA 11"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16051",
+      "classId": "Circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 4"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16053",
+      "classId": "Circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16050",
+      "classId": "Circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16056",
+      "classId": "Circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 8"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16057",
+      "classId": "Circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 16"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16059",
+      "classId": "Circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 33169023.378213,
+      "extra": {
+        "sketchName": "Existing MPA 10"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16049",
+      "classId": "Circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 272861882.116424,
+      "extra": {
+        "sketchName": "Existing MPA 2"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16055",
+      "classId": "Circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 15"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16052",
+      "classId": "Circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 32456538.067269,
+      "extra": {
+        "sketchName": "Existing MPA 5"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16058",
+      "classId": "Circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 4714375.03536,
+      "extra": {
+        "sketchName": "Existing MPA 9"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16065",
+      "classId": "Circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 12"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16054",
+      "classId": "Circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 7"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16048",
+      "classId": "Circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2709098.660838,
+      "extra": {
+        "sketchName": "Existing MPA 1"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16066",
+      "classId": "Circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 13"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16068",
+      "classId": "Circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 347103635.21183,
+      "extra": {
+        "sketchName": "Existing MPAS",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16067",
+      "classId": "Circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 81170330.080007,
+      "extra": {
+        "sketchName": "Existing MPA 14"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16060",
+      "classId": "Circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 11"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16051",
+      "classId": "Circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2789630.299009,
+      "extra": {
+        "sketchName": "Existing MPA 4"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16053",
+      "classId": "Circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16050",
+      "classId": "Circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16056",
+      "classId": "Circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 40368658.318345,
+      "extra": {
+        "sketchName": "Existing MPA 8"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16057",
+      "classId": "Circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 16"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16059",
+      "classId": "Circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 216829858.581351,
+      "extra": {
+        "sketchName": "Existing MPA 10"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16049",
+      "classId": "Circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 570003448.099383,
+      "extra": {
+        "sketchName": "Existing MPA 2"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16055",
+      "classId": "Circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 15"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16052",
+      "classId": "Circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 114087785.107759,
+      "extra": {
+        "sketchName": "Existing MPA 5"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16058",
+      "classId": "Circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 33318091.838671,
+      "extra": {
+        "sketchName": "Existing MPA 9"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16065",
+      "classId": "Circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 12"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16054",
+      "classId": "Circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 7"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16048",
+      "classId": "Circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 39129700.308186,
+      "extra": {
+        "sketchName": "Existing MPA 1"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16066",
+      "classId": "Circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 13"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16068",
+      "classId": "Circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1097697502.632712,
+      "extra": {
+        "sketchName": "Existing MPAS",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16067",
+      "classId": "Circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 45265842.999698,
+      "extra": {
+        "sketchName": "Existing MPA 14"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16060",
+      "classId": "Circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1263959.791385,
+      "extra": {
+        "sketchName": "Existing MPA 11"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16051",
+      "classId": "Circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 4"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16053",
+      "classId": "Circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16050",
+      "classId": "Circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16056",
+      "classId": "Circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 219129306.710277,
+      "extra": {
+        "sketchName": "Existing MPA 8"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16057",
+      "classId": "Circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 16"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16059",
+      "classId": "Circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 4605363.618127,
+      "extra": {
+        "sketchName": "Existing MPA 10"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16049",
+      "classId": "Circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 279797462.524319,
+      "extra": {
+        "sketchName": "Existing MPA 2"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16055",
+      "classId": "Circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 15"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16052",
+      "classId": "Circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 4351725.692136,
+      "extra": {
+        "sketchName": "Existing MPA 5"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16058",
+      "classId": "Circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 8016484.669071,
+      "extra": {
+        "sketchName": "Existing MPA 9"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16065",
+      "classId": "Circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 12"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16054",
+      "classId": "Circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 7"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16048",
+      "classId": "Circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 17708015.074287,
+      "extra": {
+        "sketchName": "Existing MPA 1"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16066",
+      "classId": "Circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 13"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16068",
+      "classId": "Circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 580138161.0793,
+      "extra": {
+        "sketchName": "Existing MPAS",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16067",
+      "classId": "Abyssal mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 14"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16060",
+      "classId": "Abyssal mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 11"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16051",
+      "classId": "Abyssal mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 4"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16053",
+      "classId": "Abyssal mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16050",
+      "classId": "Abyssal mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16056",
+      "classId": "Abyssal mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 8"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16057",
+      "classId": "Abyssal mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 16"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16059",
+      "classId": "Abyssal mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 10"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16049",
+      "classId": "Abyssal mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 2"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16055",
+      "classId": "Abyssal mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 15"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16052",
+      "classId": "Abyssal mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 5"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16058",
+      "classId": "Abyssal mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 9"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16065",
+      "classId": "Abyssal mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 12"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16054",
+      "classId": "Abyssal mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 7"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16048",
+      "classId": "Abyssal mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 1"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16066",
+      "classId": "Abyssal mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 13"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16068",
+      "classId": "Abyssal mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPAS",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16067",
+      "classId": "Abyssal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 14"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16060",
+      "classId": "Abyssal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 11"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16051",
+      "classId": "Abyssal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 4"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16053",
+      "classId": "Abyssal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16050",
+      "classId": "Abyssal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16056",
+      "classId": "Abyssal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 8"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16057",
+      "classId": "Abyssal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 16"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16059",
+      "classId": "Abyssal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 10"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16049",
+      "classId": "Abyssal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 2"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16055",
+      "classId": "Abyssal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 15"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16052",
+      "classId": "Abyssal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 5"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16058",
+      "classId": "Abyssal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 9"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16065",
+      "classId": "Abyssal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 12"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16054",
+      "classId": "Abyssal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 7"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16048",
+      "classId": "Abyssal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 1"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16066",
+      "classId": "Abyssal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 13"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16068",
+      "classId": "Abyssal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPAS",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16067",
+      "classId": "Abyssal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 14"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16060",
+      "classId": "Abyssal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 11"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16051",
+      "classId": "Abyssal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 4"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16053",
+      "classId": "Abyssal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16050",
+      "classId": "Abyssal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16056",
+      "classId": "Abyssal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 8"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16057",
+      "classId": "Abyssal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 16"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16059",
+      "classId": "Abyssal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 10"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16049",
+      "classId": "Abyssal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 2"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16055",
+      "classId": "Abyssal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 15"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16052",
+      "classId": "Abyssal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 5"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16058",
+      "classId": "Abyssal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 9"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16065",
+      "classId": "Abyssal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 12"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16054",
+      "classId": "Abyssal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 7"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16048",
+      "classId": "Abyssal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 1"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16066",
+      "classId": "Abyssal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 13"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16068",
+      "classId": "Abyssal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPAS",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16067",
+      "classId": "Infralittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 14"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16060",
+      "classId": "Infralittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 11"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16051",
+      "classId": "Infralittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 4"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16053",
+      "classId": "Infralittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16050",
+      "classId": "Infralittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16056",
+      "classId": "Infralittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 8"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16057",
+      "classId": "Infralittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 16"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16059",
+      "classId": "Infralittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 10"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16049",
+      "classId": "Infralittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 2"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16055",
+      "classId": "Infralittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 15"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16052",
+      "classId": "Infralittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 5"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16058",
+      "classId": "Infralittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 9"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16065",
+      "classId": "Infralittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 12"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16054",
+      "classId": "Infralittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 7"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16048",
+      "classId": "Infralittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 1"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16066",
+      "classId": "Infralittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 13"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16068",
+      "classId": "Infralittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPAS",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16067",
+      "classId": "Infralittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2297405.277593,
+      "extra": {
+        "sketchName": "Existing MPA 14"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16060",
+      "classId": "Infralittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 334000130.743257,
+      "extra": {
+        "sketchName": "Existing MPA 11"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16051",
+      "classId": "Infralittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 4"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16053",
+      "classId": "Infralittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16050",
+      "classId": "Infralittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16056",
+      "classId": "Infralittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 6528364.917788,
+      "extra": {
+        "sketchName": "Existing MPA 8"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16057",
+      "classId": "Infralittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 69641156.662967,
+      "extra": {
+        "sketchName": "Existing MPA 16"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16059",
+      "classId": "Infralittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 11224153.998086,
+      "extra": {
+        "sketchName": "Existing MPA 10"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16049",
+      "classId": "Infralittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 2"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16055",
+      "classId": "Infralittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 15"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16052",
+      "classId": "Infralittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 5"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16058",
+      "classId": "Infralittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 11524094.236074,
+      "extra": {
+        "sketchName": "Existing MPA 9"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16065",
+      "classId": "Infralittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 11719930.074436,
+      "extra": {
+        "sketchName": "Existing MPA 12"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16054",
+      "classId": "Infralittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 7"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16048",
+      "classId": "Infralittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 1"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16066",
+      "classId": "Infralittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 13"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16068",
+      "classId": "Infralittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 446935235.910201,
+      "extra": {
+        "sketchName": "Existing MPAS",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16067",
+      "classId": "Infralittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 15054006.644858,
+      "extra": {
+        "sketchName": "Existing MPA 14"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16060",
+      "classId": "Infralittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 219454381.736825,
+      "extra": {
+        "sketchName": "Existing MPA 11"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16051",
+      "classId": "Infralittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 4"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16053",
+      "classId": "Infralittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16050",
+      "classId": "Infralittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16056",
+      "classId": "Infralittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 8"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16057",
+      "classId": "Infralittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 16"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16059",
+      "classId": "Infralittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 103001256.956541,
+      "extra": {
+        "sketchName": "Existing MPA 10"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16049",
+      "classId": "Infralittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 2"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16055",
+      "classId": "Infralittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 15"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16052",
+      "classId": "Infralittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 5"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16058",
+      "classId": "Infralittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 130985043.817718,
+      "extra": {
+        "sketchName": "Existing MPA 9"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16065",
+      "classId": "Infralittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 8138122.092926,
+      "extra": {
+        "sketchName": "Existing MPA 12"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16054",
+      "classId": "Infralittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 7"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16048",
+      "classId": "Infralittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 1"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16066",
+      "classId": "Infralittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 13"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16068",
+      "classId": "Infralittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 476632811.248867,
+      "extra": {
+        "sketchName": "Existing MPAS",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16067",
+      "classId": "Infralittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 68918446.386761,
+      "extra": {
+        "sketchName": "Existing MPA 14"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16060",
+      "classId": "Infralittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 807609876.013905,
+      "extra": {
+        "sketchName": "Existing MPA 11"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16051",
+      "classId": "Infralittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 25455789.676806,
+      "extra": {
+        "sketchName": "Existing MPA 4"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16053",
+      "classId": "Infralittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16050",
+      "classId": "Infralittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 71462.378144,
+      "extra": {
+        "sketchName": "Existing MPA 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16056",
+      "classId": "Infralittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 764194223.168764,
+      "extra": {
+        "sketchName": "Existing MPA 8"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16057",
+      "classId": "Infralittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 8109020.585529,
+      "extra": {
+        "sketchName": "Existing MPA 16"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16059",
+      "classId": "Infralittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 605503620.284468,
+      "extra": {
+        "sketchName": "Existing MPA 10"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16049",
+      "classId": "Infralittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 152360425.731221,
+      "extra": {
+        "sketchName": "Existing MPA 2"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16055",
+      "classId": "Infralittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 15"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16052",
+      "classId": "Infralittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 3756422.444211,
+      "extra": {
+        "sketchName": "Existing MPA 5"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16058",
+      "classId": "Infralittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 986517403.259247,
+      "extra": {
+        "sketchName": "Existing MPA 9"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16065",
+      "classId": "Infralittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 7773899.033144,
+      "extra": {
+        "sketchName": "Existing MPA 12"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16054",
+      "classId": "Infralittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 7"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16048",
+      "classId": "Infralittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 1"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16066",
+      "classId": "Infralittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 13"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16068",
+      "classId": "Infralittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 3430270588.962198,
+      "extra": {
+        "sketchName": "Existing MPAS",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16067",
+      "classId": "Infralittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 85792359.771112,
+      "extra": {
+        "sketchName": "Existing MPA 14"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16060",
+      "classId": "Infralittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 258862410.852028,
+      "extra": {
+        "sketchName": "Existing MPA 11"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16051",
+      "classId": "Infralittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 4"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16053",
+      "classId": "Infralittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16050",
+      "classId": "Infralittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16056",
+      "classId": "Infralittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 5475438747.260909,
+      "extra": {
+        "sketchName": "Existing MPA 8"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16057",
+      "classId": "Infralittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 494642328.462029,
+      "extra": {
+        "sketchName": "Existing MPA 16"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16059",
+      "classId": "Infralittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 41225520.069959,
+      "extra": {
+        "sketchName": "Existing MPA 10"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16049",
+      "classId": "Infralittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 32552586.657307,
+      "extra": {
+        "sketchName": "Existing MPA 2"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16055",
+      "classId": "Infralittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 15"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16052",
+      "classId": "Infralittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 313171.006485,
+      "extra": {
+        "sketchName": "Existing MPA 5"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16058",
+      "classId": "Infralittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 945666840.512296,
+      "extra": {
+        "sketchName": "Existing MPA 9"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16065",
+      "classId": "Infralittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 8124566.079084,
+      "extra": {
+        "sketchName": "Existing MPA 12"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16054",
+      "classId": "Infralittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 13778819.09273,
+      "extra": {
+        "sketchName": "Existing MPA 7"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16048",
+      "classId": "Infralittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 1"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16066",
+      "classId": "Infralittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 13"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16068",
+      "classId": "Infralittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 7356397349.763938,
+      "extra": {
+        "sketchName": "Existing MPAS",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16067",
+      "classId": "Lower bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 14"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16060",
+      "classId": "Lower bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 11"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16051",
+      "classId": "Lower bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 4"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16053",
+      "classId": "Lower bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16050",
+      "classId": "Lower bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16056",
+      "classId": "Lower bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 8"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16057",
+      "classId": "Lower bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 16"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16059",
+      "classId": "Lower bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 10"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16049",
+      "classId": "Lower bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 2"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16055",
+      "classId": "Lower bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 15"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16052",
+      "classId": "Lower bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 5"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16058",
+      "classId": "Lower bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 9"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16065",
+      "classId": "Lower bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 12"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16054",
+      "classId": "Lower bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 7"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16048",
+      "classId": "Lower bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 1"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16066",
+      "classId": "Lower bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 13"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16068",
+      "classId": "Lower bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPAS",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16067",
+      "classId": "Lower bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 14"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16060",
+      "classId": "Lower bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 11"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16051",
+      "classId": "Lower bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 4"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16053",
+      "classId": "Lower bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16050",
+      "classId": "Lower bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16056",
+      "classId": "Lower bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 8"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16057",
+      "classId": "Lower bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 16"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16059",
+      "classId": "Lower bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 10"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16049",
+      "classId": "Lower bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 2"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16055",
+      "classId": "Lower bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 15"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16052",
+      "classId": "Lower bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 5"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16058",
+      "classId": "Lower bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 9"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16065",
+      "classId": "Lower bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 12"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16054",
+      "classId": "Lower bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 7"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16048",
+      "classId": "Lower bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 1"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16066",
+      "classId": "Lower bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 13"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16068",
+      "classId": "Lower bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPAS",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16067",
+      "classId": "Lower bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 14"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16060",
+      "classId": "Lower bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 11"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16051",
+      "classId": "Lower bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 4"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16053",
+      "classId": "Lower bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16050",
+      "classId": "Lower bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16056",
+      "classId": "Lower bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 8"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16057",
+      "classId": "Lower bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 16"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16059",
+      "classId": "Lower bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 10"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16049",
+      "classId": "Lower bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 2"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16055",
+      "classId": "Lower bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 15"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16052",
+      "classId": "Lower bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 5"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16058",
+      "classId": "Lower bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 9"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16065",
+      "classId": "Lower bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 12"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16054",
+      "classId": "Lower bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 7"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16048",
+      "classId": "Lower bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 1"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16066",
+      "classId": "Lower bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 13"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16068",
+      "classId": "Lower bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPAS",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16067",
+      "classId": "Mid bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 14"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16060",
+      "classId": "Mid bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 11"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16051",
+      "classId": "Mid bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 4"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16053",
+      "classId": "Mid bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16050",
+      "classId": "Mid bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16056",
+      "classId": "Mid bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 8"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16057",
+      "classId": "Mid bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 16"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16059",
+      "classId": "Mid bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 10"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16049",
+      "classId": "Mid bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 2"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16055",
+      "classId": "Mid bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 15"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16052",
+      "classId": "Mid bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 5"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16058",
+      "classId": "Mid bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 9"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16065",
+      "classId": "Mid bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 12"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16054",
+      "classId": "Mid bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 7"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16048",
+      "classId": "Mid bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 1"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16066",
+      "classId": "Mid bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 13"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16068",
+      "classId": "Mid bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPAS",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16067",
+      "classId": "Mid bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 14"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16060",
+      "classId": "Mid bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 11"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16051",
+      "classId": "Mid bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 4"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16053",
+      "classId": "Mid bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16050",
+      "classId": "Mid bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16056",
+      "classId": "Mid bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 8"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16057",
+      "classId": "Mid bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 16"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16059",
+      "classId": "Mid bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 10"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16049",
+      "classId": "Mid bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 2"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16055",
+      "classId": "Mid bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 15"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16052",
+      "classId": "Mid bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 5"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16058",
+      "classId": "Mid bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 9"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16065",
+      "classId": "Mid bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 12"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16054",
+      "classId": "Mid bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 7"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16048",
+      "classId": "Mid bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 1"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16066",
+      "classId": "Mid bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 13"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16068",
+      "classId": "Mid bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPAS",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16067",
+      "classId": "Mid bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 14"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16060",
+      "classId": "Mid bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 11"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16051",
+      "classId": "Mid bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 4"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16053",
+      "classId": "Mid bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16050",
+      "classId": "Mid bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16056",
+      "classId": "Mid bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 8"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16057",
+      "classId": "Mid bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 16"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16059",
+      "classId": "Mid bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 10"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16049",
+      "classId": "Mid bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 2"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16055",
+      "classId": "Mid bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 15"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16052",
+      "classId": "Mid bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 5"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16058",
+      "classId": "Mid bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 9"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16065",
+      "classId": "Mid bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 12"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16054",
+      "classId": "Mid bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 7"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16048",
+      "classId": "Mid bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 1"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16066",
+      "classId": "Mid bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 13"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16068",
+      "classId": "Mid bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPAS",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16067",
+      "classId": "Offshore circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 17797243.212838,
+      "extra": {
+        "sketchName": "Existing MPA 14"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16060",
+      "classId": "Offshore circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 11"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16051",
+      "classId": "Offshore circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 4"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16053",
+      "classId": "Offshore circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16050",
+      "classId": "Offshore circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16056",
+      "classId": "Offshore circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 8"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16057",
+      "classId": "Offshore circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 16"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16059",
+      "classId": "Offshore circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 10"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16049",
+      "classId": "Offshore circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 2"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16055",
+      "classId": "Offshore circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 15"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16052",
+      "classId": "Offshore circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 5"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16058",
+      "classId": "Offshore circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 9"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16065",
+      "classId": "Offshore circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 12"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16054",
+      "classId": "Offshore circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 7"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16048",
+      "classId": "Offshore circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 1"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16066",
+      "classId": "Offshore circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 13"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16068",
+      "classId": "Offshore circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 17797243.212838,
+      "extra": {
+        "sketchName": "Existing MPAS",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16067",
+      "classId": "Upper bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 14"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16060",
+      "classId": "Upper bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 11"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16051",
+      "classId": "Upper bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 4"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16053",
+      "classId": "Upper bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16050",
+      "classId": "Upper bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16056",
+      "classId": "Upper bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 8"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16057",
+      "classId": "Upper bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 16"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16059",
+      "classId": "Upper bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 10"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16049",
+      "classId": "Upper bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 2"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16055",
+      "classId": "Upper bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 15"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16052",
+      "classId": "Upper bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 5"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16058",
+      "classId": "Upper bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 9"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16065",
+      "classId": "Upper bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 12"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16054",
+      "classId": "Upper bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 7"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16048",
+      "classId": "Upper bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 1"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16066",
+      "classId": "Upper bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 13"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16068",
+      "classId": "Upper bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPAS",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16067",
+      "classId": "Upper bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 14"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16060",
+      "classId": "Upper bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 11"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16051",
+      "classId": "Upper bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 4"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16053",
+      "classId": "Upper bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16050",
+      "classId": "Upper bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16056",
+      "classId": "Upper bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 8"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16057",
+      "classId": "Upper bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 16"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16059",
+      "classId": "Upper bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 10"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16049",
+      "classId": "Upper bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 2"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16055",
+      "classId": "Upper bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 15"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16052",
+      "classId": "Upper bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 5"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16058",
+      "classId": "Upper bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 9"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16065",
+      "classId": "Upper bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 12"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16054",
+      "classId": "Upper bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 7"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16048",
+      "classId": "Upper bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 1"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16066",
+      "classId": "Upper bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 13"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16068",
+      "classId": "Upper bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPAS",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16067",
+      "classId": "Offshore circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 14"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16060",
+      "classId": "Offshore circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 11"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16051",
+      "classId": "Offshore circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 4"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16053",
+      "classId": "Offshore circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16050",
+      "classId": "Offshore circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16056",
+      "classId": "Offshore circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 8"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16057",
+      "classId": "Offshore circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 16"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16059",
+      "classId": "Offshore circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 10"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16049",
+      "classId": "Offshore circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 2"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16055",
+      "classId": "Offshore circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 15"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16052",
+      "classId": "Offshore circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 5"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16058",
+      "classId": "Offshore circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 9"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16065",
+      "classId": "Offshore circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 12"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16054",
+      "classId": "Offshore circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 7"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16048",
+      "classId": "Offshore circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 1"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16066",
+      "classId": "Offshore circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 13"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16068",
+      "classId": "Offshore circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPAS",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16067",
+      "classId": "Offshore circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 327145702.922823,
+      "extra": {
+        "sketchName": "Existing MPA 14"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16060",
+      "classId": "Offshore circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 11"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16051",
+      "classId": "Offshore circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 4"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16053",
+      "classId": "Offshore circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16050",
+      "classId": "Offshore circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16056",
+      "classId": "Offshore circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 8"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16057",
+      "classId": "Offshore circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 16"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16059",
+      "classId": "Offshore circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 12735384.643632,
+      "extra": {
+        "sketchName": "Existing MPA 10"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16049",
+      "classId": "Offshore circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 2"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16055",
+      "classId": "Offshore circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 15"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16052",
+      "classId": "Offshore circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 28394793.551799,
+      "extra": {
+        "sketchName": "Existing MPA 5"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16058",
+      "classId": "Offshore circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 9"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16065",
+      "classId": "Offshore circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 12"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16054",
+      "classId": "Offshore circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 7"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16048",
+      "classId": "Offshore circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 1"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16066",
+      "classId": "Offshore circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 13"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16068",
+      "classId": "Offshore circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 368275881.118254,
+      "extra": {
+        "sketchName": "Existing MPAS",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16067",
+      "classId": "Offshore circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 3481737.866559,
+      "extra": {
+        "sketchName": "Existing MPA 14"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16060",
+      "classId": "Offshore circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 11"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16051",
+      "classId": "Offshore circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 4"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16053",
+      "classId": "Offshore circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16050",
+      "classId": "Offshore circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16056",
+      "classId": "Offshore circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 8"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16057",
+      "classId": "Offshore circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 16"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16059",
+      "classId": "Offshore circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2450723.221771,
+      "extra": {
+        "sketchName": "Existing MPA 10"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16049",
+      "classId": "Offshore circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 556412.020157,
+      "extra": {
+        "sketchName": "Existing MPA 2"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16055",
+      "classId": "Offshore circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 15"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16052",
+      "classId": "Offshore circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 3202755.695312,
+      "extra": {
+        "sketchName": "Existing MPA 5"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16058",
+      "classId": "Offshore circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 9"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16065",
+      "classId": "Offshore circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 12"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16054",
+      "classId": "Offshore circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 7"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16048",
+      "classId": "Offshore circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 1"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16066",
+      "classId": "Offshore circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 13"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16068",
+      "classId": "Offshore circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 9691628.8038,
+      "extra": {
+        "sketchName": "Existing MPAS",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16067",
+      "classId": "Offshore circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1419384.158101,
+      "extra": {
+        "sketchName": "Existing MPA 14"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16060",
+      "classId": "Offshore circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 11"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16051",
+      "classId": "Offshore circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 4"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16053",
+      "classId": "Offshore circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16050",
+      "classId": "Offshore circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16056",
+      "classId": "Offshore circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 8"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16057",
+      "classId": "Offshore circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 16"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16059",
+      "classId": "Offshore circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 10"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16049",
+      "classId": "Offshore circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 684770.051769,
+      "extra": {
+        "sketchName": "Existing MPA 2"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16055",
+      "classId": "Offshore circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 15"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16052",
+      "classId": "Offshore circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 5"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16058",
+      "classId": "Offshore circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 9"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16065",
+      "classId": "Offshore circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 12"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16054",
+      "classId": "Offshore circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 7"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16048",
+      "classId": "Offshore circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 1"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16066",
+      "classId": "Offshore circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 13"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16068",
+      "classId": "Offshore circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2104154.209869,
+      "extra": {
+        "sketchName": "Existing MPAS",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16067",
+      "classId": "Upper bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 14"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16060",
+      "classId": "Upper bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 11"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16051",
+      "classId": "Upper bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 4"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16053",
+      "classId": "Upper bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16050",
+      "classId": "Upper bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16056",
+      "classId": "Upper bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 8"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16057",
+      "classId": "Upper bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 16"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16059",
+      "classId": "Upper bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 10"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16049",
+      "classId": "Upper bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 2"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16055",
+      "classId": "Upper bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 15"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16052",
+      "classId": "Upper bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 5"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16058",
+      "classId": "Upper bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 9"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16065",
+      "classId": "Upper bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 12"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16054",
+      "classId": "Upper bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 7"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16048",
+      "classId": "Upper bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 1"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16066",
+      "classId": "Upper bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 13"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "16068",
+      "classId": "Upper bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPAS",
+        "isCollection": true
+      }
+    }
+  ],
+  "sketch": {
+    "id": 16068,
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": 16067,
+        "bbox": [
+          -42.300457,
+          -23.067293,
+          -41.923473,
+          -22.93174
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Existing MPA 14",
+          "2948": [
+            "MPA"
+          ],
+          "id": "16067",
+          "name": "Existing MPA 14",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-07-24T18:22:42.548616+00:00",
+          "updatedAt": "2023-07-24T18:24:59.730829+00:00",
+          "zone_type": [
+            "MPA"
+          ],
+          "description": null,
+          "collectionId": "16068",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "MPA"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Marine Protected Area"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Área Marinha Protegida"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 16060,
+        "bbox": [
+          -45.356983,
+          -23.640846,
+          -44.598053,
+          -23.334478
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Existing MPA 11",
+          "2948": [
+            "MPA"
+          ],
+          "id": "16060",
+          "name": "Existing MPA 11",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-07-24T17:30:51.873269+00:00",
+          "updatedAt": "2023-07-24T18:24:54.914569+00:00",
+          "zone_type": [
+            "MPA"
+          ],
+          "description": null,
+          "collectionId": "16068",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "MPA"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Marine Protected Area"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Área Marinha Protegida"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 16051,
+        "bbox": [
+          -48.605694,
+          -27.450634,
+          -48.532944,
+          -27.364834
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Existing MPA 4",
+          "2948": [
+            "MPA"
+          ],
+          "id": "16051",
+          "name": "Existing MPA 4",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-07-24T16:55:56.997222+00:00",
+          "updatedAt": "2023-07-24T18:23:25.463071+00:00",
+          "zone_type": [
+            "MPA"
+          ],
+          "description": null,
+          "collectionId": "16068",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "MPA"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Marine Protected Area"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Área Marinha Protegida"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 16053,
+        "bbox": [
+          -48.72521,
+          -25.882204,
+          -48.56632,
+          -25.838867
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Existing MPA 6",
+          "2948": [
+            "MPA"
+          ],
+          "id": "16053",
+          "name": "Existing MPA 6",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-07-24T17:15:52.088263+00:00",
+          "updatedAt": "2023-07-24T18:23:30.163847+00:00",
+          "zone_type": [
+            "MPA"
+          ],
+          "description": null,
+          "collectionId": "16068",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "MPA"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Marine Protected Area"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Área Marinha Protegida"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 16050,
+        "bbox": [
+          -48.571404,
+          -27.673046,
+          -48.524452,
+          -27.623442
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Existing MPA 3",
+          "2948": [
+            "MPA"
+          ],
+          "id": "16050",
+          "name": "Existing MPA 3",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-07-24T16:46:34.87658+00:00",
+          "updatedAt": "2023-07-24T18:23:23.214996+00:00",
+          "zone_type": [
+            "MPA"
+          ],
+          "description": null,
+          "collectionId": "16068",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "MPA"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Marine Protected Area"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Área Marinha Protegida"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 16056,
+        "bbox": [
+          -48.116875,
+          -25.489443,
+          -46.361526,
+          -23.985676
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Existing MPA 8",
+          "2948": [
+            "MPA"
+          ],
+          "id": "16056",
+          "name": "Existing MPA 8",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-07-24T17:22:44.35927+00:00",
+          "updatedAt": "2023-07-24T18:24:49.638668+00:00",
+          "zone_type": [
+            "MPA"
+          ],
+          "description": null,
+          "collectionId": "16068",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "MPA"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Marine Protected Area"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Área Marinha Protegida"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 16057,
+        "bbox": [
+          -46.34803,
+          -24.506659,
+          -46.064594,
+          -24.178541
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Existing MPA 16",
+          "2948": [
+            "MPA"
+          ],
+          "id": "16057",
+          "name": "Existing MPA 16",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-07-24T17:24:17.682402+00:00",
+          "updatedAt": "2023-07-24T18:25:02.327515+00:00",
+          "zone_type": [
+            "MPA"
+          ],
+          "description": null,
+          "collectionId": "16068",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "MPA"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Marine Protected Area"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Área Marinha Protegida"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 16059,
+        "bbox": [
+          -45.473774,
+          -24.01135,
+          -44.91308,
+          -23.707327
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Existing MPA 10",
+          "2948": [
+            "MPA"
+          ],
+          "id": "16059",
+          "name": "Existing MPA 10",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-07-24T17:28:29.489244+00:00",
+          "updatedAt": "2023-07-24T18:24:53.014438+00:00",
+          "zone_type": [
+            "MPA"
+          ],
+          "description": null,
+          "collectionId": "16068",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "MPA"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Marine Protected Area"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Área Marinha Protegida"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 16049,
+        "bbox": [
+          -49.217533,
+          -28.83531,
+          -48.4073,
+          -27.769037
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Existing MPA 2",
+          "2948": [
+            "MPA"
+          ],
+          "id": "16049",
+          "name": "Existing MPA 2",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-07-24T16:44:53.778097+00:00",
+          "updatedAt": "2023-07-24T18:23:20.387344+00:00",
+          "zone_type": [
+            "MPA"
+          ],
+          "description": null,
+          "collectionId": "16068",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "MPA"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Marine Protected Area"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Área Marinha Protegida"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 16055,
+        "bbox": [
+          -48.741974,
+          -25.488396,
+          -48.10513,
+          -25.23054
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Existing MPA 15",
+          "2948": [
+            "MPA"
+          ],
+          "id": "16055",
+          "name": "Existing MPA 15",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-07-24T17:21:00.254647+00:00",
+          "updatedAt": "2023-07-24T18:25:01.162684+00:00",
+          "zone_type": [
+            "MPA"
+          ],
+          "description": null,
+          "collectionId": "16068",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "MPA"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Marine Protected Area"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Área Marinha Protegida"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 16052,
+        "bbox": [
+          -48.42545,
+          -27.29917,
+          -48.307877,
+          -27.157816
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Existing MPA 5",
+          "2948": [
+            "MPA"
+          ],
+          "id": "16052",
+          "name": "Existing MPA 5",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-07-24T16:57:37.947424+00:00",
+          "updatedAt": "2023-07-24T18:23:27.655645+00:00",
+          "zone_type": [
+            "MPA"
+          ],
+          "description": null,
+          "collectionId": "16068",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "MPA"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Marine Protected Area"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Área Marinha Protegida"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 16058,
+        "bbox": [
+          -46.324986,
+          -24.127693,
+          -45.40611,
+          -23.757141
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Existing MPA 9",
+          "2948": [
+            "MPA"
+          ],
+          "id": "16058",
+          "name": "Existing MPA 9",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-07-24T17:26:20.027558+00:00",
+          "updatedAt": "2023-07-24T18:24:51.206626+00:00",
+          "zone_type": [
+            "MPA"
+          ],
+          "description": null,
+          "collectionId": "16068",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "MPA"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Marine Protected Area"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Área Marinha Protegida"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 16065,
+        "bbox": [
+          -44.33397,
+          -23.223154,
+          -44.265545,
+          -23.17661
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Existing MPA 12",
+          "2948": [
+            "MPA"
+          ],
+          "id": "16065",
+          "name": "Existing MPA 12",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-07-24T18:21:03.913426+00:00",
+          "updatedAt": "2023-07-24T18:24:56.429442+00:00",
+          "zone_type": [
+            "MPA"
+          ],
+          "description": null,
+          "collectionId": "16068",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "MPA"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Marine Protected Area"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Área Marinha Protegida"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 16054,
+        "bbox": [
+          -48.381496,
+          -25.762794,
+          -48.32234,
+          -25.719755
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Existing MPA 7",
+          "2948": [
+            "MPA"
+          ],
+          "id": "16054",
+          "name": "Existing MPA 7",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-07-24T17:17:01.503196+00:00",
+          "updatedAt": "2023-07-24T18:24:47.976122+00:00",
+          "zone_type": [
+            "MPA"
+          ],
+          "description": null,
+          "collectionId": "16068",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "MPA"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Marine Protected Area"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Área Marinha Protegida"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 16048,
+        "bbox": [
+          -51.16479,
+          -31.491245,
+          -50.89793,
+          -31.252829
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Existing MPA 1",
+          "2948": [
+            "MPA"
+          ],
+          "id": "16048",
+          "name": "Existing MPA 1",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-07-24T16:38:35.003776+00:00",
+          "updatedAt": "2023-07-24T18:23:16.850674+00:00",
+          "zone_type": [
+            "MPA"
+          ],
+          "description": null,
+          "collectionId": "16068",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "MPA"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Marine Protected Area"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Área Marinha Protegida"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 16066,
+        "bbox": [
+          -43.10869,
+          -22.768661,
+          -43.022755,
+          -22.676037
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Existing MPA 13",
+          "2948": [
+            "MPA"
+          ],
+          "id": "16066",
+          "name": "Existing MPA 13",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-07-24T18:21:49.52952+00:00",
+          "updatedAt": "2023-07-24T18:24:58.169616+00:00",
+          "zone_type": [
+            "MPA"
+          ],
+          "description": null,
+          "collectionId": "16068",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "MPA"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Marine Protected Area"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Área Marinha Protegida"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      }
+    ],
+    "properties": {
+      "3431": "Existing MPAS",
+      "id": "16068",
+      "name": "Existing MPAS",
+      "postId": null,
+      "userId": "128",
+      "authors": null,
+      "userSlug": "Peter",
+      "createdAt": "2023-07-24T18:23:10.63411+00:00",
+      "updatedAt": "2023-07-24T18:25:02.327515+00:00",
+      "description": null,
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "304",
+      "userAttributes": [
+        {
+          "label": "Description",
+          "value": null,
+          "exportId": "description",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 3432,
+          "alternateLanguages": {
+            "pt": {
+              "label": "Descrição",
+              "valueLabel": null
+            }
+          }
+        },
+        {
+          "label": "Authors",
+          "value": null,
+          "exportId": "authors",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 3433,
+          "alternateLanguages": {
+            "pt": {
+              "label": "Autores",
+              "valueLabel": null
+            }
+          }
+        }
+      ]
+    }
+  }
+}

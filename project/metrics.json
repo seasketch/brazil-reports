@@ -503,23 +503,30 @@
         "objectiveId": ""
       },
       {
+        "classId": "Offshore circalittoral sand",
+        "classKey": "habitat",
+        "display": "Offshore circalittoral sand",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Upper bathyal biogenic",
+        "classKey": "habitat",
+        "display": "Upper bathyal biogenic",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Upper bathyal rock",
+        "classKey": "habitat",
+        "display": "Upper bathyal rock",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
         "classId": "Offshore circalittoral biogenic",
         "classKey": "habitat",
         "display": "Offshore circalittoral biogenic",
-        "datasourceId": "habitats_services",
-        "objectiveId": ""
-      },
-      {
-        "classId": "Offshore circalittoral coarse sediment",
-        "classKey": "habitat",
-        "display": "Offshore circalittoral coarse sediment",
-        "datasourceId": "habitats_services",
-        "objectiveId": ""
-      },
-      {
-        "classId": "Offshore circalittoral mixed sediment",
-        "classKey": "habitat",
-        "display": "Offshore circalittoral mixed sediment",
         "datasourceId": "habitats_services",
         "objectiveId": ""
       },
@@ -531,16 +538,23 @@
         "objectiveId": ""
       },
       {
-        "classId": "Offshore circalittoral sand",
+        "classId": "Offshore circalittoral mixed sediment",
         "classKey": "habitat",
-        "display": "Offshore circalittoral sand",
+        "display": "Offshore circalittoral mixed sediment",
         "datasourceId": "habitats_services",
         "objectiveId": ""
       },
       {
-        "classId": "Upper bathyal biogenic",
+        "classId": "Offshore circalittoral coarse sediment",
         "classKey": "habitat",
-        "display": "Upper bathyal biogenic",
+        "display": "Offshore circalittoral coarse sediment",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Upper bathyal seabed",
+        "classKey": "habitat",
+        "display": "Upper bathyal seabed",
         "datasourceId": "habitats_services",
         "objectiveId": ""
       }

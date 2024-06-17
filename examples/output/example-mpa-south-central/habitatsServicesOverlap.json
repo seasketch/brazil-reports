@@ -1,0 +1,384 @@
+{
+  "metrics": [
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18758",
+      "classId": "Circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "example-mpa-south-central"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18758",
+      "classId": "Circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "example-mpa-south-central"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18758",
+      "classId": "Circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "example-mpa-south-central"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18758",
+      "classId": "Circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "example-mpa-south-central"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18758",
+      "classId": "Circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "example-mpa-south-central"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18758",
+      "classId": "Abyssal mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 34659607551.62763,
+      "extra": {
+        "sketchName": "example-mpa-south-central"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18758",
+      "classId": "Abyssal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 129231635.252816,
+      "extra": {
+        "sketchName": "example-mpa-south-central"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18758",
+      "classId": "Abyssal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 63874342388.04879,
+      "extra": {
+        "sketchName": "example-mpa-south-central"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18758",
+      "classId": "Infralittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "example-mpa-south-central"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18758",
+      "classId": "Infralittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1846188576.976298,
+      "extra": {
+        "sketchName": "example-mpa-south-central"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18758",
+      "classId": "Infralittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 283507087.769692,
+      "extra": {
+        "sketchName": "example-mpa-south-central"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18758",
+      "classId": "Infralittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 66755308.355725,
+      "extra": {
+        "sketchName": "example-mpa-south-central"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18758",
+      "classId": "Infralittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 588974853.829391,
+      "extra": {
+        "sketchName": "example-mpa-south-central"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18758",
+      "classId": "Lower bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "example-mpa-south-central"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18758",
+      "classId": "Lower bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 240440621.851233,
+      "extra": {
+        "sketchName": "example-mpa-south-central"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18758",
+      "classId": "Lower bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 7269306215.525207,
+      "extra": {
+        "sketchName": "example-mpa-south-central"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18758",
+      "classId": "Mid bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "example-mpa-south-central"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18758",
+      "classId": "Mid bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 227002404.56966,
+      "extra": {
+        "sketchName": "example-mpa-south-central"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18758",
+      "classId": "Mid bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 7840817647.142318,
+      "extra": {
+        "sketchName": "example-mpa-south-central"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18758",
+      "classId": "Offshore circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 724340657.019052,
+      "extra": {
+        "sketchName": "example-mpa-south-central"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18758",
+      "classId": "Upper bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "example-mpa-south-central"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18758",
+      "classId": "Upper bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 852450879.871814,
+      "extra": {
+        "sketchName": "example-mpa-south-central"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18758",
+      "classId": "Offshore circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "example-mpa-south-central"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18758",
+      "classId": "Offshore circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1964768204.566063,
+      "extra": {
+        "sketchName": "example-mpa-south-central"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18758",
+      "classId": "Offshore circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 4022864019.210633,
+      "extra": {
+        "sketchName": "example-mpa-south-central"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18758",
+      "classId": "Offshore circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2795186521.922358,
+      "extra": {
+        "sketchName": "example-mpa-south-central"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18758",
+      "classId": "Upper bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 8006551257.394142,
+      "extra": {
+        "sketchName": "example-mpa-south-central"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 18758,
+    "bbox": [
+      -42.92171,
+      -25.854633,
+      -37.67963,
+      -20.928179
+    ],
+    "type": "Feature",
+    "properties": {
+      "2947": "example-mpa-south-central",
+      "2948": [
+        "MPA"
+      ],
+      "id": "18758",
+      "name": "example-mpa-south-central",
+      "postId": null,
+      "userId": "128",
+      "authors": null,
+      "userSlug": "Peter",
+      "createdAt": "2023-08-30T22:24:43.616144+00:00",
+      "updatedAt": "2023-08-30T22:24:43.616144+00:00",
+      "zone_type": [
+        "MPA"
+      ],
+      "description": null,
+      "collectionId": null,
+      "isCollection": false,
+      "sharedInForum": false,
+      "sketchClassId": "198",
+      "userAttributes": [
+        {
+          "label": "Zone Type",
+          "value": [
+            "MPA"
+          ],
+          "exportId": "zone_type",
+          "fieldType": "MultipleChoice",
+          "valueLabel": [
+            "Marine Protected Area"
+          ],
+          "formElementId": 2948,
+          "alternateLanguages": {
+            "pt": {
+              "label": null,
+              "valueLabel": [
+                "Área Marinha Protegida"
+              ]
+            }
+          }
+        },
+        {
+          "label": "Description",
+          "value": null,
+          "exportId": "description",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 2949,
+          "alternateLanguages": {
+            "pt": {
+              "label": "Descrição: ",
+              "valueLabel": null
+            }
+          }
+        },
+        {
+          "label": "Author(s)",
+          "value": null,
+          "exportId": "authors",
+          "fieldType": "ShortText",
+          "valueLabel": null,
+          "formElementId": 2950,
+          "alternateLanguages": {
+            "pt": {
+              "label": "Autor(s)",
+              "valueLabel": null
+            }
+          }
+        }
+      ]
+    },
+    "geometry": null
+  }
+}

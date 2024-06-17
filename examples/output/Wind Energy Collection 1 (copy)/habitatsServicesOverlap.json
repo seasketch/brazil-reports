@@ -1,0 +1,1140 @@
+{
+  "metrics": [
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18891",
+      "classId": "Circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Wind Farm 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18890",
+      "classId": "Circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Wind Farm 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18889",
+      "classId": "Circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Wind Energy Collection 1 (copy)",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18891",
+      "classId": "Circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 3371254005.162533,
+      "extra": {
+        "sketchName": "Wind Farm 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18890",
+      "classId": "Circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 4790508.000059,
+      "extra": {
+        "sketchName": "Wind Farm 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18889",
+      "classId": "Circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 3376044513.162592,
+      "extra": {
+        "sketchName": "Wind Energy Collection 1 (copy)",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18891",
+      "classId": "Circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 3653729124.67443,
+      "extra": {
+        "sketchName": "Wind Farm 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18890",
+      "classId": "Circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 17417652.15591,
+      "extra": {
+        "sketchName": "Wind Farm 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18889",
+      "classId": "Circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 3671146776.83034,
+      "extra": {
+        "sketchName": "Wind Energy Collection 1 (copy)",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18891",
+      "classId": "Circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 11328143217.554417,
+      "extra": {
+        "sketchName": "Wind Farm 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18890",
+      "classId": "Circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Wind Farm 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18889",
+      "classId": "Circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 11328143217.554417,
+      "extra": {
+        "sketchName": "Wind Energy Collection 1 (copy)",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18891",
+      "classId": "Circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 7184475610.109283,
+      "extra": {
+        "sketchName": "Wind Farm 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18890",
+      "classId": "Circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 12394508.375099,
+      "extra": {
+        "sketchName": "Wind Farm 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18889",
+      "classId": "Circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 7196870118.484383,
+      "extra": {
+        "sketchName": "Wind Energy Collection 1 (copy)",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18891",
+      "classId": "Abyssal mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Wind Farm 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18890",
+      "classId": "Abyssal mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 25331245.48218,
+      "extra": {
+        "sketchName": "Wind Farm 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18889",
+      "classId": "Abyssal mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 25331245.48218,
+      "extra": {
+        "sketchName": "Wind Energy Collection 1 (copy)",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18891",
+      "classId": "Abyssal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Wind Farm 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18890",
+      "classId": "Abyssal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Wind Farm 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18889",
+      "classId": "Abyssal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Wind Energy Collection 1 (copy)",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18891",
+      "classId": "Abyssal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Wind Farm 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18890",
+      "classId": "Abyssal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 6679219.364213,
+      "extra": {
+        "sketchName": "Wind Farm 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18889",
+      "classId": "Abyssal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 6679219.364213,
+      "extra": {
+        "sketchName": "Wind Energy Collection 1 (copy)",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18891",
+      "classId": "Infralittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Wind Farm 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18890",
+      "classId": "Infralittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 35730950.718653,
+      "extra": {
+        "sketchName": "Wind Farm 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18889",
+      "classId": "Infralittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 35730950.718653,
+      "extra": {
+        "sketchName": "Wind Energy Collection 1 (copy)",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18891",
+      "classId": "Infralittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 131586054.311899,
+      "extra": {
+        "sketchName": "Wind Farm 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18890",
+      "classId": "Infralittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 13807047702.625889,
+      "extra": {
+        "sketchName": "Wind Farm 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18889",
+      "classId": "Infralittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 13938633756.937788,
+      "extra": {
+        "sketchName": "Wind Energy Collection 1 (copy)",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18891",
+      "classId": "Infralittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 63076446.71743,
+      "extra": {
+        "sketchName": "Wind Farm 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18890",
+      "classId": "Infralittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 930061010.931311,
+      "extra": {
+        "sketchName": "Wind Farm 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18889",
+      "classId": "Infralittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 993137457.648741,
+      "extra": {
+        "sketchName": "Wind Energy Collection 1 (copy)",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18891",
+      "classId": "Infralittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 3133606080.124621,
+      "extra": {
+        "sketchName": "Wind Farm 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18890",
+      "classId": "Infralittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1096953995.398881,
+      "extra": {
+        "sketchName": "Wind Farm 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18889",
+      "classId": "Infralittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 4230560075.523502,
+      "extra": {
+        "sketchName": "Wind Energy Collection 1 (copy)",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18891",
+      "classId": "Infralittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2091585497.155133,
+      "extra": {
+        "sketchName": "Wind Farm 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18890",
+      "classId": "Infralittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 5821003536.221929,
+      "extra": {
+        "sketchName": "Wind Farm 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18889",
+      "classId": "Infralittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 7912589033.377062,
+      "extra": {
+        "sketchName": "Wind Energy Collection 1 (copy)",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18891",
+      "classId": "Lower bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Wind Farm 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18890",
+      "classId": "Lower bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Wind Farm 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18889",
+      "classId": "Lower bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Wind Energy Collection 1 (copy)",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18891",
+      "classId": "Lower bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Wind Farm 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18890",
+      "classId": "Lower bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 18478035.824854,
+      "extra": {
+        "sketchName": "Wind Farm 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18889",
+      "classId": "Lower bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 18478035.824854,
+      "extra": {
+        "sketchName": "Wind Energy Collection 1 (copy)",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18891",
+      "classId": "Lower bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Wind Farm 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18890",
+      "classId": "Lower bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 3515040255.470448,
+      "extra": {
+        "sketchName": "Wind Farm 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18889",
+      "classId": "Lower bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 3515040255.470448,
+      "extra": {
+        "sketchName": "Wind Energy Collection 1 (copy)",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18891",
+      "classId": "Mid bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Wind Farm 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18890",
+      "classId": "Mid bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Wind Farm 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18889",
+      "classId": "Mid bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Wind Energy Collection 1 (copy)",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18891",
+      "classId": "Mid bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Wind Farm 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18890",
+      "classId": "Mid bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 485601533.2572,
+      "extra": {
+        "sketchName": "Wind Farm 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18889",
+      "classId": "Mid bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 485601533.2572,
+      "extra": {
+        "sketchName": "Wind Energy Collection 1 (copy)",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18891",
+      "classId": "Mid bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Wind Farm 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18890",
+      "classId": "Mid bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2487422533.851614,
+      "extra": {
+        "sketchName": "Wind Farm 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18889",
+      "classId": "Mid bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2487422533.851614,
+      "extra": {
+        "sketchName": "Wind Energy Collection 1 (copy)",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18891",
+      "classId": "Offshore circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 317005237.612609,
+      "extra": {
+        "sketchName": "Wind Farm 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18890",
+      "classId": "Offshore circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 34141612.24829,
+      "extra": {
+        "sketchName": "Wind Farm 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18889",
+      "classId": "Offshore circalittoral sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 351146849.860899,
+      "extra": {
+        "sketchName": "Wind Energy Collection 1 (copy)",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18891",
+      "classId": "Upper bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Wind Farm 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18890",
+      "classId": "Upper bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Wind Farm 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18889",
+      "classId": "Upper bathyal biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Wind Energy Collection 1 (copy)",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18891",
+      "classId": "Upper bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Wind Farm 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18890",
+      "classId": "Upper bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1933599451.014748,
+      "extra": {
+        "sketchName": "Wind Farm 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18889",
+      "classId": "Upper bathyal rock",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1933599451.014748,
+      "extra": {
+        "sketchName": "Wind Energy Collection 1 (copy)",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18891",
+      "classId": "Offshore circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Wind Farm 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18890",
+      "classId": "Offshore circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Wind Farm 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18889",
+      "classId": "Offshore circalittoral biogenic",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Wind Energy Collection 1 (copy)",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18891",
+      "classId": "Offshore circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 18596835987.241756,
+      "extra": {
+        "sketchName": "Wind Farm 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18890",
+      "classId": "Offshore circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 46692229.019137,
+      "extra": {
+        "sketchName": "Wind Farm 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18889",
+      "classId": "Offshore circalittoral mud",
+      "groupId": null,
+      "geographyId": null,
+      "value": 18643528216.260895,
+      "extra": {
+        "sketchName": "Wind Energy Collection 1 (copy)",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18891",
+      "classId": "Offshore circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2808600694.972954,
+      "extra": {
+        "sketchName": "Wind Farm 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18890",
+      "classId": "Offshore circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 21554834.559296,
+      "extra": {
+        "sketchName": "Wind Farm 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18889",
+      "classId": "Offshore circalittoral mixed sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2830155529.53225,
+      "extra": {
+        "sketchName": "Wind Energy Collection 1 (copy)",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18891",
+      "classId": "Offshore circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 102274927.486386,
+      "extra": {
+        "sketchName": "Wind Farm 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18890",
+      "classId": "Offshore circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 208270031.480451,
+      "extra": {
+        "sketchName": "Wind Farm 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18889",
+      "classId": "Offshore circalittoral coarse sediment",
+      "groupId": null,
+      "geographyId": null,
+      "value": 310544958.966837,
+      "extra": {
+        "sketchName": "Wind Energy Collection 1 (copy)",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18891",
+      "classId": "Upper bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Wind Farm 6"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18890",
+      "classId": "Upper bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1409272939.494642,
+      "extra": {
+        "sketchName": "Wind Farm 3"
+      }
+    },
+    {
+      "metricId": "habitatsServicesOverlap",
+      "sketchId": "18889",
+      "classId": "Upper bathyal seabed",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1409272939.494642,
+      "extra": {
+        "sketchName": "Wind Energy Collection 1 (copy)",
+        "isCollection": true
+      }
+    }
+  ],
+  "sketch": {
+    "id": 18889,
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": 18891,
+        "bbox": [
+          -53.369446,
+          -34.168247,
+          -48.132656,
+          -28.374582
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Wind Farm 6",
+          "2948": [
+            "MPA"
+          ],
+          "id": "18891",
+          "name": "Wind Farm 6",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-09-05T19:38:45.99842+00:00",
+          "updatedAt": "2023-09-05T19:39:17.688456+00:00",
+          "zone_type": [
+            "MPA"
+          ],
+          "description": null,
+          "collectionId": "18889",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "MPA"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Marine Protected Area"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Área Marinha Protegida"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 18890,
+        "bbox": [
+          -39.038746,
+          -5.147504,
+          -35.282337,
+          -3.0137126
+        ],
+        "type": "Feature",
+        "properties": {
+          "2947": "Wind Farm 3",
+          "2948": [
+            "Renewable Energy"
+          ],
+          "id": "18890",
+          "name": "Wind Farm 3",
+          "postId": null,
+          "userId": "128",
+          "authors": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-09-05T19:38:45.99842+00:00",
+          "updatedAt": "2023-09-05T19:38:45.99842+00:00",
+          "zone_type": [
+            "Renewable Energy"
+          ],
+          "description": null,
+          "collectionId": "18889",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "198",
+          "userAttributes": [
+            {
+              "label": "Zone Type",
+              "value": [
+                "Renewable Energy"
+              ],
+              "exportId": "zone_type",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Renewable Energy Zone"
+              ],
+              "formElementId": 2948,
+              "alternateLanguages": {
+                "pt": {
+                  "label": null,
+                  "valueLabel": [
+                    "Zona de Energia Renovável"
+                  ]
+                }
+              }
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2949,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Descrição: ",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2950,
+              "alternateLanguages": {
+                "pt": {
+                  "label": "Autor(s)",
+                  "valueLabel": null
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      }
+    ],
+    "properties": {
+      "3431": "Wind Energy Collection 1",
+      "id": "18889",
+      "name": "Wind Energy Collection 1 (copy)",
+      "postId": null,
+      "userId": "128",
+      "authors": null,
+      "userSlug": "Peter",
+      "createdAt": "2023-09-05T19:38:45.99842+00:00",
+      "updatedAt": "2023-09-05T19:39:17.688456+00:00",
+      "description": null,
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "304",
+      "userAttributes": [
+        {
+          "label": "Description",
+          "value": null,
+          "exportId": "description",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 3432,
+          "alternateLanguages": {
+            "pt": {
+              "label": "Descrição",
+              "valueLabel": null
+            }
+          }
+        },
+        {
+          "label": "Authors",
+          "value": null,
+          "exportId": "authors",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 3433,
+          "alternateLanguages": {
+            "pt": {
+              "label": "Autores",
+              "valueLabel": null
+            }
+          }
+        }
+      ]
+    }
+  }
+}

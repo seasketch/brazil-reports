@@ -1,8 +1,8 @@
 import React from "react";
 // import { GeomorphicCard } from "./GeomorphicCard";
 import { PriorityAreaCard } from "./PriorityAreaCard";
-import { EcozonesPelagicCard } from "./PowerLinesCard";
 import { BathyClassesCard } from "./BathyClassesCard";
+import { HabitatsServicesCard } from "./HabitatsServicesCard";
 
 const ReportPage = () => {
   return (
@@ -10,6 +10,7 @@ const ReportPage = () => {
       {/* <GeomorphicCard /> */}
       <PriorityAreaCard />
       <BathyClassesCard />
+      <HabitatsServicesCard />
     </>
   );
 };
