@@ -8,6 +8,8 @@ import {
   ToolbarCard,
   LayerToggle,
   Table,
+  ObjectiveStatus,
+  VerticalSpacer,
 } from "@seasketch/geoprocessing/client-ui";
 import {
   ReportResult,
@@ -44,6 +46,21 @@ export const HabitatsServicesCard = () => {
   const sqKmLabel = t("km²");
 
   const habitatTypes = metricGroup.classes.map((c) => c.classId);
+
+  interface Services {
+    [key: string]: number;
+  }
+
+  const iconHeight = 20;
+
+  interface StatusColor {
+    [key: string]: string;
+  }
+
+  const statusColor: StatusColor = {
+    1: "#FFC865",
+    2: "#83CA50",
+  };
 
   return (
     <>
@@ -108,77 +125,42 @@ export const HabitatsServicesCard = () => {
                 />
               }
             >
-              {/* <Translator>
-                <ClassTable
-                  rows={finalMetrics}
-                  metricGroup={metricGroup}
-                  columnConfig={[
-                    {
-                      columnLabel: classLabel,
-                      type: "class",
-                      width: 30,
-                    },
-                    {
-                      columnLabel: areaWithin,
-                      type: "metricValue",
-                      metricId: metricGroup.metricId,
-                      valueFormatter: (val: string | number) =>
-                        Number.format(
-                          Math.round(
-                            squareMeterToKilometer(
-                              typeof val === "string" ? parseInt(val) : val
-                            )
-                          )
-                        ),
-                      valueLabel: sqKmLabel,
-                      width: 30,
-                    },
-                    {
-                      columnLabel: percAreaWithin,
-                      type: "metricChart",
-                      metricId: project.getMetricGroupPercId(metricGroup),
-                      valueFormatter: "percent",
-                      chartOptions: {
-                        showTitle: true,
-                        targetLabelPosition: "bottom",
-                        targetLabelStyle: "tight",
-                        barHeight: 11,
-                      },
-                      width: 30,
-                      targetValueFormatter: (
-                        value: number,
-                        row: number,
-                        numRows: number
-                      ) => {
-                        if (row === 0) {
-                          return (value: number) =>
-                            `${valueFormatter(value / 100, "percent0dig")} ${t(
-                              "Target"
-                            )}`;
-                        } else {
-                          return (value: number) =>
-                            `${valueFormatter(value / 100, "percent0dig")}`;
-                        }
-                      },
-                    },
-                  ]}
-                />
-              </Translator> */}
-
+              <VerticalSpacer />
+              {/* table styling */}
+              <style>
+                {`
+                  .services-table {
+                    font-size: 13px;
+                  }
+                  .services-table th, td {
+                    min-width: 70px;
+                    text-align: center;
+                  }
+                  .services-table th:nth-child(1), td:nth-child(1) {
+                    min-width: 100px;
+                  }
+                  .services-table th:nth-child(2), td:nth-child(2) {
+                    min-width: 80px;
+                  }
+                  .container {
+                    justify-content: center;
+                  }
+                `}
+              </style>
               <div style={{ overflowX: "auto" }}>
-                <table>
+                <table className="services-table">
                   <thead>
                     <tr>
-                      <th>Name</th>
+                      <th>Habitat</th>
                       <th>Area</th>
                       <th>Food</th>
                       <th>Raw</th>
                       <th>Air</th>
-                      <th>Disturbance</th>
-                      <th>Photosynthesis</th>
+                      <th>Disturb- ance</th>
+                      <th>Photo- synthesis</th>
                       <th>Nutrient</th>
-                      <th>Reproduction</th>
-                      <th>Biodiversity</th>
+                      <th>Repro- duction</th>
+                      <th>Bio- diversity</th>
                       <th>Water</th>
                       <th>Cognitive</th>
                       <th>Leisure</th>
@@ -191,56 +173,288 @@ export const HabitatsServicesCard = () => {
                         <td>{metric.classId}</td>
                         <td>{(metric.value / 1e6).toFixed(2)}</td>
                         <td>
-                          {metric.extra!.services["food"] === 1 ? "✅" : "❌"}
+                          {(metric.extra!.services as Services)["food"] ===
+                          0 ? (
+                            <ObjectiveStatus
+                              status={"no"}
+                              style={{ height: iconHeight }}
+                              msg={<></>}
+                            />
+                          ) : (
+                            <ObjectiveStatus
+                              status={"yes"}
+                              style={{
+                                color:
+                                  statusColor[
+                                    (metric.extra!.services as Services)["food"]
+                                  ],
+                                height: iconHeight,
+                              }}
+                              msg={<></>}
+                            />
+                          )}
                         </td>
                         <td>
-                          {metric.extra!.services["raw"] === 1 ? "✅" : "❌"}
+                          {(metric.extra!.services as Services)["raw"] === 0 ? (
+                            <ObjectiveStatus
+                              status={"no"}
+                              style={{ height: iconHeight }}
+                              msg={<></>}
+                            />
+                          ) : (
+                            <ObjectiveStatus
+                              status={"yes"}
+                              style={{
+                                color:
+                                  statusColor[
+                                    (metric.extra!.services as Services)["raw"]
+                                  ],
+                                height: iconHeight,
+                              }}
+                              msg={<></>}
+                            />
+                          )}
                         </td>
                         <td>
-                          {metric.extra!.services["air"] === 1 ? "✅" : "❌"}
+                          {(metric.extra!.services as Services)["air"] === 0 ? (
+                            <ObjectiveStatus
+                              status={"no"}
+                              style={{ height: iconHeight }}
+                              msg={<></>}
+                            />
+                          ) : (
+                            <ObjectiveStatus
+                              status={"yes"}
+                              style={{
+                                color:
+                                  statusColor[
+                                    (metric.extra!.services as Services)["air"]
+                                  ],
+                                height: iconHeight,
+                              }}
+                              msg={<></>}
+                            />
+                          )}
                         </td>
                         <td>
-                          {metric.extra!.services["disturbance"] === 1
-                            ? "✅"
-                            : "❌"}
+                          {(metric.extra!.services as Services)[
+                            "disturbance"
+                          ] === 0 ? (
+                            <ObjectiveStatus
+                              status={"no"}
+                              style={{ height: iconHeight }}
+                              msg={<></>}
+                            />
+                          ) : (
+                            <ObjectiveStatus
+                              status={"yes"}
+                              style={{
+                                color:
+                                  statusColor[
+                                    (metric.extra!.services as Services)[
+                                      "disturbance"
+                                    ]
+                                  ],
+                                height: iconHeight,
+                              }}
+                              msg={<></>}
+                            />
+                          )}
                         </td>
                         <td>
-                          {metric.extra!.services["photosynthesis"] === 1
-                            ? "✅"
-                            : "❌"}
+                          {(metric.extra!.services as Services)[
+                            "photosynthesis"
+                          ] === 0 ? (
+                            <ObjectiveStatus
+                              status={"no"}
+                              style={{ height: iconHeight }}
+                              msg={<></>}
+                            />
+                          ) : (
+                            <ObjectiveStatus
+                              status={"yes"}
+                              style={{
+                                color:
+                                  statusColor[
+                                    (metric.extra!.services as Services)[
+                                      "photosynthesis"
+                                    ]
+                                  ],
+                                height: iconHeight,
+                              }}
+                              msg={<></>}
+                            />
+                          )}
                         </td>
                         <td>
-                          {metric.extra!.services["nutrient"] === 1
-                            ? "✅"
-                            : "❌"}
+                          {(metric.extra!.services as Services)["nutrient"] ===
+                          0 ? (
+                            <ObjectiveStatus
+                              status={"no"}
+                              style={{ height: iconHeight }}
+                              msg={<></>}
+                            />
+                          ) : (
+                            <ObjectiveStatus
+                              status={"yes"}
+                              style={{
+                                color:
+                                  statusColor[
+                                    (metric.extra!.services as Services)[
+                                      "nutrient"
+                                    ]
+                                  ],
+                                height: iconHeight,
+                              }}
+                              msg={<></>}
+                            />
+                          )}
                         </td>
                         <td>
-                          {metric.extra!.services["reproduction"] === 1
-                            ? "✅"
-                            : "❌"}
+                          {(metric.extra!.services as Services)[
+                            "reproduction"
+                          ] === 0 ? (
+                            <ObjectiveStatus
+                              status={"no"}
+                              style={{ height: iconHeight }}
+                              msg={<></>}
+                            />
+                          ) : (
+                            <ObjectiveStatus
+                              status={"yes"}
+                              style={{
+                                color:
+                                  statusColor[
+                                    (metric.extra!.services as Services)[
+                                      "reproduction"
+                                    ]
+                                  ],
+                                height: iconHeight,
+                              }}
+                              msg={<></>}
+                            />
+                          )}
                         </td>
                         <td>
-                          {metric.extra!.services["biodiversity"] === 1
-                            ? "✅"
-                            : "❌"}
+                          {(metric.extra!.services as Services)[
+                            "biodiversity"
+                          ] === 0 ? (
+                            <ObjectiveStatus
+                              status={"no"}
+                              style={{ height: iconHeight }}
+                              msg={<></>}
+                            />
+                          ) : (
+                            <ObjectiveStatus
+                              status={"yes"}
+                              style={{
+                                color:
+                                  statusColor[
+                                    (metric.extra!.services as Services)[
+                                      "biodiversity"
+                                    ]
+                                  ],
+                                height: iconHeight,
+                              }}
+                              msg={<></>}
+                            />
+                          )}
                         </td>
                         <td>
-                          {metric.extra!.services["water"] === 1 ? "✅" : "❌"}
+                          {(metric.extra!.services as Services)["water"] ===
+                          0 ? (
+                            <ObjectiveStatus
+                              status={"no"}
+                              style={{ height: iconHeight }}
+                              msg={<></>}
+                            />
+                          ) : (
+                            <ObjectiveStatus
+                              status={"yes"}
+                              style={{
+                                color:
+                                  statusColor[
+                                    (metric.extra!.services as Services)[
+                                      "water"
+                                    ]
+                                  ],
+                                height: iconHeight,
+                              }}
+                              msg={<></>}
+                            />
+                          )}
                         </td>
                         <td>
-                          {metric.extra!.services["cognitive"] === 1
-                            ? "✅"
-                            : "❌"}
+                          {(metric.extra!.services as Services)["cognitive"] ===
+                          0 ? (
+                            <ObjectiveStatus
+                              status={"no"}
+                              style={{ height: iconHeight }}
+                              msg={<></>}
+                            />
+                          ) : (
+                            <ObjectiveStatus
+                              status={"yes"}
+                              style={{
+                                color:
+                                  statusColor[
+                                    (metric.extra!.services as Services)[
+                                      "cognitive"
+                                    ]
+                                  ],
+                                height: iconHeight,
+                              }}
+                              msg={<></>}
+                            />
+                          )}
                         </td>
                         <td>
-                          {metric.extra!.services["leisure"] === 1
-                            ? "✅"
-                            : "❌"}
+                          {(metric.extra!.services as Services)["leisure"] ===
+                          0 ? (
+                            <ObjectiveStatus
+                              status={"no"}
+                              style={{ height: iconHeight }}
+                              msg={<></>}
+                            />
+                          ) : (
+                            <ObjectiveStatus
+                              status={"yes"}
+                              style={{
+                                color:
+                                  statusColor[
+                                    (metric.extra!.services as Services)[
+                                      "leisure"
+                                    ]
+                                  ],
+                                height: iconHeight,
+                              }}
+                              msg={<></>}
+                            />
+                          )}
                         </td>
                         <td>
-                          {metric.extra!.services["feel_good"] === 1
-                            ? "✅"
-                            : "❌"}
+                          {(metric.extra!.services as Services)["feel_good"] ===
+                          0 ? (
+                            <ObjectiveStatus
+                              status={"no"}
+                              style={{ height: iconHeight }}
+                              msg={<></>}
+                            />
+                          ) : (
+                            <ObjectiveStatus
+                              status={"yes"}
+                              style={{
+                                color:
+                                  statusColor[
+                                    (metric.extra!.services as Services)[
+                                      "feel_good"
+                                    ]
+                                  ],
+                                height: iconHeight,
+                              }}
+                              msg={<></>}
+                            />
+                          )}
                         </td>
                       </tr>
                     ))}
