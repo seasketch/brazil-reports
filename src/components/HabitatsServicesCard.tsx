@@ -1,13 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
+import styled from "styled-components";
 import {
   Collapse,
-  ClassTable,
   SketchClassTable,
   ResultsCard,
   useSketchProperties,
   ToolbarCard,
   LayerToggle,
-  Table,
   ObjectiveStatus,
   VerticalSpacer,
 } from "@seasketch/geoprocessing/client-ui";
@@ -17,8 +16,6 @@ import {
   flattenBySketchAllClass,
   metricsWithSketchId,
   toPercentMetric,
-  squareMeterToKilometer,
-  valueFormatter,
 } from "@seasketch/geoprocessing/client-core";
 
 import project from "../../project";
@@ -62,6 +59,30 @@ export const HabitatsServicesCard = () => {
     2: "#83CA50",
   };
 
+  const Button = styled.button`
+    background-color: white;
+    font-size: 13px;
+    color: black;
+    padding: 3px;
+    outline: 0;
+    border: 0;
+    text-transform: uppercase;
+    margin: 0px 8px;
+    cursor: pointer;
+    transition: ease background-color 250ms;
+    &:hover:enabled {
+      color: #bcd8e6;
+    }
+    &:disabled {
+      cursor: default;
+      opacity: 0.2;
+    }
+  `;
+
+  // Pagination state
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 9;
+
   return (
     <>
       <ResultsCard
@@ -75,8 +96,6 @@ export const HabitatsServicesCard = () => {
           );
 
           // add ecosystem service values to metrics
-          let singleMetricsWithServices = singleMetrics;
-
           habitatTypes.forEach((hab) => {
             let newMetric = singleMetrics.filter((m) => m.classId === hab);
             const curServiceValues =
@@ -98,21 +117,40 @@ export const HabitatsServicesCard = () => {
                     feel_good: 0,
                   };
             newMetric[0].extra!.services = curServiceValues;
-            const otherMetrics = singleMetricsWithServices.filter(
-              (m) => m.classId !== hab
-            );
+            const otherMetrics = singleMetrics.filter((m) => m.classId !== hab);
 
-            singleMetricsWithServices = [...otherMetrics, ...newMetric];
+            singleMetrics = [...otherMetrics, ...newMetric];
           });
 
           const finalMetrics = [
-            ...singleMetricsWithServices,
+            ...singleMetrics,
             ...toPercentMetric(
               singleMetrics,
               precalcMetrics,
               project.getMetricGroupPercId(metricGroup)
             ),
           ];
+
+          // Calculate current items
+          const indexOfLastItem = currentPage * itemsPerPage;
+          const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+          const currentMetrics = singleMetrics.slice(
+            indexOfFirstItem,
+            indexOfLastItem
+          );
+
+          // Pagination controls
+          const totalPages = Math.ceil(singleMetrics.length / itemsPerPage);
+
+          const handlePrevPage = () => {
+            setCurrentPage((currentPage) => Math.max(1, currentPage - 1));
+          };
+
+          const handleNextPage = () => {
+            setCurrentPage((currentPage) =>
+              Math.min(totalPages, currentPage + 1)
+            );
+          };
 
           return (
             <ToolbarCard
@@ -191,7 +229,7 @@ export const HabitatsServicesCard = () => {
                     </tr>
                   </thead>
                   <tbody>
-                    {singleMetrics.map((metric, index) => (
+                    {currentMetrics.map((metric, index) => (
                       <tr key={index}>
                         <td>{metric.classId}</td>
                         <td>{(metric.value / 1e6).toFixed(2)}</td>
@@ -483,6 +521,21 @@ export const HabitatsServicesCard = () => {
                     ))}
                   </tbody>
                 </table>
+              </div>
+              <VerticalSpacer />
+              <div style={{ textAlign: "right", fontSize: 13 }}>
+                <Button onClick={handlePrevPage} disabled={currentPage === 1}>
+                  ◀
+                </Button>
+                <span>
+                  Page {currentPage} of {totalPages}
+                </span>
+                <Button
+                  onClick={handleNextPage}
+                  disabled={currentPage === totalPages}
+                >
+                  ▶
+                </Button>
               </div>
 
               {isCollection && (
