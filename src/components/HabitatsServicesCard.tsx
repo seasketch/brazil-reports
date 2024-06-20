@@ -198,9 +198,8 @@ export const HabitatsServicesCard = () => {
                     border-right: 1px solid #525252;
                     border-collapse: collapse;
                   }
-
                   .services-table th:nth-child(2), .services-table td:nth-child(2) {
-                    min-width: 80px;
+                    min-width: 100px;
                     padding-left: 120px;
                   }
                   .container {
@@ -232,7 +231,7 @@ export const HabitatsServicesCard = () => {
                     {currentMetrics.map((metric, index) => (
                       <tr key={index}>
                         <td>{metric.classId}</td>
-                        <td>{(metric.value / 1e6).toFixed(2)}</td>
+                        <td>{(metric.value / 1e6).toFixed(2)} km²</td>
                         <td>
                           {(metric.extra!.services as Services)["food"] ===
                           0 ? (

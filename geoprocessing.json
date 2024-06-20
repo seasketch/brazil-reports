@@ -26,6 +26,7 @@
     "src/functions/oilAreasOverlap.ts",
     "src/functions/oilPlatformOverlap.ts",
     "src/functions/fishingIntensityOverlap.ts",
-    "src/functions/shippingIntensityOverlap.ts"
+    "src/functions/shippingIntensityOverlap.ts",
+    "src/functions/habitatsServicesOverlap.ts"
   ]
 }

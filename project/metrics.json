@@ -367,7 +367,7 @@
   {
     "metricId": "habitatsServicesOverlap",
     "type": "areaOverlap",
-    "layerId": "",
+    "layerId": "WIzmW67J6",
     "classes": [
       {
         "classId": "Circalittoral biogenic",
