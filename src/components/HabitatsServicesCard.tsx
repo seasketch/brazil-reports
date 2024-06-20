@@ -132,15 +132,38 @@ export const HabitatsServicesCard = () => {
                   .services-table {
                     font-size: 13px;
                   }
-                  .services-table th, td {
+                  .services-table th, .services-table td {
                     min-width: 70px;
                     text-align: center;
+                    background-color: white;
+                    height: 20px;
                   }
-                  .services-table th:nth-child(1), td:nth-child(1) {
-                    min-width: 100px;
+                  .services-table th:nth-child(1) {
+                    width: 120px;
+                    position: absolute;
+                    bgcolor: white;
+                    padding-top: 8px;
+                    padding-bottom: 12px;
+                    margin-left: -5px;
+                    padding-right: 5px;
+                    border-right: 1px solid #525252;
+                    border-collapse: collapse;
                   }
-                  .services-table th:nth-child(2), td:nth-child(2) {
+                  .services-table td:nth-child(1) {
+                    width: 120px;
+                    position: absolute;
+                    bgcolor: white;
+                    padding-top: 12px;
+                    padding-bottom: 12px;
+                    margin-left: -5px;
+                    padding-right: 5px;
+                    border-right: 1px solid #525252;
+                    border-collapse: collapse;
+                  }
+
+                  .services-table th:nth-child(2), .services-table td:nth-child(2) {
                     min-width: 80px;
+                    padding-left: 120px;
                   }
                   .container {
                     justify-content: center;
