@@ -1,0 +1,11 @@
+[
+    {
+        "geographyId": "eez_clipped",
+        "datasourceId": "brazil_eez_clipped",
+        "display": "EEZ Clipped",
+        "groups": [
+            "default-boundary"
+        ],
+        "precalc": true
+    }
+]

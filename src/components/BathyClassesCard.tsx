@@ -55,11 +55,9 @@ export const BathyClassesCard = () => {
 
           const finalMetrics = [
             ...singleMetrics,
-            ...toPercentMetric(
-              singleMetrics,
-              precalcMetrics,
-              project.getMetricGroupPercId(metricGroup)
-            ),
+            ...toPercentMetric(singleMetrics, precalcMetrics, {
+              metricIdOverride: project.getMetricGroupPercId(metricGroup),
+            }),
           ];
 
           return (
