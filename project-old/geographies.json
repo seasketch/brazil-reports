@@ -1,0 +1,11 @@
+[
+    {
+        "geographyId": "eez",
+        "datasourceId": "brazil_eez",
+        "display": "EEZ",
+        "groups": [
+            "default-boundary"
+        ],
+        "precalc": true
+    }
+]

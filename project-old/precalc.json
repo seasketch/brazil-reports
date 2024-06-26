@@ -1,0 +1,3386 @@
+[
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "abyssal_classification-Hills",
+    "sketchId": null,
+    "groupId": null,
+    "value": 888456092461.2319
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "abyssal_classification-Mountains",
+    "sketchId": null,
+    "groupId": null,
+    "value": 309591888206.42535
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "abyssal_classification-Plains",
+    "sketchId": null,
+    "groupId": null,
+    "value": 789317608316.0233
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "abyssal_classification-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1987365588983.6797
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "bathymetric_classes-Bacia Oceânica (> 1200 m)",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2313767570215.209
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "bathymetric_classes-Plataforma Externa Profunda (100 - 200 m)",
+    "sketchId": null,
+    "groupId": null,
+    "value": 117166532601.75768
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "bathymetric_classes-Plataforma Externa Rasa (50 - 100 m)",
+    "sketchId": null,
+    "groupId": null,
+    "value": 194153213627.61368
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "bathymetric_classes-Plataforma Interna (<50 m)",
+    "sketchId": null,
+    "groupId": null,
+    "value": 392472485830.8403
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "bathymetric_classes-Talude (200 - 1200 m )",
+    "sketchId": null,
+    "groupId": null,
+    "value": 157304053146.5063
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "bathymetric_classes-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 3174863855421.926
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "ecozones_benthic-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 406648134759.56976
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "ecozones_benthic-zone 1",
+    "sketchId": null,
+    "groupId": null,
+    "value": 143211380131.27673
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "ecozones_benthic-zone 2",
+    "sketchId": null,
+    "groupId": null,
+    "value": 76328676366.87183
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "ecozones_benthic-zone 3",
+    "sketchId": null,
+    "groupId": null,
+    "value": 17474092089.20829
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "ecozones_benthic-zone 4",
+    "sketchId": null,
+    "groupId": null,
+    "value": 43705843353.04147
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "ecozones_benthic-zone 5",
+    "sketchId": null,
+    "groupId": null,
+    "value": 74584929371.10194
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "ecozones_benthic-zone 6",
+    "sketchId": null,
+    "groupId": null,
+    "value": 38105504044.80597
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "ecozones_benthic-zone 7",
+    "sketchId": null,
+    "groupId": null,
+    "value": 13237709403.263731
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "ecozones_pelagic-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 407156117238.5606
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "ecozones_pelagic-zone 1",
+    "sketchId": null,
+    "groupId": null,
+    "value": 29461333250.30234
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "ecozones_pelagic-zone 10",
+    "sketchId": null,
+    "groupId": null,
+    "value": 31494200566.999184
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "ecozones_pelagic-zone 2",
+    "sketchId": null,
+    "groupId": null,
+    "value": 46403312249.56919
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "ecozones_pelagic-zone 3",
+    "sketchId": null,
+    "groupId": null,
+    "value": 45399990275.54924
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "ecozones_pelagic-zone 4",
+    "sketchId": null,
+    "groupId": null,
+    "value": 54925948129.55729
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "ecozones_pelagic-zone 5",
+    "sketchId": null,
+    "groupId": null,
+    "value": 48307095095.563126
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "ecozones_pelagic-zone 6",
+    "sketchId": null,
+    "groupId": null,
+    "value": 48732981167.116295
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "ecozones_pelagic-zone 7",
+    "sketchId": null,
+    "groupId": null,
+    "value": 51166576439.67355
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "ecozones_pelagic-zone 8",
+    "sketchId": null,
+    "groupId": null,
+    "value": 9843172161.500996
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "ecozones_pelagic-zone 9",
+    "sketchId": null,
+    "groupId": null,
+    "value": 41421507902.72946
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "fishing_intensity-High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 775521276564.2164
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "fishing_intensity-Low",
+    "sketchId": null,
+    "groupId": null,
+    "value": 554794810530.3059
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "fishing_intensity-Medium",
+    "sketchId": null,
+    "groupId": null,
+    "value": 861221971740.9613
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "fishing_intensity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2894689148193.961
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "fishing_intensity-Very High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 360500649529.86554
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "fishing_intensity-Very Low",
+    "sketchId": null,
+    "groupId": null,
+    "value": 342650439828.6103
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "mining_potential-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 267539329518.03262
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "mining_process-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 10463018088.155533
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "oil_blocks_concession-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 91968156519.37122
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "oil_exploration-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 22653112662.544243
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "oil_gas_exploration-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 22653112662.544243
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "oil_production_fields-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 23191218107.865566
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "priority_areas-Extremely High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 614793537380.7816
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "priority_areas-High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 357709774212.0117
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "priority_areas-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1182645955240.7957
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "priority_areas-Very High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 210142643648.00226
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "wind_farms-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 53447815236.18962
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "abyssal_classification-Hills",
+    "sketchId": null,
+    "groupId": null,
+    "value": 59
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "abyssal_classification-Mountains",
+    "sketchId": null,
+    "groupId": null,
+    "value": 57
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "abyssal_classification-Plains",
+    "sketchId": null,
+    "groupId": null,
+    "value": 69
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "abyssal_classification-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 185
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "bathymetric_classes-Bacia Oceânica (> 1200 m)",
+    "sketchId": null,
+    "groupId": null,
+    "value": 4
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "bathymetric_classes-Plataforma Externa Profunda (100 - 200 m)",
+    "sketchId": null,
+    "groupId": null,
+    "value": 700
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "bathymetric_classes-Plataforma Externa Rasa (50 - 100 m)",
+    "sketchId": null,
+    "groupId": null,
+    "value": 399
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "bathymetric_classes-Plataforma Interna (<50 m)",
+    "sketchId": null,
+    "groupId": null,
+    "value": 203
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "bathymetric_classes-Talude (200 - 1200 m )",
+    "sketchId": null,
+    "groupId": null,
+    "value": 38
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "bathymetric_classes-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1344
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "ecozones_benthic-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 572
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "ecozones_benthic-zone 1",
+    "sketchId": null,
+    "groupId": null,
+    "value": 30
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "ecozones_benthic-zone 2",
+    "sketchId": null,
+    "groupId": null,
+    "value": 19
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "ecozones_benthic-zone 3",
+    "sketchId": null,
+    "groupId": null,
+    "value": 199
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "ecozones_benthic-zone 4",
+    "sketchId": null,
+    "groupId": null,
+    "value": 109
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "ecozones_benthic-zone 5",
+    "sketchId": null,
+    "groupId": null,
+    "value": 44
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "ecozones_benthic-zone 6",
+    "sketchId": null,
+    "groupId": null,
+    "value": 30
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "ecozones_benthic-zone 7",
+    "sketchId": null,
+    "groupId": null,
+    "value": 141
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "ecozones_pelagic-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 28
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "ecozones_pelagic-zone 1",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "ecozones_pelagic-zone 10",
+    "sketchId": null,
+    "groupId": null,
+    "value": 4
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "ecozones_pelagic-zone 2",
+    "sketchId": null,
+    "groupId": null,
+    "value": 4
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "ecozones_pelagic-zone 3",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "ecozones_pelagic-zone 4",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "ecozones_pelagic-zone 5",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "ecozones_pelagic-zone 6",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "ecozones_pelagic-zone 7",
+    "sketchId": null,
+    "groupId": null,
+    "value": 6
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "ecozones_pelagic-zone 8",
+    "sketchId": null,
+    "groupId": null,
+    "value": 5
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "ecozones_pelagic-zone 9",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "fishing_intensity-High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 78
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "fishing_intensity-Low",
+    "sketchId": null,
+    "groupId": null,
+    "value": 204
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "fishing_intensity-Medium",
+    "sketchId": null,
+    "groupId": null,
+    "value": 146
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "fishing_intensity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 586
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "fishing_intensity-Very High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 76
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "fishing_intensity-Very Low",
+    "sketchId": null,
+    "groupId": null,
+    "value": 82
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "mining_potential-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 113
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "mining_process-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 769
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "oil_blocks_concession-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 123
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "oil_exploration-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 27
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "oil_gas_exploration-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 27
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "oil_production_fields-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 150
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "priority_areas-Extremely High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 152
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "priority_areas-High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 16
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "priority_areas-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 188
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "priority_areas-Very High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 20
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "wind_farms-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 81
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "sum",
+    "classId": "gillnet-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 565341817.7449083
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "sum",
+    "classId": "longline-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 392822527.6822908
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "sum",
+    "classId": "traps-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 101056479.73988244
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "sum",
+    "classId": "trawling-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 34200554209.425182
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "abyssal_classification-Hills",
+    "sketchId": null,
+    "groupId": null,
+    "value": 888456099700.3674
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "abyssal_classification-Mountains",
+    "sketchId": null,
+    "groupId": null,
+    "value": 309591890085.11224
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "abyssal_classification-Plains",
+    "sketchId": null,
+    "groupId": null,
+    "value": 789317614350.412
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "abyssal_classification-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1987365604135.8909
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "bathymetric_classes-Bacia Oceânica (> 1200 m)",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2313767559158.496
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "bathymetric_classes-Plataforma Externa Profunda (100 - 200 m)",
+    "sketchId": null,
+    "groupId": null,
+    "value": 117166532594.6519
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "bathymetric_classes-Plataforma Externa Rasa (50 - 100 m)",
+    "sketchId": null,
+    "groupId": null,
+    "value": 194153186061.99692
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "bathymetric_classes-Plataforma Interna (<50 m)",
+    "sketchId": null,
+    "groupId": null,
+    "value": 391851539886.5104
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "bathymetric_classes-Talude (200 - 1200 m )",
+    "sketchId": null,
+    "groupId": null,
+    "value": 157304053534.82288
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "bathymetric_classes-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 3174242871236.4775
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "brazil_eez-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 3185870760247.8022
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "ecozones_benthic-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 406565297221.6745
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "ecozones_benthic-zone 1",
+    "sketchId": null,
+    "groupId": null,
+    "value": 143211380023.08783
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "ecozones_benthic-zone 2",
+    "sketchId": null,
+    "groupId": null,
+    "value": 76328676366.87183
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "ecozones_benthic-zone 3",
+    "sketchId": null,
+    "groupId": null,
+    "value": 17474092089.20829
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "ecozones_benthic-zone 4",
+    "sketchId": null,
+    "groupId": null,
+    "value": 43705734156.02455
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "ecozones_benthic-zone 5",
+    "sketchId": null,
+    "groupId": null,
+    "value": 74584901208.02113
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "ecozones_benthic-zone 6",
+    "sketchId": null,
+    "groupId": null,
+    "value": 38031687090.17513
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "ecozones_benthic-zone 7",
+    "sketchId": null,
+    "groupId": null,
+    "value": 13228826288.285925
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "ecozones_pelagic-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 406890150671.4322
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "ecozones_pelagic-zone 1",
+    "sketchId": null,
+    "groupId": null,
+    "value": 29461333250.30234
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "ecozones_pelagic-zone 10",
+    "sketchId": null,
+    "groupId": null,
+    "value": 31384530071.320145
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "ecozones_pelagic-zone 2",
+    "sketchId": null,
+    "groupId": null,
+    "value": 46403312225.346016
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "ecozones_pelagic-zone 3",
+    "sketchId": null,
+    "groupId": null,
+    "value": 45399467256.12979
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "ecozones_pelagic-zone 4",
+    "sketchId": null,
+    "groupId": null,
+    "value": 54925948064.07204
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "ecozones_pelagic-zone 5",
+    "sketchId": null,
+    "groupId": null,
+    "value": 48307095095.563126
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "ecozones_pelagic-zone 6",
+    "sketchId": null,
+    "groupId": null,
+    "value": 48732981167.116295
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "ecozones_pelagic-zone 7",
+    "sketchId": null,
+    "groupId": null,
+    "value": 51166576400.40747
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "ecozones_pelagic-zone 8",
+    "sketchId": null,
+    "groupId": null,
+    "value": 9687399238.445528
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "ecozones_pelagic-zone 9",
+    "sketchId": null,
+    "groupId": null,
+    "value": 41421507902.72946
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "fishing_intensity-High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 774895135731.3899
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "fishing_intensity-Low",
+    "sketchId": null,
+    "groupId": null,
+    "value": 551980939866.3317
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "fishing_intensity-Medium",
+    "sketchId": null,
+    "groupId": null,
+    "value": 859680946464.3589
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "fishing_intensity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2882807460945.368
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "fishing_intensity-Very High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 360481126042.96246
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "fishing_intensity-Very Low",
+    "sketchId": null,
+    "groupId": null,
+    "value": 335769312840.325
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "habitats_services-Abyssal mud",
+    "sketchId": null,
+    "groupId": null,
+    "value": 787708558069.711
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "habitats_services-Abyssal rock",
+    "sketchId": null,
+    "groupId": null,
+    "value": 151863501757.4469
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "habitats_services-Abyssal seabed",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1046762122596.6359
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "habitats_services-Circalittoral biogenic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 511153248.0608015
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "habitats_services-Circalittoral coarse sediment",
+    "sketchId": null,
+    "groupId": null,
+    "value": 10202250073.058588
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "habitats_services-Circalittoral mixed sediment",
+    "sketchId": null,
+    "groupId": null,
+    "value": 5466796580.918417
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "habitats_services-Circalittoral mud",
+    "sketchId": null,
+    "groupId": null,
+    "value": 106943833769.564
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "habitats_services-Circalittoral sand",
+    "sketchId": null,
+    "groupId": null,
+    "value": 25732109018.191967
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "habitats_services-Infralittoral biogenic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 35363217004.25858
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "habitats_services-Infralittoral coarse sediment",
+    "sketchId": null,
+    "groupId": null,
+    "value": 95587060995.92812
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "habitats_services-Infralittoral mixed sediment",
+    "sketchId": null,
+    "groupId": null,
+    "value": 36465170258.280014
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "habitats_services-Infralittoral mud",
+    "sketchId": null,
+    "groupId": null,
+    "value": 44590792434.83088
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "habitats_services-Infralittoral sand",
+    "sketchId": null,
+    "groupId": null,
+    "value": 109455231730.37302
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "habitats_services-Lower bathyal biogenic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 14631208.782910429
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "habitats_services-Lower bathyal rock",
+    "sketchId": null,
+    "groupId": null,
+    "value": 61782978491.29611
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "habitats_services-Lower bathyal seabed",
+    "sketchId": null,
+    "groupId": null,
+    "value": 170403802814.70346
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "habitats_services-Mid bathyal biogenic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 141209103.61385202
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "habitats_services-Mid bathyal rock",
+    "sketchId": null,
+    "groupId": null,
+    "value": 25513737300.14178
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "habitats_services-Mid bathyal seabed",
+    "sketchId": null,
+    "groupId": null,
+    "value": 84299429855.4583
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "habitats_services-Offshore circalittoral biogenic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 12136792937.772139
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "habitats_services-Offshore circalittoral coarse sediment",
+    "sketchId": null,
+    "groupId": null,
+    "value": 19702754495.77506
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "habitats_services-Offshore circalittoral mixed sediment",
+    "sketchId": null,
+    "groupId": null,
+    "value": 45450503446.56383
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "habitats_services-Offshore circalittoral mud",
+    "sketchId": null,
+    "groupId": null,
+    "value": 153352417203.507
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "habitats_services-Offshore circalittoral sand",
+    "sketchId": null,
+    "groupId": null,
+    "value": 17940504510.40616
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "habitats_services-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 3183512208342.4478
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "habitats_services-Upper bathyal biogenic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1098209047.0295806
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "habitats_services-Upper bathyal rock",
+    "sketchId": null,
+    "groupId": null,
+    "value": 34944792448.133705
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "habitats_services-Upper bathyal seabed",
+    "sketchId": null,
+    "groupId": null,
+    "value": 100078647942.00719
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "marine_traffic_northeast-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1838113857152.938
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "marine_traffic_northeast-Low",
+    "sketchId": null,
+    "groupId": null,
+    "value": 477533183063
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "marine_traffic_northeast-Medium",
+    "sketchId": null,
+    "groupId": null,
+    "value": 976978261209
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "marine_traffic_northeast-High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 379531020977
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "mining_potential-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 267295065674.39203
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "mining_process-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 10385881409.425978
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "oil_platforms-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 63
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "oil_blocks_concession-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 91968156519.37122
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "oil_exploration-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 22653112662.544243
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "oil_gas_exploration-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 22653112662.544243
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "oil_production_fields-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 23180560468.034122
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "priority_areas-Extremely High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 612838486456.2117
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "priority_areas-High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 357708025332.21204
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "priority_areas-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1176204127940.3657
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "priority_areas-Very High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 205657616151.94208
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "area",
+    "classId": "wind_farms-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 53447479324.006165
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "abyssal_classification-Hills",
+    "sketchId": null,
+    "groupId": null,
+    "value": 59
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "abyssal_classification-Mountains",
+    "sketchId": null,
+    "groupId": null,
+    "value": 57
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "abyssal_classification-Plains",
+    "sketchId": null,
+    "groupId": null,
+    "value": 69
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "abyssal_classification-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 185
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "bathymetric_classes-Bacia Oceânica (> 1200 m)",
+    "sketchId": null,
+    "groupId": null,
+    "value": 4
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "bathymetric_classes-Plataforma Externa Profunda (100 - 200 m)",
+    "sketchId": null,
+    "groupId": null,
+    "value": 700
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "bathymetric_classes-Plataforma Externa Rasa (50 - 100 m)",
+    "sketchId": null,
+    "groupId": null,
+    "value": 399
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "bathymetric_classes-Plataforma Interna (<50 m)",
+    "sketchId": null,
+    "groupId": null,
+    "value": 172
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "bathymetric_classes-Talude (200 - 1200 m )",
+    "sketchId": null,
+    "groupId": null,
+    "value": 38
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "bathymetric_classes-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1313
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "brazil_eez-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "ecozones_benthic-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 572
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "ecozones_benthic-zone 1",
+    "sketchId": null,
+    "groupId": null,
+    "value": 30
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "ecozones_benthic-zone 2",
+    "sketchId": null,
+    "groupId": null,
+    "value": 19
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "ecozones_benthic-zone 3",
+    "sketchId": null,
+    "groupId": null,
+    "value": 199
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "ecozones_benthic-zone 4",
+    "sketchId": null,
+    "groupId": null,
+    "value": 109
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "ecozones_benthic-zone 5",
+    "sketchId": null,
+    "groupId": null,
+    "value": 44
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "ecozones_benthic-zone 6",
+    "sketchId": null,
+    "groupId": null,
+    "value": 30
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "ecozones_benthic-zone 7",
+    "sketchId": null,
+    "groupId": null,
+    "value": 141
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "ecozones_pelagic-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 28
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "ecozones_pelagic-zone 1",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "ecozones_pelagic-zone 10",
+    "sketchId": null,
+    "groupId": null,
+    "value": 4
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "ecozones_pelagic-zone 2",
+    "sketchId": null,
+    "groupId": null,
+    "value": 4
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "ecozones_pelagic-zone 3",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "ecozones_pelagic-zone 4",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "ecozones_pelagic-zone 5",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "ecozones_pelagic-zone 6",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "ecozones_pelagic-zone 7",
+    "sketchId": null,
+    "groupId": null,
+    "value": 6
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "ecozones_pelagic-zone 8",
+    "sketchId": null,
+    "groupId": null,
+    "value": 5
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "ecozones_pelagic-zone 9",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "fishing_intensity-High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 78
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "fishing_intensity-Low",
+    "sketchId": null,
+    "groupId": null,
+    "value": 184
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "fishing_intensity-Medium",
+    "sketchId": null,
+    "groupId": null,
+    "value": 135
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "fishing_intensity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 554
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "fishing_intensity-Very High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 76
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "fishing_intensity-Very Low",
+    "sketchId": null,
+    "groupId": null,
+    "value": 81
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "habitats_services-Abyssal mud",
+    "sketchId": null,
+    "groupId": null,
+    "value": 72
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "habitats_services-Abyssal rock",
+    "sketchId": null,
+    "groupId": null,
+    "value": 225
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "habitats_services-Abyssal seabed",
+    "sketchId": null,
+    "groupId": null,
+    "value": 85
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "habitats_services-Circalittoral biogenic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 89
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "habitats_services-Circalittoral coarse sediment",
+    "sketchId": null,
+    "groupId": null,
+    "value": 236
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "habitats_services-Circalittoral mixed sediment",
+    "sketchId": null,
+    "groupId": null,
+    "value": 231
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "habitats_services-Circalittoral mud",
+    "sketchId": null,
+    "groupId": null,
+    "value": 395
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "habitats_services-Circalittoral sand",
+    "sketchId": null,
+    "groupId": null,
+    "value": 399
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "habitats_services-Infralittoral biogenic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2802
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "habitats_services-Infralittoral coarse sediment",
+    "sketchId": null,
+    "groupId": null,
+    "value": 971
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "habitats_services-Infralittoral mixed sediment",
+    "sketchId": null,
+    "groupId": null,
+    "value": 736
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "habitats_services-Infralittoral mud",
+    "sketchId": null,
+    "groupId": null,
+    "value": 751
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "habitats_services-Infralittoral sand",
+    "sketchId": null,
+    "groupId": null,
+    "value": 695
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "habitats_services-Lower bathyal biogenic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 7
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "habitats_services-Lower bathyal rock",
+    "sketchId": null,
+    "groupId": null,
+    "value": 139
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "habitats_services-Lower bathyal seabed",
+    "sketchId": null,
+    "groupId": null,
+    "value": 144
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "habitats_services-Mid bathyal biogenic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 3
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "habitats_services-Mid bathyal rock",
+    "sketchId": null,
+    "groupId": null,
+    "value": 142
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "habitats_services-Mid bathyal seabed",
+    "sketchId": null,
+    "groupId": null,
+    "value": 147
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "habitats_services-Offshore circalittoral biogenic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 173
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "habitats_services-Offshore circalittoral coarse sediment",
+    "sketchId": null,
+    "groupId": null,
+    "value": 452
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "habitats_services-Offshore circalittoral mixed sediment",
+    "sketchId": null,
+    "groupId": null,
+    "value": 358
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "habitats_services-Offshore circalittoral mud",
+    "sketchId": null,
+    "groupId": null,
+    "value": 206
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "habitats_services-Offshore circalittoral sand",
+    "sketchId": null,
+    "groupId": null,
+    "value": 330
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "habitats_services-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 10852
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "habitats_services-Upper bathyal biogenic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 90
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "habitats_services-Upper bathyal rock",
+    "sketchId": null,
+    "groupId": null,
+    "value": 79
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "habitats_services-Upper bathyal seabed",
+    "sketchId": null,
+    "groupId": null,
+    "value": 895
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "marine_traffic_northeast-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 54368
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "marine_traffic_northeast-Medium",
+    "sketchId": null,
+    "groupId": null,
+    "value": 20149
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "marine_traffic_northeast-High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 6691
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "marine_traffic_northeast-Low",
+    "sketchId": null,
+    "groupId": null,
+    "value": 27528
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "mining_potential-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 113
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "mining_process-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 764
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "oil_blocks_concession-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 123
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "oil_exploration-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 27
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "oil_gas_exploration-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 27
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "oil_production_fields-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 149
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "priority_areas-Extremely High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 106
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "priority_areas-High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 16
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "priority_areas-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 140
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "priority_areas-Very High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 18
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "count",
+    "classId": "wind_farms-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 81
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "sum",
+    "classId": "gillnet-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 565326721.024351
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "sum",
+    "classId": "longline-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 392822158.1008624
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "sum",
+    "classId": "traps-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 101047917.15356815
+  },
+  {
+    "geographyId": "eez_clipped",
+    "metricId": "sum",
+    "classId": "trawling-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 34136597862.387096
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "abyssal_classification-Hills",
+    "sketchId": null,
+    "groupId": null,
+    "value": 888456099986.7354
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "abyssal_classification-Mountains",
+    "sketchId": null,
+    "groupId": null,
+    "value": 309591890159.3741
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "abyssal_classification-Plains",
+    "sketchId": null,
+    "groupId": null,
+    "value": 789317614483.08
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "abyssal_classification-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1987365604629.1897
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "bathymetric_classes-Bacia Oceânica (> 1200 m)",
+    "sketchId": null,
+    "groupId": null,
+    "value": 4865824854638.456
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "bathymetric_classes-Plataforma Externa Profunda (100 - 200 m)",
+    "sketchId": null,
+    "groupId": null,
+    "value": 117619628115.22774
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "bathymetric_classes-Plataforma Externa Rasa (50 - 100 m)",
+    "sketchId": null,
+    "groupId": null,
+    "value": 195473957831.08
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "bathymetric_classes-Plataforma Interna (<50 m)",
+    "sketchId": null,
+    "groupId": null,
+    "value": 392729042078.8427
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "bathymetric_classes-Talude (200 - 1200 m )",
+    "sketchId": null,
+    "groupId": null,
+    "value": 184372462262.2388
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "bathymetric_classes-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 5756019944925.846
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "brazil_eez-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 3223627798278.2344
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "ecozones_benthic-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 407397593608.5878
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "ecozones_benthic-zone 1",
+    "sketchId": null,
+    "groupId": null,
+    "value": 143217054731.1234
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "ecozones_benthic-zone 2",
+    "sketchId": null,
+    "groupId": null,
+    "value": 76328676366.87183
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "ecozones_benthic-zone 3",
+    "sketchId": null,
+    "groupId": null,
+    "value": 17474127421.96353
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "ecozones_benthic-zone 4",
+    "sketchId": null,
+    "groupId": null,
+    "value": 43714292000.28051
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "ecozones_benthic-zone 5",
+    "sketchId": null,
+    "groupId": null,
+    "value": 74588676154.66393
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "ecozones_benthic-zone 6",
+    "sketchId": null,
+    "groupId": null,
+    "value": 38829212295.18072
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "ecozones_benthic-zone 7",
+    "sketchId": null,
+    "groupId": null,
+    "value": 13245554638.50414
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "ecozones_pelagic-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 408071634894.4601
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "ecozones_pelagic-zone 1",
+    "sketchId": null,
+    "groupId": null,
+    "value": 29461333250.30234
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "ecozones_pelagic-zone 10",
+    "sketchId": null,
+    "groupId": null,
+    "value": 31878298442.609318
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "ecozones_pelagic-zone 2",
+    "sketchId": null,
+    "groupId": null,
+    "value": 46408590077.775764
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "ecozones_pelagic-zone 3",
+    "sketchId": null,
+    "groupId": null,
+    "value": 45435367219.672005
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "ecozones_pelagic-zone 4",
+    "sketchId": null,
+    "groupId": null,
+    "value": 54928780808.15872
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "ecozones_pelagic-zone 5",
+    "sketchId": null,
+    "groupId": null,
+    "value": 48307095095.563126
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "ecozones_pelagic-zone 6",
+    "sketchId": null,
+    "groupId": null,
+    "value": 48732981167.116295
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "ecozones_pelagic-zone 7",
+    "sketchId": null,
+    "groupId": null,
+    "value": 51169903168.85458
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "ecozones_pelagic-zone 8",
+    "sketchId": null,
+    "groupId": null,
+    "value": 10327777761.678501
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "ecozones_pelagic-zone 9",
+    "sketchId": null,
+    "groupId": null,
+    "value": 41421507902.72946
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "fishing_intensity-High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1565192332388.0728
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "fishing_intensity-Low",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1889107483067.0837
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "fishing_intensity-Medium",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1928628340729.3718
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "fishing_intensity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 7373555147039.149
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "fishing_intensity-Very High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 376963452231.02277
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "fishing_intensity-Very Low",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1613663538623.588
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "habitats_services-Abyssal mud",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1971724927487.6956
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "habitats_services-Abyssal rock",
+    "sketchId": null,
+    "groupId": null,
+    "value": 291806093351.03174
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "habitats_services-Abyssal seabed",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2269062792148.5986
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "habitats_services-Circalittoral biogenic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 512256154.80370986
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "habitats_services-Circalittoral coarse sediment",
+    "sketchId": null,
+    "groupId": null,
+    "value": 10260039130.802284
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "habitats_services-Circalittoral mixed sediment",
+    "sketchId": null,
+    "groupId": null,
+    "value": 5515334570.987279
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "habitats_services-Circalittoral mud",
+    "sketchId": null,
+    "groupId": null,
+    "value": 107319875641.40186
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "habitats_services-Circalittoral sand",
+    "sketchId": null,
+    "groupId": null,
+    "value": 25976974711.290012
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "habitats_services-Infralittoral biogenic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 35366750884.93621
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "habitats_services-Infralittoral coarse sediment",
+    "sketchId": null,
+    "groupId": null,
+    "value": 97060440764.15527
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "habitats_services-Infralittoral mixed sediment",
+    "sketchId": null,
+    "groupId": null,
+    "value": 36535811309.38258
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "habitats_services-Infralittoral mud",
+    "sketchId": null,
+    "groupId": null,
+    "value": 44917830157.41209
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "habitats_services-Infralittoral sand",
+    "sketchId": null,
+    "groupId": null,
+    "value": 109589473884.64474
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "habitats_services-Lower bathyal biogenic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 14631208.782910429
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "habitats_services-Lower bathyal rock",
+    "sketchId": null,
+    "groupId": null,
+    "value": 88369836364.71574
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "habitats_services-Lower bathyal seabed",
+    "sketchId": null,
+    "groupId": null,
+    "value": 174056327316.63013
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "habitats_services-Mid bathyal biogenic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 141209103.61385202
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "habitats_services-Mid bathyal rock",
+    "sketchId": null,
+    "groupId": null,
+    "value": 27813723397.048283
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "habitats_services-Mid bathyal seabed",
+    "sketchId": null,
+    "groupId": null,
+    "value": 84436401388.24901
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "habitats_services-Offshore circalittoral biogenic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 12148678679.184057
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "habitats_services-Offshore circalittoral coarse sediment",
+    "sketchId": null,
+    "groupId": null,
+    "value": 20050607618.20062
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "habitats_services-Offshore circalittoral mixed sediment",
+    "sketchId": null,
+    "groupId": null,
+    "value": 45520021194.53986
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "habitats_services-Offshore circalittoral mud",
+    "sketchId": null,
+    "groupId": null,
+    "value": 153409864077.17465
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "habitats_services-Offshore circalittoral sand",
+    "sketchId": null,
+    "groupId": null,
+    "value": 17966986385.75674
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "habitats_services-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 5767755913621.029
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "habitats_services-Upper bathyal biogenic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1100550968.5567412
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "habitats_services-Upper bathyal rock",
+    "sketchId": null,
+    "groupId": null,
+    "value": 36853485974.72208
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "habitats_services-Upper bathyal seabed",
+    "sketchId": null,
+    "groupId": null,
+    "value": 100224989746.71806
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "marine_traffic_northeast-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2526723126205.21
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "mining_potential-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 365651082947.0833
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "mining_process-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 14745686191.738472
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "oil_blocks_concession-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 91968156519.37122
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "oil_exploration-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 22653112662.544243
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "oil_gas_exploration-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 22653112662.544243
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "oil_production_fields-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 23608188224.53597
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "priority_areas-Extremely High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 650169141928.5405
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "priority_areas-High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 376000630780.9986
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "priority_areas-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1236964782278.4102
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "priority_areas-Very High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 210795009568.87167
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "shipping_intensity-High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 113902888933.02882
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "shipping_intensity-Low",
+    "sketchId": null,
+    "groupId": null,
+    "value": 280878511099.17084
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "shipping_intensity-Medium",
+    "sketchId": null,
+    "groupId": null,
+    "value": 47695320700.92997
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "shipping_intensity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 442476720733.12933
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "wind_farms-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 53449129874.22733
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "abyssal_classification-Hills",
+    "sketchId": null,
+    "groupId": null,
+    "value": 59
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "abyssal_classification-Mountains",
+    "sketchId": null,
+    "groupId": null,
+    "value": 57
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "abyssal_classification-Plains",
+    "sketchId": null,
+    "groupId": null,
+    "value": 69
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "abyssal_classification-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 185
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "bathymetric_classes-Bacia Oceânica (> 1200 m)",
+    "sketchId": null,
+    "groupId": null,
+    "value": 4
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "bathymetric_classes-Plataforma Externa Profunda (100 - 200 m)",
+    "sketchId": null,
+    "groupId": null,
+    "value": 748
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "bathymetric_classes-Plataforma Externa Rasa (50 - 100 m)",
+    "sketchId": null,
+    "groupId": null,
+    "value": 408
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "bathymetric_classes-Plataforma Interna (<50 m)",
+    "sketchId": null,
+    "groupId": null,
+    "value": 221
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "bathymetric_classes-Talude (200 - 1200 m )",
+    "sketchId": null,
+    "groupId": null,
+    "value": 61
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "bathymetric_classes-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1442
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "brazil_eez-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "ecozones_benthic-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 573
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "ecozones_benthic-zone 1",
+    "sketchId": null,
+    "groupId": null,
+    "value": 30
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "ecozones_benthic-zone 2",
+    "sketchId": null,
+    "groupId": null,
+    "value": 19
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "ecozones_benthic-zone 3",
+    "sketchId": null,
+    "groupId": null,
+    "value": 199
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "ecozones_benthic-zone 4",
+    "sketchId": null,
+    "groupId": null,
+    "value": 110
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "ecozones_benthic-zone 5",
+    "sketchId": null,
+    "groupId": null,
+    "value": 44
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "ecozones_benthic-zone 6",
+    "sketchId": null,
+    "groupId": null,
+    "value": 30
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "ecozones_benthic-zone 7",
+    "sketchId": null,
+    "groupId": null,
+    "value": 141
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "ecozones_pelagic-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 28
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "ecozones_pelagic-zone 1",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "ecozones_pelagic-zone 10",
+    "sketchId": null,
+    "groupId": null,
+    "value": 4
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "ecozones_pelagic-zone 2",
+    "sketchId": null,
+    "groupId": null,
+    "value": 4
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "ecozones_pelagic-zone 3",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "ecozones_pelagic-zone 4",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "ecozones_pelagic-zone 5",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "ecozones_pelagic-zone 6",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "ecozones_pelagic-zone 7",
+    "sketchId": null,
+    "groupId": null,
+    "value": 6
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "ecozones_pelagic-zone 8",
+    "sketchId": null,
+    "groupId": null,
+    "value": 5
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "ecozones_pelagic-zone 9",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "fishing_intensity-High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 155
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "fishing_intensity-Low",
+    "sketchId": null,
+    "groupId": null,
+    "value": 406
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "fishing_intensity-Medium",
+    "sketchId": null,
+    "groupId": null,
+    "value": 318
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "fishing_intensity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1179
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "fishing_intensity-Very High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 97
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "fishing_intensity-Very Low",
+    "sketchId": null,
+    "groupId": null,
+    "value": 203
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "habitats_services-Abyssal mud",
+    "sketchId": null,
+    "groupId": null,
+    "value": 127
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "habitats_services-Abyssal rock",
+    "sketchId": null,
+    "groupId": null,
+    "value": 304
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "habitats_services-Abyssal seabed",
+    "sketchId": null,
+    "groupId": null,
+    "value": 153
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "habitats_services-Circalittoral biogenic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 89
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "habitats_services-Circalittoral coarse sediment",
+    "sketchId": null,
+    "groupId": null,
+    "value": 244
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "habitats_services-Circalittoral mixed sediment",
+    "sketchId": null,
+    "groupId": null,
+    "value": 246
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "habitats_services-Circalittoral mud",
+    "sketchId": null,
+    "groupId": null,
+    "value": 430
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "habitats_services-Circalittoral sand",
+    "sketchId": null,
+    "groupId": null,
+    "value": 426
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "habitats_services-Infralittoral biogenic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2867
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "habitats_services-Infralittoral coarse sediment",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1039
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "habitats_services-Infralittoral mixed sediment",
+    "sketchId": null,
+    "groupId": null,
+    "value": 773
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "habitats_services-Infralittoral mud",
+    "sketchId": null,
+    "groupId": null,
+    "value": 780
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "habitats_services-Infralittoral sand",
+    "sketchId": null,
+    "groupId": null,
+    "value": 714
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "habitats_services-Lower bathyal biogenic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 7
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "habitats_services-Lower bathyal rock",
+    "sketchId": null,
+    "groupId": null,
+    "value": 142
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "habitats_services-Lower bathyal seabed",
+    "sketchId": null,
+    "groupId": null,
+    "value": 152
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "habitats_services-Mid bathyal biogenic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 3
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "habitats_services-Mid bathyal rock",
+    "sketchId": null,
+    "groupId": null,
+    "value": 154
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "habitats_services-Mid bathyal seabed",
+    "sketchId": null,
+    "groupId": null,
+    "value": 150
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "habitats_services-Offshore circalittoral biogenic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 193
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "habitats_services-Offshore circalittoral coarse sediment",
+    "sketchId": null,
+    "groupId": null,
+    "value": 482
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "habitats_services-Offshore circalittoral mixed sediment",
+    "sketchId": null,
+    "groupId": null,
+    "value": 358
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "habitats_services-Offshore circalittoral mud",
+    "sketchId": null,
+    "groupId": null,
+    "value": 210
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "habitats_services-Offshore circalittoral sand",
+    "sketchId": null,
+    "groupId": null,
+    "value": 347
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "habitats_services-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 11536
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "habitats_services-Upper bathyal biogenic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 97
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "habitats_services-Upper bathyal rock",
+    "sketchId": null,
+    "groupId": null,
+    "value": 95
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "habitats_services-Upper bathyal seabed",
+    "sketchId": null,
+    "groupId": null,
+    "value": 954
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "marine_traffic_northeast-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 115176
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "mining_potential-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 131
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "mining_process-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 821
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "oil_blocks_concession-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 123
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "oil_exploration-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 27
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "oil_gas_exploration-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 27
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "oil_production_fields-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 150
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "priority_areas-Extremely High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 219
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "priority_areas-High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 16
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "priority_areas-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 257
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "priority_areas-Very High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 22
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "shipping_intensity-High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1407
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "shipping_intensity-Low",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1944
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "shipping_intensity-Medium",
+    "sketchId": null,
+    "groupId": null,
+    "value": 3149
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "shipping_intensity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 6500
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "wind_farms-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 81
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "gillnet-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 566139222.9722147
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "longline-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 393299687.7165577
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "traps-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 101771059.11921157
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "trawling-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 34395232271.26846
+  }
+]

@@ -2,7 +2,7 @@
   "editor.tabSize": 2,
   "editor.minimap.enabled": false,
   "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
   "[javascript]": {
@@ -18,33 +18,33 @@
     "editor.formatOnSave": true
   },
   "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "files.associations": {
-    "*.geojson": "json"
-  },
+  "files.associations": { "*.geojson": "json" },
   "json.schemas": [
     {
-      "fileMatch": [
-        "*.geojson"
-      ],
+      "fileMatch": ["*.geojson"],
       "url": "http://json.schemastore.org/geojson"
+    },
+    {
+      "fileMatch": [
+        "basic.json",
+        "metrics.json",
+        "objectives.json",
+        "geographies.json",
+        "datasources.json"
+      ],
+      "url": "./.vscode/schemas.json"
     }
   ],
   "aws.experiments": {
     "CodeWhisperer": false
   },
   "i18n-ally.localesPaths": "src/i18n/lang",
-  "i18n-ally.enabledFrameworks": [
-    "react",
-    "i18next",
-    "general"
-  ],
+  "i18n-ally.enabledFrameworks": ["react", "i18next", "general"],
   "i18n-ally.namespace": true,
   "i18n-ally.pathMatcher": "{locale}/{namespaces}.json",
   "i18n-ally.keystyle": "nested",
-  "i18n-ally.keysInUse": [
-    "description.part2_whatever"
-  ],
+  "i18n-ally.keysInUse": ["description.part2_whatever"],
   "i18n-ally.defaultNamespace": "translation"
 }

@@ -1,0 +1,535 @@
+[
+  {
+    "metricId": "boundaryAreaOverlap",
+    "type": "areaOverlap",
+    "classes": [
+      {
+        "classId": "eez",
+        "display": "EEZ",
+        "datasourceId": "global-clipping-eez-land-union",
+        "objectiveId": "eez",
+        "layerId": ""
+      }
+    ]
+  },
+  {
+    "metricId": "windFarmOverlap",
+    "type": "areaOverlap",
+    "layerId": "XkZ7wQWwC",
+    "classes": [
+      {
+        "classId": "wind_farms",
+        "display": "Wind Farms",
+        "datasourceId": "wind_farms",
+        "objectiveId": ""
+      }
+    ]
+  },
+  {
+    "metricId": "windTowerOverlap",
+    "type": "countOverlap",
+    "classes": [
+      {
+        "classId": "wind_towers",
+        "display": "Wind Towers",
+        "datasourceId": "wind_towers",
+        "objectiveId": "",
+        "layerId": ""
+      }
+    ]
+  },
+  {
+    "metricId": "priorityAreaOverlap",
+    "type": "areaOverlap",
+    "layerId": "Gx38O_Msj",
+    "classes": [
+      {
+        "classId": "High",
+        "classKey": "priority",
+        "display": "High",
+        "datasourceId": "priority_areas",
+        "objectiveId": "eez",
+        "layerId": ""
+      },
+      {
+        "classId": "Very High",
+        "classKey": "priority",
+        "display": "Very High",
+        "datasourceId": "priority_areas",
+        "objectiveId": "eez",
+        "layerId": ""
+      },
+      {
+        "classId": "Extremely High",
+        "classKey": "priority",
+        "display": "Extremely High",
+        "datasourceId": "priority_areas",
+        "objectiveId": "eez",
+        "layerId": ""
+      }
+    ]
+  },
+  {
+    "metricId": "fishingEffortOverlap",
+    "type": "valueOverlap",
+    "classes": [
+      {
+        "classId": "trawling",
+        "display": "Trawling",
+        "datasourceId": "trawling",
+        "noDataValue": 0,
+        "layerId": "nVmRI8vJX"
+      },
+      {
+        "classId": "traps",
+        "display": "Traps",
+        "datasourceId": "traps",
+        "noDataValue": 0,
+        "layerId": ""
+      },
+      {
+        "classId": "longline",
+        "display": "Longline",
+        "datasourceId": "longline",
+        "noDataValue": 0,
+        "layerId": "Olt_SOCh0"
+      },
+      {
+        "classId": "gillnet",
+        "display": "Gillnet",
+        "datasourceId": "gillnet",
+        "noDataValue": 0,
+        "layerId": "awuKJnhRG"
+      }
+    ]
+  },
+  {
+    "metricId": "miningOverlap",
+    "type": "areaOverlap",
+    "classes": [
+      {
+        "classId": "mining_process",
+        "display": "Mining Areas (Process)",
+        "datasourceId": "mining_process",
+        "layerId": "rmz5haLwD"
+      },
+      {
+        "classId": "mining_potential",
+        "display": "Mining Potential Areas",
+        "datasourceId": "mining_potential",
+        "layerId": "HhykfJ_h9"
+      }
+    ]
+  },
+  {
+    "metricId": "powerLinesOverlap",
+    "type": "areaOverlap",
+    "classes": [
+      {
+        "classId": "power_lines",
+        "display": "Power Lines",
+        "datasourceId": "power_lines",
+        "objectiveId": "",
+        "layerId": ""
+      }
+    ]
+  },
+  {
+    "metricId": "bathyClassesOverlap",
+    "type": "areaOverlap",
+    "layerId": "ObnqmsWIT",
+    "classes": [
+      {
+        "classId": "Plataforma Interna (<50 m)",
+        "classKey": "class",
+        "display": "Plataforma Interna (<50 m)",
+        "datasourceId": "bathymetric_classes",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "Plataforma Externa Rasa (50 - 100 m)",
+        "classKey": "class",
+        "display": "Plataforma Externa Rasa (50 - 100 m)",
+        "datasourceId": "bathymetric_classes",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "Plataforma Externa Profunda (100 - 200 m)",
+        "classKey": "class",
+        "display": "Plataforma Externa Profunda (100 - 200 m)",
+        "datasourceId": "bathymetric_classes",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "Talude (200 - 1200 m )",
+        "classKey": "class",
+        "display": "Talude (200 - 1200 m)",
+        "datasourceId": "bathymetric_classes",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "Bacia Oceânica (> 1200 m)",
+        "classKey": "class",
+        "display": "Bacia Oceânica (> 1200 m)",
+        "datasourceId": "bathymetric_classes",
+        "objectiveId": "",
+        "layerId": ""
+      }
+    ]
+  },
+  {
+    "metricId": "oilAreasOverlap",
+    "type": "areaOverlap",
+    "classes": [
+      {
+        "classId": "oil_blocks_concession",
+        "display": "Oil Blocks Under Concession",
+        "datasourceId": "oil_blocks_concession",
+        "layerId": "zxv2SutcS"
+      },
+      {
+        "classId": "oil_production_fields",
+        "display": "Oil Production Fields",
+        "datasourceId": "oil_production_fields",
+        "layerId": "UGqS92gF1"
+      }
+    ]
+  },
+  {
+    "metricId": "oilPlatformOverlap",
+    "type": "countOverlap",
+    "layerId": "nZgYOJGRE",
+    "classes": [
+      {
+        "classId": "oil_platforms",
+        "display": "Oil Platforms",
+        "datasourceId": "oil_platforms"
+      }
+    ]
+  },
+  {
+    "metricId": "fishingIntensityOverlap",
+    "type": "areaOverlap",
+    "layerId": "eIC6JVm0d",
+    "classes": [
+      {
+        "classId": "Very Low",
+        "classKey": "intensity",
+        "display": "Very Low",
+        "datasourceId": "fishing_intensity",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "Low",
+        "classKey": "intensity",
+        "display": "Low",
+        "datasourceId": "fishing_intensity",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "Medium",
+        "classKey": "intensity",
+        "display": "Medium",
+        "datasourceId": "fishing_intensity",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "High",
+        "classKey": "intensity",
+        "display": "High",
+        "datasourceId": "fishing_intensity",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "Very High",
+        "classKey": "intensity",
+        "display": "Very High",
+        "datasourceId": "fishing_intensity",
+        "objectiveId": "",
+        "layerId": ""
+      }
+    ]
+  },
+  {
+    "metricId": "fishingIntensityFlipOverlap",
+    "type": "areaOverlap",
+    "layerId": "eIC6JVm0d",
+    "classes": [
+      {
+        "classId": "Very Low",
+        "classKey": "intensity",
+        "display": "Very Low",
+        "datasourceId": "fishing_intensity",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "Low",
+        "classKey": "intensity",
+        "display": "Low",
+        "datasourceId": "fishing_intensity",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "Medium",
+        "classKey": "intensity",
+        "display": "Medium",
+        "datasourceId": "fishing_intensity",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "High",
+        "classKey": "intensity",
+        "display": "High",
+        "datasourceId": "fishing_intensity",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "Very High",
+        "classKey": "intensity",
+        "display": "Very High",
+        "datasourceId": "fishing_intensity",
+        "objectiveId": "",
+        "layerId": ""
+      }
+    ]
+  },
+  {
+    "metricId": "shippingIntensityOverlap",
+    "type": "areaOverlap",
+    "layerId": "sJoCfflqF",
+    "classes": [
+      {
+        "classId": "Low",
+        "classKey": "intensity_class",
+        "display": "Low",
+        "datasourceId": "marine_traffic_northeast",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "Medium",
+        "classKey": "intensity_class",
+        "display": "Medium",
+        "datasourceId": "marine_traffic_northeast",
+        "objectiveId": "",
+        "layerId": ""
+      },
+      {
+        "classId": "High",
+        "classKey": "intensity_class",
+        "display": "High",
+        "datasourceId": "marine_traffic_northeast",
+        "objectiveId": "",
+        "layerId": ""
+      }
+    ]
+  },
+  {
+    "metricId": "habitatsServicesOverlap",
+    "type": "areaOverlap",
+    "layerId": "WIzmW67J6",
+    "classes": [
+      {
+        "classId": "Circalittoral biogenic",
+        "classKey": "habitat",
+        "display": "Circalittoral biogenic",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Circalittoral coarse sediment",
+        "classKey": "habitat",
+        "display": "Circalittoral coarse sediment",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Circalittoral mixed sediment",
+        "classKey": "habitat",
+        "display": "Circalittoral mixed sediment",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Circalittoral mud",
+        "classKey": "habitat",
+        "display": "Circalittoral mud",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Circalittoral sand",
+        "classKey": "habitat",
+        "display": "Circalittoral sand",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Abyssal mud",
+        "classKey": "habitat",
+        "display": "Abyssal mud",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Abyssal rock",
+        "classKey": "habitat",
+        "display": "Abyssal rock",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Abyssal seabed",
+        "classKey": "habitat",
+        "display": "Abyssal seabed",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Infralittoral biogenic",
+        "classKey": "habitat",
+        "display": "Infralittoral biogenic",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Infralittoral coarse sediment",
+        "classKey": "habitat",
+        "display": "Infralittoral coarse sediment",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Infralittoral mixed sediment",
+        "classKey": "habitat",
+        "display": "Infralittoral mixed sediment",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Infralittoral mud",
+        "classKey": "habitat",
+        "display": "Infralittoral mud",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Infralittoral sand",
+        "classKey": "habitat",
+        "display": "Infralittoral sand",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Lower bathyal biogenic",
+        "classKey": "habitat",
+        "display": "Lower bathyal biogenic",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Lower bathyal rock",
+        "classKey": "habitat",
+        "display": "Lower bathyal rock",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Lower bathyal seabed",
+        "classKey": "habitat",
+        "display": "Lower bathyal seabed",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Mid bathyal biogenic",
+        "classKey": "habitat",
+        "display": "Mid bathyal biogenic",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Mid bathyal rock",
+        "classKey": "habitat",
+        "display": "Mid bathyal rock",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Mid bathyal seabed",
+        "classKey": "habitat",
+        "display": "Mid bathyal seabed",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Offshore circalittoral sand",
+        "classKey": "habitat",
+        "display": "Offshore circalittoral sand",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Upper bathyal biogenic",
+        "classKey": "habitat",
+        "display": "Upper bathyal biogenic",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Upper bathyal rock",
+        "classKey": "habitat",
+        "display": "Upper bathyal rock",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Offshore circalittoral biogenic",
+        "classKey": "habitat",
+        "display": "Offshore circalittoral biogenic",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Offshore circalittoral mud",
+        "classKey": "habitat",
+        "display": "Offshore circalittoral mud",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Offshore circalittoral mixed sediment",
+        "classKey": "habitat",
+        "display": "Offshore circalittoral mixed sediment",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Offshore circalittoral coarse sediment",
+        "classKey": "habitat",
+        "display": "Offshore circalittoral coarse sediment",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      },
+      {
+        "classId": "Upper bathyal seabed",
+        "classKey": "habitat",
+        "display": "Upper bathyal seabed",
+        "datasourceId": "habitats_services",
+        "objectiveId": ""
+      }
+    ]
+  }
+]

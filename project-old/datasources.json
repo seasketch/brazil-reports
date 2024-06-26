@@ -1,0 +1,513 @@
+[
+  {
+    "datasourceId": "global-clipping-osm-land",
+    "geo_type": "vector",
+    "formats": [
+      "subdivided"
+    ],
+    "precalc": false,
+    "classKeys": [],
+    "url": "https://d3p1dsef9f0gjr.cloudfront.net/"
+  },
+  {
+    "datasourceId": "global-clipping-eez-land-union",
+    "geo_type": "vector",
+    "formats": [
+      "subdivided"
+    ],
+    "precalc": false,
+    "classKeys": [],
+    "url": "https://d3muy0hbwp5qkl.cloudfront.net"
+  },
+  {
+    "datasourceId": "abyssal_classification",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": true,
+    "layerName": "Abyssal_Classification",
+    "classKeys": [
+      "Class"
+    ],
+    "created": "2023-06-29T20:22:43.922Z",
+    "lastUpdated": "2024-06-21T21:43:59.181Z",
+    "src": "data/src/Brazil/Data_Products/geomorphology-clipped-to-eez/Abyssal_Classification.fgb",
+    "propertiesToKeep": [
+      "Class"
+    ]
+  },
+  {
+    "datasourceId": "trawling",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-07-05T21:31:11.430Z",
+    "lastUpdated": "2024-06-21T21:43:59.342Z",
+    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/kernel_trawling_preps.tif"
+  },
+  {
+    "datasourceId": "traps",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-07-10T20:44:51.499Z",
+    "lastUpdated": "2024-06-21T21:43:59.500Z",
+    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/kernel_traps_preps.tif"
+  },
+  {
+    "datasourceId": "longline",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-07-10T21:09:46.866Z",
+    "lastUpdated": "2024-06-21T21:43:59.659Z",
+    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/kernel_longline_preps.tif"
+  },
+  {
+    "datasourceId": "gillnet",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2023-07-10T21:10:58.753Z",
+    "lastUpdated": "2024-06-21T21:43:59.849Z",
+    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/kernel_gillnet_preps.tif"
+  },
+  {
+    "datasourceId": "mining_potential",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": true,
+    "layerName": "usos_humanos.mineracao_areas_potenciais",
+    "classKeys": [],
+    "created": "2023-09-05T23:01:17.143Z",
+    "lastUpdated": "2024-06-21T21:43:59.915Z",
+    "src": "data/src/fromDatabase/usos_humanos.mineracao_areas_potenciais.json",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "oil_platforms",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": false,
+    "layerName": "usos_humanos.petroleo_plataformas",
+    "classKeys": [],
+    "created": "2023-09-05T23:01:17.160Z",
+    "lastUpdated": "2024-06-21T21:43:59.963Z",
+    "src": "data/src/fromDatabase/usos_humanos.petroleo_plataformas.json",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "oil_exploration",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": true,
+    "layerName": "oil_exp_anp",
+    "classKeys": [],
+    "created": "2023-07-12T20:21:00.643Z",
+    "lastUpdated": "2024-06-21T21:44:00.002Z",
+    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/oil_exp_anp.fgb",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "ecozones_pelagic",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": true,
+    "layerName": "ecozones_pelagic_gandra",
+    "classKeys": [
+      "zone"
+    ],
+    "created": "2023-07-12T22:06:51.033Z",
+    "lastUpdated": "2024-06-21T21:44:00.039Z",
+    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/ecozones_pelagic_gandra.fgb",
+    "propertiesToKeep": [
+      "zone"
+    ],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "ecozones_benthic",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": true,
+    "layerName": "ecozones_benthic_gandra",
+    "classKeys": [
+      "zone"
+    ],
+    "created": "2023-07-12T22:29:40.473Z",
+    "lastUpdated": "2024-06-21T21:44:00.091Z",
+    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/ecozones_benthic_gandra.fgb",
+    "propertiesToKeep": [
+      "zone"
+    ],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "priority_areas",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": true,
+    "layerName": "priority_areas_mma_translated",
+    "classKeys": [
+      "priority"
+    ],
+    "created": "2023-07-14T19:10:14.544Z",
+    "lastUpdated": "2024-06-21T23:14:26.950Z",
+    "src": "data/src/Brazil/Data_Products/priority-areas/priority_areas_mma_translated.fgb",
+    "propertiesToKeep": [
+      "priority"
+    ],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "oil_gas_exploration",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": true,
+    "layerName": "oil_exp_anp",
+    "classKeys": [],
+    "created": "2023-07-17T18:40:51.731Z",
+    "lastUpdated": "2024-06-21T21:44:00.179Z",
+    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/oil_exp_anp.fgb",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "wind_farms",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": true,
+    "layerName": "usos_humanos.eolico_parques",
+    "classKeys": [],
+    "created": "2023-09-05T23:01:17.125Z",
+    "lastUpdated": "2024-06-21T21:44:00.411Z",
+    "src": "data/src/fromDatabase/usos_humanos.eolico_parques.json",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "wind_towers",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": false,
+    "layerName": "usos_humanos.eolico_torres",
+    "classKeys": [],
+    "created": "2023-09-05T23:01:19.421Z",
+    "lastUpdated": "2024-06-21T21:44:00.657Z",
+    "src": "data/src/fromDatabase/usos_humanos.eolico_torres.json",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "power_lines",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": false,
+    "layerName": "usos_humanos.eolico_linhas_transmissao",
+    "classKeys": [],
+    "created": "2023-09-05T23:01:18.436Z",
+    "lastUpdated": "2024-06-21T21:44:00.779Z",
+    "src": "data/src/fromDatabase/usos_humanos.eolico_linhas_transmissao.json",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "bathymetric_classes",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": true,
+    "layerName": "batimetria_classes",
+    "classKeys": [
+      "class"
+    ],
+    "created": "2023-09-05T23:01:19.116Z",
+    "lastUpdated": "2024-06-21T21:44:01.070Z",
+    "src": "data/src/fromDatabase/public.batimetria_classes.json",
+    "propertiesToKeep": [
+      "class"
+    ],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "oil_blocks_concession",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": true,
+    "layerName": "usos_humanos.petroleo_blocos_concessao",
+    "classKeys": [],
+    "created": "2023-09-05T23:01:17.214Z",
+    "lastUpdated": "2024-06-21T21:44:01.146Z",
+    "src": "data/src/fromDatabase/usos_humanos.petroleo_blocos_concessao.json",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "oil_production_fields",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": true,
+    "layerName": "usos_humanos.petroleo_campos_producao",
+    "classKeys": [],
+    "created": "2023-09-05T23:01:17.340Z",
+    "lastUpdated": "2024-06-21T21:44:01.235Z",
+    "src": "data/src/fromDatabase/usos_humanos.petroleo_campos_producao.json",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "ports",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": false,
+    "layerName": "usos_humanos.portos",
+    "classKeys": [],
+    "created": "2023-08-23T18:22:30.972Z",
+    "lastUpdated": "2024-06-21T21:44:01.289Z",
+    "src": "data/src/fromDatabase/usos_humanos.portos.json",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "brazil-land",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": false,
+    "layerName": "unidades_federacao_dissolved",
+    "classKeys": [],
+    "created": "2023-09-01T18:45:52.625Z",
+    "lastUpdated": "2024-06-21T21:44:01.349Z",
+    "src": "data/src/Brazil/Data_Products/brazil-data-db/unidades_federacao_dissolved.fgb",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "mining_process",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": true,
+    "layerName": "usos_humanos.mineracao_processos",
+    "classKeys": [],
+    "created": "2023-09-05T23:01:17.185Z",
+    "lastUpdated": "2024-06-21T21:44:01.435Z",
+    "src": "data/src/fromDatabase/usos_humanos.mineracao_processos.json",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "fishing_intensity",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": true,
+    "layerName": "fishing_intensity_all_gfw_levels",
+    "classKeys": [
+      "intensity"
+    ],
+    "created": "2023-09-06T17:43:51.827Z",
+    "lastUpdated": "2024-06-21T21:44:01.497Z",
+    "src": "data/src/Brazil/Data_Products/gfw/fishing_intensity_all_gfw_levels.fgb",
+    "propertiesToKeep": [
+      "intensity"
+    ],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "shipping_intensity_filtered",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": false,
+    "layerName": "shipping_intensity_filtered",
+    "classKeys": [
+      "intensity_class"
+    ],
+    "created": "2023-09-08T17:03:17.954Z",
+    "lastUpdated": "2024-06-21T21:44:05.490Z",
+    "src": "data/src/Brazil/Data_Products/shipping/shipping_intensity_filtered.fgb",
+    "propertiesToKeep": [
+      "intensity_class"
+    ],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "habitats_services",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": true,
+    "layerName": "habitats_services",
+    "classKeys": [
+      "habitat"
+    ],
+    "created": "2024-06-14T22:49:00.435Z",
+    "lastUpdated": "2024-06-21T21:44:05.773Z",
+    "src": "data/src/Brazil/Data_Products/benthic_habitats_ecosystem_services/habitats_services.fgb",
+    "propertiesToKeep": [
+      "habitat"
+    ],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "world",
+    "geo_type": "vector",
+    "formats": [
+      "json",
+      "fgb"
+    ],
+    "precalc": false,
+    "metadata": {
+      "name": "World Outline Polygon",
+      "description": "World polygon for default project geography in seasketch geoprocessing proejcts",
+      "version": "1.0",
+      "publisher": "SeaSketch",
+      "publishDate": "20231018",
+      "publishLink": ""
+    },
+    "layerName": "world",
+    "classKeys": [],
+    "url": "https://gp-global-datasources-datasets.s3.us-west-1.amazonaws.com/world.fgb"
+  },
+  {
+    "datasourceId": "brazil_eez",
+    "geo_type": "vector",
+    "formats": [
+      "fgb",
+      "json"
+    ],
+    "precalc": true,
+    "layerName": "brazil-eez",
+    "classKeys": [],
+    "created": "2024-06-21T21:35:57.395Z",
+    "lastUpdated": "2024-06-21T23:12:30.318Z",
+    "src": "data/src/Brazil/Data_Products/brazil-eez.fgb",
+    "propertiesToKeep": [],
+    "explodeMulti": false
+  },
+  {
+    "datasourceId": "marine_traffic_northeast",
+    "geo_type": "vector",
+    "formats": [
+      "fgb",
+      "json"
+    ],
+    "precalc": true,
+    "layerName": "marine_traffic_northeast_filtered",
+    "classKeys": [],
+    "created": "2024-06-21T21:48:08.791Z",
+    "lastUpdated": "2024-06-25T16:44:37.453Z",
+    "src": "data/src/Brazil/Data_Products/shipping/marine_traffic_northeast_filtered.fgb",
+    "propertiesToKeep": [],
+    "explodeMulti": false
+  },
+  {
+    "datasourceId": "shipping_intensity",
+    "geo_type": "vector",
+    "formats": [
+      "fgb",
+      "json"
+    ],
+    "precalc": true,
+    "layerName": "shipping_intensity_clipped",
+    "classKeys": [
+      "intensity"
+    ],
+    "created": "2024-06-21T21:51:29.750Z",
+    "lastUpdated": "2024-06-21T22:00:32.175Z",
+    "src": "data/src/Brazil/Data_Products/shipping/shipping_intensity_clipped.fgb",
+    "propertiesToKeep": [
+      "intensity"
+    ],
+    "explodeMulti": false
+  },
+  {
+    "datasourceId": "brazil_eez_fixed",
+    "geo_type": "vector",
+    "formats": [
+      "fgb",
+      "json"
+    ],
+    "precalc": true,
+    "layerName": "brazil-eez-fixed",
+    "classKeys": [],
+    "created": "2024-06-24T19:01:02.730Z",
+    "lastUpdated": "2024-06-24T19:01:02.730Z",
+    "src": "data/src/Brazil/Data_Products/brazil-eez-fixed.fgb",
+    "propertiesToKeep": [],
+    "explodeMulti": false
+  },
+  {
+    "datasourceId": "brazil_eez_clipped",
+    "geo_type": "vector",
+    "formats": [
+      "fgb",
+      "json"
+    ],
+    "precalc": true,
+    "layerName": "brazil-eez-clipped",
+    "classKeys": [],
+    "created": "2024-06-24T20:58:55.750Z",
+    "lastUpdated": "2024-06-24T20:58:55.750Z",
+    "src": "data/src/Brazil/Data_Products/brazil-eez-clipped.fgb",
+    "propertiesToKeep": [],
+    "explodeMulti": false
+  }
+]
