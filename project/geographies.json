@@ -1,8 +1,8 @@
 [
     {
-        "geographyId": "eez_clipped",
-        "datasourceId": "brazil_eez_clipped",
-        "display": "EEZ Clipped",
+        "geographyId": "eez",
+        "datasourceId": "brazil_eez",
+        "display": "EEZ",
         "groups": [
             "default-boundary"
         ],
