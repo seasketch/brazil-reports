@@ -24,7 +24,7 @@
       "Class": {
         "Hills": {
           "count": 69,
-          "area": 888456080124.5848
+          "area": 888456080124.5844
         },
         "Mountains": {
           "count": 58,
@@ -32,14 +32,14 @@
         },
         "Plains": {
           "count": 78,
-          "area": 789317620614.2297
+          "area": 789317620614.2295
         }
       },
       "total": {
         "total": {
           "count": 205,
           "sum": null,
-          "area": 1987365588958.9727
+          "area": 1987365588958.9722
         }
       }
     },
@@ -51,7 +51,7 @@
       "Class"
     ],
     "created": "2023-06-29T20:22:43.922Z",
-    "lastUpdated": "2023-08-08T17:27:10.027Z",
+    "lastUpdated": "2024-06-26T20:43:41.341Z",
     "src": "data/src/Brazil/Data_Products/geomorphology-clipped-to-eez/Abyssal_Classification.shp",
     "propertiesToKeep": [
       "Class"
@@ -76,7 +76,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-07-05T21:31:11.430Z",
-    "lastUpdated": "2023-08-08T17:27:17.343Z",
+    "lastUpdated": "2024-06-26T20:43:43.080Z",
     "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/kernel_trawling_preps.tif"
   },
   {
@@ -98,7 +98,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-07-10T20:44:51.499Z",
-    "lastUpdated": "2023-08-08T17:27:24.496Z",
+    "lastUpdated": "2024-06-26T20:43:44.834Z",
     "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/kernel_traps_preps.tif"
   },
   {
@@ -120,7 +120,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-07-10T21:09:46.866Z",
-    "lastUpdated": "2023-08-08T17:27:31.283Z",
+    "lastUpdated": "2024-06-26T20:43:46.537Z",
     "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/kernel_longline_preps.tif"
   },
   {
@@ -142,7 +142,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-07-10T21:10:58.753Z",
-    "lastUpdated": "2023-08-08T17:27:38.016Z",
+    "lastUpdated": "2024-06-26T20:43:48.243Z",
     "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/kernel_gillnet_preps.tif"
   },
   {
@@ -163,8 +163,8 @@
     "layerName": "usos_humanos.mineracao_areas_potenciais",
     "classKeys": [],
     "created": "2023-09-05T23:01:17.143Z",
-    "lastUpdated": "2023-09-05T23:01:17.145Z",
-    "src": "data/src/fromDatabase/usos_humanos.mineracao_areas_potenciais.json",
+    "lastUpdated": "2024-06-26T20:43:48.379Z",
+    "src": "data/src/Brazil/Data_Products/fromDatabase/usos_humanos.mineracao_areas_potenciais.json",
     "propertiesToKeep": []
   },
   {
@@ -185,8 +185,8 @@
     "layerName": "usos_humanos.petroleo_plataformas",
     "classKeys": [],
     "created": "2023-09-05T23:01:17.160Z",
-    "lastUpdated": "2023-09-05T23:01:17.162Z",
-    "src": "data/src/fromDatabase/usos_humanos.petroleo_plataformas.json",
+    "lastUpdated": "2024-06-26T20:43:48.470Z",
+    "src": "data/src/Brazil/Data_Products/fromDatabase/usos_humanos.petroleo_plataformas.json",
     "propertiesToKeep": []
   },
   {
@@ -197,7 +197,7 @@
         "total": {
           "count": 27,
           "sum": null,
-          "area": 22653113180.664886
+          "area": 22653113180.66489
         }
       }
     },
@@ -207,7 +207,7 @@
     "layerName": "oil_exp_anp",
     "classKeys": [],
     "created": "2023-07-12T20:21:00.643Z",
-    "lastUpdated": "2023-08-08T17:42:14.808Z",
+    "lastUpdated": "2024-06-26T20:43:48.559Z",
     "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/oil_exp_anp.fgb",
     "propertiesToKeep": []
   },
@@ -273,7 +273,7 @@
       "zone"
     ],
     "created": "2023-07-12T22:06:51.033Z",
-    "lastUpdated": "2023-08-08T17:27:39.187Z",
+    "lastUpdated": "2024-06-26T20:43:48.671Z",
     "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/ecozones_pelagic_gandra.fgb",
     "propertiesToKeep": [
       "zone"
@@ -286,38 +286,38 @@
       "zone": {
         "zone 3": {
           "count": 199,
-          "area": 17474132877.81905
+          "area": 17474132877.819046
         },
         "zone 1": {
           "count": 30,
-          "area": 143217044304.99664
+          "area": 143217044304.99673
         },
         "zone 2": {
           "count": 19,
-          "area": 76328672615.80208
+          "area": 76328672615.80206
         },
         "zone 5": {
           "count": 44,
-          "area": 74588670898.60631
+          "area": 74588670898.60632
         },
         "zone 7": {
           "count": 141,
-          "area": 13245555384.885921
+          "area": 13245555384.88591
         },
         "zone 4": {
           "count": 110,
-          "area": 43714294608.70005
+          "area": 43714294608.70003
         },
         "zone 6": {
           "count": 30,
-          "area": 38829211521.04628
+          "area": 38829211521.04634
         }
       },
       "total": {
         "total": {
           "count": 573,
           "sum": null,
-          "area": 407397582211.857
+          "area": 407397582211.8571
         }
       }
     },
@@ -329,7 +329,7 @@
       "zone"
     ],
     "created": "2023-07-12T22:29:40.473Z",
-    "lastUpdated": "2023-08-08T17:27:39.647Z",
+    "lastUpdated": "2024-06-26T20:43:48.847Z",
     "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/ecozones_benthic_gandra.fgb",
     "propertiesToKeep": [
       "zone"
@@ -373,7 +373,7 @@
       "priority"
     ],
     "created": "2023-07-14T19:10:14.544Z",
-    "lastUpdated": "2023-08-30T22:30:20.599Z",
+    "lastUpdated": "2024-06-26T20:43:49.286Z",
     "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/priority_areas_mma_translated.fgb",
     "propertiesToKeep": [
       "priority"
@@ -387,7 +387,7 @@
         "total": {
           "count": 27,
           "sum": null,
-          "area": 22653113180.664886
+          "area": 22653113180.66489
         }
       }
     },
@@ -397,7 +397,7 @@
     "layerName": "oil_exp_anp",
     "classKeys": [],
     "created": "2023-07-17T18:40:51.731Z",
-    "lastUpdated": "2023-08-08T17:27:41.011Z",
+    "lastUpdated": "2024-06-26T20:43:49.374Z",
     "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/oil_exp_anp.fgb",
     "propertiesToKeep": []
   },
@@ -408,26 +408,26 @@
       "intensity": {
         "Low": {
           "count": 1944,
-          "area": 280878500879.52954
+          "area": 280878500879.52966
         },
         "Medium": {
           "count": 3149,
-          "area": 47695315451.504616
+          "area": 47695315451.50475
         },
         "High": {
           "count": 1407,
-          "area": 113902892619.22852
+          "area": 113902892619.2284
         },
         "undefined": {
           "count": 401,
-          "area": 137135903518.0804
+          "area": 137135903518.08041
         }
       },
       "total": {
         "total": {
           "count": 6901,
           "sum": null,
-          "area": 579612612468.3446
+          "area": 579612612468.3448
         }
       }
     },
@@ -439,7 +439,7 @@
       "intensity"
     ],
     "created": "2023-07-21T20:38:02.142Z",
-    "lastUpdated": "2023-08-08T17:27:43.741Z",
+    "lastUpdated": "2024-06-26T20:43:50.283Z",
     "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/shipping_intensity_clipped.fgb",
     "propertiesToKeep": [
       "intensity"
@@ -463,8 +463,8 @@
     "layerName": "usos_humanos.eolico_parques",
     "classKeys": [],
     "created": "2023-09-05T23:01:17.125Z",
-    "lastUpdated": "2023-09-05T23:01:17.127Z",
-    "src": "data/src/fromDatabase/usos_humanos.eolico_parques.json",
+    "lastUpdated": "2024-06-26T20:43:50.404Z",
+    "src": "data/src/Brazil/Data_Products/fromDatabase/usos_humanos.eolico_parques.json",
     "propertiesToKeep": []
   },
   {
@@ -485,8 +485,8 @@
     "layerName": "usos_humanos.eolico_torres",
     "classKeys": [],
     "created": "2023-09-05T23:01:19.421Z",
-    "lastUpdated": "2023-09-05T23:01:19.422Z",
-    "src": "data/src/fromDatabase/usos_humanos.eolico_torres.json",
+    "lastUpdated": "2024-06-26T20:43:52.344Z",
+    "src": "data/src/Brazil/Data_Products/fromDatabase/usos_humanos.eolico_torres.json",
     "propertiesToKeep": []
   },
   {
@@ -507,8 +507,8 @@
     "layerName": "usos_humanos.eolico_linhas_transmissao",
     "classKeys": [],
     "created": "2023-09-05T23:01:18.436Z",
-    "lastUpdated": "2023-09-05T23:01:18.437Z",
-    "src": "data/src/fromDatabase/usos_humanos.eolico_linhas_transmissao.json",
+    "lastUpdated": "2024-06-26T20:43:53.519Z",
+    "src": "data/src/Brazil/Data_Products/fromDatabase/usos_humanos.eolico_linhas_transmissao.json",
     "propertiesToKeep": []
   },
   {
@@ -553,8 +553,8 @@
       "class"
     ],
     "created": "2023-09-05T23:01:19.116Z",
-    "lastUpdated": "2023-09-05T23:01:19.117Z",
-    "src": "data/src/fromDatabase/public.batimetria_classes.json",
+    "lastUpdated": "2024-06-26T20:43:54.999Z",
+    "src": "data/src/Brazil/Data_Products/fromDatabase/public.batimetria_classes.json",
     "propertiesToKeep": [
       "class"
     ]
@@ -577,8 +577,8 @@
     "layerName": "usos_humanos.petroleo_blocos_concessao",
     "classKeys": [],
     "created": "2023-09-05T23:01:17.214Z",
-    "lastUpdated": "2023-09-05T23:01:17.216Z",
-    "src": "data/src/fromDatabase/usos_humanos.petroleo_blocos_concessao.json",
+    "lastUpdated": "2024-06-26T20:43:55.178Z",
+    "src": "data/src/Brazil/Data_Products/fromDatabase/usos_humanos.petroleo_blocos_concessao.json",
     "propertiesToKeep": []
   },
   {
@@ -599,8 +599,8 @@
     "layerName": "usos_humanos.petroleo_campos_producao",
     "classKeys": [],
     "created": "2023-09-05T23:01:17.340Z",
-    "lastUpdated": "2023-09-05T23:01:17.341Z",
-    "src": "data/src/fromDatabase/usos_humanos.petroleo_campos_producao.json",
+    "lastUpdated": "2024-06-26T20:43:55.399Z",
+    "src": "data/src/Brazil/Data_Products/fromDatabase/usos_humanos.petroleo_campos_producao.json",
     "propertiesToKeep": []
   },
   {
@@ -621,8 +621,8 @@
     "layerName": "usos_humanos.portos",
     "classKeys": [],
     "created": "2023-08-23T18:22:30.972Z",
-    "lastUpdated": "2023-08-23T18:22:30.972Z",
-    "src": "data/src/fromDatabase/usos_humanos.portos.json",
+    "lastUpdated": "2024-06-26T20:43:55.514Z",
+    "src": "data/src/Brazil/Data_Products/fromDatabase/usos_humanos.portos.json",
     "propertiesToKeep": []
   },
   {
@@ -643,7 +643,7 @@
     "layerName": "unidades_federacao_dissolved",
     "classKeys": [],
     "created": "2023-09-01T18:45:52.625Z",
-    "lastUpdated": "2023-09-01T18:45:52.625Z",
+    "lastUpdated": "2024-06-26T20:43:56.330Z",
     "src": "data/src/Brazil/Data_Products/brazil-data-db/unidades_federacao_dissolved.fgb",
     "propertiesToKeep": []
   },
@@ -665,8 +665,8 @@
     "layerName": "usos_humanos.mineracao_processos",
     "classKeys": [],
     "created": "2023-09-05T23:01:17.185Z",
-    "lastUpdated": "2023-09-05T23:01:17.186Z",
-    "src": "data/src/fromDatabase/usos_humanos.mineracao_processos.json",
+    "lastUpdated": "2024-06-26T20:43:56.505Z",
+    "src": "data/src/Brazil/Data_Products/fromDatabase/usos_humanos.mineracao_processos.json",
     "propertiesToKeep": []
   },
   {
@@ -711,7 +711,7 @@
       "intensity"
     ],
     "created": "2023-09-06T17:43:51.827Z",
-    "lastUpdated": "2023-09-06T17:43:51.827Z",
+    "lastUpdated": "2024-06-26T20:43:56.745Z",
     "src": "data/src/Brazil/Data_Products/gfw/fishing_intensity_all_gfw_levels.fgb",
     "propertiesToKeep": [
       "intensity"
@@ -724,39 +724,35 @@
       "intensity_class": {
         "Low": {
           "count": 27782,
-          "area": 479674154577.77155
-        },
-        "undefined": {
-          "count": 60145,
-          "area": 683121152775.1826
+          "area": 479674154577.7717
         },
         "Medium": {
           "count": 20409,
-          "area": 980377649039.4193
+          "area": 980377649039.4196
         },
         "High": {
           "count": 6840,
-          "area": 383550170235.19037
+          "area": 383550170235.1904
         }
       },
       "total": {
         "total": {
-          "count": 115176,
+          "count": 55031,
           "sum": null,
-          "area": 2526723126627.6855
+          "area": 1843601973852.3972
         }
       }
     },
     "formats": [
       "fgb"
     ],
-    "layerName": "marine_traffic_northeast_classes",
+    "layerName": "marine_traffic_northeast_filtered",
     "classKeys": [
       "intensity_class"
     ],
     "created": "2023-09-06T21:14:50.564Z",
-    "lastUpdated": "2023-09-06T21:14:50.564Z",
-    "src": "data/src/Brazil/Data_Products/shipping/marine_traffic_northeast_classes.fgb",
+    "lastUpdated": "2024-06-26T20:47:05.554Z",
+    "src": "data/src/Brazil/Data_Products/shipping/marine_traffic_northeast_filtered.fgb",
     "propertiesToKeep": [
       "intensity_class"
     ]
@@ -799,25 +795,15 @@
       "intensity_class"
     ],
     "created": "2023-09-08T17:03:17.954Z",
-    "lastUpdated": "2023-09-08T17:03:17.954Z",
+    "lastUpdated": "2024-06-26T20:43:59.397Z",
     "src": "data/src/Brazil/Data_Products/shipping/shipping_intensity_simplified.fgb",
     "propertiesToKeep": [
       "intensity_class"
     ]
   },
   {
-    "src": "data/src/Brazil/Data_Products/benthic_habitats_ecosystem_services/habitats_services.fgb",
-    "layerName": "habitats_services",
-    "geo_type": "vector",
     "datasourceId": "habitats_services",
-    "formats": [
-      "fgb"
-    ],
-    "classKeys": [
-      "habitat"
-    ],
-    "created": "2024-06-14T22:49:00.435Z",
-    "lastUpdated": "2024-06-14T22:49:00.435Z",
+    "geo_type": "vector",
     "keyStats": {
       "habitat": {
         "Mid bathyal biogenic": {
@@ -937,6 +923,16 @@
         }
       }
     },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "habitats_services",
+    "classKeys": [
+      "habitat"
+    ],
+    "created": "2024-06-14T22:49:00.435Z",
+    "lastUpdated": "2024-06-26T20:44:02.137Z",
+    "src": "data/src/Brazil/Data_Products/benthic_habitats_ecosystem_services/habitats_services.fgb",
     "propertiesToKeep": [
       "habitat"
     ]
