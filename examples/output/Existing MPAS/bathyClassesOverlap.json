@@ -1,751 +1,563 @@
 {
   "metrics": [
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16067",
-      "classId": "Plataforma Interna (<50 m)",
-      "groupId": null,
       "geographyId": null,
-      "value": 134143714.279829,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Interna (<50 m)",
+      "sketchId": "16067",
+      "groupId": null,
+      "value": 133844044.047556,
       "extra": {
         "sketchName": "Existing MPA 14"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16060",
-      "classId": "Plataforma Interna (<50 m)",
-      "groupId": null,
       "geographyId": null,
-      "value": 1365237094.252749,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Interna (<50 m)",
+      "sketchId": "16060",
+      "groupId": null,
+      "value": 1362187224.048839,
       "extra": {
         "sketchName": "Existing MPA 11"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16051",
-      "classId": "Plataforma Interna (<50 m)",
-      "groupId": null,
       "geographyId": null,
-      "value": 20546994.232658,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Interna (<50 m)",
+      "sketchId": "16051",
+      "groupId": null,
+      "value": 20501093.292997,
       "extra": {
         "sketchName": "Existing MPA 4"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16053",
-      "classId": "Plataforma Interna (<50 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Interna (<50 m)",
+      "sketchId": "16053",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 6"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16050",
-      "classId": "Plataforma Interna (<50 m)",
-      "groupId": null,
       "geographyId": null,
-      "value": 6481884.248587,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Interna (<50 m)",
+      "sketchId": "16050",
+      "groupId": null,
+      "value": 6467404.048984,
       "extra": {
         "sketchName": "Existing MPA 3"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16056",
-      "classId": "Plataforma Interna (<50 m)",
-      "groupId": null,
       "geographyId": null,
-      "value": 6388523573.851558,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Interna (<50 m)",
+      "sketchId": "16056",
+      "groupId": null,
+      "value": 6374251937.243069,
       "extra": {
         "sketchName": "Existing MPA 8"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16057",
-      "classId": "Plataforma Interna (<50 m)",
-      "groupId": null,
       "geographyId": null,
-      "value": 521522667.130009,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Interna (<50 m)",
+      "sketchId": "16057",
+      "groupId": null,
+      "value": 520357612.027382,
       "extra": {
         "sketchName": "Existing MPA 16"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16059",
-      "classId": "Plataforma Interna (<50 m)",
-      "groupId": null,
       "geographyId": null,
-      "value": 832308406.911306,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Interna (<50 m)",
+      "sketchId": "16059",
+      "groupId": null,
+      "value": 830449072.279182,
       "extra": {
         "sketchName": "Existing MPA 10"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16049",
-      "classId": "Plataforma Interna (<50 m)",
-      "groupId": null,
       "geographyId": null,
-      "value": 1168426211.538802,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Interna (<50 m)",
+      "sketchId": "16049",
+      "groupId": null,
+      "value": 1165816006.833374,
       "extra": {
         "sketchName": "Existing MPA 2"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16055",
-      "classId": "Plataforma Interna (<50 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Interna (<50 m)",
+      "sketchId": "16055",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 15"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16052",
-      "classId": "Plataforma Interna (<50 m)",
-      "groupId": null,
       "geographyId": null,
-      "value": 166277420.392605,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Interna (<50 m)",
+      "sketchId": "16052",
+      "groupId": null,
+      "value": 165905965.095852,
       "extra": {
         "sketchName": "Existing MPA 5"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16058",
-      "classId": "Plataforma Interna (<50 m)",
-      "groupId": null,
       "geographyId": null,
-      "value": 1974696954.886607,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Interna (<50 m)",
+      "sketchId": "16058",
+      "groupId": null,
+      "value": 1970285582.364606,
       "extra": {
         "sketchName": "Existing MPA 9"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16065",
-      "classId": "Plataforma Interna (<50 m)",
-      "groupId": null,
       "geographyId": null,
-      "value": 13447526.688563,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Interna (<50 m)",
+      "sketchId": "16065",
+      "groupId": null,
+      "value": 13417485.598167,
       "extra": {
         "sketchName": "Existing MPA 12"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16054",
-      "classId": "Plataforma Interna (<50 m)",
-      "groupId": null,
       "geographyId": null,
-      "value": 13778819.09273,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Interna (<50 m)",
+      "sketchId": "16054",
+      "groupId": null,
+      "value": 13748037.911964,
       "extra": {
         "sketchName": "Existing MPA 7"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16048",
-      "classId": "Plataforma Interna (<50 m)",
-      "groupId": null,
       "geographyId": null,
-      "value": 22819811.590113,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Interna (<50 m)",
+      "sketchId": "16048",
+      "groupId": null,
+      "value": 22768833.29213,
       "extra": {
         "sketchName": "Existing MPA 1"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16066",
-      "classId": "Plataforma Interna (<50 m)",
-      "groupId": null,
       "geographyId": null,
-      "value": 46549249.64715,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Interna (<50 m)",
+      "sketchId": "16066",
+      "groupId": null,
+      "value": 46445260.991919,
       "extra": {
         "sketchName": "Existing MPA 13"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16068",
-      "classId": "Plataforma Interna (<50 m)",
-      "groupId": null,
       "geographyId": null,
-      "value": 12674760328.74326,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Interna (<50 m)",
+      "sketchId": "16068",
+      "groupId": null,
+      "value": 12646445559.07602,
       "extra": {
         "sketchName": "Existing MPAS",
         "isCollection": true
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16067",
-      "classId": "Plataforma Externa Rasa (50 - 100 m)",
-      "groupId": null,
       "geographyId": null,
-      "value": 361484020.960817,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Rasa (50 - 100 m)",
+      "sketchId": "16067",
+      "groupId": null,
+      "value": 360676484.050766,
       "extra": {
         "sketchName": "Existing MPA 14"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16060",
-      "classId": "Plataforma Externa Rasa (50 - 100 m)",
-      "groupId": null,
       "geographyId": null,
-      "value": 23145679.040917,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Rasa (50 - 100 m)",
+      "sketchId": "16060",
+      "groupId": null,
+      "value": 23093972.771624,
       "extra": {
         "sketchName": "Existing MPA 11"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16051",
-      "classId": "Plataforma Externa Rasa (50 - 100 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Rasa (50 - 100 m)",
+      "sketchId": "16051",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 4"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16053",
-      "classId": "Plataforma Externa Rasa (50 - 100 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Rasa (50 - 100 m)",
+      "sketchId": "16053",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 6"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16050",
-      "classId": "Plataforma Externa Rasa (50 - 100 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Rasa (50 - 100 m)",
+      "sketchId": "16050",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 3"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16056",
-      "classId": "Plataforma Externa Rasa (50 - 100 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Rasa (50 - 100 m)",
+      "sketchId": "16056",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 8"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16057",
-      "classId": "Plataforma Externa Rasa (50 - 100 m)",
-      "groupId": null,
       "geographyId": null,
-      "value": 49969599.275911,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Rasa (50 - 100 m)",
+      "sketchId": "16057",
+      "groupId": null,
+      "value": 49857969.733654,
       "extra": {
         "sketchName": "Existing MPA 16"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16059",
-      "classId": "Plataforma Externa Rasa (50 - 100 m)",
-      "groupId": null,
       "geographyId": null,
-      "value": 26259524.456239,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Rasa (50 - 100 m)",
+      "sketchId": "16059",
+      "groupId": null,
+      "value": 26200862.014715,
       "extra": {
         "sketchName": "Existing MPA 10"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16049",
-      "classId": "Plataforma Externa Rasa (50 - 100 m)",
-      "groupId": null,
       "geographyId": null,
-      "value": 2984126.253733,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Rasa (50 - 100 m)",
+      "sketchId": "16049",
+      "groupId": null,
+      "value": 2977459.867516,
       "extra": {
         "sketchName": "Existing MPA 2"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16055",
-      "classId": "Plataforma Externa Rasa (50 - 100 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Rasa (50 - 100 m)",
+      "sketchId": "16055",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 15"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16052",
-      "classId": "Plataforma Externa Rasa (50 - 100 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Rasa (50 - 100 m)",
+      "sketchId": "16052",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 5"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16058",
-      "classId": "Plataforma Externa Rasa (50 - 100 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Rasa (50 - 100 m)",
+      "sketchId": "16058",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 9"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16065",
-      "classId": "Plataforma Externa Rasa (50 - 100 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Rasa (50 - 100 m)",
+      "sketchId": "16065",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 12"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16054",
-      "classId": "Plataforma Externa Rasa (50 - 100 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Rasa (50 - 100 m)",
+      "sketchId": "16054",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 7"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16048",
-      "classId": "Plataforma Externa Rasa (50 - 100 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Rasa (50 - 100 m)",
+      "sketchId": "16048",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 1"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16066",
-      "classId": "Plataforma Externa Rasa (50 - 100 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Rasa (50 - 100 m)",
+      "sketchId": "16066",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 13"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16068",
-      "classId": "Plataforma Externa Rasa (50 - 100 m)",
-      "groupId": null,
       "geographyId": null,
-      "value": 463842949.987618,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Rasa (50 - 100 m)",
+      "sketchId": "16068",
+      "groupId": null,
+      "value": 462806748.438275,
       "extra": {
         "sketchName": "Existing MPAS",
         "isCollection": true
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16067",
-      "classId": "Plataforma Externa Profunda (100 - 200 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Profunda (100 - 200 m)",
+      "sketchId": "16067",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 14"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16060",
-      "classId": "Plataforma Externa Profunda (100 - 200 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Profunda (100 - 200 m)",
+      "sketchId": "16060",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 11"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16051",
-      "classId": "Plataforma Externa Profunda (100 - 200 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Profunda (100 - 200 m)",
+      "sketchId": "16051",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 4"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16053",
-      "classId": "Plataforma Externa Profunda (100 - 200 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Profunda (100 - 200 m)",
+      "sketchId": "16053",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 6"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16050",
-      "classId": "Plataforma Externa Profunda (100 - 200 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Profunda (100 - 200 m)",
+      "sketchId": "16050",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 3"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16056",
-      "classId": "Plataforma Externa Profunda (100 - 200 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Profunda (100 - 200 m)",
+      "sketchId": "16056",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 8"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16057",
-      "classId": "Plataforma Externa Profunda (100 - 200 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Profunda (100 - 200 m)",
+      "sketchId": "16057",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 16"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16059",
-      "classId": "Plataforma Externa Profunda (100 - 200 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Profunda (100 - 200 m)",
+      "sketchId": "16059",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 10"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16049",
-      "classId": "Plataforma Externa Profunda (100 - 200 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Profunda (100 - 200 m)",
+      "sketchId": "16049",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 2"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16055",
-      "classId": "Plataforma Externa Profunda (100 - 200 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Profunda (100 - 200 m)",
+      "sketchId": "16055",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 15"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16052",
-      "classId": "Plataforma Externa Profunda (100 - 200 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Profunda (100 - 200 m)",
+      "sketchId": "16052",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 5"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16058",
-      "classId": "Plataforma Externa Profunda (100 - 200 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Profunda (100 - 200 m)",
+      "sketchId": "16058",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 9"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16065",
-      "classId": "Plataforma Externa Profunda (100 - 200 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Profunda (100 - 200 m)",
+      "sketchId": "16065",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 12"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16054",
-      "classId": "Plataforma Externa Profunda (100 - 200 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Profunda (100 - 200 m)",
+      "sketchId": "16054",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 7"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16048",
-      "classId": "Plataforma Externa Profunda (100 - 200 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Profunda (100 - 200 m)",
+      "sketchId": "16048",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 1"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16066",
-      "classId": "Plataforma Externa Profunda (100 - 200 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Profunda (100 - 200 m)",
+      "sketchId": "16066",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 13"
       }
     },
     {
+      "geographyId": null,
       "metricId": "bathyClassesOverlap",
-      "sketchId": "16068",
       "classId": "Plataforma Externa Profunda (100 - 200 m)",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "Existing MPAS",
-        "isCollection": true
-      }
-    },
-    {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16067",
-      "classId": "Talude (200 - 1200 m )",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "Existing MPA 14"
-      }
-    },
-    {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16060",
-      "classId": "Talude (200 - 1200 m )",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "Existing MPA 11"
-      }
-    },
-    {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16051",
-      "classId": "Talude (200 - 1200 m )",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "Existing MPA 4"
-      }
-    },
-    {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16053",
-      "classId": "Talude (200 - 1200 m )",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "Existing MPA 6"
-      }
-    },
-    {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16050",
-      "classId": "Talude (200 - 1200 m )",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "Existing MPA 3"
-      }
-    },
-    {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16056",
-      "classId": "Talude (200 - 1200 m )",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "Existing MPA 8"
-      }
-    },
-    {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16057",
-      "classId": "Talude (200 - 1200 m )",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "Existing MPA 16"
-      }
-    },
-    {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16059",
-      "classId": "Talude (200 - 1200 m )",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "Existing MPA 10"
-      }
-    },
-    {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16049",
-      "classId": "Talude (200 - 1200 m )",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "Existing MPA 2"
-      }
-    },
-    {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16055",
-      "classId": "Talude (200 - 1200 m )",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "Existing MPA 15"
-      }
-    },
-    {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16052",
-      "classId": "Talude (200 - 1200 m )",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "Existing MPA 5"
-      }
-    },
-    {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16058",
-      "classId": "Talude (200 - 1200 m )",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "Existing MPA 9"
-      }
-    },
-    {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16065",
-      "classId": "Talude (200 - 1200 m )",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "Existing MPA 12"
-      }
-    },
-    {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16054",
-      "classId": "Talude (200 - 1200 m )",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "Existing MPA 7"
-      }
-    },
-    {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16048",
-      "classId": "Talude (200 - 1200 m )",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "Existing MPA 1"
-      }
-    },
-    {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16066",
-      "classId": "Talude (200 - 1200 m )",
-      "groupId": null,
-      "geographyId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "Existing MPA 13"
-      }
-    },
-    {
-      "metricId": "bathyClassesOverlap",
       "sketchId": "16068",
-      "classId": "Talude (200 - 1200 m )",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPAS",
@@ -753,187 +565,375 @@
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16067",
-      "classId": "Bacia Oceânica (> 1200 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Talude (200 - 1200 m )",
+      "sketchId": "16067",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 14"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16060",
-      "classId": "Bacia Oceânica (> 1200 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Talude (200 - 1200 m )",
+      "sketchId": "16060",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 11"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16051",
-      "classId": "Bacia Oceânica (> 1200 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Talude (200 - 1200 m )",
+      "sketchId": "16051",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 4"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16053",
-      "classId": "Bacia Oceânica (> 1200 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Talude (200 - 1200 m )",
+      "sketchId": "16053",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 6"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16050",
-      "classId": "Bacia Oceânica (> 1200 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Talude (200 - 1200 m )",
+      "sketchId": "16050",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 3"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16056",
-      "classId": "Bacia Oceânica (> 1200 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Talude (200 - 1200 m )",
+      "sketchId": "16056",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 8"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16057",
-      "classId": "Bacia Oceânica (> 1200 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Talude (200 - 1200 m )",
+      "sketchId": "16057",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 16"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16059",
-      "classId": "Bacia Oceânica (> 1200 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Talude (200 - 1200 m )",
+      "sketchId": "16059",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 10"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16049",
-      "classId": "Bacia Oceânica (> 1200 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Talude (200 - 1200 m )",
+      "sketchId": "16049",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 2"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16055",
-      "classId": "Bacia Oceânica (> 1200 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Talude (200 - 1200 m )",
+      "sketchId": "16055",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 15"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16052",
-      "classId": "Bacia Oceânica (> 1200 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Talude (200 - 1200 m )",
+      "sketchId": "16052",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 5"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16058",
-      "classId": "Bacia Oceânica (> 1200 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Talude (200 - 1200 m )",
+      "sketchId": "16058",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 9"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16065",
-      "classId": "Bacia Oceânica (> 1200 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Talude (200 - 1200 m )",
+      "sketchId": "16065",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 12"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16054",
-      "classId": "Bacia Oceânica (> 1200 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Talude (200 - 1200 m )",
+      "sketchId": "16054",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 7"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16048",
-      "classId": "Bacia Oceânica (> 1200 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Talude (200 - 1200 m )",
+      "sketchId": "16048",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 1"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16066",
-      "classId": "Bacia Oceânica (> 1200 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Talude (200 - 1200 m )",
+      "sketchId": "16066",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPA 13"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "16068",
-      "classId": "Bacia Oceânica (> 1200 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Talude (200 - 1200 m )",
+      "sketchId": "16068",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPAS",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Bacia Oceânica (> 1200 m)",
+      "sketchId": "16067",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 14"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Bacia Oceânica (> 1200 m)",
+      "sketchId": "16060",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 11"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Bacia Oceânica (> 1200 m)",
+      "sketchId": "16051",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 4"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Bacia Oceânica (> 1200 m)",
+      "sketchId": "16053",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 6"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Bacia Oceânica (> 1200 m)",
+      "sketchId": "16050",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 3"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Bacia Oceânica (> 1200 m)",
+      "sketchId": "16056",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 8"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Bacia Oceânica (> 1200 m)",
+      "sketchId": "16057",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 16"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Bacia Oceânica (> 1200 m)",
+      "sketchId": "16059",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 10"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Bacia Oceânica (> 1200 m)",
+      "sketchId": "16049",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 2"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Bacia Oceânica (> 1200 m)",
+      "sketchId": "16055",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 15"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Bacia Oceânica (> 1200 m)",
+      "sketchId": "16052",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 5"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Bacia Oceânica (> 1200 m)",
+      "sketchId": "16058",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 9"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Bacia Oceânica (> 1200 m)",
+      "sketchId": "16065",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 12"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Bacia Oceânica (> 1200 m)",
+      "sketchId": "16054",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 7"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Bacia Oceânica (> 1200 m)",
+      "sketchId": "16048",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 1"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Bacia Oceânica (> 1200 m)",
+      "sketchId": "16066",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Existing MPA 13"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Bacia Oceânica (> 1200 m)",
+      "sketchId": "16068",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Existing MPAS",

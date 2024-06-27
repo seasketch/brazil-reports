@@ -1,35 +1,35 @@
 {
   "metrics": [
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "18889",
-      "classId": "eez",
-      "groupId": null,
       "geographyId": null,
-      "value": 82918489358.58418,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "brazil_eez",
+      "sketchId": "18889",
+      "groupId": null,
+      "value": 82699291548.8835,
       "extra": {
         "sketchName": "Wind Energy Collection 1 (copy)",
         "isCollection": true
       }
     },
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "18890",
-      "classId": "eez",
-      "groupId": null,
       "geographyId": null,
-      "value": 31570466400.438416,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "brazil_eez",
+      "sketchId": "18890",
+      "groupId": null,
+      "value": 31491131195.02802,
       "extra": {
         "sketchName": "Wind Farm 3"
       }
     },
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "18891",
-      "classId": "eez",
-      "groupId": null,
       "geographyId": null,
-      "value": 51348022958.14575,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "brazil_eez",
+      "sketchId": "18891",
+      "groupId": null,
+      "value": 51208160353.85548,
       "extra": {
         "sketchName": "Wind Farm 6"
       }

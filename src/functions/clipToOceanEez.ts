@@ -2,7 +2,7 @@ import {
   PreprocessingHandler,
   genPreprocessor,
 } from "@seasketch/geoprocessing";
-import project from "../../project";
+import project from "../../project/projectClient.js";
 import { genClipLoader } from "@seasketch/geoprocessing/dataproviders";
 
 const clipLoader = genClipLoader(project, [

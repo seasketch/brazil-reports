@@ -2,7 +2,8 @@
  * @jest-environment node
  * @group smoke
  */
-import { bathyClassesOverlap } from "./bathyClassesOverlap";
+import { bathyClassesOverlap } from "./bathyClassesOverlap.js";
+import { describe, test, expect } from "vitest";
 import {
   getExamplePolygonSketchAll,
   writeResultOutput,
@@ -17,11 +18,7 @@ describe("Basic smoke tests", () => {
     for (const example of examples) {
       const result = await bathyClassesOverlap(example);
       expect(result).toBeTruthy();
-      writeResultOutput(
-        result,
-        "bathyClassesOverlap",
-        example.properties.name
-      );
+      writeResultOutput(result, "bathyClassesOverlap", example.properties.name);
     }
-  }, 120000);
+  }, 400000);
 });

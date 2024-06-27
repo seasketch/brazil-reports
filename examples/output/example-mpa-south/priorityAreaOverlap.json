@@ -1,34 +1,34 @@
 {
   "metrics": [
     {
+      "geographyId": null,
       "metricId": "priorityAreaOverlap",
-      "sketchId": "15454",
       "classId": "High",
+      "sketchId": "15454",
       "groupId": null,
-      "geographyId": null,
-      "value": 43682549720.57459,
+      "value": 43584965127.12277,
       "extra": {
         "sketchName": "example-mpa-south"
       }
     },
     {
+      "geographyId": null,
       "metricId": "priorityAreaOverlap",
-      "sketchId": "15454",
       "classId": "Very High",
+      "sketchId": "15454",
       "groupId": null,
-      "geographyId": null,
-      "value": 20794021264.42516,
+      "value": 20747568478.946938,
       "extra": {
         "sketchName": "example-mpa-south"
       }
     },
     {
-      "metricId": "priorityAreaOverlap",
-      "sketchId": "15454",
-      "classId": "Extremely High",
-      "groupId": null,
       "geographyId": null,
-      "value": 34721910411.276245,
+      "metricId": "priorityAreaOverlap",
+      "classId": "Extremely High",
+      "sketchId": "15454",
+      "groupId": null,
+      "value": 34644343430.11073,
       "extra": {
         "sketchName": "example-mpa-south"
       }

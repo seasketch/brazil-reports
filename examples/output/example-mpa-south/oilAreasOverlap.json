@@ -1,22 +1,22 @@
 {
   "metrics": [
     {
-      "metricId": "oilAreasOverlap",
-      "sketchId": "15454",
-      "classId": "oil_blocks_concession",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "oilAreasOverlap",
+      "classId": "oil_blocks_concession",
+      "sketchId": "15454",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "example-mpa-south"
       }
     },
     {
-      "metricId": "oilAreasOverlap",
-      "sketchId": "15454",
-      "classId": "oil_production_fields",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "oilAreasOverlap",
+      "classId": "oil_production_fields",
+      "sketchId": "15454",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "example-mpa-south"

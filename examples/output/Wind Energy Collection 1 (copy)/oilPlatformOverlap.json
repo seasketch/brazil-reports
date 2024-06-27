@@ -1,33 +1,33 @@
 {
   "metrics": [
     {
-      "metricId": "oilPlatformOverlap",
-      "sketchId": "18891",
-      "classId": "oil_platforms",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "oilPlatformOverlap",
+      "classId": "oil_platforms",
+      "sketchId": "18891",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Wind Farm 6"
       }
     },
     {
-      "metricId": "oilPlatformOverlap",
-      "sketchId": "18890",
-      "classId": "oil_platforms",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "oilPlatformOverlap",
+      "classId": "oil_platforms",
+      "sketchId": "18890",
+      "groupId": null,
       "value": 3,
       "extra": {
         "sketchName": "Wind Farm 3"
       }
     },
     {
-      "metricId": "oilPlatformOverlap",
-      "sketchId": "18889",
-      "classId": "oil_platforms",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "oilPlatformOverlap",
+      "classId": "oil_platforms",
+      "sketchId": "18889",
+      "groupId": null,
       "value": 3,
       "extra": {
         "sketchName": "Wind Energy Collection 1 (copy)",

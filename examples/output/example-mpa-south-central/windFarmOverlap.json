@@ -1,12 +1,12 @@
 {
   "metrics": [
     {
-      "metricId": "windFarmOverlap",
-      "sketchId": "18758",
-      "classId": "wind_farms",
-      "groupId": null,
       "geographyId": null,
-      "value": 1062734299.861273,
+      "metricId": "windFarmOverlap",
+      "classId": "wind_farms",
+      "sketchId": "18758",
+      "groupId": null,
+      "value": 1060059946.236224,
       "extra": {
         "sketchName": "example-mpa-south-central"
       }

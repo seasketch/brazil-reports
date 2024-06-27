@@ -4,9 +4,9 @@
     "type": "areaOverlap",
     "classes": [
       {
-        "classId": "eez",
+        "classId": "brazil_eez",
         "display": "EEZ",
-        "datasourceId": "global-clipping-eez-land-union",
+        "datasourceId": "brazil_eez",
         "objectiveId": "eez",
         "layerId": ""
       }
@@ -77,28 +77,24 @@
         "classId": "trawling",
         "display": "Trawling",
         "datasourceId": "trawling",
-        "noDataValue": 0,
         "layerId": "nVmRI8vJX"
       },
       {
         "classId": "traps",
         "display": "Traps",
         "datasourceId": "traps",
-        "noDataValue": 0,
         "layerId": ""
       },
       {
         "classId": "longline",
         "display": "Longline",
         "datasourceId": "longline",
-        "noDataValue": 0,
         "layerId": "Olt_SOCh0"
       },
       {
         "classId": "gillnet",
         "display": "Gillnet",
         "datasourceId": "gillnet",
-        "noDataValue": 0,
         "layerId": "awuKJnhRG"
       }
     ]

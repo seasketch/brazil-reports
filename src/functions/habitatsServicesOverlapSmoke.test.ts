@@ -2,7 +2,8 @@
  * @jest-environment node
  * @group smoke
  */
-import { habitatsServicesOverlap } from "./habitatsServicesOverlap";
+import { habitatsServicesOverlap } from "./habitatsServicesOverlap.js";
+import { describe, test, expect } from "vitest";
 import {
   getExamplePolygonSketchAll,
   writeResultOutput,

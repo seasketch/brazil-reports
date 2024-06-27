@@ -2,7 +2,8 @@
  * @jest-environment node
  * @group smoke
  */
-import { miningOverlap } from "./miningOverlap";
+import { miningOverlap } from "./miningOverlap.js";
+import { describe, test, expect } from "vitest";
 import {
   getExamplePolygonSketchAll,
   writeResultOutput,

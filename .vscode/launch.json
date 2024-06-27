@@ -14,8 +14,7 @@
           "test"
         ],
         "console": "integratedTerminal",
-        "internalConsoleOptions": "neverOpen",
-        "port": 9229        
+        "internalConsoleOptions": "neverOpen",  
     },{
       "name": "Debug tests - with pattern",
       "type": "node",
@@ -28,8 +27,7 @@
         "${input:testNamePattern}"
       ],
       "console": "integratedTerminal",
-      "internalConsoleOptions": "neverOpen",
-      "port": 9229        
+      "internalConsoleOptions": "neverOpen"
   },{
     "type": "node",
     "request": "launch",

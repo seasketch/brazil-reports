@@ -1,56 +1,56 @@
 {
   "metrics": [
     {
+      "geographyId": null,
       "metricId": "bathyClassesOverlap",
-      "sketchId": "15454",
       "classId": "Plataforma Interna (<50 m)",
+      "sketchId": "15454",
       "groupId": null,
-      "geographyId": null,
-      "value": 5267028386.338018,
+      "value": 5255262112.915943,
       "extra": {
         "sketchName": "example-mpa-south"
       }
     },
     {
+      "geographyId": null,
       "metricId": "bathyClassesOverlap",
-      "sketchId": "15454",
       "classId": "Plataforma Externa Rasa (50 - 100 m)",
+      "sketchId": "15454",
       "groupId": null,
-      "geographyId": null,
-      "value": 10052442603.412825,
+      "value": 10029985958.118183,
       "extra": {
         "sketchName": "example-mpa-south"
       }
     },
     {
+      "geographyId": null,
       "metricId": "bathyClassesOverlap",
-      "sketchId": "15454",
       "classId": "Plataforma Externa Profunda (100 - 200 m)",
+      "sketchId": "15454",
       "groupId": null,
-      "geographyId": null,
-      "value": 19305621851.4057,
+      "value": 19262494074.483532,
       "extra": {
         "sketchName": "example-mpa-south"
       }
     },
     {
+      "geographyId": null,
       "metricId": "bathyClassesOverlap",
-      "sketchId": "15454",
       "classId": "Talude (200 - 1200 m )",
+      "sketchId": "15454",
       "groupId": null,
-      "geographyId": null,
-      "value": 12015901341.69967,
+      "value": 11989058429.487888,
       "extra": {
         "sketchName": "example-mpa-south"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "15454",
-      "classId": "Bacia Oceânica (> 1200 m)",
-      "groupId": null,
       "geographyId": null,
-      "value": 52610934646.38211,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Bacia Oceânica (> 1200 m)",
+      "sketchId": "15454",
+      "groupId": null,
+      "value": 52493404495.29321,
       "extra": {
         "sketchName": "example-mpa-south"
       }

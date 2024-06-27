@@ -14,8 +14,8 @@ import {
 } from "@seasketch/geoprocessing";
 import { fgbFetchAll } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
-import project from "../../project";
-import { overlapPoints } from "../../scripts/overlapPoints"
+import project from "../../project/projectClient.js";
+import { overlapPoints } from "../../scripts/overlapPoints.js";
 
 export async function oilPlatformOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>
@@ -47,11 +47,11 @@ export async function oilPlatformOverlap(
           const finalFeatures =
             ds.classKeys.length > 0
               ? dsFeatures.filter((feat) => {
-                return (
-                  feat.geometry &&
-                  feat.properties![ds.classKeys[0]] === curClass.classId
-                );
-              }, [])
+                  return (
+                    feat.geometry &&
+                    feat.properties![ds.classKeys[0]] === curClass.classId
+                  );
+                }, [])
               : dsFeatures;
 
           return finalFeatures;

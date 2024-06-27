@@ -15,7 +15,7 @@ import {
 import { fgbFetchAll } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
 import truncate from "@turf/truncate";
-import project from "../../project";
+import project from "../../project/projectClient.js";
 
 export async function miningOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>
@@ -46,11 +46,11 @@ export async function miningOverlap(
           const finalFeatures =
             ds.classKeys.length > 0
               ? dsFeatures.filter((feat) => {
-                return (
-                  feat.geometry &&
-                  feat.properties![ds.classKeys[0]] === curClass.classId
-                );
-              }, [])
+                  return (
+                    feat.geometry &&
+                    feat.properties![ds.classKeys[0]] === curClass.classId
+                  );
+                }, [])
               : dsFeatures;
 
           return finalFeatures;

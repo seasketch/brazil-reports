@@ -2,7 +2,8 @@
  * @jest-environment node
  * @group smoke
  */
-import { windFarmOverlap } from "./windFarmOverlap";
+import { windFarmOverlap } from "./windFarmOverlap.js";
+import { describe, test, expect } from "vitest";
 import {
   getExamplePolygonSketchAll,
   writeResultOutput,

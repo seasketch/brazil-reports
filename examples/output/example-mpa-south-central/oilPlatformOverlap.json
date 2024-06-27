@@ -1,11 +1,11 @@
 {
   "metrics": [
     {
-      "metricId": "oilPlatformOverlap",
-      "sketchId": "18758",
-      "classId": "oil_platforms",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "oilPlatformOverlap",
+      "classId": "oil_platforms",
+      "sketchId": "18758",
+      "groupId": null,
       "value": 37,
       "extra": {
         "sketchName": "example-mpa-south-central"

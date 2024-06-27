@@ -435,11 +435,13 @@
       "json"
     ],
     "precalc": true,
-    "layerName": "marine_traffic_northeast_filtered",
-    "classKeys": [],
+    "layerName": "marine_traffic_northeast_filtered_clipped",
+    "classKeys": [
+      "intensity_class"
+    ],
     "created": "2024-06-21T21:48:08.791Z",
-    "lastUpdated": "2024-06-26T22:59:18.107Z",
-    "src": "data/src/Brazil/Data_Products/shipping/marine_traffic_northeast_filtered.fgb",
+    "lastUpdated": "2024-06-27T22:14:14.342Z",
+    "src": "data/src/Brazil/Data_Products/shipping/marine_traffic_northeast_filtered_clipped.fgb",
     "propertiesToKeep": [],
     "explodeMulti": false
   }

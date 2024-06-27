@@ -1,34 +1,34 @@
 {
   "metrics": [
     {
-      "metricId": "windFarmOverlap",
-      "sketchId": "18891",
-      "classId": "wind_farms",
-      "groupId": null,
       "geographyId": null,
-      "value": 17554042561.24078,
+      "metricId": "windFarmOverlap",
+      "classId": "wind_farms",
+      "sketchId": "18891",
+      "groupId": null,
+      "value": 17514827723.330467,
       "extra": {
         "sketchName": "Wind Farm 6"
       }
     },
     {
-      "metricId": "windFarmOverlap",
-      "sketchId": "18890",
-      "classId": "wind_farms",
-      "groupId": null,
       "geographyId": null,
-      "value": 8099643949.031415,
+      "metricId": "windFarmOverlap",
+      "classId": "wind_farms",
+      "sketchId": "18890",
+      "groupId": null,
+      "value": 8081549754.085943,
       "extra": {
         "sketchName": "Wind Farm 3"
       }
     },
     {
-      "metricId": "windFarmOverlap",
-      "sketchId": "18889",
-      "classId": "wind_farms",
-      "groupId": null,
       "geographyId": null,
-      "value": 25653686510.27219,
+      "metricId": "windFarmOverlap",
+      "classId": "wind_farms",
+      "sketchId": "18889",
+      "groupId": null,
+      "value": 25596377477.416412,
       "extra": {
         "sketchName": "Wind Energy Collection 1 (copy)",
         "isCollection": true

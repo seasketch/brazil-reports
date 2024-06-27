@@ -14,7 +14,7 @@ import {
 } from "@seasketch/geoprocessing";
 import { fgbFetchAll } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
-import project from "../../project";
+import project from "../../project/projectClient.js";
 
 export async function priorityAreaOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>

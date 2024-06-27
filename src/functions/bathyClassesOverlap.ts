@@ -15,7 +15,7 @@ import {
 import { fgbFetchAll } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
 import truncate from "@turf/truncate";
-import project from "../../project";
+import project from "../../project/projectClient.js";
 
 export async function bathyClassesOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>
@@ -44,22 +44,16 @@ export async function bathyClassesOverlap(
           // If this is a sub-class, filter by class name, exclude null geometry too
           // ToDo: should do deeper match to classKey
           const finalFeatures =
-            ds.classKeys.length > 0 &&
-              curClass.classId !== `${ds.datasourceId}_all`
+            ds.classKeys.length > 0
               ? dsFeatures.filter((feat) => {
-                return (
-                  feat.geometry &&
-                  feat.properties![ds.classKeys[0]] === curClass.classId
-                );
-              }, [])
+                  return (
+                    feat.geometry &&
+                    feat.properties![ds.classKeys[0]] === curClass.classId
+                  );
+                }, [])
               : dsFeatures;
 
-          // truncate vertex precision to 6 decimal places - without this turf throws an error when overlapFeatures() is called
-          const finalFeaturesTrunc = finalFeatures.map((feat) => {
-            const trunc = truncate(feat)
-            return trunc
-          })
-          return finalFeaturesTrunc;
+          return finalFeatures;
         }
         return [];
       })
