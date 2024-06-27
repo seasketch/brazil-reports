@@ -160,25 +160,6 @@
     "url": "https://gp-global-datasources-datasets.s3.us-west-1.amazonaws.com/meow-ecos.fgb"
   },
   {
-    "datasourceId": "abyssal_classification",
-    "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
-    "precalc": true,
-    "layerName": "Abyssal_Classification",
-    "classKeys": [
-      "Class"
-    ],
-    "created": "2023-06-29T20:22:43.922Z",
-    "lastUpdated": "2024-06-26T22:59:11.948Z",
-    "src": "data/src/Brazil/Data_Products/geomorphology-clipped-to-eez/Abyssal_Classification.fgb",
-    "propertiesToKeep": [
-      "Class"
-    ],
-    "explodeMulti": true
-  },
-  {
     "datasourceId": "trawling",
     "geo_type": "raster",
     "formats": [
@@ -265,59 +246,6 @@
     "explodeMulti": true
   },
   {
-    "datasourceId": "oil_exploration",
-    "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
-    "precalc": true,
-    "layerName": "oil_exp_anp",
-    "classKeys": [],
-    "created": "2023-07-12T20:21:00.643Z",
-    "lastUpdated": "2024-06-26T22:59:12.735Z",
-    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/oil_exp_anp.fgb",
-    "propertiesToKeep": [],
-    "explodeMulti": true
-  },
-  {
-    "datasourceId": "ecozones_pelagic",
-    "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
-    "precalc": true,
-    "layerName": "ecozones_pelagic_gandra",
-    "classKeys": [
-      "zone"
-    ],
-    "created": "2023-07-12T22:06:51.033Z",
-    "lastUpdated": "2024-06-26T22:59:12.795Z",
-    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/ecozones_pelagic_gandra.fgb",
-    "propertiesToKeep": [
-      "zone"
-    ],
-    "explodeMulti": true
-  },
-  {
-    "datasourceId": "ecozones_benthic",
-    "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
-    "precalc": true,
-    "layerName": "ecozones_benthic_gandra",
-    "classKeys": [
-      "zone"
-    ],
-    "created": "2023-07-12T22:29:40.473Z",
-    "lastUpdated": "2024-06-26T22:59:12.844Z",
-    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/ecozones_benthic_gandra.fgb",
-    "propertiesToKeep": [
-      "zone"
-    ],
-    "explodeMulti": true
-  },
-  {
     "datasourceId": "priority_areas",
     "geo_type": "vector",
     "formats": [
@@ -334,21 +262,6 @@
     "propertiesToKeep": [
       "priority"
     ],
-    "explodeMulti": true
-  },
-  {
-    "datasourceId": "oil_gas_exploration",
-    "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
-    "precalc": true,
-    "layerName": "oil_exp_anp",
-    "classKeys": [],
-    "created": "2023-07-17T18:40:51.731Z",
-    "lastUpdated": "2024-06-26T22:59:12.936Z",
-    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/oil_exp_anp.fgb",
-    "propertiesToKeep": [],
     "explodeMulti": true
   },
   {
@@ -378,21 +291,6 @@
     "created": "2023-09-05T23:01:19.421Z",
     "lastUpdated": "2024-06-26T22:59:13.073Z",
     "src": "data/src/fromDatabase/usos_humanos.eolico_torres.json",
-    "propertiesToKeep": [],
-    "explodeMulti": true
-  },
-  {
-    "datasourceId": "power_lines",
-    "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
-    "precalc": false,
-    "layerName": "usos_humanos.eolico_linhas_transmissao",
-    "classKeys": [],
-    "created": "2023-09-05T23:01:18.436Z",
-    "lastUpdated": "2024-06-26T22:59:13.157Z",
-    "src": "data/src/fromDatabase/usos_humanos.eolico_linhas_transmissao.json",
     "propertiesToKeep": [],
     "explodeMulti": true
   },
@@ -446,21 +344,6 @@
     "explodeMulti": true
   },
   {
-    "datasourceId": "ports",
-    "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
-    "precalc": false,
-    "layerName": "usos_humanos.portos",
-    "classKeys": [],
-    "created": "2023-08-23T18:22:30.972Z",
-    "lastUpdated": "2024-06-26T22:59:13.563Z",
-    "src": "data/src/fromDatabase/usos_humanos.portos.json",
-    "propertiesToKeep": [],
-    "explodeMulti": true
-  },
-  {
     "datasourceId": "brazil-land",
     "geo_type": "vector",
     "formats": [
@@ -506,25 +389,6 @@
     "src": "data/src/Brazil/Data_Products/gfw/fishing_intensity_all_gfw_levels.fgb",
     "propertiesToKeep": [
       "intensity"
-    ],
-    "explodeMulti": true
-  },
-  {
-    "datasourceId": "shipping_intensity_filtered",
-    "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
-    "precalc": false,
-    "layerName": "shipping_intensity_filtered",
-    "classKeys": [
-      "intensity_class"
-    ],
-    "created": "2023-09-08T17:03:17.954Z",
-    "lastUpdated": "2024-06-26T22:59:13.926Z",
-    "src": "data/src/Brazil/Data_Products/shipping/shipping_intensity_filtered.fgb",
-    "propertiesToKeep": [
-      "intensity_class"
     ],
     "explodeMulti": true
   },
@@ -577,26 +441,6 @@
     "lastUpdated": "2024-06-26T22:59:18.107Z",
     "src": "data/src/Brazil/Data_Products/shipping/marine_traffic_northeast_filtered.fgb",
     "propertiesToKeep": [],
-    "explodeMulti": false
-  },
-  {
-    "datasourceId": "shipping_intensity",
-    "geo_type": "vector",
-    "formats": [
-      "fgb",
-      "json"
-    ],
-    "precalc": true,
-    "layerName": "shipping_intensity_clipped",
-    "classKeys": [
-      "intensity"
-    ],
-    "created": "2024-06-21T21:51:29.750Z",
-    "lastUpdated": "2024-06-26T22:59:19.016Z",
-    "src": "data/src/Brazil/Data_Products/shipping/shipping_intensity_clipped.fgb",
-    "propertiesToKeep": [
-      "intensity"
-    ],
     "explodeMulti": false
   }
 ]

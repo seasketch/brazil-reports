@@ -122,19 +122,6 @@
     ]
   },
   {
-    "metricId": "powerLinesOverlap",
-    "type": "areaOverlap",
-    "classes": [
-      {
-        "classId": "power_lines",
-        "display": "Power Lines",
-        "datasourceId": "power_lines",
-        "objectiveId": "",
-        "layerId": ""
-      }
-    ]
-  },
-  {
     "metricId": "bathyClassesOverlap",
     "type": "areaOverlap",
     "layerId": "ObnqmsWIT",

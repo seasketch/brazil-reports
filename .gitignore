@@ -10,3 +10,4 @@ data/src
 data/dist/**
 !data/dist/README.md
 .story-cache
+scripts/dbDownloadImport.sh
