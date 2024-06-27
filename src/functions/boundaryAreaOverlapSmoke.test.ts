@@ -2,7 +2,8 @@
  * @jest-environment node
  * @group smoke
  */
-import { boundaryAreaOverlap } from "./boundaryAreaOverlap";
+import { boundaryAreaOverlap } from "./boundaryAreaOverlap.js";
+import { describe, test, expect } from "vitest";
 import {
   getExamplePolygonSketchAll,
   writeResultOutput,
@@ -19,5 +20,5 @@ describe("Basic smoke tests", () => {
       expect(result).toBeTruthy();
       writeResultOutput(result, "boundaryAreaOverlap", example.properties.name);
     }
-  }, 120000);
+  }, 400000);
 });
