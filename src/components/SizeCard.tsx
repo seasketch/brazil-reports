@@ -7,8 +7,6 @@ import {
   nestMetrics,
   valueFormatter,
   toPercentMetric,
-  sortMetricsDisplayOrder,
-  isSketchCollection,
   MetricGroup,
 } from "@seasketch/geoprocessing/client-core";
 import {
@@ -20,29 +18,25 @@ import {
   Table,
   useSketchProperties,
   ToolbarCard,
-  DataDownload,
   InfoStatus,
   KeySection,
 } from "@seasketch/geoprocessing/client-ui";
-import styled from "styled-components";
-import project from "../../project";
-import {
-  Metric,
-  dataClassSchema,
-  squareMeterToKilometer,
-} from "@seasketch/geoprocessing";
-import Translator from "../components/TranslatorAsync";
+import { styled } from "styled-components";
+import project from "../../project/projectClient.js";
+import { Metric, squareMeterToKilometer } from "@seasketch/geoprocessing";
+import Translator from "../components/TranslatorAsync.js";
 import { Trans, useTranslation } from "react-i18next";
 import { TFunction } from "i18next";
+import watersImgUrl from "../assets/img/territorial_waters.png";
 
 // Hard code total area of eez
 const boundaryTotalMetrics: Metric[] = [
   {
-    classId: "eez",
+    classId: "brazil_eez",
     metricId: "boundaryAreaOverlap",
     sketchId: null,
     groupId: null,
-    geographyId: null,
+    geographyId: "eez",
     value: 3512062245697.731,
   },
 ];
@@ -170,10 +164,7 @@ export const SizeCard = () => {
               )}
               <Collapse title={t("Learn more")}>
                 <p>
-                  <img
-                    src={require("../assets/img/territorial_waters.png")}
-                    style={{ maxWidth: "100%" }}
-                  />
+                  <img src={watersImgUrl} style={{ maxWidth: "100%" }} />
                   <a
                     target="_blank"
                     href="https://en.wikipedia.org/wiki/Territorial_waters"
@@ -222,18 +213,12 @@ const genSingleSizeTable = (
 
   // singleMetrics[0].value += 115433731804.85054;
 
-  const finalMetrics = sortMetricsDisplayOrder(
-    [
-      ...singleMetrics,
-      ...toPercentMetric(
-        singleMetrics,
-        boundaryTotalMetrics,
-        project.getMetricGroupPercId(mg)
-      ),
-    ],
-    "classId",
-    ["eez", "offshore", "contiguous"]
-  );
+  const finalMetrics = [
+    ...singleMetrics,
+    ...toPercentMetric(singleMetrics, boundaryTotalMetrics, {
+      metricIdOverride: project.getMetricGroupPercId(mg),
+    }),
+  ];
 
   return (
     <>
@@ -310,11 +295,9 @@ const genNetworkSizeTable = (
   );
   const finalMetrics = [
     ...sketchMetrics,
-    ...toPercentMetric(
-      sketchMetrics,
-      boundaryTotalMetrics,
-      project.getMetricGroupPercId(mg)
-    ),
+    ...toPercentMetric(sketchMetrics, boundaryTotalMetrics, {
+      metricIdOverride: project.getMetricGroupPercId(mg),
+    }),
   ];
 
   const aggMetrics = nestMetrics(finalMetrics, [
@@ -364,7 +347,11 @@ const genNetworkSizeTable = (
     }
   );
 
-  const columns: Column<any>[] = [
+  interface SketchRow {
+    sketchId: string;
+  }
+
+  const columns: Column<SketchRow>[] = [
     {
       Header: " ",
       accessor: (row) => <b>{sketchesById[row.sketchId].properties.name}</b>,

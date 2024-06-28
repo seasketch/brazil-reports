@@ -74,6 +74,14 @@
   {
     "geographyId": "eez",
     "metricId": "area",
+    "classId": "brazil_eez-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 3216426354970.7207
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
     "classId": "fishing_intensity-High",
     "sketchId": null,
     "groupId": null,
@@ -370,6 +378,38 @@
   {
     "geographyId": "eez",
     "metricId": "area",
+    "classId": "marine_traffic_northeast-High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 382462779730
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "marine_traffic_northeast-Low",
+    "sketchId": null,
+    "groupId": null,
+    "value": 478173050512
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "marine_traffic_northeast-Medium",
+    "sketchId": null,
+    "groupId": null,
+    "value": 977775058846
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "marine_traffic_northeast-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1838410889088
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
     "classId": "meow-ecos-total",
     "sketchId": null,
     "groupId": null,
@@ -550,6 +590,14 @@
     "sketchId": null,
     "groupId": "band-0",
     "value": 39050
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "brazil_eez-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
   },
   {
     "geographyId": "eez",
@@ -850,6 +898,38 @@
   {
     "geographyId": "eez",
     "metricId": "count",
+    "classId": "marine_traffic_northeast-High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 6840
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "marine_traffic_northeast-Low",
+    "sketchId": null,
+    "groupId": null,
+    "value": 27782
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "marine_traffic_northeast-Medium",
+    "sketchId": null,
+    "groupId": null,
+    "value": 20409
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "marine_traffic_northeast-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 55031
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
     "classId": "meow-ecos-total",
     "sketchId": null,
     "groupId": null,
@@ -894,6 +974,14 @@
     "sketchId": null,
     "groupId": null,
     "value": 27
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "oil_platforms-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 63
   },
   {
     "geographyId": "eez",
@@ -958,6 +1046,14 @@
     "sketchId": null,
     "groupId": null,
     "value": 81
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "wind_towers-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 12784
   },
   {
     "geographyId": "eez",
@@ -1070,85 +1166,5 @@
     "sketchId": null,
     "groupId": "band-0",
     "value": 247618
-  },
-  {
-    "geographyId": "eez",
-    "metricId": "area",
-    "classId": "marine_traffic_northeast-Low",
-    "sketchId": null,
-    "groupId": null,
-    "value": 478173050512
-  },
-  {
-    "geographyId": "eez",
-    "metricId": "area",
-    "classId": "marine_traffic_northeast-Medium",
-    "sketchId": null,
-    "groupId": null,
-    "value": 977775058846
-  },
-  {
-    "geographyId": "eez",
-    "metricId": "area",
-    "classId": "marine_traffic_northeast-High",
-    "sketchId": null,
-    "groupId": null,
-    "value": 382462779730
-  },
-  {
-    "geographyId": "eez",
-    "metricId": "area",
-    "classId": "marine_traffic_northeast-total",
-    "sketchId": null,
-    "groupId": null,
-    "value": 1838410889088
-  },
-  {
-    "geographyId": "eez",
-    "metricId": "count",
-    "classId": "marine_traffic_northeast-Low",
-    "sketchId": null,
-    "groupId": null,
-    "value": 27782
-  },
-  {
-    "geographyId": "eez",
-    "metricId": "count",
-    "classId": "marine_traffic_northeast-Medium",
-    "sketchId": null,
-    "groupId": null,
-    "value": 20409
-  },
-  {
-    "geographyId": "eez",
-    "metricId": "count",
-    "classId": "marine_traffic_northeast-High",
-    "sketchId": null,
-    "groupId": null,
-    "value": 6840
-  },
-  {
-    "geographyId": "eez",
-    "metricId": "count",
-    "classId": "marine_traffic_northeast-total",
-    "sketchId": null,
-    "groupId": null,
-    "value": 55031
-  },
-  {
-    "geographyId": "eez",
-    "metricId": "count",
-    "classId": "wind_towers-total",
-    "sketchId": null,
-    "groupId": null,
-    "value": 12784
-  },
-  {
-    "geographyId": "eez",
-    "metricId": "count",
-    "classId": "oil_platforms-total",
-    "sketchId": null,
-    "groupId": null,
-    "value": 63
   }
 ]

@@ -18,15 +18,16 @@ import {
   valueFormatter,
 } from "@seasketch/geoprocessing/client-core";
 
-import project from "../../project";
-import Translator from "./TranslatorAsync";
+import project from "../../project/projectClient.js";
+import Translator from "./TranslatorAsync.js";
 import { Trans, useTranslation } from "react-i18next";
 
 const metricGroup = project.getMetricGroup("bathyClassesOverlap");
+const geographyId = "eez";
 const precalcMetrics = project.getPrecalcMetrics(
   metricGroup,
   "area",
-  metricGroup.classKey
+  geographyId
 );
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });

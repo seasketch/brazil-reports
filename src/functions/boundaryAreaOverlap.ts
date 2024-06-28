@@ -13,6 +13,9 @@ import {
   isInternalVectorDatasource,
   isExternalVectorDatasource,
   isPolygonFeatureArray,
+  MultiPolygon,
+  DefaultExtraParams,
+  getFirstFromParam,
 } from "@seasketch/geoprocessing";
 import { getFeatures } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
@@ -21,8 +24,17 @@ import project from "../../project/projectClient.js";
 const metricGroup = project.getMetricGroup("boundaryAreaOverlap");
 
 export async function boundaryAreaOverlap(
-  sketch: Sketch<Polygon> | SketchCollection<Polygon>
+  sketch:
+    | Sketch<Polygon | MultiPolygon>
+    | SketchCollection<Polygon | MultiPolygon>,
+  extraParams: DefaultExtraParams = {}
 ): Promise<ReportResult> {
+  // Use caller-provided geographyId if provided
+  const geographyId = getFirstFromParam("geographyIds", extraParams);
+  // Get geography features, falling back to geography assigned to default-boundary group
+  const curGeography = project.getGeographyById(geographyId, {
+    fallbackGroup: "default-boundary",
+  });
   const sketchBox = sketch.bbox || bbox(sketch);
 
   // Fetch boundary features indexed by classId

@@ -1,10 +1,10 @@
 import React from "react";
-import { SizeCard } from "./SizeCard";
+import { SizeCard } from "./SizeCard.js";
 import {
   createReportDecorator,
   sampleSketchReportContextValue,
 } from "@seasketch/geoprocessing/client-ui";
-import Translator from "../components/TranslatorAsync";
+import Translator from "./TranslatorAsync.js";
 
 const contextValue = sampleSketchReportContextValue({
   visibleLayers: [],
@@ -33,6 +33,7 @@ const contextValue = sampleSketchReportContextValue({
             updatedAt: "2022-11-17T10:02:53.645Z",
             sketchClassId: "123abc",
             id: "abc123",
+            userAttributes: [],
           },
           geometry: null,
         },

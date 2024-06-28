@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styled from "styled-components";
+import { styled } from "styled-components";
 import {
   Collapse,
   SketchClassTable,
@@ -18,16 +18,17 @@ import {
   toPercentMetric,
 } from "@seasketch/geoprocessing/client-core";
 
-import project from "../../project";
-import Translator from "./TranslatorAsync";
+import project from "../../project/projectClient.js";
+import Translator from "./TranslatorAsync.js";
 import { Trans, useTranslation } from "react-i18next";
 import serviceValues from "../util/ecosystemServiceValues.json";
 
 const metricGroup = project.getMetricGroup("habitatsServicesOverlap");
+const geographyId = "eez";
 const precalcMetrics = project.getPrecalcMetrics(
   metricGroup,
   "area",
-  metricGroup.classKey
+  geographyId
 );
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
@@ -124,11 +125,9 @@ export const HabitatsServicesCard = () => {
 
           const finalMetrics = [
             ...singleMetrics,
-            ...toPercentMetric(
-              singleMetrics,
-              precalcMetrics,
-              project.getMetricGroupPercId(metricGroup)
-            ),
+            ...toPercentMetric(singleMetrics, precalcMetrics, {
+              metricIdOverride: project.getMetricGroupPercId(metricGroup),
+            }),
           ];
 
           // Calculate current items

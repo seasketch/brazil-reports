@@ -1,8 +1,8 @@
 import React from "react";
 // import { GeomorphicCard } from "./GeomorphicCard";
-import { PriorityAreaCard } from "./PriorityAreaCard";
-import { BathyClassesCard } from "./BathyClassesCard";
-import { HabitatsServicesCard } from "./HabitatsServicesCard";
+import { PriorityAreaCard } from "./PriorityAreaCard.js";
+import { BathyClassesCard } from "./BathyClassesCard.js";
+import { HabitatsServicesCard } from "./HabitatsServicesCard.js";
 
 const ReportPage = () => {
   return (

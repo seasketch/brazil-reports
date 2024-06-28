@@ -26,14 +26,14 @@ if (!fs.existsSync(outputDir)) {
 }
 
 const storyDir = path.join(PROJECT_PATH, "src");
-// console.log("storyDir", storyDir);
+console.log("storyDir", storyDir);
 
 // delete old story cache directories
 
 const cachePaths = await globby(path.join(storyDir, "**/.story-cache"), {
   onlyDirectories: true,
 });
-// console.log("cachePaths", cachePaths);
+console.log("cachePaths", cachePaths);
 cachePaths.forEach((cachePath) => {
   fs.rmSync(cachePath, { recursive: true });
 });
@@ -45,7 +45,7 @@ const storyPaths = await globby(
     onlyFiles: true,
   }
 );
-// console.log("storyPaths", storyPaths);
+console.log("storyPaths", storyPaths);
 const storyConfigs: GpStoryConfig[] = [];
 for (const storyPath of storyPaths) {
   try {
@@ -58,7 +58,7 @@ for (const storyPath of storyPaths) {
     console.log(`Trouble parsing example ${storyPath}`);
   }
 }
-// console.log("storyConfigs", storyConfigs);
+console.log("storyConfigs", storyConfigs);
 
 // load project sketches, that are not from templates (sketch filename is prefixed with gp)
 const sketchFilenames = fs
@@ -69,7 +69,7 @@ const sketchFilenames = fs
       path.basename(sketchFilename).startsWith("gp", 0) === false
   );
 
-// console.log("sketchFilenames", sketchFilenames);
+console.log("sketchFilenames", sketchFilenames);
 const sketches: Sketch[] = [];
 for (const sketchFilename of sketchFilenames) {
   try {

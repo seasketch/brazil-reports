@@ -18,21 +18,19 @@ import {
   valueFormatter,
   Metric,
 } from "@seasketch/geoprocessing/client-core";
-import {
-  SketchClassTableOrdered,
-  SketchClassTableStyled,
-} from "./SketchClassTableOrdered";
+import { SketchClassTableOrdered } from "./SketchClassTableOrdered.js";
 
-import project from "../../project";
-import Translator from "./TranslatorAsync";
+import project from "../../project/projectClient.js";
+import Translator from "./TranslatorAsync.js";
 import { Trans, useTranslation } from "react-i18next";
 import { area, externalRasterDatasourceSchema } from "@seasketch/geoprocessing";
 
 const metricGroup = project.getMetricGroup("fishingIntensityOverlap");
+const geographyId = "eez";
 const precalcMetrics = project.getPrecalcMetrics(
   metricGroup,
   "area",
-  metricGroup.classKey
+  geographyId
 );
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
@@ -75,11 +73,9 @@ export const FishingIntensityCard = () => {
 
           const finalMetrics = [
             ...singleMetrics,
-            ...toPercentMetric(
-              singleMetrics,
-              precalcMetrics,
-              project.getMetricGroupPercId(metricGroup)
-            ),
+            ...toPercentMetric(singleMetrics, precalcMetrics, {
+              metricIdOverride: project.getMetricGroupPercId(metricGroup),
+            }),
             ...flipMetrics,
           ];
 
