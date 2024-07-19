@@ -11,7 +11,7 @@ import {
 import { getFeatures } from "@seasketch/geoprocessing/dataproviders";
 import { featureCollection } from "@turf/helpers";
 import bbox from "@turf/bbox";
-import project from "../../project";
+import project from "../../project/projectClient.js";
 import {
   clipMultiMerge,
   zeroSketchArray,
