@@ -95,7 +95,7 @@
     "band": 1,
     "noDataValue": -3.3999999521443642e+38,
     "created": "2023-12-11T11:55:31.053Z",
-    "lastUpdated": "2024-06-26T22:59:11.901Z",
+    "lastUpdated": "2024-07-19T00:52:43.463Z",
     "src": "https://gp-global-datasources-datasets.s3.us-west-1.amazonaws.com/bo-present-surface-ph.tif"
   },
   {
@@ -170,8 +170,8 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-07-05T21:31:11.430Z",
-    "lastUpdated": "2024-06-26T22:59:12.105Z",
-    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/kernel_trawling_preps.tif"
+    "lastUpdated": "2024-07-19T00:52:44.090Z",
+    "src": "data/src/Data_Products/south-brazilian-shelf-db/kernel_trawling_preps.tif"
   },
   {
     "datasourceId": "traps",
@@ -184,8 +184,8 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-07-10T20:44:51.499Z",
-    "lastUpdated": "2024-06-26T22:59:12.267Z",
-    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/kernel_traps_preps.tif"
+    "lastUpdated": "2024-07-19T00:52:44.642Z",
+    "src": "data/src/Data_Products/south-brazilian-shelf-db/kernel_traps_preps.tif"
   },
   {
     "datasourceId": "longline",
@@ -198,8 +198,8 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-07-10T21:09:46.866Z",
-    "lastUpdated": "2024-06-26T22:59:12.430Z",
-    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/kernel_longline_preps.tif"
+    "lastUpdated": "2024-07-19T00:52:45.205Z",
+    "src": "data/src/Data_Products/south-brazilian-shelf-db/kernel_longline_preps.tif"
   },
   {
     "datasourceId": "gillnet",
@@ -212,8 +212,8 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2023-07-10T21:10:58.753Z",
-    "lastUpdated": "2024-06-26T22:59:12.586Z",
-    "src": "data/src/Brazil/Data_Products/south-brazilian-shelf-db/kernel_gillnet_preps.tif"
+    "lastUpdated": "2024-07-19T00:52:45.784Z",
+    "src": "data/src/Data_Products/south-brazilian-shelf-db/kernel_gillnet_preps.tif"
   },
   {
     "datasourceId": "mining_potential",
@@ -225,8 +225,8 @@
     "layerName": "usos_humanos.mineracao_areas_potenciais",
     "classKeys": [],
     "created": "2023-09-05T23:01:17.143Z",
-    "lastUpdated": "2024-06-26T22:59:12.643Z",
-    "src": "data/src/fromDatabase/usos_humanos.mineracao_areas_potenciais.json",
+    "lastUpdated": "2024-07-19T00:52:45.917Z",
+    "src": "data/src/Data_Products/fromDatabase/usos_humanos.mineracao_areas_potenciais.json",
     "propertiesToKeep": [],
     "explodeMulti": true
   },
@@ -240,8 +240,8 @@
     "layerName": "usos_humanos.petroleo_plataformas",
     "classKeys": [],
     "created": "2023-09-05T23:01:17.160Z",
-    "lastUpdated": "2024-06-26T22:59:12.691Z",
-    "src": "data/src/fromDatabase/usos_humanos.petroleo_plataformas.json",
+    "lastUpdated": "2024-07-19T00:52:46.012Z",
+    "src": "data/src/Data_Products/fromDatabase/usos_humanos.petroleo_plataformas.json",
     "propertiesToKeep": [],
     "explodeMulti": true
   },
@@ -257,8 +257,8 @@
       "priority"
     ],
     "created": "2023-07-14T19:10:14.544Z",
-    "lastUpdated": "2024-06-26T22:59:12.894Z",
-    "src": "data/src/Brazil/Data_Products/priority-areas/priority_areas_mma_translated.fgb",
+    "lastUpdated": "2024-07-19T00:52:46.185Z",
+    "src": "data/src/Data_Products/priority-areas/priority_areas_mma_translated.fgb",
     "propertiesToKeep": [
       "priority"
     ],
@@ -274,8 +274,8 @@
     "layerName": "usos_humanos.eolico_parques",
     "classKeys": [],
     "created": "2023-09-05T23:01:17.125Z",
-    "lastUpdated": "2024-06-26T22:59:12.991Z",
-    "src": "data/src/fromDatabase/usos_humanos.eolico_parques.json",
+    "lastUpdated": "2024-07-19T00:52:46.321Z",
+    "src": "data/src/Data_Products/fromDatabase/usos_humanos.eolico_parques.json",
     "propertiesToKeep": [],
     "explodeMulti": true
   },
@@ -289,8 +289,8 @@
     "layerName": "usos_humanos.eolico_torres",
     "classKeys": [],
     "created": "2023-09-05T23:01:19.421Z",
-    "lastUpdated": "2024-06-26T22:59:13.073Z",
-    "src": "data/src/fromDatabase/usos_humanos.eolico_torres.json",
+    "lastUpdated": "2024-07-19T00:52:46.711Z",
+    "src": "data/src/Data_Products/fromDatabase/usos_humanos.eolico_torres.json",
     "propertiesToKeep": [],
     "explodeMulti": true
   },
@@ -306,8 +306,8 @@
       "class"
     ],
     "created": "2023-09-05T23:01:19.116Z",
-    "lastUpdated": "2024-06-26T22:59:13.369Z",
-    "src": "data/src/fromDatabase/public.batimetria_classes.json",
+    "lastUpdated": "2024-07-19T00:52:47.343Z",
+    "src": "data/src/Data_Products/fromDatabase/public.batimetria_classes.json",
     "propertiesToKeep": [
       "class"
     ],
@@ -323,8 +323,8 @@
     "layerName": "usos_humanos.petroleo_blocos_concessao",
     "classKeys": [],
     "created": "2023-09-05T23:01:17.214Z",
-    "lastUpdated": "2024-06-26T22:59:13.438Z",
-    "src": "data/src/fromDatabase/usos_humanos.petroleo_blocos_concessao.json",
+    "lastUpdated": "2024-07-19T00:52:47.517Z",
+    "src": "data/src/Data_Products/fromDatabase/usos_humanos.petroleo_blocos_concessao.json",
     "propertiesToKeep": [],
     "explodeMulti": true
   },
@@ -338,8 +338,8 @@
     "layerName": "usos_humanos.petroleo_campos_producao",
     "classKeys": [],
     "created": "2023-09-05T23:01:17.340Z",
-    "lastUpdated": "2024-06-26T22:59:13.513Z",
-    "src": "data/src/fromDatabase/usos_humanos.petroleo_campos_producao.json",
+    "lastUpdated": "2024-07-19T00:52:47.707Z",
+    "src": "data/src/Data_Products/fromDatabase/usos_humanos.petroleo_campos_producao.json",
     "propertiesToKeep": [],
     "explodeMulti": true
   },
@@ -353,8 +353,8 @@
     "layerName": "unidades_federacao_dissolved",
     "classKeys": [],
     "created": "2023-09-01T18:45:52.625Z",
-    "lastUpdated": "2024-06-26T22:59:13.621Z",
-    "src": "data/src/Brazil/Data_Products/brazil-data-db/unidades_federacao_dissolved.fgb",
+    "lastUpdated": "2024-07-19T00:52:47.864Z",
+    "src": "data/src/Data_Products/brazil-data-db/unidades_federacao_dissolved.fgb",
     "propertiesToKeep": [],
     "explodeMulti": true
   },
@@ -368,8 +368,8 @@
     "layerName": "usos_humanos.mineracao_processos",
     "classKeys": [],
     "created": "2023-09-05T23:01:17.185Z",
-    "lastUpdated": "2024-06-26T22:59:13.689Z",
-    "src": "data/src/fromDatabase/usos_humanos.mineracao_processos.json",
+    "lastUpdated": "2024-07-19T00:52:48.039Z",
+    "src": "data/src/Data_Products/fromDatabase/usos_humanos.mineracao_processos.json",
     "propertiesToKeep": [],
     "explodeMulti": true
   },
@@ -385,8 +385,8 @@
       "intensity"
     ],
     "created": "2023-09-06T17:43:51.827Z",
-    "lastUpdated": "2024-06-26T22:59:13.736Z",
-    "src": "data/src/Brazil/Data_Products/gfw/fishing_intensity_all_gfw_levels.fgb",
+    "lastUpdated": "2024-07-19T00:52:48.305Z",
+    "src": "data/src/Data_Products/gfw/fishing_intensity_all_gfw_levels.fgb",
     "propertiesToKeep": [
       "intensity"
     ],
@@ -404,8 +404,8 @@
       "habitat"
     ],
     "created": "2024-06-14T22:49:00.435Z",
-    "lastUpdated": "2024-06-26T22:59:14.046Z",
-    "src": "data/src/Brazil/Data_Products/benthic_habitats_ecosystem_services/habitats_services.fgb",
+    "lastUpdated": "2024-07-19T00:52:48.894Z",
+    "src": "data/src/Data_Products/benthic_habitats_ecosystem_services/habitats_services.fgb",
     "propertiesToKeep": [
       "habitat"
     ],
@@ -422,8 +422,8 @@
     "layerName": "brazil-eez",
     "classKeys": [],
     "created": "2024-06-21T21:35:57.395Z",
-    "lastUpdated": "2024-06-26T22:59:15.134Z",
-    "src": "data/src/Brazil/Data_Products/brazil-eez.fgb",
+    "lastUpdated": "2024-07-19T00:52:49.369Z",
+    "src": "data/src/Data_Products/brazil-eez.fgb",
     "propertiesToKeep": [],
     "explodeMulti": false
   },
@@ -440,8 +440,8 @@
       "intensity_class"
     ],
     "created": "2024-06-21T21:48:08.791Z",
-    "lastUpdated": "2024-06-27T22:14:14.342Z",
-    "src": "data/src/Brazil/Data_Products/shipping/marine_traffic_northeast_filtered_clipped.fgb",
+    "lastUpdated": "2024-07-19T00:52:58.321Z",
+    "src": "data/src/Data_Products/shipping/marine_traffic_northeast_filtered_clipped.fgb",
     "propertiesToKeep": [],
     "explodeMulti": false
   }

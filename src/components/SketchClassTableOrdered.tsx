@@ -1,7 +1,9 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { percentWithEdge } from "@seasketch/geoprocessing";
-import { MetricGroup } from "@seasketch/geoprocessing";
+import {
+  percentWithEdge,
+  MetricGroup,
+} from "@seasketch/geoprocessing/client-core";
 import { Column, Table } from "@seasketch/geoprocessing/client-ui";
 
 import { styled } from "styled-components";
