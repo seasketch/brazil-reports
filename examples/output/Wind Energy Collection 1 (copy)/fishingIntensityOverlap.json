@@ -1,11 +1,11 @@
 {
   "metrics": [
     {
-      "metricId": "fishingIntensityOverlap",
-      "sketchId": "18891",
-      "classId": "Very Low",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "fishingIntensityOverlap",
+      "classId": "Very Low",
+      "sketchId": "18891",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Wind Farm 6",
@@ -13,176 +13,176 @@
       }
     },
     {
+      "geographyId": null,
       "metricId": "fishingIntensityOverlap",
-      "sketchId": "18890",
       "classId": "Very Low",
+      "sketchId": "18890",
       "groupId": null,
-      "geographyId": null,
-      "value": 180237429.86788255,
+      "value": 179834788.62026268,
       "extra": {
         "sketchName": "Wind Farm 3",
-        "sketchOverlapProportion": 0.005709050840453836
+        "sketchOverlapProportion": 0.005709050840453717
       }
     },
     {
+      "geographyId": null,
       "metricId": "fishingIntensityOverlap",
-      "sketchId": "18889",
       "classId": "Very Low",
+      "sketchId": "18889",
       "groupId": null,
-      "geographyId": null,
-      "value": 180237429.86788255,
+      "value": 179834788.62026268,
       "extra": {
         "sketchName": "Wind Energy Collection 1 (copy)",
         "isCollection": true,
-        "sketchOverlapProportion": 0.0021736703934013353
+        "sketchOverlapProportion": 0.0021736703934012733
       }
     },
     {
+      "geographyId": null,
       "metricId": "fishingIntensityOverlap",
-      "sketchId": "18891",
       "classId": "Low",
+      "sketchId": "18891",
       "groupId": null,
-      "geographyId": null,
-      "value": 3451991.9413876412,
+      "value": 3444280.367032317,
       "extra": {
         "sketchName": "Wind Farm 6",
-        "sketchOverlapProportion": 0.00006722738713846809
+        "sketchOverlapProportion": 0.00006722738713846751
       }
     },
     {
+      "geographyId": null,
       "metricId": "fishingIntensityOverlap",
-      "sketchId": "18890",
       "classId": "Low",
+      "sketchId": "18890",
       "groupId": null,
-      "geographyId": null,
-      "value": 2028205327.7731445,
+      "value": 2023674420.268556,
       "extra": {
         "sketchName": "Wind Farm 3",
-        "sketchOverlapProportion": 0.06424374415249895
+        "sketchOverlapProportion": 0.06424374415249898
       }
     },
     {
+      "geographyId": null,
       "metricId": "fishingIntensityOverlap",
-      "sketchId": "18889",
       "classId": "Low",
+      "sketchId": "18889",
       "groupId": null,
-      "geographyId": null,
-      "value": 2031657319.7145321,
+      "value": 2027118700.6355884,
       "extra": {
         "sketchName": "Wind Energy Collection 1 (copy)",
         "isCollection": true,
-        "sketchOverlapProportion": 0.02450186605877433
+        "sketchOverlapProportion": 0.024501866058774146
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
-      "sketchId": "18891",
-      "classId": "Medium",
-      "groupId": null,
       "geographyId": null,
-      "value": 238063879.33326292,
+      "metricId": "fishingIntensityOverlap",
+      "classId": "Medium",
+      "sketchId": "18891",
+      "groupId": null,
+      "value": 237532056.73983186,
       "extra": {
         "sketchName": "Wind Farm 6",
-        "sketchOverlapProportion": 0.0046362832971126
+        "sketchOverlapProportion": 0.004636283297112693
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
-      "sketchId": "18890",
-      "classId": "Medium",
-      "groupId": null,
       "geographyId": null,
-      "value": 5648934506.769023,
+      "metricId": "fishingIntensityOverlap",
+      "classId": "Medium",
+      "sketchId": "18890",
+      "groupId": null,
+      "value": 5636315074.505842,
       "extra": {
         "sketchName": "Wind Farm 3",
-        "sketchOverlapProportion": 0.178930948567
+        "sketchOverlapProportion": 0.17893094856699998
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
-      "sketchId": "18889",
-      "classId": "Medium",
-      "groupId": null,
       "geographyId": null,
-      "value": 5886998386.102285,
+      "metricId": "fishingIntensityOverlap",
+      "classId": "Medium",
+      "sketchId": "18889",
+      "groupId": null,
+      "value": 5873847131.245674,
       "extra": {
         "sketchName": "Wind Energy Collection 1 (copy)",
         "isCollection": true,
-        "sketchOverlapProportion": 0.070997428820706
+        "sketchOverlapProportion": 0.07099742882070553
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
-      "sketchId": "18891",
-      "classId": "High",
-      "groupId": null,
       "geographyId": null,
-      "value": 8024599699.583611,
+      "metricId": "fishingIntensityOverlap",
+      "classId": "High",
+      "sketchId": "18891",
+      "groupId": null,
+      "value": 8006673152.156427,
       "extra": {
         "sketchName": "Wind Farm 6",
-        "sketchOverlapProportion": 0.15627871669314597
+        "sketchOverlapProportion": 0.15627871669314186
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
-      "sketchId": "18890",
-      "classId": "High",
-      "groupId": null,
       "geographyId": null,
-      "value": 17748187046.3811,
+      "metricId": "fishingIntensityOverlap",
+      "classId": "High",
+      "sketchId": "18890",
+      "groupId": null,
+      "value": 17708538499.569786,
       "extra": {
         "sketchName": "Wind Farm 3",
-        "sketchOverlapProportion": 0.5621768033862182
+        "sketchOverlapProportion": 0.5621768033862202
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
-      "sketchId": "18889",
-      "classId": "High",
-      "groupId": null,
       "geographyId": null,
-      "value": 25772786745.96471,
+      "metricId": "fishingIntensityOverlap",
+      "classId": "High",
+      "sketchId": "18889",
+      "groupId": null,
+      "value": 25715211651.72621,
       "extra": {
         "sketchName": "Wind Energy Collection 1 (copy)",
         "isCollection": true,
-        "sketchOverlapProportion": 0.31082080756596836
+        "sketchOverlapProportion": 0.31082080756596536
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
-      "sketchId": "18891",
-      "classId": "Very High",
-      "groupId": null,
       "geographyId": null,
-      "value": 44207722809.35015,
+      "metricId": "fishingIntensityOverlap",
+      "classId": "Very High",
+      "sketchId": "18891",
+      "groupId": null,
+      "value": 44108965005.94014,
       "extra": {
         "sketchName": "Wind Farm 6",
-        "sketchOverlapProportion": 0.8609434049314693
+        "sketchOverlapProportion": 0.8609434049314808
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
-      "sketchId": "18890",
-      "classId": "Very High",
-      "groupId": null,
       "geographyId": null,
-      "value": 5949708466.514012,
+      "metricId": "fishingIntensityOverlap",
+      "classId": "Very High",
+      "sketchId": "18890",
+      "groupId": null,
+      "value": 5936417120.528573,
       "extra": {
         "sketchName": "Wind Farm 3",
-        "sketchOverlapProportion": 0.18845801422105118
+        "sketchOverlapProportion": 0.18845801422105277
       }
     },
     {
-      "metricId": "fishingIntensityOverlap",
-      "sketchId": "18889",
-      "classId": "Very High",
-      "groupId": null,
       "geographyId": null,
-      "value": 50157431275.86417,
+      "metricId": "fishingIntensityOverlap",
+      "classId": "Very High",
+      "sketchId": "18889",
+      "groupId": null,
+      "value": 50045382126.46871,
       "extra": {
         "sketchName": "Wind Energy Collection 1 (copy)",
         "isCollection": true,
-        "sketchOverlapProportion": 0.6049005661772143
+        "sketchOverlapProportion": 0.604900566177224
       }
     }
   ],

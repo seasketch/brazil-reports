@@ -5,8 +5,6 @@ import {
   SketchClassTable,
   ResultsCard,
   useSketchProperties,
-  ToolbarCard,
-  LayerToggle,
 } from "@seasketch/geoprocessing/client-ui";
 import {
   ReportResult,
@@ -15,19 +13,17 @@ import {
   metricsWithSketchId,
   toPercentMetric,
   squareMeterToKilometer,
-  valueFormatter,
-  sortMetrics,
 } from "@seasketch/geoprocessing/client-core";
 
-import project from "../../project";
-import Translator from "./TranslatorAsync";
+import project from "../../project/projectClient.js";
 import { Trans, useTranslation } from "react-i18next";
 
 const metricGroup = project.getMetricGroup("miningOverlap");
+const geographyId = "eez";
 const precalcMetrics = project.getPrecalcMetrics(
   metricGroup,
   "area",
-  metricGroup.classKey
+  geographyId
 );
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
@@ -62,11 +58,9 @@ export const MiningCard = () => {
 
           const parentMetrics = [
             ...singleMetrics,
-            ...toPercentMetric(
-              singleMetrics,
-              precalcMetrics,
-              project.getMetricGroupPercId(metricGroup)
-            ),
+            ...toPercentMetric(singleMetrics, precalcMetrics, {
+              metricIdOverride: project.getMetricGroupPercId(metricGroup),
+            }),
           ];
 
           return (

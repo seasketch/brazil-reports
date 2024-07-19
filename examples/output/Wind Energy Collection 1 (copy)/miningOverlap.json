@@ -1,68 +1,68 @@
 {
   "metrics": [
     {
-      "metricId": "miningOverlap",
-      "sketchId": "18891",
-      "classId": "mining_process",
-      "groupId": null,
       "geographyId": null,
-      "value": 440921737.345759,
+      "metricId": "miningOverlap",
+      "classId": "mining_process",
+      "sketchId": "18891",
+      "groupId": null,
+      "value": 439936131.281503,
       "extra": {
         "sketchName": "Wind Farm 6"
       }
     },
     {
-      "metricId": "miningOverlap",
-      "sketchId": "18890",
-      "classId": "mining_process",
-      "groupId": null,
       "geographyId": null,
-      "value": 384118651.933311,
+      "metricId": "miningOverlap",
+      "classId": "mining_process",
+      "sketchId": "18890",
+      "groupId": null,
+      "value": 383260550.509545,
       "extra": {
         "sketchName": "Wind Farm 3"
       }
     },
     {
-      "metricId": "miningOverlap",
-      "sketchId": "18889",
-      "classId": "mining_process",
-      "groupId": null,
       "geographyId": null,
-      "value": 825040389.27907,
+      "metricId": "miningOverlap",
+      "classId": "mining_process",
+      "sketchId": "18889",
+      "groupId": null,
+      "value": 823196681.791048,
       "extra": {
         "sketchName": "Wind Energy Collection 1 (copy)",
         "isCollection": true
       }
     },
     {
-      "metricId": "miningOverlap",
-      "sketchId": "18891",
-      "classId": "mining_potential",
-      "groupId": null,
       "geographyId": null,
-      "value": 18074879810.989265,
+      "metricId": "miningOverlap",
+      "classId": "mining_potential",
+      "sketchId": "18891",
+      "groupId": null,
+      "value": 18034502674.176308,
       "extra": {
         "sketchName": "Wind Farm 6"
       }
     },
     {
-      "metricId": "miningOverlap",
-      "sketchId": "18890",
-      "classId": "mining_potential",
-      "groupId": null,
       "geographyId": null,
-      "value": 8364522073.53772,
+      "metricId": "miningOverlap",
+      "classId": "mining_potential",
+      "sketchId": "18890",
+      "groupId": null,
+      "value": 8345836156.822966,
       "extra": {
         "sketchName": "Wind Farm 3"
       }
     },
     {
-      "metricId": "miningOverlap",
-      "sketchId": "18889",
-      "classId": "mining_potential",
-      "groupId": null,
       "geographyId": null,
-      "value": 26439401884.526985,
+      "metricId": "miningOverlap",
+      "classId": "mining_potential",
+      "sketchId": "18889",
+      "groupId": null,
+      "value": 26380338830.999275,
       "extra": {
         "sketchName": "Wind Energy Collection 1 (copy)",
         "isCollection": true

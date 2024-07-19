@@ -1,34 +1,34 @@
 {
   "metrics": [
     {
+      "geographyId": null,
       "metricId": "shippingIntensityOverlap",
-      "sketchId": "18758",
       "classId": "Low",
+      "sketchId": "18758",
       "groupId": null,
-      "geographyId": null,
-      "value": 8636867745.423248,
+      "value": 8617573422.335197,
       "extra": {
         "sketchName": "example-mpa-south-central"
       }
     },
     {
+      "geographyId": null,
       "metricId": "shippingIntensityOverlap",
-      "sketchId": "18758",
       "classId": "Medium",
+      "sketchId": "18758",
       "groupId": null,
-      "geographyId": null,
-      "value": 18402232193.315098,
+      "value": 18361122542.924603,
       "extra": {
         "sketchName": "example-mpa-south-central"
       }
     },
     {
-      "metricId": "shippingIntensityOverlap",
-      "sketchId": "18758",
-      "classId": "High",
-      "groupId": null,
       "geographyId": null,
-      "value": 38007563873.676056,
+      "metricId": "shippingIntensityOverlap",
+      "classId": "High",
+      "sketchId": "18758",
+      "groupId": null,
+      "value": 37922656909.85734,
       "extra": {
         "sketchName": "example-mpa-south-central"
       }
@@ -78,7 +78,7 @@
           "formElementId": 2948,
           "alternateLanguages": {
             "pt": {
-              "label": null,
+              "label": "Nome",
               "valueLabel": [
                 "Área Marinha Protegida"
               ]

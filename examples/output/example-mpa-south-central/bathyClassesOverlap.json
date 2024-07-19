@@ -1,56 +1,56 @@
 {
   "metrics": [
     {
+      "geographyId": null,
       "metricId": "bathyClassesOverlap",
-      "sketchId": "18758",
       "classId": "Plataforma Interna (<50 m)",
+      "sketchId": "18758",
       "groupId": null,
-      "geographyId": null,
-      "value": 46118265.948909,
+      "value": 46015240.089331,
       "extra": {
         "sketchName": "example-mpa-south-central"
       }
     },
     {
+      "geographyId": null,
       "metricId": "bathyClassesOverlap",
-      "sketchId": "18758",
       "classId": "Plataforma Externa Rasa (50 - 100 m)",
+      "sketchId": "18758",
       "groupId": null,
-      "geographyId": null,
-      "value": 6338181517.390916,
+      "value": 6324022342.375699,
       "extra": {
         "sketchName": "example-mpa-south-central"
       }
     },
     {
+      "geographyId": null,
       "metricId": "bathyClassesOverlap",
-      "sketchId": "18758",
       "classId": "Plataforma Externa Profunda (100 - 200 m)",
+      "sketchId": "18758",
       "groupId": null,
-      "geographyId": null,
-      "value": 6419937424.465868,
+      "value": 6405595610.91445,
       "extra": {
         "sketchName": "example-mpa-south-central"
       }
     },
     {
+      "geographyId": null,
       "metricId": "bathyClassesOverlap",
-      "sketchId": "18758",
       "classId": "Talude (200 - 1200 m )",
+      "sketchId": "18758",
       "groupId": null,
-      "geographyId": null,
-      "value": 9702984698.620338,
+      "value": 9681308724.504196,
       "extra": {
         "sketchName": "example-mpa-south-central"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "18758",
-      "classId": "Bacia Oceânica (> 1200 m)",
-      "groupId": null,
       "geographyId": null,
-      "value": 112710362150.8646,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Bacia Oceânica (> 1200 m)",
+      "sketchId": "18758",
+      "groupId": null,
+      "value": 112458572936.66586,
       "extra": {
         "sketchName": "example-mpa-south-central"
       }
@@ -100,7 +100,7 @@
           "formElementId": 2948,
           "alternateLanguages": {
             "pt": {
-              "label": null,
+              "label": "Nome",
               "valueLabel": [
                 "Área Marinha Protegida"
               ]

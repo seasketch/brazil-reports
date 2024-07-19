@@ -2,7 +2,8 @@
  * @jest-environment node
  * @group smoke
  */
-import { oilAreasOverlap } from "./oilAreasOverlap";
+import { oilAreasOverlap } from "./oilAreasOverlap.js";
+import { describe, test, expect } from "vitest";
 import {
   getExamplePolygonSketchAll,
   writeResultOutput,
@@ -17,11 +18,7 @@ describe("Basic smoke tests", () => {
     for (const example of examples) {
       const result = await oilAreasOverlap(example);
       expect(result).toBeTruthy();
-      writeResultOutput(
-        result,
-        "oilAreasOverlap",
-        example.properties.name
-      );
+      writeResultOutput(result, "oilAreasOverlap", example.properties.name);
     }
   }, 120000);
 });

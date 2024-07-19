@@ -1,4 +1,10 @@
-import { Sketch, SketchCollection, Polygon, Feature, Metric } from "@seasketch/geoprocessing";
+import {
+  Sketch,
+  SketchCollection,
+  Polygon,
+  Feature,
+  Metric,
+} from "@seasketch/geoprocessing";
 import {
   toSketchArray,
   isSketchCollection,
@@ -7,7 +13,8 @@ import {
   clipMultiMerge,
 } from "@seasketch/geoprocessing";
 import { createMetric } from "@seasketch/geoprocessing";
-import { featureCollection, MultiPolygon } from "@turf/helpers";
+import { featureCollection } from "@turf/helpers";
+import { MultiPolygon } from "geojson";
 import { featureEach } from "@turf/meta";
 import area from "@turf/area";
 import flatten from "@turf/flatten";

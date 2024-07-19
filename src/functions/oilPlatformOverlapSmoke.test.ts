@@ -2,7 +2,8 @@
  * @jest-environment node
  * @group smoke
  */
-import { oilPlatformOverlap } from "./oilPlatformOverlap";
+import { oilPlatformOverlap } from "./oilPlatformOverlap.js";
+import { describe, test, expect } from "vitest";
 import {
   getExamplePolygonSketchAll,
   writeResultOutput,

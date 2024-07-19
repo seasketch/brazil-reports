@@ -1,11 +1,11 @@
 {
   "metrics": [
     {
-      "metricId": "oilPlatformOverlap",
-      "sketchId": "15454",
-      "classId": "oil_platforms",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "oilPlatformOverlap",
+      "classId": "oil_platforms",
+      "sketchId": "15454",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "example-mpa-south"
@@ -56,7 +56,7 @@
           "formElementId": 2948,
           "alternateLanguages": {
             "pt": {
-              "label": null,
+              "label": "Nome",
               "valueLabel": [
                 "Área Marinha Protegida"
               ]

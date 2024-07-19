@@ -2,7 +2,8 @@
  * @jest-environment node
  * @group smoke
  */
-import { fishingIntensityOverlap } from "./fishingIntensityOverlap";
+import { fishingIntensityOverlap } from "./fishingIntensityOverlap.js";
+import { describe, test, expect } from "vitest";
 import {
   getExamplePolygonSketchAll,
   writeResultOutput,

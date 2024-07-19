@@ -9,14 +9,15 @@ import {
   chunk,
   clip,
   clipMultiMerge,
-  createMetric
+  createMetric,
 } from "@seasketch/geoprocessing";
-import { featureCollection, MultiPolygon, Point, MultiPoint } from "@turf/helpers";
+import { featureCollection } from "@turf/helpers";
+import { MultiPolygon, Point } from "geojson";
 import { featureEach } from "@turf/meta";
 import area from "@turf/area";
 import flatten from "@turf/flatten";
 import pointsWithinPolygon from "@turf/points-within-polygon";
-import { multiPoint } from "@turf/helpers"
+import { multiPoint } from "@turf/helpers";
 
 interface OverlapPointOptions {
   /** Intersection calls are chunked to avoid infinite loop error, defaults to 5000 features */
@@ -130,12 +131,12 @@ const doIntersect = (
 
 const makeMultiPoint = (points: Feature<Point>[]) => {
   const geom = points.map((point) => {
-    const curGeom = point.geometry.coordinates
-    return curGeom
-  })
-  const newMultiPoint = multiPoint(geom)
-  return newMultiPoint
-}
+    const curGeom = point.geometry.coordinates;
+    return curGeom;
+  });
+  const newMultiPoint = multiPoint(geom);
+  return newMultiPoint;
+};
 
 const getSketchPointIntersectCount = (
   featureA: Feature<Polygon | MultiPolygon>,
@@ -147,13 +148,12 @@ const getSketchPointIntersectCount = (
   // intersect and get area of remainder
   const sketchValue = chunks
     .map((curChunk) => {
-      const rem = pointsWithinPolygon(
-        makeMultiPoint(curChunk),
-        featureA,
-      );
-      const numPoints = rem.features.length ? rem.features[0].geometry.coordinates.length : 0;
+      const rem = pointsWithinPolygon(makeMultiPoint(curChunk), featureA);
+      const numPoints = rem.features.length
+        ? rem.features[0].geometry.coordinates.length
+        : 0;
       return numPoints;
     })
-    .reduce((sumSoFar, rem) => (sumSoFar + rem), 0);
+    .reduce((sumSoFar, rem) => sumSoFar + rem, 0);
   return sketchValue;
-}
+};

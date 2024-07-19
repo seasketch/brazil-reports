@@ -4,9 +4,9 @@
     "type": "areaOverlap",
     "classes": [
       {
-        "classId": "eez",
+        "classId": "brazil_eez",
         "display": "EEZ",
-        "datasourceId": "global-clipping-eez-land-union",
+        "datasourceId": "brazil_eez",
         "objectiveId": "eez",
         "layerId": ""
       }
@@ -77,28 +77,24 @@
         "classId": "trawling",
         "display": "Trawling",
         "datasourceId": "trawling",
-        "noDataValue": 0,
         "layerId": "nVmRI8vJX"
       },
       {
         "classId": "traps",
         "display": "Traps",
         "datasourceId": "traps",
-        "noDataValue": 0,
         "layerId": ""
       },
       {
         "classId": "longline",
         "display": "Longline",
         "datasourceId": "longline",
-        "noDataValue": 0,
         "layerId": "Olt_SOCh0"
       },
       {
         "classId": "gillnet",
         "display": "Gillnet",
         "datasourceId": "gillnet",
-        "noDataValue": 0,
         "layerId": "awuKJnhRG"
       }
     ]
@@ -118,47 +114,6 @@
         "display": "Mining Potential Areas",
         "datasourceId": "mining_potential",
         "layerId": "HhykfJ_h9"
-      }
-    ]
-  },
-  {
-    "metricId": "shippingOverlap",
-    "type": "areaOverlap",
-    "layerId": "ohTda51j7",
-    "classes": [
-      {
-        "classId": "Low",
-        "classKey": "intensity",
-        "display": "Low",
-        "datasourceId": "shipping_intensity",
-        "objectiveId": ""
-      },
-      {
-        "classId": "Medium",
-        "classKey": "intensity",
-        "display": "Medium",
-        "datasourceId": "shipping_intensity",
-        "objectiveId": ""
-      },
-      {
-        "classId": "High",
-        "classKey": "intensity",
-        "display": "High",
-        "datasourceId": "shipping_intensity",
-        "objectiveId": ""
-      }
-    ]
-  },
-  {
-    "metricId": "powerLinesOverlap",
-    "type": "areaOverlap",
-    "classes": [
-      {
-        "classId": "power_lines",
-        "display": "Power Lines",
-        "datasourceId": "power_lines",
-        "objectiveId": "",
-        "layerId": ""
       }
     ]
   },

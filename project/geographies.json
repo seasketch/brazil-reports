@@ -1,0 +1,38 @@
+[
+  {
+    "geographyId": "world",
+    "datasourceId": "world",
+    "display": "World",
+    "groups": [],
+    "precalc": false
+  },
+  {
+    "geographyId": "eez",
+    "datasourceId": "global-eez-mr-v12",
+    "display": "Brazilian Exclusive Economic Zone",
+    "propertyFilter": {
+      "property": "GEONAME",
+      "values": [
+        "Brazilian Exclusive Economic Zone"
+      ]
+    },
+    "bboxFilter": [
+      -54.58321261397063,
+      -35.78778688484125,
+      -26.014521804637326,
+      7.045066039966088
+    ],
+    "groups": [
+    ],
+    "precalc": true
+  },
+  {
+    "geographyId": "eez",
+    "datasourceId": "brazil_eez",
+    "display": "EEZ",
+    "groups": [
+        "default-boundary"
+    ],
+    "precalc": true
+}
+]

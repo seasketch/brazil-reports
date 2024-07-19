@@ -1,23 +1,23 @@
 {
   "metrics": [
     {
-      "metricId": "oilAreasOverlap",
-      "sketchId": "18758",
-      "classId": "oil_blocks_concession",
-      "groupId": null,
       "geographyId": null,
-      "value": 30637861106.075417,
+      "metricId": "oilAreasOverlap",
+      "classId": "oil_blocks_concession",
+      "sketchId": "18758",
+      "groupId": null,
+      "value": 30569322510.336308,
       "extra": {
         "sketchName": "example-mpa-south-central"
       }
     },
     {
-      "metricId": "oilAreasOverlap",
-      "sketchId": "18758",
-      "classId": "oil_production_fields",
-      "groupId": null,
       "geographyId": null,
-      "value": 10420477710.62222,
+      "metricId": "oilAreasOverlap",
+      "classId": "oil_production_fields",
+      "sketchId": "18758",
+      "groupId": null,
+      "value": 10397198893.623838,
       "extra": {
         "sketchName": "example-mpa-south-central"
       }
@@ -67,7 +67,7 @@
           "formElementId": 2948,
           "alternateLanguages": {
             "pt": {
-              "label": null,
+              "label": "Nome",
               "valueLabel": [
                 "Área Marinha Protegida"
               ]

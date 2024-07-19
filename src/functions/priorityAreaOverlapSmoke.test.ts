@@ -2,7 +2,8 @@
  * @jest-environment node
  * @group smoke
  */
-import { priorityAreaOverlap } from "./priorityAreaOverlap";
+import { priorityAreaOverlap } from "./priorityAreaOverlap.js";
+import { describe, test, expect } from "vitest";
 import {
   getExamplePolygonSketchAll,
   writeResultOutput,

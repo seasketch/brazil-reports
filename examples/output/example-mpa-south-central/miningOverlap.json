@@ -1,23 +1,23 @@
 {
   "metrics": [
     {
-      "metricId": "miningOverlap",
-      "sketchId": "18758",
-      "classId": "mining_process",
-      "groupId": null,
       "geographyId": null,
-      "value": 345541483.154037,
+      "metricId": "miningOverlap",
+      "classId": "mining_process",
+      "sketchId": "18758",
+      "groupId": null,
+      "value": 344769561.062256,
       "extra": {
         "sketchName": "example-mpa-south-central"
       }
     },
     {
-      "metricId": "miningOverlap",
-      "sketchId": "18758",
-      "classId": "mining_potential",
-      "groupId": null,
       "geographyId": null,
-      "value": 6343858732.146431,
+      "metricId": "miningOverlap",
+      "classId": "mining_potential",
+      "sketchId": "18758",
+      "groupId": null,
+      "value": 6329686874.5224,
       "extra": {
         "sketchName": "example-mpa-south-central"
       }
@@ -67,7 +67,7 @@
           "formElementId": 2948,
           "alternateLanguages": {
             "pt": {
-              "label": null,
+              "label": "Nome",
               "valueLabel": [
                 "Área Marinha Protegida"
               ]

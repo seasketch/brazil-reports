@@ -1,170 +1,170 @@
 {
   "metrics": [
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "18891",
-      "classId": "Plataforma Interna (<50 m)",
-      "groupId": null,
       "geographyId": null,
-      "value": 31701481709.87615,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Interna (<50 m)",
+      "sketchId": "18891",
+      "groupId": null,
+      "value": 31630662212.751102,
       "extra": {
         "sketchName": "Wind Farm 6"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "18890",
-      "classId": "Plataforma Interna (<50 m)",
-      "groupId": null,
       "geographyId": null,
-      "value": 19742390843.451756,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Interna (<50 m)",
+      "sketchId": "18890",
+      "groupId": null,
+      "value": 19698287346.82513,
       "extra": {
         "sketchName": "Wind Farm 3"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "18889",
-      "classId": "Plataforma Interna (<50 m)",
-      "groupId": null,
       "geographyId": null,
-      "value": 51443872553.3279,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Interna (<50 m)",
+      "sketchId": "18889",
+      "groupId": null,
+      "value": 51328949559.57623,
       "extra": {
         "sketchName": "Wind Energy Collection 1 (copy)",
         "isCollection": true
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "18891",
-      "classId": "Plataforma Externa Rasa (50 - 100 m)",
-      "groupId": null,
       "geographyId": null,
-      "value": 17373242368.703114,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Rasa (50 - 100 m)",
+      "sketchId": "18891",
+      "groupId": null,
+      "value": 17334431429.22191,
       "extra": {
         "sketchName": "Wind Farm 6"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "18890",
-      "classId": "Plataforma Externa Rasa (50 - 100 m)",
-      "groupId": null,
       "geographyId": null,
-      "value": 1096289397.343935,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Rasa (50 - 100 m)",
+      "sketchId": "18890",
+      "groupId": null,
+      "value": 1093840342.610879,
       "extra": {
         "sketchName": "Wind Farm 3"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "18889",
-      "classId": "Plataforma Externa Rasa (50 - 100 m)",
-      "groupId": null,
       "geographyId": null,
-      "value": 18469531766.04705,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Rasa (50 - 100 m)",
+      "sketchId": "18889",
+      "groupId": null,
+      "value": 18428271771.832787,
       "extra": {
         "sketchName": "Wind Energy Collection 1 (copy)",
         "isCollection": true
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "18891",
-      "classId": "Plataforma Externa Profunda (100 - 200 m)",
-      "groupId": null,
       "geographyId": null,
-      "value": 3170534879.938804,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Profunda (100 - 200 m)",
+      "sketchId": "18891",
+      "groupId": null,
+      "value": 3163452066.337811,
       "extra": {
         "sketchName": "Wind Farm 6"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "18890",
-      "classId": "Plataforma Externa Profunda (100 - 200 m)",
-      "groupId": null,
       "geographyId": null,
-      "value": 589208103.138763,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Profunda (100 - 200 m)",
+      "sketchId": "18890",
+      "groupId": null,
+      "value": 587891842.216008,
       "extra": {
         "sketchName": "Wind Farm 3"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "18889",
-      "classId": "Plataforma Externa Profunda (100 - 200 m)",
-      "groupId": null,
       "geographyId": null,
-      "value": 3759742983.077567,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Plataforma Externa Profunda (100 - 200 m)",
+      "sketchId": "18889",
+      "groupId": null,
+      "value": 3751343908.553819,
       "extra": {
         "sketchName": "Wind Energy Collection 1 (copy)",
         "isCollection": true
       }
     },
     {
+      "geographyId": null,
       "metricId": "bathyClassesOverlap",
-      "sketchId": "18891",
       "classId": "Talude (200 - 1200 m )",
+      "sketchId": "18891",
       "groupId": null,
-      "geographyId": null,
       "value": 0,
       "extra": {
         "sketchName": "Wind Farm 6"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "18890",
-      "classId": "Talude (200 - 1200 m )",
-      "groupId": null,
       "geographyId": null,
-      "value": 3715207399.427694,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Talude (200 - 1200 m )",
+      "sketchId": "18890",
+      "groupId": null,
+      "value": 3706907815.131878,
       "extra": {
         "sketchName": "Wind Farm 3"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "18889",
-      "classId": "Talude (200 - 1200 m )",
-      "groupId": null,
       "geographyId": null,
-      "value": 3715207399.427694,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Talude (200 - 1200 m )",
+      "sketchId": "18889",
+      "groupId": null,
+      "value": 3706907815.131878,
       "extra": {
         "sketchName": "Wind Energy Collection 1 (copy)",
         "isCollection": true
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "18891",
-      "classId": "Bacia Oceânica (> 1200 m)",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Bacia Oceânica (> 1200 m)",
+      "sketchId": "18891",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Wind Farm 6"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "18890",
-      "classId": "Bacia Oceânica (> 1200 m)",
-      "groupId": null,
       "geographyId": null,
-      "value": 6322964262.466678,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Bacia Oceânica (> 1200 m)",
+      "sketchId": "18890",
+      "groupId": null,
+      "value": 6308839082.024834,
       "extra": {
         "sketchName": "Wind Farm 3"
       }
     },
     {
-      "metricId": "bathyClassesOverlap",
-      "sketchId": "18889",
-      "classId": "Bacia Oceânica (> 1200 m)",
-      "groupId": null,
       "geographyId": null,
-      "value": 6322964262.466678,
+      "metricId": "bathyClassesOverlap",
+      "classId": "Bacia Oceânica (> 1200 m)",
+      "sketchId": "18889",
+      "groupId": null,
+      "value": 6308839082.024834,
       "extra": {
         "sketchName": "Wind Energy Collection 1 (copy)",
         "isCollection": true

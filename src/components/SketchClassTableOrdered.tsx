@@ -1,14 +1,13 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { percentWithEdge } from "@seasketch/geoprocessing";
-import { MetricGroup } from "@seasketch/geoprocessing";
 import {
-  Column,
-  Table,
-} from "@seasketch/geoprocessing/src/components/table/Table";
+  percentWithEdge,
+  MetricGroup,
+} from "@seasketch/geoprocessing/client-core";
+import { Column, Table } from "@seasketch/geoprocessing/client-ui";
 
-import styled from "styled-components";
-import { SmallReportTableStyled } from "@seasketch/geoprocessing/src/components/table";
+import { styled } from "styled-components";
+import { SmallReportTableStyled } from "@seasketch/geoprocessing/client-ui";
 
 /**
  * Style component for SketchClassTable
@@ -50,51 +49,52 @@ export interface SketchClassTableProps {
  * @param param0
  * @returns
  */
-export const SketchClassTableOrdered: React.FunctionComponent<SketchClassTableProps> =
-  ({
-    rows,
-    metricGroup: dataGroup,
-    formatPerc: usePerc = false,
-    columnOrder,
-  }) => {
-    const { t } = useTranslation();
+export const SketchClassTableOrdered: React.FunctionComponent<
+  SketchClassTableProps
+> = ({
+  rows,
+  metricGroup: dataGroup,
+  formatPerc: usePerc = false,
+  columnOrder,
+}) => {
+  const { t } = useTranslation();
 
-    const mpaLabel = t("MPA");
+  const mpaLabel = t("MPA");
 
-    const classColumns: Column<Record<string, string | number>>[] =
-      dataGroup.classes.map((curClass) => ({
-        Header: curClass.display,
-        accessor: (row) => {
-          return usePerc
-            ? percentWithEdge(row[curClass.classId] as number)
-            : row[curClass.classId];
-        },
-      }));
-
-    const classColumnsOrdered = classColumns.sort((a, b) => {
-      return (
-        // @ts-ignore
-        columnOrder.indexOf(a.Header) - columnOrder.indexOf(b.Header)
-      );
-    });
-
-    const columns: Column<Record<string, string | number>>[] = [
-      {
-        Header: mpaLabel,
-        accessor: (row) => {
-          return <div style={{ width: 120 }}>{row.sketchName}</div>;
-        },
+  const classColumns: Column<Record<string, string | number>>[] =
+    dataGroup.classes.map((curClass) => ({
+      Header: curClass.display,
+      accessor: (row) => {
+        return usePerc
+          ? percentWithEdge(row[curClass.classId] as number)
+          : row[curClass.classId];
       },
-      ...classColumnsOrdered,
-    ];
+    }));
 
-    console.log("columns", columns);
-
+  const classColumnsOrdered = classColumns.sort((a, b) => {
     return (
-      <SketchClassTableStyled>
-        <Table className="styled" columns={columns} data={rows} />
-      </SketchClassTableStyled>
+      // @ts-ignore
+      columnOrder.indexOf(a.Header) - columnOrder.indexOf(b.Header)
     );
-  };
+  });
+
+  const columns: Column<Record<string, string | number>>[] = [
+    {
+      Header: mpaLabel,
+      accessor: (row) => {
+        return <div style={{ width: 120 }}>{row.sketchName}</div>;
+      },
+    },
+    ...classColumnsOrdered,
+  ];
+
+  console.log("columns", columns);
+
+  return (
+    <SketchClassTableStyled>
+      <Table className="styled" columns={columns} data={rows} />
+    </SketchClassTableStyled>
+  );
+};
 
 export default SketchClassTableOrdered;

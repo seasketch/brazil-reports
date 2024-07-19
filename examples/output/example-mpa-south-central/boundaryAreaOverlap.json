@@ -1,12 +1,12 @@
 {
   "metrics": [
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "18758",
-      "classId": "eez",
-      "groupId": null,
       "geographyId": null,
-      "value": 135509416246.38882,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "brazil_eez",
+      "sketchId": "18758",
+      "groupId": null,
+      "value": 135206695105.38577,
       "extra": {
         "sketchName": "example-mpa-south-central"
       }
@@ -56,7 +56,7 @@
           "formElementId": 2948,
           "alternateLanguages": {
             "pt": {
-              "label": null,
+              "label": "Nome",
               "valueLabel": [
                 "Área Marinha Protegida"
               ]

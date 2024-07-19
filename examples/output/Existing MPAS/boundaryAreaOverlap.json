@@ -1,188 +1,188 @@
 {
   "metrics": [
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "16048",
-      "classId": "eez",
-      "groupId": null,
       "geographyId": null,
-      "value": 40401471.714405,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "brazil_eez",
+      "sketchId": "16048",
+      "groupId": null,
+      "value": 40033229.225606,
       "extra": {
         "sketchName": "Existing MPA 1"
       }
     },
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "16049",
-      "classId": "eez",
-      "groupId": null,
       "geographyId": null,
-      "value": 1216620521.402371,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "brazil_eez",
+      "sketchId": "16049",
+      "groupId": null,
+      "value": 1210035101.624258,
       "extra": {
         "sketchName": "Existing MPA 2"
       }
     },
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "16050",
-      "classId": "eez",
-      "groupId": null,
       "geographyId": null,
-      "value": 9589689.443324,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "brazil_eez",
+      "sketchId": "16050",
+      "groupId": null,
+      "value": 9402959.209515,
       "extra": {
         "sketchName": "Existing MPA 3"
       }
     },
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "16051",
-      "classId": "eez",
-      "groupId": null,
       "geographyId": null,
-      "value": 26132737.988257,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "brazil_eez",
+      "sketchId": "16051",
+      "groupId": null,
+      "value": 25535881.089161,
       "extra": {
         "sketchName": "Existing MPA 4"
       }
     },
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "16052",
-      "classId": "eez",
-      "groupId": null,
       "geographyId": null,
-      "value": 169450268.16708,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "brazil_eez",
+      "sketchId": "16052",
+      "groupId": null,
+      "value": 168754030.39714,
       "extra": {
         "sketchName": "Existing MPA 5"
       }
     },
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "16053",
-      "classId": "eez",
-      "groupId": null,
       "geographyId": null,
-      "value": 37122240.290911,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "brazil_eez",
+      "sketchId": "16053",
+      "groupId": null,
+      "value": 35490087.006159,
       "extra": {
         "sketchName": "Existing MPA 6"
       }
     },
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "16054",
-      "classId": "eez",
-      "groupId": null,
       "geographyId": null,
-      "value": 13778819.09273,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "brazil_eez",
+      "sketchId": "16054",
+      "groupId": null,
+      "value": 13725480.359892,
       "extra": {
         "sketchName": "Existing MPA 7"
       }
     },
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "16055",
-      "classId": "eez",
-      "groupId": null,
       "geographyId": null,
-      "value": 384652732.726276,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "brazil_eez",
+      "sketchId": "16055",
+      "groupId": null,
+      "value": 367246220.016657,
       "extra": {
         "sketchName": "Existing MPA 15"
       }
     },
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "16056",
-      "classId": "eez",
-      "groupId": null,
       "geographyId": null,
-      "value": 6595571177.900383,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "brazil_eez",
+      "sketchId": "16056",
+      "groupId": null,
+      "value": 6564539977.575402,
       "extra": {
         "sketchName": "Existing MPA 8"
       }
     },
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "16057",
-      "classId": "eez",
-      "groupId": null,
       "geographyId": null,
-      "value": 572360577.718253,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "brazil_eez",
+      "sketchId": "16057",
+      "groupId": null,
+      "value": 571081953.31006,
       "extra": {
         "sketchName": "Existing MPA 16"
       }
     },
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "16058",
-      "classId": "eez",
-      "groupId": null,
       "geographyId": null,
-      "value": 2038582698.791372,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "brazil_eez",
+      "sketchId": "16058",
+      "groupId": null,
+      "value": 2029036100.431865,
       "extra": {
         "sketchName": "Existing MPA 9"
       }
     },
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "16059",
-      "classId": "eez",
-      "groupId": null,
       "geographyId": null,
-      "value": 905210841.090129,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "brazil_eez",
+      "sketchId": "16059",
+      "groupId": null,
+      "value": 897019785.767744,
       "extra": {
         "sketchName": "Existing MPA 10"
       }
     },
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "16060",
-      "classId": "eez",
-      "groupId": null,
       "geographyId": null,
-      "value": 1445003325.015751,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "brazil_eez",
+      "sketchId": "16060",
+      "groupId": null,
+      "value": 1433049299.247562,
       "extra": {
         "sketchName": "Existing MPA 11"
       }
     },
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "16065",
-      "classId": "eez",
-      "groupId": null,
       "geographyId": null,
-      "value": 17996845.73394,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "brazil_eez",
+      "sketchId": "16065",
+      "groupId": null,
+      "value": 17466019.968425,
       "extra": {
         "sketchName": "Existing MPA 12"
       }
     },
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "16066",
-      "classId": "eez",
-      "groupId": null,
       "geographyId": null,
-      "value": 49697292.767104,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "brazil_eez",
+      "sketchId": "16066",
+      "groupId": null,
+      "value": 48783849.850622,
       "extra": {
         "sketchName": "Existing MPA 13"
       }
     },
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "16067",
-      "classId": "eez",
-      "groupId": null,
       "geographyId": null,
-      "value": 515780612.515153,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "brazil_eez",
+      "sketchId": "16067",
+      "groupId": null,
+      "value": 512858423.865703,
       "extra": {
         "sketchName": "Existing MPA 14"
       }
     },
     {
-      "metricId": "boundaryAreaOverlap",
-      "sketchId": "16068",
-      "classId": "eez",
-      "groupId": null,
       "geographyId": null,
-      "value": 14037765878.107864,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "brazil_eez",
+      "sketchId": "16068",
+      "groupId": null,
+      "value": 13944058398.94577,
       "extra": {
         "sketchName": "Existing MPAS",
         "isCollection": true

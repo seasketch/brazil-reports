@@ -1,68 +1,68 @@
 {
   "metrics": [
     {
-      "metricId": "oilAreasOverlap",
-      "sketchId": "18891",
-      "classId": "oil_blocks_concession",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "oilAreasOverlap",
+      "classId": "oil_blocks_concession",
+      "sketchId": "18891",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Wind Farm 6"
       }
     },
     {
-      "metricId": "oilAreasOverlap",
-      "sketchId": "18890",
-      "classId": "oil_blocks_concession",
-      "groupId": null,
       "geographyId": null,
-      "value": 3619958999.251402,
+      "metricId": "oilAreasOverlap",
+      "classId": "oil_blocks_concession",
+      "sketchId": "18890",
+      "groupId": null,
+      "value": 3611859877.354105,
       "extra": {
         "sketchName": "Wind Farm 3"
       }
     },
     {
-      "metricId": "oilAreasOverlap",
-      "sketchId": "18889",
-      "classId": "oil_blocks_concession",
-      "groupId": null,
       "geographyId": null,
-      "value": 3619958999.251402,
+      "metricId": "oilAreasOverlap",
+      "classId": "oil_blocks_concession",
+      "sketchId": "18889",
+      "groupId": null,
+      "value": 3611859877.354105,
       "extra": {
         "sketchName": "Wind Energy Collection 1 (copy)",
         "isCollection": true
       }
     },
     {
-      "metricId": "oilAreasOverlap",
-      "sketchId": "18891",
-      "classId": "oil_production_fields",
-      "groupId": null,
       "geographyId": null,
+      "metricId": "oilAreasOverlap",
+      "classId": "oil_production_fields",
+      "sketchId": "18891",
+      "groupId": null,
       "value": 0,
       "extra": {
         "sketchName": "Wind Farm 6"
       }
     },
     {
-      "metricId": "oilAreasOverlap",
-      "sketchId": "18890",
-      "classId": "oil_production_fields",
-      "groupId": null,
       "geographyId": null,
-      "value": 544990636.687648,
+      "metricId": "oilAreasOverlap",
+      "classId": "oil_production_fields",
+      "sketchId": "18890",
+      "groupId": null,
+      "value": 543773155.335107,
       "extra": {
         "sketchName": "Wind Farm 3"
       }
     },
     {
-      "metricId": "oilAreasOverlap",
-      "sketchId": "18889",
-      "classId": "oil_production_fields",
-      "groupId": null,
       "geographyId": null,
-      "value": 544990636.687648,
+      "metricId": "oilAreasOverlap",
+      "classId": "oil_production_fields",
+      "sketchId": "18889",
+      "groupId": null,
+      "value": 543773155.335107,
       "extra": {
         "sketchName": "Wind Energy Collection 1 (copy)",
         "isCollection": true
