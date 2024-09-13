@@ -2,7 +2,7 @@
  * @jest-environment node
  * @group smoke
  */
-import { habitatsServicesOverlap } from "./habitatsServicesOverlap.js";
+import { habitatsServices } from "./habitatsServices.js";
 import { describe, test, expect } from "vitest";
 import {
   getExamplePolygonSketchAll,
@@ -11,18 +11,14 @@ import {
 
 describe("Basic smoke tests", () => {
   test("handler function is present", () => {
-    expect(typeof habitatsServicesOverlap).toBe("function");
+    expect(typeof habitatsServices).toBe("function");
   });
-  test("habitatsServicesOverlapSmoke - tests run against all examples", async () => {
+  test("habitatsServicesSmoke - tests run against all examples", async () => {
     const examples = await getExamplePolygonSketchAll();
     for (const example of examples) {
-      const result = await habitatsServicesOverlap(example);
+      const result = await habitatsServices(example);
       expect(result).toBeTruthy();
-      writeResultOutput(
-        result,
-        "habitatsServicesOverlap",
-        example.properties.name
-      );
+      writeResultOutput(result, "habitatsServices", example.properties.name);
     }
   }, 120000);
 });

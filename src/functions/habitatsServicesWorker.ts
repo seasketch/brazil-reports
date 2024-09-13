@@ -20,12 +20,12 @@ import { clipToGeography } from "../util/clipToGeography.js";
 import { fgbFetchAll } from "@seasketch/geoprocessing/dataproviders";
 
 /**
- * habitatsServicesOverlapWorker: A geoprocessing function that calculates overlap metrics
+ * habitatsServicesWorker: A geoprocessing function that calculates overlap metrics
  * @param sketch - A sketch or collection of sketches
  * @param extraParams
  * @returns Calculated metrics and a null sketch
  */
-export async function habitatsServicesOverlapWorker(
+export async function habitatsServicesWorker(
   sketch:
     | Sketch<Polygon | MultiPolygon>
     | SketchCollection<Polygon | MultiPolygon>,
@@ -92,8 +92,8 @@ export async function habitatsServicesOverlapWorker(
   );
 }
 
-export default new GeoprocessingHandler(habitatsServicesOverlapWorker, {
-  title: "habitatsServicesOverlapWorker",
+export default new GeoprocessingHandler(habitatsServicesWorker, {
+  title: "habitatsServicesWorker",
   description: "",
   timeout: 500, // seconds
   memory: 2048, // megabytes

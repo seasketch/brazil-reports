@@ -17,22 +17,22 @@ import {
 } from "@seasketch/geoprocessing/client-core";
 import { parseLambdaResponse, runLambdaWorker } from "../util/lambdaHelpers.js";
 import awsSdk from "aws-sdk";
-import { habitatsServicesOverlapWorker } from "./habitatsServicesOverlapWorker.js";
+import { habitatsServicesWorker } from "./habitatsServicesWorker.js";
 
 /**
- * habitatsServicesOverlap: A geoprocessing function that calculates overlap metrics
+ * habitatsServices: A geoprocessing function that calculates overlap metrics
  * @param sketch - A sketch or collection of sketches
  * @param extraParams
  * @returns Calculated metrics and a null sketch
  */
-export async function habitatsServicesOverlap(
+export async function habitatsServices(
   sketch:
     | Sketch<Polygon | MultiPolygon>
     | SketchCollection<Polygon | MultiPolygon>,
   extraParams: DefaultExtraParams = {},
   request?: GeoprocessingRequestModel<Polygon | MultiPolygon>
 ): Promise<ReportResult> {
-  const metricGroup = project.getMetricGroup("habitatsServicesOverlap");
+  const metricGroup = project.getMetricGroup("habitatsServices");
   const geographies = project.geographies;
 
   try {
@@ -52,11 +52,11 @@ export async function habitatsServicesOverlap(
             );
 
             return process.env.NODE_ENV === "test"
-              ? habitatsServicesOverlapWorker(sketch, parameters)
+              ? habitatsServicesWorker(sketch, parameters)
               : runLambdaWorker(
                   sketch,
                   parameters,
-                  "habitatsServicesOverlapWorker",
+                  "habitatsServicesWorker",
                   request
                 );
           })
@@ -89,9 +89,9 @@ export async function habitatsServicesOverlap(
   }
 }
 
-export default new GeoprocessingHandler(habitatsServicesOverlap, {
-  title: "habitatsServicesOverlap",
-  description: "habitatsServicesOverlap overlap",
+export default new GeoprocessingHandler(habitatsServices, {
+  title: "habitatsServices",
+  description: "habitatsServices overlap",
   timeout: 500, // seconds
   memory: 1024, // megabytes
   executionMode: "async",

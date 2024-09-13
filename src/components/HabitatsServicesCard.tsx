@@ -26,7 +26,7 @@ import redX from "../assets/img/red-x.png";
 import yellowCheck from "../assets/img/yellow-check.png";
 import greenCheck from "../assets/img/green-check.png";
 
-const metricGroup = project.getMetricGroup("habitatsServicesOverlap");
+const metricGroup = project.getMetricGroup("habitatsServices");
 const geographyId = "eez";
 const precalcMetrics = project.getPrecalcMetrics(
   metricGroup,
@@ -85,7 +85,7 @@ export const HabitatsServicesCard = () => {
     <>
       <ResultsCard
         title={t("Benthic Habitats and Ecosystem Services")}
-        functionName="habitatsServicesOverlap"
+        functionName="habitatsServices"
         useChildCard
       >
         {(data: ReportResult) => {

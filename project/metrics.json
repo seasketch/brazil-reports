@@ -320,7 +320,7 @@
     ]
   },
   {
-    "metricId": "habitatsServicesOverlap",
+    "metricId": "habitatsServices",
     "type": "areaOverlap",
     "layerId": "WIzmW67J6",
     "classes": [
