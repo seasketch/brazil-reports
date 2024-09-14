@@ -6,7 +6,7 @@
       "classId": "Abyssal mud",
       "sketchId": "18758",
       "groupId": null,
-      "value": 34582179751.88263,
+      "value": 34582179751.882614,
       "extra": {
         "sketchName": "example-mpa-south-central"
       }
@@ -226,7 +226,7 @@
       "classId": "Offshore circalittoral coarse sediment",
       "sketchId": "18758",
       "groupId": null,
-      "value": 2788942217.455196,
+      "value": 2788942217.455194,
       "extra": {
         "sketchName": "example-mpa-south-central"
       }
@@ -292,7 +292,7 @@
       "classId": "Upper bathyal seabed",
       "sketchId": "18758",
       "groupId": null,
-      "value": 7988665029.268817,
+      "value": 7988665029.268822,
       "extra": {
         "sketchName": "example-mpa-south-central"
       }

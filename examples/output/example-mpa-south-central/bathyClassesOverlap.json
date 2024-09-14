@@ -28,7 +28,7 @@
       "classId": "Plataforma Externa Profunda (100 - 200 m)",
       "sketchId": "18758",
       "groupId": null,
-      "value": 6405595610.914452,
+      "value": 6405595610.91445,
       "extra": {
         "sketchName": "example-mpa-south-central"
       }
@@ -39,7 +39,7 @@
       "classId": "Talude (200 - 1200 m )",
       "sketchId": "18758",
       "groupId": null,
-      "value": 9681308724.50419,
+      "value": 9681308724.504196,
       "extra": {
         "sketchName": "example-mpa-south-central"
       }
@@ -50,7 +50,7 @@
       "classId": "Bacia Oceânica (> 1200 m)",
       "sketchId": "18758",
       "groupId": null,
-      "value": 112458572936.66582,
+      "value": 112458572936.66586,
       "extra": {
         "sketchName": "example-mpa-south-central"
       }
