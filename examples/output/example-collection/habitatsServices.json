@@ -17,7 +17,7 @@
       "classId": "Abyssal mud",
       "sketchId": "15454",
       "groupId": null,
-      "value": 23809318487.10236,
+      "value": 23809318487.10238,
       "extra": {
         "sketchName": "example-mpa-south"
       }
@@ -28,7 +28,7 @@
       "classId": "Abyssal mud",
       "sketchId": "15620",
       "groupId": null,
-      "value": 112221738784.58961,
+      "value": 112221738784.58963,
       "extra": {
         "sketchName": "example-collection",
         "isCollection": true
@@ -391,7 +391,7 @@
       "classId": "Infralittoral mud",
       "sketchId": "15454",
       "groupId": null,
-      "value": 931464994.963264,
+      "value": 931464994.963267,
       "extra": {
         "sketchName": "example-mpa-south"
       }
@@ -402,7 +402,7 @@
       "classId": "Infralittoral mud",
       "sketchId": "15620",
       "groupId": null,
-      "value": 931464994.963264,
+      "value": 931464994.963267,
       "extra": {
         "sketchName": "example-collection",
         "isCollection": true
@@ -595,7 +595,7 @@
       "classId": "Mid bathyal rock",
       "sketchId": "15454",
       "groupId": null,
-      "value": 156574302.322522,
+      "value": 156574302.322521,
       "extra": {
         "sketchName": "example-mpa-south"
       }
