@@ -73,9 +73,17 @@ export async function habitatsServices(
 
     const metrics = allMetrics
       .flat()
-      .reduce<
-        Metric[]
-      >((acc, lambdaResult) => acc.concat(process.env.NODE_ENV === "test" ? (lambdaResult as Metric[]) : parseLambdaResponse(lambdaResult as awsSdk.Lambda.InvocationResponse)), []);
+      .reduce<Metric[]>(
+        (acc, lambdaResult) =>
+          acc.concat(
+            process.env.NODE_ENV === "test"
+              ? (lambdaResult as Metric[])
+              : parseLambdaResponse(
+                  lambdaResult as awsSdk.Lambda.InvocationResponse
+                )
+          ),
+        []
+      );
 
     console.log("Final metrics:", metrics);
 

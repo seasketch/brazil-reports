@@ -88,8 +88,6 @@ export const SketchClassTableOrdered: React.FunctionComponent<
     ...classColumnsOrdered,
   ];
 
-  console.log("columns", columns);
-
   return (
     <SketchClassTableStyled>
       <Table className="styled" columns={columns} data={rows} />
