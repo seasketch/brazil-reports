@@ -4,19 +4,20 @@ import {
   Polygon,
   MultiPolygon,
   GeoprocessingHandler,
-  DefaultExtraParams,
+  runLambdaWorker,
+  parseLambdaResponse,
 } from "@seasketch/geoprocessing";
 import project from "../../project/projectClient.js";
 import {
+  DefaultExtraParams,
   GeoprocessingRequestModel,
   Metric,
   ReportResult,
+  isMetricArray,
   rekeyMetrics,
   sortMetrics,
   toNullSketch,
 } from "@seasketch/geoprocessing/client-core";
-import { parseLambdaResponse, runLambdaWorker } from "../util/lambdaHelpers.js";
-import awsSdk from "aws-sdk";
 import { habitatsServicesWorker } from "./habitatsServicesWorker.js";
 
 /**
@@ -35,6 +36,8 @@ export async function habitatsServices(
   const metricGroup = project.getMetricGroup("habitatsServices");
   const geographies = project.geographies;
 
+  console.log("Running habitatsServices with sketch", sketch);
+
   try {
     const allMetrics = await Promise.all(
       geographies.map(async (geography) => {
@@ -47,48 +50,35 @@ export async function habitatsServices(
               classId: curClass.classId,
             };
 
-            console.log(
-              `Processing classId: ${curClass.classId} for geography: ${geography}`
-            );
-
             return process.env.NODE_ENV === "test"
               ? habitatsServicesWorker(sketch, parameters)
               : runLambdaWorker(
                   sketch,
-                  parameters,
+                  project.package.name,
                   "habitatsServicesWorker",
-                  request
+                  project.geoprocessing.region,
+                  parameters,
+                  request!
                 );
           })
         );
 
-        console.log(
-          `Results for geography ${geography.geographyId}:`,
-          classMetrics
+        return classMetrics.reduce<Metric[]>(
+          (metrics, result) =>
+            metrics.concat(
+              isMetricArray(result)
+                ? result
+                : (parseLambdaResponse(result) as Metric[])
+            ),
+          []
         );
-
-        return classMetrics.flat();
       })
     );
 
-    const metrics = allMetrics
-      .flat()
-      .reduce<Metric[]>(
-        (acc, lambdaResult) =>
-          acc.concat(
-            process.env.NODE_ENV === "test"
-              ? (lambdaResult as Metric[])
-              : parseLambdaResponse(
-                  lambdaResult as awsSdk.Lambda.InvocationResponse
-                )
-          ),
-        []
-      );
-
-    console.log("Final metrics:", metrics);
+    const metrics = allMetrics.flat();
 
     return {
-      metrics: sortMetrics(rekeyMetrics(metrics)),
+      metrics: sortMetrics(rekeyMetrics([...metrics])),
       sketch: toNullSketch(sketch, true),
     };
   } catch (error) {
