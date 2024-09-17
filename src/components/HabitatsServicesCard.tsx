@@ -9,6 +9,7 @@ import {
   LayerToggle,
   ObjectiveStatus,
   VerticalSpacer,
+  InfoStatus,
 } from "@seasketch/geoprocessing/client-ui";
 import {
   ReportResult,
@@ -539,7 +540,36 @@ export const HabitatsServicesCard = () => {
                 </div>
               </Translator>
               <VerticalSpacer />
-              <div style={{ textAlign: "right", fontSize: 13 }}>
+              <div
+                style={{
+                  display: "inline-flex",
+                  width: "310px",
+                }}
+              >
+                <Translator>
+                  <InfoStatus
+                    msg={
+                      <p style={{ marginTop: 0, fontSize: 13 }}>
+                        {t(
+                          "Scroll right to view additional ecosystem services"
+                        )}
+                        <VerticalSpacer height={6} />
+                        {t(
+                          "Use the arrows to the right to view additional benthic habitat types"
+                        )}
+                      </p>
+                    }
+                    size={15}
+                    style={{ paddingTop: "15px", color: "#9ECFE6" }}
+                  />
+                </Translator>
+              </div>
+              <div
+                style={{
+                  float: "right",
+                  fontSize: 13,
+                }}
+              >
                 <Button onClick={handlePrevPage} disabled={currentPage === 1}>
                   ◀
                 </Button>
@@ -563,26 +593,29 @@ export const HabitatsServicesCard = () => {
 
                     li {
                       font-size: 14px;
+                      color: #444444;
                       padding-bottom: 8px;
                     }
 
+                    b {
+                      color: black;
+                    }
+
                     h3 {
-                      font-size: 16px;
-                      padding-bottom: 8px;
+                      font-size: 15px;
+                      padding-bottom: 0px;
                       padding-left: 15px;
                     }
                   `}
                 </style>
-                <h3>
-                  <b>Ecosystem Service Descriptions</b>
-                </h3>
+                <h3>Ecosystem Service Descriptions</h3>
                 <ul>
                   <li>
                     <b>Food</b>: food provision
                   </li>
                   <li>
-                    <b>Ram Material</b>: raw materials (biological) (including
-                    Biochemical, medicinal and ornamental)
+                    <b>Raw Material</b>: raw materials (biological — including
+                    biochemical, medicinal, and ornamental)
                   </li>
                   <li>
                     <b>Climate Regulation</b>: air quality and climate
@@ -593,7 +626,7 @@ export const HabitatsServicesCard = () => {
                     hazard prevention
                   </li>
                   <li>
-                    <b>Primary Production</b>: photosynthesis, chemosynthesis
+                    <b>Primary Production</b>: photosynthesis, chemosynthesis,
                     and primary production
                   </li>
                   <li>
@@ -611,10 +644,10 @@ export const HabitatsServicesCard = () => {
                     and bioremediation of waste
                   </li>
                   <li>
-                    <b>Cognitive Value</b>: cognitive value{" "}
+                    <b>Cognitive Value</b>: cognitive value
                   </li>
                   <li>
-                    <b>Recreation</b>: leisure, recreation and cultural
+                    <b>Recreation</b>: leisure, recreation, and cultural
                     inspiration
                   </li>
                   <li>
@@ -631,67 +664,107 @@ export const HabitatsServicesCard = () => {
 
               <Collapse title={t("Learn more")}>
                 <Trans i18nKey="Habitats Services Card - learn more">
-                  <p>
-                    {" "}
-                    This report summarizes overlap with benthic habitats and the
-                    ecosystem services provided by the overlapped habitats.
-                    Ecosystem service presence is denoted as follows:
+                  <div style={{ fontSize: "15px" }}>
+                    <p>
+                      {" "}
+                      This report summarizes overlap with benthic habitats and
+                      the ecosystem services provided by the overlapped
+                      habitats. Ecosystem service presence is denoted as
+                      follows:
+                      <VerticalSpacer height={15} />
+                      <div
+                        style={{
+                          display: "inline-flex",
+                          alignItems: "center",
+                          paddingRight: "10px",
+                        }}
+                      >
+                        <img
+                          src={greenCheck}
+                          style={{
+                            width: "25px",
+                            height: "25px",
+                            paddingRight: "10px",
+                          }}
+                        />
+                        Habitat is overlapped and provides the service with a
+                        "high" rating
+                      </div>
+                      <VerticalSpacer height={10} />
+                      <div
+                        style={{
+                          display: "inline-flex",
+                          alignItems: "center",
+                          paddingRight: "10px",
+                        }}
+                      >
+                        <img
+                          src={yellowCheck}
+                          style={{
+                            width: "25px",
+                            height: "25px",
+                            paddingRight: "10px",
+                          }}
+                        />
+                        Habitat is overlapped and provides the service with a
+                        "low" rating
+                      </div>
+                      <VerticalSpacer height={10} />
+                      <div
+                        style={{
+                          display: "inline-flex",
+                          alignItems: "center",
+                          paddingRight: "10px",
+                        }}
+                      >
+                        <img
+                          src={redX}
+                          style={{
+                            width: "25px",
+                            height: "25px",
+                            paddingRight: "10px",
+                          }}
+                        />
+                        Service is not provided by the habitat or the habitat is
+                        not included in plan
+                      </div>
+                    </p>
+                    <VerticalSpacer height={3} />
+                    <p>
+                      Benthic habitat data were provided by EUNIS (European
+                      University Information Systems organisation), and the
+                      ecosystem service values were retrieved from{" "}
+                      <a
+                        href="https://doi.org/10.3389/fmars.2014.00023"
+                        target="_blank"
+                      >
+                        <i>
+                          Mapping ecosystem services provided by benthic
+                          habitats in the European North Atlantic Ocean
+                        </i>
+                      </a>{" "}
+                      (Galparsoro et al., 2014).
+                    </p>
                     <VerticalSpacer height={10} />
                     <p>
-                      <img
-                        src={greenCheck}
-                        style={{
-                          maxWidth: "25px",
-                          verticalAlign: "top",
-                        }}
-                      />{" "}
-                      Habitat is overlapped and provides the service with
-                      <br />
-                      <span style={{ marginLeft: "30px" }}>
-                        a "high" rating
-                      </span>
+                      An explanation and examples (columns Q, R, and S) for each
+                      category of ecosystem services can be found in this
+                      adaptation of the Common International Classification of
+                      Ecosystem Services (CICES) V5.2v{" "}
+                      <a
+                        href="https://ucsbconnect-my.sharepoint.com/:x:/g/personal/petermenzies_ucsb_edu/EbMmmKPyU5VFuaauU8Za2Q0B9diY7ZJYWExUHzpi6N0E6w?e=MVVDzK"
+                        target="_blank"
+                      >
+                        spreadsheet
+                      </a>
+                      .
                     </p>
-                    <VerticalSpacer height={3} />
+                    <VerticalSpacer height={10} />
                     <p>
-                      <img
-                        src={yellowCheck}
-                        style={{ maxWidth: "25px", verticalAlign: "top" }}
-                      />{" "}
-                      Habitat is overlapped and provides the service with
-                      <br />
-                      <span style={{ marginLeft: "30px" }}>a "low" rating</span>
+                      If zone boundaries overlap with each other, the overlap is
+                      only counted once.
                     </p>
-                    <VerticalSpacer height={3} />
-                    <p>
-                      <img
-                        src={redX}
-                        style={{ maxWidth: "25px", verticalAlign: "top" }}
-                      />{" "}
-                      Service is not provided by the habitat or the habitat is
-                      <br />
-                      <span style={{ marginLeft: "30px" }}>
-                        not included in plan
-                      </span>
-                    </p>
-                  </p>
-                  <VerticalSpacer height={3} />
-                  <p>
-                    Benthic habitat data were provided by EUNIS (European
-                    University Information Systems organisation), and the
-                    ecosystem service values were retrieved from{" "}
-                    <a href="https://doi.org/10.3389/fmars.2014.00023">
-                      <i>
-                        Mapping ecosystem services provided by benthic habitats
-                        in the European North Atlantic Ocean
-                      </i>
-                    </a>{" "}
-                    (Galparsoro et al., 2014).
-                  </p>
-                  <VerticalSpacer height={10} />
-                  <p>
-                    If zone boundaries overlap with each other, the overlap is
-                    only counted once.
-                  </p>
+                  </div>
                 </Trans>
               </Collapse>
             </ToolbarCard>
