@@ -163,27 +163,35 @@ export const HabitatsServicesCard = () => {
               {/* table styling */}
               <style>
                 {`
-                  .services-table {
-                    font-size: 13px;
+                  .hrkJmp .icon {
+                    padding-right: 0px;
                   }
+                  .services-table {
+                    font-size: 12px;
+                  }
+
                   .services-table th, .services-table td {
-                    min-width: 70px;
+                    min-width: 87px;
                     text-align: center;
                     background-color: white;
                     height: 20px;
                   }
+
                   .services-table th:nth-child(1) {
+                    font-size: 13px;
                     width: 120px;
                     position: absolute;
                     bgcolor: white;
                     padding-top: 8px;
-                    padding-bottom: 12px;
+                    padding-bottom: 22px;
                     margin-left: -5px;
                     padding-right: 5px;
                     border-right: 1px solid #525252;
                     border-collapse: collapse;
                   }
+
                   .services-table td:nth-child(1) {
+                    font-size: 13px;
                     width: 120px;
                     position: absolute;
                     bgcolor: white;
@@ -211,17 +219,17 @@ export const HabitatsServicesCard = () => {
                         <th>{t("Habitat")}</th>
                         <th>{t("Area")}</th>
                         <th>{t("Food")}</th>
-                        <th>{t("Raw")}</th>
-                        <th>{"Air"}</th>
-                        <th>{t("Distur- bance")}</th>
-                        <th>{t("Photo- synthesis")}</th>
-                        <th>{t("Nutrient")}</th>
-                        <th>{t("Repro- duction")}</th>
-                        <th>{t("Biodiv- ersity")}</th>
-                        <th>{t("Water")}</th>
-                        <th>{t("Cognitive")}</th>
-                        <th>{t("Leisure")}</th>
-                        <th>{t("Feel Good")}</th>
+                        <th>{t("Raw Material")}</th>
+                        <th>{"Climate Regulation"}</th>
+                        <th>{t("Natural Hazard Prevention")}</th>
+                        <th>{t("Primary Production")}</th>
+                        <th>{t("Nutrient Cycling")}</th>
+                        <th>{t("Nursery")}</th>
+                        <th>{t("Maintenance of Biodiversity")}</th>
+                        <th>{t("Water Quality Regulation")}</th>
+                        <th>{t("Cognitive Value")}</th>
+                        <th>{t("Recreation")}</th>
+                        <th>{t("Human Well-Being")}</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -546,6 +554,75 @@ export const HabitatsServicesCard = () => {
                 </Button>
               </div>
 
+              <Trans i18nKey="Services table headers key">
+                <style>
+                  {`
+                    ul {
+                      padding-left: 25px;
+                    }
+
+                    li {
+                      font-size: 14px;
+                      padding-bottom: 8px;
+                    }
+
+                    h3 {
+                      font-size: 16px;
+                      padding-bottom: 8px;
+                      padding-left: 15px;
+                    }
+                  `}
+                </style>
+                <h3>
+                  <b>Ecosystem Service Descriptions</b>
+                </h3>
+                <ul>
+                  <li>
+                    <b>Food</b>: food provision
+                  </li>
+                  <li>
+                    <b>Ram Material</b>: raw materials (biological) (including
+                    Biochemical, medicinal and ornamental)
+                  </li>
+                  <li>
+                    <b>Climate Regulation</b>: air quality and climate
+                    regulation
+                  </li>
+                  <li>
+                    <b>Natural Hazard Prevention</b>: disturbance and natural
+                    hazard prevention
+                  </li>
+                  <li>
+                    <b>Primary Production</b>: photosynthesis, chemosynthesis
+                    and primary production
+                  </li>
+                  <li>
+                    <b>Nutrient Cycling</b>: nutrient cycling
+                  </li>
+                  <li>
+                    <b>Nursery</b>: reproduction and nursery
+                  </li>
+                  <li>
+                    <b>Maintenance Of Biodiversity</b>: maintenance of
+                    biodiversity
+                  </li>
+                  <li>
+                    <b>Water Quality Regulation</b>: water quality regulation
+                    and bioremediation of waste
+                  </li>
+                  <li>
+                    <b>Cognitive Value</b>: cognitive value{" "}
+                  </li>
+                  <li>
+                    <b>Recreation</b>: leisure, recreation and cultural
+                    inspiration
+                  </li>
+                  <li>
+                    <b>Human Well Being</b>: feel good or warm glow
+                  </li>
+                </ul>
+              </Trans>
+
               {isCollection && (
                 <Collapse title={t("Show by MPA")}>
                   {genSketchTable(data)}
@@ -553,7 +630,7 @@ export const HabitatsServicesCard = () => {
               )}
 
               <Collapse title={t("Learn more")}>
-                <Trans i18nKey="Bathy Classes Card - learn more">
+                <Trans i18nKey="Habitats Services Card - learn more">
                   <p>
                     {" "}
                     This report summarizes overlap with benthic habitats and the
