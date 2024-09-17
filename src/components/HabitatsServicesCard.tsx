@@ -655,6 +655,7 @@ export const HabitatsServicesCard = () => {
                   </li>
                 </ul>
               </Trans>
+              <VerticalSpacer height={1} />
 
               {isCollection && (
                 <Collapse title={t("Show by MPA")}>
