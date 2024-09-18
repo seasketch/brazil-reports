@@ -1,6 +1,6 @@
 {
-  "name": "brazil-reports-lmd-test",
-  "version": "7.0.0-beta.5",
+  "name": "brazil-reports",
+  "version": "7.0.0",
   "description": "",
   "private": false,
   "type": "module",

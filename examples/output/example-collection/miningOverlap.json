@@ -40,7 +40,7 @@
       "classId": "mining_potential",
       "sketchId": "15454",
       "groupId": null,
-      "value": 10747209684.774609,
+      "value": 10747209684.77462,
       "extra": {
         "sketchName": "example-mpa-south"
       }
@@ -62,7 +62,7 @@
       "classId": "mining_potential",
       "sketchId": "15620",
       "groupId": null,
-      "value": 11533276159.98318,
+      "value": 11533276159.983192,
       "extra": {
         "sketchName": "example-collection",
         "isCollection": true

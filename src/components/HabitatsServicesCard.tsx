@@ -666,71 +666,68 @@ export const HabitatsServicesCard = () => {
               <Collapse title={t("Learn more")}>
                 <Trans i18nKey="Habitats Services Card - learn more">
                   <div style={{ fontSize: "15px" }}>
-                    <p>
-                      {" "}
-                      This report summarizes overlap with benthic habitats and
-                      the ecosystem services provided by the overlapped
-                      habitats. Ecosystem service presence is denoted as
-                      follows:
-                      <VerticalSpacer height={15} />
-                      <div
+                    <VerticalSpacer height={10} />
+                    This report summarizes overlap with benthic habitats and the
+                    ecosystem services provided by the overlapped habitats.
+                    Ecosystem service presence is denoted as follows:
+                    <VerticalSpacer height={15} />
+                    <div
+                      style={{
+                        display: "inline-flex",
+                        alignItems: "center",
+                        paddingRight: "10px",
+                      }}
+                    >
+                      <img
+                        src={greenCheck}
                         style={{
-                          display: "inline-flex",
-                          alignItems: "center",
+                          width: "25px",
+                          height: "25px",
                           paddingRight: "10px",
                         }}
-                      >
-                        <img
-                          src={greenCheck}
-                          style={{
-                            width: "25px",
-                            height: "25px",
-                            paddingRight: "10px",
-                          }}
-                        />
-                        Habitat is overlapped and provides the service with a
-                        "high" rating
-                      </div>
-                      <VerticalSpacer height={10} />
-                      <div
+                      />
+                      Habitat is overlapped and provides the service with a
+                      "high" rating
+                    </div>
+                    <VerticalSpacer height={10} />
+                    <div
+                      style={{
+                        display: "inline-flex",
+                        alignItems: "center",
+                        paddingRight: "10px",
+                      }}
+                    >
+                      <img
+                        src={yellowCheck}
                         style={{
-                          display: "inline-flex",
-                          alignItems: "center",
+                          width: "25px",
+                          height: "25px",
                           paddingRight: "10px",
                         }}
-                      >
-                        <img
-                          src={yellowCheck}
-                          style={{
-                            width: "25px",
-                            height: "25px",
-                            paddingRight: "10px",
-                          }}
-                        />
-                        Habitat is overlapped and provides the service with a
-                        "low" rating
-                      </div>
-                      <VerticalSpacer height={10} />
-                      <div
+                      />
+                      Habitat is overlapped and provides the service with a
+                      "low" rating
+                    </div>
+                    <VerticalSpacer height={10} />
+                    <div
+                      style={{
+                        display: "inline-flex",
+                        alignItems: "center",
+                        paddingRight: "10px",
+                      }}
+                    >
+                      <img
+                        src={redX}
                         style={{
-                          display: "inline-flex",
-                          alignItems: "center",
+                          width: "25px",
+                          height: "25px",
                           paddingRight: "10px",
                         }}
-                      >
-                        <img
-                          src={redX}
-                          style={{
-                            width: "25px",
-                            height: "25px",
-                            paddingRight: "10px",
-                          }}
-                        />
-                        Service is not provided by the habitat or the habitat is
-                        not included in plan
-                      </div>
-                    </p>
-                    <VerticalSpacer height={3} />
+                      />
+                      Service is not provided by the habitat or the habitat is
+                      not included in plan
+                    </div>
+                    <VerticalSpacer height={20} />
                     <p>
                       Benthic habitat data were provided by EUNIS (European
                       University Information Systems organisation), and the

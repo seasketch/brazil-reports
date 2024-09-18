@@ -428,6 +428,22 @@
     "explodeMulti": false
   },
   {
+    "datasourceId": "brazil_eez_clipped",
+    "geo_type": "vector",
+    "formats": [
+      "fgb",
+      "json"
+    ],
+    "precalc": true,
+    "layerName": "brazil-eez-clipped",
+    "classKeys": [],
+    "created": "2024-06-21T21:35:57.395Z",
+    "lastUpdated": "2024-07-24T19:46:23.816Z",
+    "src": "data/src/Data_Products/brazil-eez-clipped.fgb",
+    "propertiesToKeep": [],
+    "explodeMulti": false
+  },
+  {
     "datasourceId": "marine_traffic_northeast",
     "geo_type": "vector",
     "formats": [
@@ -444,5 +460,21 @@
     "src": "data/src/Data_Products/shipping/marine_traffic_northeast_filtered_clipped.fgb",
     "propertiesToKeep": [],
     "explodeMulti": false
+  },
+  {
+    "src": "data/src/Data_Products/brazil-eez-bbox.fgb",
+    "layerName": "brazil-eez-bbox",
+    "geo_type": "vector",
+    "datasourceId": "brazil_eez_bbox",
+    "formats": [
+      "fgb",
+      "json"
+    ],
+    "classKeys": [],
+    "created": "2024-09-18T22:03:47.937Z",
+    "lastUpdated": "2024-09-18T22:03:47.937Z",
+    "propertiesToKeep": [],
+    "explodeMulti": true,
+    "precalc": false
   }
 ]

@@ -6,7 +6,7 @@
       {
         "classId": "brazil_eez",
         "display": "EEZ",
-        "datasourceId": "brazil_eez",
+        "datasourceId": "brazil_eez_bbox",
         "objectiveId": "eez",
         "layerId": ""
       }

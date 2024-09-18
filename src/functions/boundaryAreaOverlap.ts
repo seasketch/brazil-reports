@@ -54,9 +54,7 @@ export async function boundaryAreaOverlap(
 
         // Fetch only the features that overlap the bounding box of the sketch
         const url = project.getDatasourceUrl(ds);
-        const polys = await getFeatures(ds, url, {
-          bbox: sketchBox,
-        });
+        const polys = await getFeatures(ds, url);
         if (!isPolygonFeatureArray(polys)) {
           throw new Error("Expected array of Polygon features");
         }
@@ -102,8 +100,8 @@ export async function boundaryAreaOverlap(
 export default new GeoprocessingHandler(boundaryAreaOverlap, {
   title: "boundaryAreaOverlap",
   description: "Calculate sketch overlap with boundary polygons",
+  timeout: 500,
+  memory: 1024,
   executionMode: "async",
-  timeout: 40,
   requiresProperties: [],
-  memory: 10240,
 });
