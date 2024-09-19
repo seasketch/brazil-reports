@@ -725,7 +725,7 @@ export const HabitatsServicesCard = () => {
                         }}
                       />
                       Service is not provided by the habitat or the habitat is
-                      not included in plan
+                      not overlapped
                     </div>
                     <VerticalSpacer height={20} />
                     <p>
