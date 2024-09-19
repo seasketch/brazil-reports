@@ -1,9 +1,20 @@
 {
   "metrics": [
     {
-      "geographyId": null,
-      "metricId": "shippingIntensityOverlap",
-      "classId": "Low",
+      "geographyId": "eez",
+      "metricId": "shippingIntensity",
+      "classId": "High",
+      "sketchId": "15146",
+      "groupId": null,
+      "value": 999519672.686815,
+      "extra": {
+        "sketchName": "example-mpa1"
+      }
+    },
+    {
+      "geographyId": "eez",
+      "metricId": "shippingIntensity",
+      "classId": "High",
       "sketchId": "15454",
       "groupId": null,
       "value": 0,
@@ -12,8 +23,20 @@
       }
     },
     {
-      "geographyId": null,
-      "metricId": "shippingIntensityOverlap",
+      "geographyId": "eez",
+      "metricId": "shippingIntensity",
+      "classId": "High",
+      "sketchId": "15620",
+      "groupId": null,
+      "value": 999519672.686815,
+      "extra": {
+        "sketchName": "example-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "eez",
+      "metricId": "shippingIntensity",
       "classId": "Low",
       "sketchId": "15146",
       "groupId": null,
@@ -23,8 +46,19 @@
       }
     },
     {
-      "geographyId": null,
-      "metricId": "shippingIntensityOverlap",
+      "geographyId": "eez",
+      "metricId": "shippingIntensity",
+      "classId": "Low",
+      "sketchId": "15454",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "example-mpa-south"
+      }
+    },
+    {
+      "geographyId": "eez",
+      "metricId": "shippingIntensity",
       "classId": "Low",
       "sketchId": "15620",
       "groupId": null,
@@ -35,8 +69,19 @@
       }
     },
     {
-      "geographyId": null,
-      "metricId": "shippingIntensityOverlap",
+      "geographyId": "eez",
+      "metricId": "shippingIntensity",
+      "classId": "Medium",
+      "sketchId": "15146",
+      "groupId": null,
+      "value": 66570173242.16602,
+      "extra": {
+        "sketchName": "example-mpa1"
+      }
+    },
+    {
+      "geographyId": "eez",
+      "metricId": "shippingIntensity",
       "classId": "Medium",
       "sketchId": "15454",
       "groupId": null,
@@ -46,57 +91,12 @@
       }
     },
     {
-      "geographyId": null,
-      "metricId": "shippingIntensityOverlap",
-      "classId": "Medium",
-      "sketchId": "15146",
-      "groupId": null,
-      "value": 66570173324.3782,
-      "extra": {
-        "sketchName": "example-mpa1"
-      }
-    },
-    {
-      "geographyId": null,
-      "metricId": "shippingIntensityOverlap",
+      "geographyId": "eez",
+      "metricId": "shippingIntensity",
       "classId": "Medium",
       "sketchId": "15620",
       "groupId": null,
-      "value": 66570173324.3782,
-      "extra": {
-        "sketchName": "example-collection",
-        "isCollection": true
-      }
-    },
-    {
-      "geographyId": null,
-      "metricId": "shippingIntensityOverlap",
-      "classId": "High",
-      "sketchId": "15454",
-      "groupId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "example-mpa-south"
-      }
-    },
-    {
-      "geographyId": null,
-      "metricId": "shippingIntensityOverlap",
-      "classId": "High",
-      "sketchId": "15146",
-      "groupId": null,
-      "value": 999519704.369529,
-      "extra": {
-        "sketchName": "example-mpa1"
-      }
-    },
-    {
-      "geographyId": null,
-      "metricId": "shippingIntensityOverlap",
-      "classId": "High",
-      "sketchId": "15620",
-      "groupId": null,
-      "value": 999519704.369529,
+      "value": 66570173242.16602,
       "extra": {
         "sketchName": "example-collection",
         "isCollection": true

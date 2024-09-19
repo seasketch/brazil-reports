@@ -22,7 +22,7 @@ import project from "../../project/projectClient.js";
 import Translator from "./TranslatorAsync.js";
 import { Trans, useTranslation } from "react-i18next";
 
-const metricGroup = project.getMetricGroup("shippingIntensityOverlap");
+const metricGroup = project.getMetricGroup("shippingIntensity");
 const geographyId = "eez";
 const precalcMetrics = project.getPrecalcMetrics(
   metricGroup,
@@ -46,13 +46,21 @@ export const ShippingIntensityCard = () => {
     <>
       <ResultsCard
         title={t("Shipping Intensity")}
-        functionName="shippingIntensityOverlap"
+        functionName="shippingIntensity"
         useChildCard
       >
         {(data: ReportResult) => {
           let singleMetrics = data.metrics.filter(
             (m) => m.sketchId === data.sketch.properties.id
           );
+
+          const classOrder = ["Low", "Medium", "High"];
+
+          singleMetrics.sort((a, b) => {
+            return (
+              classOrder.indexOf(a.classId!) - classOrder.indexOf(b.classId!)
+            );
+          });
 
           const finalMetrics = [
             ...singleMetrics,

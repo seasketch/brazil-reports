@@ -289,7 +289,7 @@
     ]
   },
   {
-    "metricId": "shippingIntensityOverlap",
+    "metricId": "shippingIntensity",
     "type": "areaOverlap",
     "layerId": "sJoCfflqF",
     "classes": [
