@@ -1,0 +1,147 @@
+{
+  "metrics": [
+    {
+      "geographyId": "eez",
+      "metricId": "fishingIntensity",
+      "classId": "High",
+      "sketchId": "18758",
+      "groupId": null,
+      "value": 21528926226.47205,
+      "extra": {
+        "sketchName": "example-mpa-south-central",
+        "sketchOverlapProportion": 0.15922975028956135
+      }
+    },
+    {
+      "geographyId": "eez",
+      "metricId": "fishingIntensity",
+      "classId": "Low",
+      "sketchId": "18758",
+      "groupId": null,
+      "value": 52406552525.65244,
+      "extra": {
+        "sketchName": "example-mpa-south-central",
+        "sketchOverlapProportion": 0.3876032731226403
+      }
+    },
+    {
+      "geographyId": "eez",
+      "metricId": "fishingIntensity",
+      "classId": "Medium",
+      "sketchId": "18758",
+      "groupId": null,
+      "value": 35102667484.59039,
+      "extra": {
+        "sketchName": "example-mpa-south-central",
+        "sketchOverlapProportion": 0.2596222830285005
+      }
+    },
+    {
+      "geographyId": "eez",
+      "metricId": "fishingIntensity",
+      "classId": "Very High",
+      "sketchId": "18758",
+      "groupId": null,
+      "value": 7484509035.892943,
+      "extra": {
+        "sketchName": "example-mpa-south-central",
+        "sketchOverlapProportion": 0.05535605874109089
+      }
+    },
+    {
+      "geographyId": "eez",
+      "metricId": "fishingIntensity",
+      "classId": "Very Low",
+      "sketchId": "18758",
+      "groupId": null,
+      "value": 17334045778.02734,
+      "extra": {
+        "sketchName": "example-mpa-south-central",
+        "sketchOverlapProportion": 0.12820406144312457
+      }
+    }
+  ],
+  "sketch": {
+    "id": 18758,
+    "bbox": [
+      -42.92171,
+      -25.854633,
+      -37.67963,
+      -20.928179
+    ],
+    "type": "Feature",
+    "properties": {
+      "2947": "example-mpa-south-central",
+      "2948": [
+        "MPA"
+      ],
+      "id": "18758",
+      "name": "example-mpa-south-central",
+      "postId": null,
+      "userId": "128",
+      "authors": null,
+      "userSlug": "Peter",
+      "createdAt": "2023-08-30T22:24:43.616144+00:00",
+      "updatedAt": "2023-08-30T22:24:43.616144+00:00",
+      "zone_type": [
+        "MPA"
+      ],
+      "description": null,
+      "collectionId": null,
+      "isCollection": false,
+      "sharedInForum": false,
+      "sketchClassId": "198",
+      "userAttributes": [
+        {
+          "label": "Zone Type",
+          "value": [
+            "MPA"
+          ],
+          "exportId": "zone_type",
+          "fieldType": "MultipleChoice",
+          "valueLabel": [
+            "Marine Protected Area"
+          ],
+          "formElementId": 2948,
+          "alternateLanguages": {
+            "pt": {
+              "label": "Nome",
+              "valueLabel": [
+                "Área Marinha Protegida"
+              ]
+            }
+          }
+        },
+        {
+          "label": "Description",
+          "value": null,
+          "exportId": "description",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 2949,
+          "alternateLanguages": {
+            "pt": {
+              "label": "Descrição: ",
+              "valueLabel": null
+            }
+          }
+        },
+        {
+          "label": "Author(s)",
+          "value": null,
+          "exportId": "authors",
+          "fieldType": "ShortText",
+          "valueLabel": null,
+          "formElementId": 2950,
+          "alternateLanguages": {
+            "pt": {
+              "label": "Autor(s)",
+              "valueLabel": null
+            }
+          }
+        }
+      ]
+    },
+    "geometry": null
+  }
+}

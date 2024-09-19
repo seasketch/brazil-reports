@@ -72,13 +72,13 @@ export const ShippingIntensityCard = () => {
           return (
             <ToolbarCard
               title={t("Shipping")}
-              items={
-                <LayerToggle
-                  label={mapLabel}
-                  layerId={metricGroup.layerId}
-                  simple
-                />
-              }
+              // items={
+              //   <LayerToggle
+              //     label={mapLabel}
+              //     layerId={metricGroup.layerId}
+              //     simple
+              //   />
+              // }
             >
               <Translator>
                 <ClassTable

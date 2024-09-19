@@ -25,7 +25,7 @@
     "src/functions/bathyClassesOverlap.ts",
     "src/functions/oilAreasOverlap.ts",
     "src/functions/oilPlatformOverlap.ts",
-    "src/functions/fishingIntensityOverlap.ts",
+    "src/functions/fishingIntensity.ts",
     "src/functions/shippingIntensity.ts",
     "src/functions/habitatsServices.ts",
     "src/functions/habitatsServicesWorker.ts"

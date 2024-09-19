@@ -195,7 +195,7 @@
     ]
   },
   {
-    "metricId": "fishingIntensityOverlap",
+    "metricId": "fishingIntensity",
     "type": "areaOverlap",
     "layerId": "eIC6JVm0d",
     "classes": [
