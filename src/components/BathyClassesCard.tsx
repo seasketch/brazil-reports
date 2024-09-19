@@ -22,7 +22,7 @@ import project from "../../project/projectClient.js";
 import Translator from "./TranslatorAsync.js";
 import { Trans, useTranslation } from "react-i18next";
 
-const metricGroup = project.getMetricGroup("bathyClassesOverlap");
+const metricGroup = project.getMetricGroup("bathyClasses");
 const geographyId = "eez";
 const precalcMetrics = project.getPrecalcMetrics(
   metricGroup,
@@ -46,7 +46,7 @@ export const BathyClassesCard = () => {
     <>
       <ResultsCard
         title={t("Bathymetric Classes")}
-        functionName="bathyClassesOverlap"
+        functionName="bathyClasses"
         useChildCard
       >
         {(data: ReportResult) => {

@@ -118,7 +118,7 @@
     ]
   },
   {
-    "metricId": "bathyClassesOverlap",
+    "metricId": "bathyClasses",
     "type": "areaOverlap",
     "layerId": "ObnqmsWIT",
     "classes": [
