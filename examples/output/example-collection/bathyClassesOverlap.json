@@ -6,7 +6,7 @@
       "classId": "Plataforma Interna (<50 m)",
       "sketchId": "15454",
       "groupId": null,
-      "value": 5255262112.915943,
+      "value": 5255262112.915938,
       "extra": {
         "sketchName": "example-mpa-south"
       }
@@ -28,7 +28,7 @@
       "classId": "Plataforma Interna (<50 m)",
       "sketchId": "15620",
       "groupId": null,
-      "value": 5302597272.493632,
+      "value": 5302597272.493628,
       "extra": {
         "sketchName": "example-collection",
         "isCollection": true

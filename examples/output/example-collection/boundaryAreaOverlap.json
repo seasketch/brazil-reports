@@ -6,7 +6,7 @@
       "classId": "brazil_eez",
       "sketchId": "15146",
       "groupId": null,
-      "value": 139443722148.37982,
+      "value": 139449432851.20728,
       "extra": {
         "sketchName": "example-mpa1"
       }
@@ -28,7 +28,7 @@
       "classId": "brazil_eez",
       "sketchId": "15620",
       "groupId": null,
-      "value": 238468092151.0237,
+      "value": 238473802853.85117,
       "extra": {
         "sketchName": "example-collection",
         "isCollection": true

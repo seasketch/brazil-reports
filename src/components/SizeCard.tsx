@@ -10,6 +10,7 @@ import {
   MetricGroup,
   squareMeterToKilometer,
   Metric,
+  firstMatchingMetric,
 } from "@seasketch/geoprocessing/client-core";
 import {
   ClassTable,
@@ -38,7 +39,7 @@ const boundaryTotalMetrics: Metric[] = [
     sketchId: null,
     groupId: null,
     geographyId: "eez",
-    value: 3512062245697.731,
+    value: 3216510833921,
   },
 ];
 
@@ -95,6 +96,11 @@ export const SizeCard = () => {
       {(data: ReportResult) => {
         if (Object.keys(data).length === 0) throw new Error(notFoundString);
 
+        const sketchAreaMetric = firstMatchingMetric(
+          data.metrics,
+          (m) => m.sketchId === data.sketch.properties.id
+        );
+
         return (
           <>
             <ToolbarCard
@@ -114,12 +120,6 @@ export const SizeCard = () => {
                       </span>
                     }
                   />
-                  {/* <DataDownload
-                    filename="size"
-                    data={data.metrics}
-                    formats={["csv", "json"]}
-                    placement="left-end"
-                  /> */}
                 </>
               }
             >
@@ -150,8 +150,7 @@ export const SizeCard = () => {
                     {" " +
                       Math.round(
                         // get value of last object in metric array which will represent either the sole sketch or the total for a collection
-                        data.metrics[data.metrics.length - 1].value / 1e6 +
-                          115433.7
+                        sketchAreaMetric.value / 1e6 + 115433.7
                       ).toLocaleString("en-US")}
                     km<sup>2</sup>
                   </b>

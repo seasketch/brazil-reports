@@ -74,6 +74,14 @@
   {
     "geographyId": "eez",
     "metricId": "area",
+    "classId": "brazil_eez_clipped-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 3178753649206.255
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
     "classId": "brazil_eez-total",
     "sketchId": null,
     "groupId": null,
@@ -590,6 +598,14 @@
     "sketchId": null,
     "groupId": "band-0",
     "value": 39050
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "brazil_eez_clipped-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
   },
   {
     "geographyId": "eez",
