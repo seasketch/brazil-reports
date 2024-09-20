@@ -54,6 +54,20 @@ export const BathyClassesCard = () => {
             (m) => m.sketchId === data.sketch.properties.id
           );
 
+          const classOrder = [
+            "Plataforma Interna (<50 m)",
+            "Plataforma Externa Rasa (50 - 100 m)",
+            "Plataforma Externa Profunda (100 - 200 m)",
+            "Talude (200 - 1200 m )",
+            "Bacia Oceânica (> 1200 m)",
+          ];
+
+          singleMetrics.sort((a, b) => {
+            return (
+              classOrder.indexOf(a.classId!) - classOrder.indexOf(b.classId!)
+            );
+          });
+
           const finalMetrics = [
             ...singleMetrics,
             ...toPercentMetric(singleMetrics, precalcMetrics, {
