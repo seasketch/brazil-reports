@@ -2,7 +2,7 @@
  * @jest-environment node
  * @group smoke
  */
-import { fishingIntensityOverlap } from "./fishingIntensityOverlap.js";
+import { fishingIntensity } from "./fishingIntensity.js";
 import { describe, test, expect } from "vitest";
 import {
   getExamplePolygonSketchAll,
@@ -11,18 +11,14 @@ import {
 
 describe("Basic smoke tests", () => {
   test("handler function is present", () => {
-    expect(typeof fishingIntensityOverlap).toBe("function");
+    expect(typeof fishingIntensity).toBe("function");
   });
-  test("fishingIntensityOverlapSmoke - tests run against all examples", async () => {
+  test("fishingIntensitySmoke - tests run against all examples", async () => {
     const examples = await getExamplePolygonSketchAll();
     for (const example of examples) {
-      const result = await fishingIntensityOverlap(example);
+      const result = await fishingIntensity(example);
       expect(result).toBeTruthy();
-      writeResultOutput(
-        result,
-        "fishingIntensityOverlap",
-        example.properties.name
-      );
+      writeResultOutput(result, "fishingIntensity", example.properties.name);
     }
   }, 120000);
 });

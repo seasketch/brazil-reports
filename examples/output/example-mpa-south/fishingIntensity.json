@@ -1,36 +1,63 @@
 {
   "metrics": [
     {
-      "geographyId": null,
-      "metricId": "shippingIntensityOverlap",
-      "classId": "Low",
-      "sketchId": "15454",
-      "groupId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "example-mpa-south"
-      }
-    },
-    {
-      "geographyId": null,
-      "metricId": "shippingIntensityOverlap",
-      "classId": "Medium",
-      "sketchId": "15454",
-      "groupId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "example-mpa-south"
-      }
-    },
-    {
-      "geographyId": null,
-      "metricId": "shippingIntensityOverlap",
+      "geographyId": "eez",
+      "metricId": "fishingIntensity",
       "classId": "High",
       "sketchId": "15454",
       "groupId": null,
-      "value": 0,
+      "value": 44986281633.405304,
       "extra": {
-        "sketchName": "example-mpa-south"
+        "sketchName": "example-mpa-south",
+        "sketchOverlapProportion": 0.45429504429161205
+      }
+    },
+    {
+      "geographyId": "eez",
+      "metricId": "fishingIntensity",
+      "classId": "Low",
+      "sketchId": "15454",
+      "groupId": null,
+      "value": 3751588339.3853664,
+      "extra": {
+        "sketchName": "example-mpa-south",
+        "sketchOverlapProportion": 0.03788550484553481
+      }
+    },
+    {
+      "geographyId": "eez",
+      "metricId": "fishingIntensity",
+      "classId": "Medium",
+      "sketchId": "15454",
+      "groupId": null,
+      "value": 31683251275.85248,
+      "extra": {
+        "sketchName": "example-mpa-south",
+        "sketchOverlapProportion": 0.3199540730874168
+      }
+    },
+    {
+      "geographyId": "eez",
+      "metricId": "fishingIntensity",
+      "classId": "Very High",
+      "sketchId": "15454",
+      "groupId": null,
+      "value": 18582625903.658913,
+      "extra": {
+        "sketchName": "example-mpa-south",
+        "sketchOverlapProportion": 0.18765709348354856
+      }
+    },
+    {
+      "geographyId": "eez",
+      "metricId": "fishingIntensity",
+      "classId": "Very Low",
+      "sketchId": "15454",
+      "groupId": null,
+      "value": 69104312.42082536,
+      "extra": {
+        "sketchName": "example-mpa-south",
+        "sketchOverlapProportion": 0.0006978515567876654
       }
     }
   ],

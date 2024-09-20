@@ -4,6 +4,7 @@ import {
   Polygon,
   MultiPolygon,
   GeoprocessingHandler,
+  splitSketchAntimeridian,
   Feature,
   isVectorDatasource,
   overlapFeatures,
@@ -19,12 +20,12 @@ import { clipToGeography } from "../util/clipToGeography.js";
 import { fgbFetchAll } from "@seasketch/geoprocessing/dataproviders";
 
 /**
- * habitatsServicesWorker: A geoprocessing function that calculates overlap metrics
+ * shippingIntensityWorker: A geoprocessing function that calculates overlap metrics
  * @param sketch - A sketch or collection of sketches
  * @param extraParams
  * @returns Calculated metrics and a null sketch
  */
-export async function habitatsServicesWorker(
+export async function shippingIntensityWorker(
   sketch:
     | Sketch<Polygon | MultiPolygon>
     | SketchCollection<Polygon | MultiPolygon>,
@@ -40,14 +41,17 @@ export async function habitatsServicesWorker(
     (c) => c.classId === extraParams.classId
   );
 
+  // Support sketches crossing antimeridian
+  const splitSketch = splitSketchAntimeridian(sketch);
+
   if (!curClass || !curClass.datasourceId)
     throw new Error(`Expected datasourceId for ${curClass}`);
 
   // Clip sketch to geography
-  // const clippedSketch = await clipToGeography(sketch, geography);
+  const clippedSketch = await clipToGeography(splitSketch, geography);
 
   // Get bounding box of sketch remainder
-  const sketchBox = sketch.bbox || bbox(sketch);
+  const sketchBox = clippedSketch.bbox || bbox(clippedSketch);
 
   const ds = project.getDatasourceById(curClass.datasourceId);
   if (!isVectorDatasource(ds))
@@ -76,7 +80,7 @@ export async function habitatsServicesWorker(
   const overlapResult = await overlapFeatures(
     metricGroup.metricId,
     finalFeatures,
-    sketch
+    clippedSketch
   );
 
   return overlapResult.map(
@@ -88,8 +92,8 @@ export async function habitatsServicesWorker(
   );
 }
 
-export default new GeoprocessingHandler(habitatsServicesWorker, {
-  title: "habitatsServicesWorker",
+export default new GeoprocessingHandler(shippingIntensityWorker, {
+  title: "shippingIntensityWorker",
   description: "",
   timeout: 500, // seconds
   memory: 2048, // megabytes

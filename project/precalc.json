@@ -477,7 +477,7 @@
     "classId": "priority_areas-Extremely High",
     "sketchId": null,
     "groupId": null,
-    "value": 613420122472.7056
+    "value": 613420100970.9038
   },
   {
     "geographyId": "eez",
@@ -485,7 +485,7 @@
     "classId": "priority_areas-High",
     "sketchId": null,
     "groupId": null,
-    "value": 356910672409.9595
+    "value": 356910664708.1372
   },
   {
     "geographyId": "eez",
@@ -493,7 +493,7 @@
     "classId": "priority_areas-total",
     "sketchId": null,
     "groupId": null,
-    "value": 1180003992712.488
+    "value": 1180004060121.8723
   },
   {
     "geographyId": "eez",
@@ -501,7 +501,7 @@
     "classId": "priority_areas-Very High",
     "sketchId": null,
     "groupId": null,
-    "value": 209673197829.8235
+    "value": 209673294442.83154
   },
   {
     "geographyId": "eez",
@@ -1013,7 +1013,7 @@
     "classId": "priority_areas-Extremely High",
     "sketchId": null,
     "groupId": null,
-    "value": 152
+    "value": 319
   },
   {
     "geographyId": "eez",
@@ -1021,7 +1021,7 @@
     "classId": "priority_areas-High",
     "sketchId": null,
     "groupId": null,
-    "value": 16
+    "value": 17
   },
   {
     "geographyId": "eez",
@@ -1029,7 +1029,7 @@
     "classId": "priority_areas-total",
     "sketchId": null,
     "groupId": null,
-    "value": 188
+    "value": 365
   },
   {
     "geographyId": "eez",
@@ -1037,7 +1037,7 @@
     "classId": "priority_areas-Very High",
     "sketchId": null,
     "groupId": null,
-    "value": 20
+    "value": 29
   },
   {
     "geographyId": "eez",

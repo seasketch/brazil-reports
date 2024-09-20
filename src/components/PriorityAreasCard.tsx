@@ -22,7 +22,7 @@ import project from "../../project/projectClient.js";
 import Translator from "./TranslatorAsync.js";
 import { Trans, useTranslation } from "react-i18next";
 
-const metricGroup = project.getMetricGroup("priorityAreaOverlap");
+const metricGroup = project.getMetricGroup("priorityAreas");
 const geographyId = "eez";
 const precalcMetrics = project.getPrecalcMetrics(
   metricGroup,
@@ -32,7 +32,7 @@ const precalcMetrics = project.getPrecalcMetrics(
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
 
-export const PriorityAreaCard = () => {
+export const PriorityAreasCard = () => {
   const [{ isCollection }] = useSketchProperties();
   const { t } = useTranslation();
 
@@ -46,13 +46,21 @@ export const PriorityAreaCard = () => {
     <>
       <ResultsCard
         title={t("Priority Areas for Conservation")}
-        functionName="priorityAreaOverlap"
+        functionName="priorityAreas"
         useChildCard
       >
         {(data: ReportResult) => {
           let singleMetrics = data.metrics.filter(
             (m) => m.sketchId === data.sketch.properties.id
           );
+
+          const classOrder = ["High", "Very High", "Extremely High"];
+
+          singleMetrics.sort((a, b) => {
+            return (
+              classOrder.indexOf(a.classId!) - classOrder.indexOf(b.classId!)
+            );
+          });
 
           const finalMetrics = [
             ...singleMetrics,

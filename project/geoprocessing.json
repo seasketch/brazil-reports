@@ -20,13 +20,17 @@
   "geoprocessingFunctions": [
     "src/functions/boundaryAreaOverlap.ts",
     "src/functions/windFarmOverlap.ts",
-    "src/functions/priorityAreaOverlap.ts",
+    "src/functions/priorityAreas.ts",
+    "src/functions/priorityAreasWorker.ts",
     "src/functions/miningOverlap.ts",
-    "src/functions/bathyClassesOverlap.ts",
+    "src/functions/bathyClasses.ts",
+    "src/functions/bathyClassesWorker.ts",
     "src/functions/oilAreasOverlap.ts",
     "src/functions/oilPlatformOverlap.ts",
-    "src/functions/fishingIntensityOverlap.ts",
-    "src/functions/shippingIntensityOverlap.ts",
+    "src/functions/fishingIntensity.ts",
+    "src/functions/fishingIntensityWorker.ts",
+    "src/functions/shippingIntensity.ts",
+    "src/functions/shippingIntensityWorker.ts",
     "src/functions/habitatsServices.ts",
     "src/functions/habitatsServicesWorker.ts"
   ]

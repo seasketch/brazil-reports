@@ -22,7 +22,7 @@ import project from "../../project/projectClient.js";
 import Translator from "./TranslatorAsync.js";
 import { Trans, useTranslation } from "react-i18next";
 
-const metricGroup = project.getMetricGroup("bathyClassesOverlap");
+const metricGroup = project.getMetricGroup("bathyClasses");
 const geographyId = "eez";
 const precalcMetrics = project.getPrecalcMetrics(
   metricGroup,
@@ -46,13 +46,27 @@ export const BathyClassesCard = () => {
     <>
       <ResultsCard
         title={t("Bathymetric Classes")}
-        functionName="bathyClassesOverlap"
+        functionName="bathyClasses"
         useChildCard
       >
         {(data: ReportResult) => {
           let singleMetrics = data.metrics.filter(
             (m) => m.sketchId === data.sketch.properties.id
           );
+
+          const classOrder = [
+            "Plataforma Interna (<50 m)",
+            "Plataforma Externa Rasa (50 - 100 m)",
+            "Plataforma Externa Profunda (100 - 200 m)",
+            "Talude (200 - 1200 m )",
+            "Bacia Oceânica (> 1200 m)",
+          ];
+
+          singleMetrics.sort((a, b) => {
+            return (
+              classOrder.indexOf(a.classId!) - classOrder.indexOf(b.classId!)
+            );
+          });
 
           const finalMetrics = [
             ...singleMetrics,

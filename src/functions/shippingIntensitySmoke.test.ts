@@ -2,7 +2,7 @@
  * @jest-environment node
  * @group smoke
  */
-import { shippingIntensityOverlap } from "./shippingIntensityOverlap.js";
+import { shippingIntensity } from "./shippingIntensity.js";
 import { describe, test, expect } from "vitest";
 import {
   getExamplePolygonSketchAll,
@@ -11,18 +11,14 @@ import {
 
 describe("Basic smoke tests", () => {
   test("handler function is present", () => {
-    expect(typeof shippingIntensityOverlap).toBe("function");
+    expect(typeof shippingIntensity).toBe("function");
   });
-  test("shippingIntensityOverlapSmoke - tests run against all examples", async () => {
+  test("shippingIntensitySmoke - tests run against all examples", async () => {
     const examples = await getExamplePolygonSketchAll();
     for (const example of examples) {
-      const result = await shippingIntensityOverlap(example);
+      const result = await shippingIntensity(example);
       expect(result).toBeTruthy();
-      writeResultOutput(
-        result,
-        "shippingIntensityOverlap",
-        example.properties.name
-      );
+      writeResultOutput(result, "shippingIntensity", example.properties.name);
     }
   }, 120000);
 });

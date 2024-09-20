@@ -39,7 +39,7 @@
     ]
   },
   {
-    "metricId": "priorityAreaOverlap",
+    "metricId": "priorityAreas",
     "type": "areaOverlap",
     "layerId": "Gx38O_Msj",
     "classes": [
@@ -118,7 +118,7 @@
     ]
   },
   {
-    "metricId": "bathyClassesOverlap",
+    "metricId": "bathyClasses",
     "type": "areaOverlap",
     "layerId": "ObnqmsWIT",
     "classes": [
@@ -195,7 +195,7 @@
     ]
   },
   {
-    "metricId": "fishingIntensityOverlap",
+    "metricId": "fishingIntensity",
     "type": "areaOverlap",
     "layerId": "eIC6JVm0d",
     "classes": [
@@ -289,7 +289,7 @@
     ]
   },
   {
-    "metricId": "shippingIntensityOverlap",
+    "metricId": "shippingIntensity",
     "type": "areaOverlap",
     "layerId": "sJoCfflqF",
     "classes": [
