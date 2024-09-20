@@ -252,13 +252,13 @@
       "fgb"
     ],
     "precalc": true,
-    "layerName": "priority_areas_mma_translated",
+    "layerName": "priority-areas",
     "classKeys": [
       "priority"
     ],
     "created": "2023-07-14T19:10:14.544Z",
-    "lastUpdated": "2024-07-24T19:46:21.966Z",
-    "src": "data/src/Data_Products/priority-areas/priority_areas_mma_translated.fgb",
+    "lastUpdated": "2024-09-20T20:59:15.489Z",
+    "src": "data/src/Data_Products/priority-areas/priority-areas.fgb",
     "propertiesToKeep": [
       "priority"
     ],
@@ -462,19 +462,19 @@
     "explodeMulti": false
   },
   {
-    "src": "data/src/Data_Products/brazil-eez-bbox.fgb",
-    "layerName": "brazil-eez-bbox",
-    "geo_type": "vector",
     "datasourceId": "brazil_eez_bbox",
+    "geo_type": "vector",
     "formats": [
       "fgb",
       "json"
     ],
+    "precalc": false,
+    "layerName": "brazil-eez-bbox",
     "classKeys": [],
     "created": "2024-09-18T22:03:47.937Z",
     "lastUpdated": "2024-09-18T22:03:47.937Z",
+    "src": "data/src/Data_Products/brazil-eez-bbox.fgb",
     "propertiesToKeep": [],
-    "explodeMulti": true,
-    "precalc": false
+    "explodeMulti": true
   }
 ]
