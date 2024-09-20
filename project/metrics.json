@@ -39,7 +39,7 @@
     ]
   },
   {
-    "metricId": "priorityAreaOverlap",
+    "metricId": "priorityAreas",
     "type": "areaOverlap",
     "layerId": "Gx38O_Msj",
     "classes": [

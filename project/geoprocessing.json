@@ -20,7 +20,7 @@
   "geoprocessingFunctions": [
     "src/functions/boundaryAreaOverlap.ts",
     "src/functions/windFarmOverlap.ts",
-    "src/functions/priorityAreaOverlap.ts",
+    "src/functions/priorityAreas.ts",
     "src/functions/miningOverlap.ts",
     "src/functions/bathyClasses.ts",
     "src/functions/oilAreasOverlap.ts",
