@@ -1,6 +1,6 @@
 import React from "react";
 // import { GeomorphicCard } from "./GeomorphicCard";
-import { PriorityAreaCard } from "./PriorityAreaCard.js";
+import { PriorityAreasCard } from "./PriorityAreasCard.js";
 import { BathyClassesCard } from "./BathyClassesCard.js";
 import { HabitatsServicesCard } from "./HabitatsServicesCard.js";
 
@@ -8,7 +8,7 @@ const ReportPage = () => {
   return (
     <>
       {/* <GeomorphicCard /> */}
-      <PriorityAreaCard />
+      <PriorityAreasCard />
       <BathyClassesCard />
       <HabitatsServicesCard />
     </>

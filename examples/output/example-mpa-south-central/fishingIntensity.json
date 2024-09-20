@@ -1,36 +1,63 @@
 {
   "metrics": [
     {
-      "geographyId": null,
-      "metricId": "shippingIntensityOverlap",
-      "classId": "Low",
-      "sketchId": "18758",
-      "groupId": null,
-      "value": 8617573422.335197,
-      "extra": {
-        "sketchName": "example-mpa-south-central"
-      }
-    },
-    {
-      "geographyId": null,
-      "metricId": "shippingIntensityOverlap",
-      "classId": "Medium",
-      "sketchId": "18758",
-      "groupId": null,
-      "value": 18361122542.924603,
-      "extra": {
-        "sketchName": "example-mpa-south-central"
-      }
-    },
-    {
-      "geographyId": null,
-      "metricId": "shippingIntensityOverlap",
+      "geographyId": "eez",
+      "metricId": "fishingIntensity",
       "classId": "High",
       "sketchId": "18758",
       "groupId": null,
-      "value": 37922656909.8573,
+      "value": 21528926226.47205,
       "extra": {
-        "sketchName": "example-mpa-south-central"
+        "sketchName": "example-mpa-south-central",
+        "sketchOverlapProportion": 0.15922975028956135
+      }
+    },
+    {
+      "geographyId": "eez",
+      "metricId": "fishingIntensity",
+      "classId": "Low",
+      "sketchId": "18758",
+      "groupId": null,
+      "value": 52406552525.65244,
+      "extra": {
+        "sketchName": "example-mpa-south-central",
+        "sketchOverlapProportion": 0.3876032731226403
+      }
+    },
+    {
+      "geographyId": "eez",
+      "metricId": "fishingIntensity",
+      "classId": "Medium",
+      "sketchId": "18758",
+      "groupId": null,
+      "value": 35102667484.59039,
+      "extra": {
+        "sketchName": "example-mpa-south-central",
+        "sketchOverlapProportion": 0.2596222830285005
+      }
+    },
+    {
+      "geographyId": "eez",
+      "metricId": "fishingIntensity",
+      "classId": "Very High",
+      "sketchId": "18758",
+      "groupId": null,
+      "value": 7484509035.892943,
+      "extra": {
+        "sketchName": "example-mpa-south-central",
+        "sketchOverlapProportion": 0.05535605874109089
+      }
+    },
+    {
+      "geographyId": "eez",
+      "metricId": "fishingIntensity",
+      "classId": "Very Low",
+      "sketchId": "18758",
+      "groupId": null,
+      "value": 17334045778.02734,
+      "extra": {
+        "sketchName": "example-mpa-south-central",
+        "sketchOverlapProportion": 0.12820406144312457
       }
     }
   ],

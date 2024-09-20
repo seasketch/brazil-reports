@@ -278,7 +278,7 @@
       "classId": "Infralittoral biogenic",
       "sketchId": "15146",
       "groupId": null,
-      "value": 771517.500514,
+      "value": 1581895.393805,
       "extra": {
         "sketchName": "example-mpa1"
       }
@@ -300,7 +300,7 @@
       "classId": "Infralittoral biogenic",
       "sketchId": "15620",
       "groupId": null,
-      "value": 771517.500514,
+      "value": 1581895.393805,
       "extra": {
         "sketchName": "example-collection",
         "isCollection": true
@@ -312,7 +312,7 @@
       "classId": "Infralittoral coarse sediment",
       "sketchId": "15146",
       "groupId": null,
-      "value": 75721914.490006,
+      "value": 76506289.54261,
       "extra": {
         "sketchName": "example-mpa1"
       }
@@ -334,7 +334,7 @@
       "classId": "Infralittoral coarse sediment",
       "sketchId": "15620",
       "groupId": null,
-      "value": 75721914.490006,
+      "value": 76506289.54261,
       "extra": {
         "sketchName": "example-collection",
         "isCollection": true
@@ -652,7 +652,7 @@
       "classId": "Offshore circalittoral biogenic",
       "sketchId": "15146",
       "groupId": null,
-      "value": 1236288.377528,
+      "value": 1689993.0194,
       "extra": {
         "sketchName": "example-mpa1"
       }
@@ -674,7 +674,7 @@
       "classId": "Offshore circalittoral biogenic",
       "sketchId": "15620",
       "groupId": null,
-      "value": 1236288.377528,
+      "value": 1689993.0194,
       "extra": {
         "sketchName": "example-collection",
         "isCollection": true
@@ -686,7 +686,7 @@
       "classId": "Offshore circalittoral coarse sediment",
       "sketchId": "15146",
       "groupId": null,
-      "value": 290161139.614439,
+      "value": 290274417.239139,
       "extra": {
         "sketchName": "example-mpa1"
       }
@@ -708,7 +708,7 @@
       "classId": "Offshore circalittoral coarse sediment",
       "sketchId": "15620",
       "groupId": null,
-      "value": 392751262.018111,
+      "value": 392864539.642811,
       "extra": {
         "sketchName": "example-collection",
         "isCollection": true
@@ -788,7 +788,7 @@
       "classId": "Offshore circalittoral sand",
       "sketchId": "15146",
       "groupId": null,
-      "value": 1685390.559074,
+      "value": 1852342.676968,
       "extra": {
         "sketchName": "example-mpa1"
       }
@@ -810,7 +810,7 @@
       "classId": "Offshore circalittoral sand",
       "sketchId": "15620",
       "groupId": null,
-      "value": 115354767.006679,
+      "value": 115521719.124573,
       "extra": {
         "sketchName": "example-collection",
         "isCollection": true
@@ -822,7 +822,7 @@
       "classId": "Upper bathyal biogenic",
       "sketchId": "15146",
       "groupId": null,
-      "value": 1048818.045561,
+      "value": 1572775.413571,
       "extra": {
         "sketchName": "example-mpa1"
       }
@@ -844,7 +844,7 @@
       "classId": "Upper bathyal biogenic",
       "sketchId": "15620",
       "groupId": null,
-      "value": 1048818.045561,
+      "value": 1572775.413571,
       "extra": {
         "sketchName": "example-collection",
         "isCollection": true
@@ -890,7 +890,7 @@
       "classId": "Upper bathyal seabed",
       "sketchId": "15146",
       "groupId": null,
-      "value": 45823103.419523,
+      "value": 46728466.265364,
       "extra": {
         "sketchName": "example-mpa1"
       }
@@ -912,7 +912,7 @@
       "classId": "Upper bathyal seabed",
       "sketchId": "15620",
       "groupId": null,
-      "value": 8322578239.277231,
+      "value": 8323483602.123072,
       "extra": {
         "sketchName": "example-collection",
         "isCollection": true

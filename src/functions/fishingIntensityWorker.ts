@@ -4,6 +4,7 @@ import {
   Polygon,
   MultiPolygon,
   GeoprocessingHandler,
+  splitSketchAntimeridian,
   Feature,
   isVectorDatasource,
   overlapFeatures,
@@ -17,14 +18,15 @@ import {
 } from "@seasketch/geoprocessing/client-core";
 import { clipToGeography } from "../util/clipToGeography.js";
 import { fgbFetchAll } from "@seasketch/geoprocessing/dataproviders";
+import { overlapFeaturesFlip } from "../../scripts/overlapFeaturesFlip.js";
 
 /**
- * habitatsServicesWorker: A geoprocessing function that calculates overlap metrics
+ * fishingIntensityWorker: A geoprocessing function that calculates overlap metrics
  * @param sketch - A sketch or collection of sketches
  * @param extraParams
  * @returns Calculated metrics and a null sketch
  */
-export async function habitatsServicesWorker(
+export async function fishingIntensityWorker(
   sketch:
     | Sketch<Polygon | MultiPolygon>
     | SketchCollection<Polygon | MultiPolygon>,
@@ -73,7 +75,7 @@ export async function habitatsServicesWorker(
       : features;
 
   // Calculate overlap metrics
-  const overlapResult = await overlapFeatures(
+  const overlapResult = await overlapFeaturesFlip(
     metricGroup.metricId,
     finalFeatures,
     sketch
@@ -88,8 +90,8 @@ export async function habitatsServicesWorker(
   );
 }
 
-export default new GeoprocessingHandler(habitatsServicesWorker, {
-  title: "habitatsServicesWorker",
+export default new GeoprocessingHandler(fishingIntensityWorker, {
+  title: "fishingIntensityWorker",
   description: "",
   timeout: 500, // seconds
   memory: 2048, // megabytes

@@ -2,7 +2,7 @@
  * @jest-environment node
  * @group smoke
  */
-import { priorityAreaOverlap } from "./priorityAreaOverlap.js";
+import { bathyClasses } from "./bathyClasses.js";
 import { describe, test, expect } from "vitest";
 import {
   getExamplePolygonSketchAll,
@@ -11,14 +11,14 @@ import {
 
 describe("Basic smoke tests", () => {
   test("handler function is present", () => {
-    expect(typeof priorityAreaOverlap).toBe("function");
+    expect(typeof bathyClasses).toBe("function");
   });
-  test("priorityAreaOverlapSmoke - tests run against all examples", async () => {
+  test("bathyClassesSmoke - tests run against all examples", async () => {
     const examples = await getExamplePolygonSketchAll();
     for (const example of examples) {
-      const result = await priorityAreaOverlap(example);
+      const result = await bathyClasses(example);
       expect(result).toBeTruthy();
-      writeResultOutput(result, "priorityAreaOverlap", example.properties.name);
+      writeResultOutput(result, "bathyClasses", example.properties.name);
     }
-  }, 120000);
+  }, 400000);
 });

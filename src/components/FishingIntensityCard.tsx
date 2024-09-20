@@ -24,7 +24,7 @@ import project from "../../project/projectClient.js";
 import Translator from "./TranslatorAsync.js";
 import { Trans, useTranslation } from "react-i18next";
 
-const metricGroup = project.getMetricGroup("fishingIntensityOverlap");
+const metricGroup = project.getMetricGroup("fishingIntensity");
 const geographyId = "eez";
 const precalcMetrics = project.getPrecalcMetrics(
   metricGroup,
@@ -49,13 +49,21 @@ export const FishingIntensityCard = () => {
     <>
       <ResultsCard
         title={t("Fishing Intensity")}
-        functionName="fishingIntensityOverlap"
+        functionName="fishingIntensity"
         useChildCard
       >
         {(data: ReportResult) => {
           let singleMetrics = data.metrics.filter(
             (m) => m.sketchId === data.sketch.properties.id
           );
+
+          const classOrder = ["Very Low", "Low", "Medium", "High", "Very High"];
+
+          singleMetrics.sort((a, b) => {
+            return (
+              classOrder.indexOf(a.classId!) - classOrder.indexOf(b.classId!)
+            );
+          });
 
           // need better way to type protect this, and line 287
           const flipMetrics: Metric[] = singleMetrics.map((m) => {
