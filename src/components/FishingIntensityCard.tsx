@@ -195,31 +195,36 @@ export const FishingIntensityCard = () => {
               )}
 
               <Collapse title={t("Learn more")}>
-                {/* <Trans i18nKey="Fishing Intensity Card - learn more"> */}
-                <p>
-                  {" "}
-                  This report summarizes the amount of fishing intensity overlap
-                  within this plan. Fishing intensity is fishing effort per unit
-                  area - intensity values have been grouped into 5 classes.
-                </p>
-                <p>
-                  <b>Class Area Overlap</b> and <b>Plan Area Overlap</b> are
-                  defined as follows:
-                  <li>
-                    <b>Class Area Overlap</b>: The percentage of a given
-                    intensity class's area that overlaps with the proposed plan.
-                  </li>
-                  <li>
-                    <b>Plan Area Overlap</b>: The percentage of the{" "}
-                    <i>proposed plan's area</i> that overlaps with the given
-                    intensity class.
-                  </li>
-                </p>
-                <p>
-                  If zone boundaries overlap with each other, the overlap is
-                  only counted once.
-                </p>
-                {/* </Trans> */}
+                <Trans i18nKey="Fishing Intensity Card - learn more">
+                  <div>
+                    <p>
+                      {" "}
+                      This report summarizes the amount of fishing intensity
+                      overlap within this plan. Fishing intensity is fishing
+                      effort per unit area - intensity values have been grouped
+                      into 5 classes.
+                    </p>
+                    <p>
+                      <b>% Area Overlap</b> values are defined as follows:
+                      <ul>
+                        <li>
+                          <b>Class Area Overlap</b>: The percentage of a given
+                          intensity class's area that overlaps with the proposed
+                          plan.
+                        </li>
+                        <li>
+                          <b>Plan Area Overlap</b>: The percentage of the{" "}
+                          <i>proposed plan's area</i> that overlaps with the
+                          given intensity class.
+                        </li>
+                      </ul>
+                    </p>
+                    <p>
+                      If zone boundaries overlap with each other, the overlap is
+                      only counted once.
+                    </p>
+                  </div>
+                </Trans>
               </Collapse>
             </ToolbarCard>
           );

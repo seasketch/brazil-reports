@@ -160,7 +160,25 @@ export const HabitatsServicesCard = () => {
                 />
               }
             >
-              <VerticalSpacer />
+              <VerticalSpacer height={25} />
+              <Translator>
+                <InfoStatus
+                  msg={
+                    <p style={{ marginTop: 0, fontSize: 13 }}>
+                      {t(
+                        "Scroll to the right in the table to view additional ecosystem services"
+                      )}
+                      <VerticalSpacer height={4} />
+                      {t(
+                        "Use the page arrows below to view additional benthic habitat types"
+                      )}
+                    </p>
+                  }
+                  size={15}
+                  style={{ paddingTop: "10px", color: "#9ECFE6" }}
+                />
+              </Translator>
+              <VerticalSpacer height={10} />
               {/* table styling */}
               <style>
                 {`
@@ -542,30 +560,6 @@ export const HabitatsServicesCard = () => {
               <VerticalSpacer />
               <div
                 style={{
-                  display: "inline-flex",
-                  width: "310px",
-                }}
-              >
-                <Translator>
-                  <InfoStatus
-                    msg={
-                      <p style={{ marginTop: 0, fontSize: 13 }}>
-                        {t(
-                          "Scroll right to view additional ecosystem services"
-                        )}
-                        <VerticalSpacer height={6} />
-                        {t(
-                          "Use the arrows to the right to view additional benthic habitat types"
-                        )}
-                      </p>
-                    }
-                    size={15}
-                    style={{ paddingTop: "15px", color: "#9ECFE6" }}
-                  />
-                </Translator>
-              </div>
-              <div
-                style={{
                   float: "right",
                   fontSize: 13,
                 }}
@@ -574,7 +568,7 @@ export const HabitatsServicesCard = () => {
                   ◀
                 </Button>
                 <span>
-                  Page {currentPage} of {totalPages}
+                  Habitats page {currentPage} of {totalPages}
                 </span>
                 <Button
                   onClick={handleNextPage}
@@ -583,7 +577,7 @@ export const HabitatsServicesCard = () => {
                   ▶
                 </Button>
               </div>
-
+              <VerticalSpacer height={25} />
               <Trans i18nKey="Services table headers key">
                 <style>
                   {`
