@@ -5,6 +5,8 @@ import {
   SketchClassTable,
   ResultsCard,
   useSketchProperties,
+  ToolbarCard,
+  DataDownload,
 } from "@seasketch/geoprocessing/client-ui";
 import {
   ReportResult,
@@ -17,6 +19,7 @@ import {
 
 import project from "../../project/projectClient.js";
 import { Trans, useTranslation } from "react-i18next";
+import { Download } from "@styled-icons/bootstrap/Download";
 
 const metricGroup = project.getMetricGroup("miningOverlap");
 const geographyId = "eez";
@@ -49,7 +52,7 @@ export const MiningCard = () => {
       <ResultsCard
         title={t("Mining Areas")}
         functionName="miningOverlap"
-        // useChildCard
+        useChildCard
       >
         {(data: ReportResult) => {
           const singleMetrics = data.metrics.filter(
@@ -64,7 +67,23 @@ export const MiningCard = () => {
           ];
 
           return (
-            <>
+            <ToolbarCard
+              title={t("Mining Areas")}
+              items={
+                <DataDownload
+                  filename="miningAreas"
+                  data={data.metrics}
+                  formats={["csv", "json"]}
+                  titleElement={
+                    <Download
+                      size={18}
+                      color="#999"
+                      style={{ cursor: "pointer" }}
+                    />
+                  }
+                />
+              }
+            >
               <ClassTable
                 rows={parentMetrics}
                 metricGroup={metricGroup}
@@ -123,7 +142,7 @@ export const MiningCard = () => {
                   </p>
                 </Trans>
               </Collapse>
-            </>
+            </ToolbarCard>
           );
         }}
       </ResultsCard>
