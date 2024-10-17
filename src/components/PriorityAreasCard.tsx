@@ -85,6 +85,7 @@ export const PriorityAreasCard = () => {
                   <DataDownload
                     filename="priorityAreas"
                     data={data.metrics}
+                    placement="left"
                     formats={["csv", "json"]}
                     titleElement={
                       <Download

@@ -77,6 +77,7 @@ export const WindCard = () => {
                   <DataDownload
                     filename="windEnergy"
                     data={data.metrics}
+                    placement="left"
                     formats={["csv", "json"]}
                     titleElement={
                       <Download

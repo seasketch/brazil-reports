@@ -76,6 +76,7 @@ export const OilPlatformCard = () => {
                   <DataDownload
                     filename="oilExplorationPlatforms"
                     data={data.metrics}
+                    placement="left"
                     formats={["csv", "json"]}
                     titleElement={
                       <Download

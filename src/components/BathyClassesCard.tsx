@@ -91,6 +91,7 @@ export const BathyClassesCard = () => {
                   <DataDownload
                     filename="bathymetricClasses"
                     data={data.metrics}
+                    placement="left"
                     formats={["csv", "json"]}
                     titleElement={
                       <Download

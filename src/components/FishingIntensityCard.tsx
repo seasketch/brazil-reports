@@ -102,6 +102,7 @@ export const FishingIntensityCard = () => {
                   <DataDownload
                     filename="fishingIntensity"
                     data={data.metrics}
+                    placement="left"
                     formats={["csv", "json"]}
                     titleElement={
                       <Download

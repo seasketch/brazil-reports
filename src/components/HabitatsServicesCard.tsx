@@ -166,6 +166,7 @@ export const HabitatsServicesCard = () => {
                     filename="benthicHabitatServices"
                     data={data.metrics}
                     formats={["csv", "json"]}
+                    placement="left"
                     titleElement={
                       <Download
                         size={18}

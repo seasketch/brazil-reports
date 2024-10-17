@@ -73,6 +73,7 @@ export const MiningCard = () => {
                 <DataDownload
                   filename="miningAreas"
                   data={data.metrics}
+                  placement="left"
                   formats={["csv", "json"]}
                   titleElement={
                     <Download

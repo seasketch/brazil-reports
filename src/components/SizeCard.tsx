@@ -125,6 +125,7 @@ export const SizeCard = () => {
                 <DataDownload
                   filename="size"
                   data={data.metrics}
+                  placement="left"
                   formats={["csv", "json"]}
                   titleElement={
                     <Download
