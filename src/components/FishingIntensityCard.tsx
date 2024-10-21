@@ -7,6 +7,7 @@ import {
   useSketchProperties,
   ToolbarCard,
   LayerToggle,
+  DataDownload,
 } from "@seasketch/geoprocessing/client-ui";
 import {
   ReportResult,
@@ -19,6 +20,7 @@ import {
   Metric,
 } from "@seasketch/geoprocessing/client-core";
 import { SketchClassTableOrdered } from "./SketchClassTableOrdered.js";
+import { Download } from "@styled-icons/bootstrap/Download";
 
 import project from "../../project/projectClient.js";
 import Translator from "./TranslatorAsync.js";
@@ -90,11 +92,27 @@ export const FishingIntensityCard = () => {
             <ToolbarCard
               title={t("Fishing Intensity")}
               items={
-                <LayerToggle
-                  label={mapLabel}
-                  layerId={metricGroup.layerId}
-                  simple
-                />
+                <>
+                  <LayerToggle
+                    label={mapLabel}
+                    layerId={metricGroup.layerId}
+                    simple
+                    style={{ marginRight: "10px" }}
+                  />
+                  <DataDownload
+                    filename="fishingIntensity"
+                    data={data.metrics}
+                    placement="left"
+                    formats={["csv", "json"]}
+                    titleElement={
+                      <Download
+                        size={18}
+                        color="#999"
+                        style={{ cursor: "pointer" }}
+                      />
+                    }
+                  />
+                </>
               }
             >
               <Translator>

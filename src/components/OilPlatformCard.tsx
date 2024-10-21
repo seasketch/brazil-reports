@@ -7,6 +7,7 @@ import {
   useSketchProperties,
   ToolbarCard,
   LayerToggle,
+  DataDownload,
 } from "@seasketch/geoprocessing/client-ui";
 import {
   ReportResult,
@@ -16,6 +17,7 @@ import {
   toPercentMetric,
   valueFormatter,
 } from "@seasketch/geoprocessing/client-core";
+import { Download } from "@styled-icons/bootstrap/Download";
 
 import project from "../../project/projectClient.js";
 import Translator from "./TranslatorAsync.js";
@@ -64,11 +66,27 @@ export const OilPlatformCard = () => {
             <ToolbarCard
               title={t("Oil Exploration Platforms")}
               items={
-                <LayerToggle
-                  label={mapLabel}
-                  layerId={metricGroup.layerId}
-                  simple
-                />
+                <>
+                  <LayerToggle
+                    label={mapLabel}
+                    layerId={metricGroup.layerId}
+                    simple
+                    style={{ marginRight: "10px" }}
+                  />
+                  <DataDownload
+                    filename="oilExplorationPlatforms"
+                    data={data.metrics}
+                    placement="left"
+                    formats={["csv", "json"]}
+                    titleElement={
+                      <Download
+                        size={18}
+                        color="#999"
+                        style={{ cursor: "pointer" }}
+                      />
+                    }
+                  />
+                </>
               }
             >
               <Translator>

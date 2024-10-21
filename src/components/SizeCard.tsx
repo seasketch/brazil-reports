@@ -23,6 +23,8 @@ import {
   ToolbarCard,
   InfoStatus,
   KeySection,
+  DataDownload,
+  Card,
 } from "@seasketch/geoprocessing/client-ui";
 import { styled } from "styled-components";
 import project from "../../project/projectClient.js";
@@ -30,6 +32,7 @@ import Translator from "../components/TranslatorAsync.js";
 import { Trans, useTranslation } from "react-i18next";
 import { TFunction } from "i18next";
 import watersImgUrl from "../assets/img/territorial_waters.png";
+import { Download } from "@styled-icons/bootstrap/Download";
 
 // Hard code total area of eez
 const boundaryTotalMetrics: Metric[] = [
@@ -103,24 +106,35 @@ export const SizeCard = () => {
 
         return (
           <>
+            <Card>
+              <InfoStatus
+                size={30}
+                msg={
+                  <span>
+                    <Trans i18nKey="Report info status">
+                      These are <b>draft</b> reports. Further changes or
+                      corrections may be made. Please report any issues.
+                    </Trans>
+                  </span>
+                }
+              />
+            </Card>
             <ToolbarCard
-              title={t(" ")}
+              title={t("Size")}
               items={
-                <>
-                  <InfoStatus
-                    size={30}
-                    msg={
-                      <span>
-                        <Trans i18nKey="Report info status">
-                          These are <b>draft</b> reports. Further changes or
-                          corrections may be made. Please report any issues.
-                          <br></br>
-                          <br></br>
-                        </Trans>
-                      </span>
-                    }
-                  />
-                </>
+                <DataDownload
+                  filename="size"
+                  data={data.metrics}
+                  placement="left"
+                  formats={["csv", "json"]}
+                  titleElement={
+                    <Download
+                      size={18}
+                      color="#999"
+                      style={{ cursor: "pointer" }}
+                    />
+                  }
+                />
               }
             >
               <p>

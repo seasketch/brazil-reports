@@ -7,6 +7,7 @@ import {
   useSketchProperties,
   ToolbarCard,
   LayerToggle,
+  DataDownload,
 } from "@seasketch/geoprocessing/client-ui";
 import {
   ReportResult,
@@ -17,6 +18,7 @@ import {
   squareMeterToKilometer,
   valueFormatter,
 } from "@seasketch/geoprocessing/client-core";
+import { Download } from "@styled-icons/bootstrap/Download";
 
 import project from "../../project/projectClient.js";
 import Translator from "./TranslatorAsync.js";
@@ -73,11 +75,27 @@ export const PriorityAreasCard = () => {
             <ToolbarCard
               title={t("Priority Areas for Conservation")}
               items={
-                <LayerToggle
-                  label={mapLabel}
-                  layerId={metricGroup.layerId}
-                  simple
-                />
+                <>
+                  <LayerToggle
+                    label={mapLabel}
+                    layerId={metricGroup.layerId}
+                    simple
+                    style={{ marginRight: "10px" }}
+                  />
+                  <DataDownload
+                    filename="priorityAreas"
+                    data={data.metrics}
+                    placement="left"
+                    formats={["csv", "json"]}
+                    titleElement={
+                      <Download
+                        size={18}
+                        color="#999"
+                        style={{ cursor: "pointer" }}
+                      />
+                    }
+                  />
+                </>
               }
             >
               <Translator>
