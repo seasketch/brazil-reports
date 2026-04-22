@@ -171,7 +171,7 @@ export const OusDemographics: React.FunctionComponent = (props) => {
               <p>
                 <Trans i18nKey="OUS Demographics - intro">
                   This report summarizes the people that use the ocean within
-                  this plan, as represented by the Belize Ocean Use Survey.
+                  this plan, as represented by the Brazil Ocean Use Survey.
                   Plans should consider the potential benefits and impacts to
                   these people if access or activities are restricted. This
                   demographics report includes all Ocean Use Survey responses.
@@ -189,7 +189,7 @@ export const OusDemographics: React.FunctionComponent = (props) => {
                 {t(" of the total people represented. They come from ")}
                 <b>
                   {numMunicipalitiesFormatted}
-                  {t(" communities")}
+                  {t(" states")}
                 </b>
                 {t(" across ")}
                 <b>
