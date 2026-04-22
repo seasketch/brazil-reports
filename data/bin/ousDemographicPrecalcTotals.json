@@ -1,0 +1,306 @@
+[
+  {
+    "metricId": "ousPeopleCount",
+    "value": 12903,
+    "classId": "ousPeopleCount_all",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 1243,
+    "classId": "mariscagem",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 269,
+    "classId": "turismo",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 9987,
+    "classId": "pesca_art",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 1354,
+    "classId": "pesquisa",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 4,
+    "classId": "transporte_mar",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 43,
+    "classId": "esporte_recreacao",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 46,
+    "classId": "pesca_ind",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 16,
+    "classId": "conservacao",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 51,
+    "classId": "aquicultura",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 8,
+    "classId": "cultural",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 5074,
+    "classId": "maranhão",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 20,
+    "classId": "piauí",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 5911,
+    "classId": "pará",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 1898,
+    "classId": "amapá",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 2979,
+    "classId": "unknown-gear",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 4658,
+    "classId": "Rede - Emalhe costeiro de fundo - Pescadeira",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 224,
+    "classId": "Rede - Arrasto de fundo - duplo ou simples - Tangones",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 345,
+    "classId": "curral",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 2777,
+    "classId": "Emalhe costeiro de superfície - Caceio",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 336,
+    "classId": "Rede - Emalhe oceânico de fundo",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 301,
+    "classId": "Rede - Arrasto costeiro de fundo - duplo - simples - Parelha",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 2767,
+    "classId": "Rede - Emalhe oceânico de superfície -  à deriva / Malhão",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 313,
+    "classId": "Linha - Espinhel horizontal de superfície - Espinhel de Itaipava",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 1527,
+    "classId": "Linha -  Espinhel horizontal de fundo",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 586,
+    "classId": "Linha/vara - com isca viva",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 1372,
+    "classId": "Linha de mão de fundo",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 464,
+    "classId": "Rede - Cerco - Traineira",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 420,
+    "classId": "Armadilha - Covos - Potes",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 1297,
+    "classId": "Rede - Arrasto - meia água",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 125,
+    "classId": "Linha -  Espinhel vertical - Linha Pargueira - Caico e Bicicleta)",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 320,
+    "classId": "outra",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 252,
+    "classId": "Linha - Espinhel horizontal de superfície - Espinhel Boiado",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 169,
+    "classId": "Rede - Arrasto oceânico  de fundo - duplo ou simples",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 15,
+    "classId": "Linha de mão de superfície",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 1,
+    "classId": "Emalhe costeiro",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 5,
+    "classId": "Rede - Arrasto oceânico",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 3,
+    "classId": "Linha-garatéia com atração luminosa - Jigging machine - Iscador automático",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  }
+]

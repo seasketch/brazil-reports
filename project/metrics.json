@@ -550,5 +550,177 @@
         "layerId": "Y_W2fnz9i"
       }
     ]
+  },
+  {
+    "metricId": "ousOverallDemographicOverlap",
+    "type": "countOverlap",
+    "classes": [
+      {
+        "classId": "ousPeopleCount_all",
+        "display": "Total"
+      }
+    ]
+  },
+  {
+    "metricId": "ousSectorDemographicOverlap",
+    "type": "countOverlap",
+    "classes": [
+      {
+        "classId": "mariscagem",
+        "display": "Shellfish Harvesting"
+      },
+      {
+        "classId": "turismo",
+        "display": "Tourism"
+      },
+      {
+        "classId": "pesca_art",
+        "display": "Artisanal Fishing"
+      },
+      {
+        "classId": "pesquisa",
+        "display": "Research and Education"
+      },
+      {
+        "classId": "transporte_mar",
+        "display": "Maritime Transportation"
+      },
+      {
+        "classId": "esporte_recreacao",
+        "display": "Sports and Recreation"
+      },
+      {
+        "classId": "pesca_ind",
+        "display": "Industrial Fishing"
+      },
+      {
+        "classId": "conservacao",
+        "display": "Research & Conservation"
+      },
+      {
+        "classId": "aquicultura",
+        "display": "Aquaculture"
+      },
+      {
+        "classId": "cultural",
+        "display": "Cultural Use"
+      }
+    ]
+  },
+  {
+    "metricId": "ousStateDemographicOverlap",
+    "type": "countOverlap",
+    "classes": [
+      {
+        "classId": "maranhão",
+        "display": "Maranhão"
+      },
+      {
+        "classId": "piauí",
+        "display": "Piauí"
+      },
+      {
+        "classId": "pará",
+        "display": "Pará"
+      },
+      {
+        "classId": "amapá",
+        "display": "Amapá"
+      }
+    ]
+  },
+  {
+    "metricId": "ousGearDemographicOverlap",
+    "type": "countOverlap",
+    "classes": [
+      {
+        "classId": "Rede - Emalhe costeiro de fundo - Pescadeir",
+        "display": "Rede - Emalhe costeiro de fundo - Pescadeir"
+      },
+      {
+        "classId": "Rede - Arrasto de fundo - duplo ou simples - Tangones",
+        "display": "Rede - Arrasto de fundo - duplo ou simples - Tangones"
+      },
+      {
+        "classId": "curral",
+        "display": "Pen"
+      },
+      {
+        "classId": "Emalhe costeiro de superfície - Caceio",
+        "display": "Emalhe costeiro de superfície - Caceio"
+      },
+      {
+        "classId": "Rede - Emalhe oceânico de fundo",
+        "display": "Rede - Emalhe oceânico de fundo"
+      },
+      {
+        "classId": "Rede - Arrasto costeiro de fundo - duplo - simples - Parelha",
+        "display": "Rede - Arrasto costeiro de fundo - duplo - simples - Parelha"
+      },
+      {
+        "classId": "Rede - Emalhe oceânico de superfície -  à deriva / Malhão",
+        "display": "Rede - Emalhe oceânico de superfície -  à deriva / Malhão"
+      },
+      {
+        "classId": "Linha - Espinhel horizontal de superfície - Espinhel de Itaipava",
+        "display": "Linha - Espinhel horizontal de superfície - Espinhel de Itaipava"
+      },
+      {
+        "classId": "Linha -  Espinhel horizontal de fundo",
+        "display": "Linha -  Espinhel horizontal de fundo"
+      },
+      {
+        "classId": "Linha/vara - com isca viva",
+        "display": "Linha/vara - com isca viva"
+      },
+      {
+        "classId": "Linha de mão de fundo",
+        "display": "Linha de mão de fundo"
+      },
+      {
+        "classId": "Rede - Cerco - Traineira",
+        "display": "Rede - Cerco - Traineira"
+      },
+      {
+        "classId": "Armadilha - Covos - Potes",
+        "display": "Armadilha - Covos - Potes"
+      },
+      {
+        "classId": "Rede - Arrasto - meia água",
+        "display": "Rede - Arrasto - meia água"
+      },
+      {
+        "classId": "Linha -  Espinhel vertical - Linha Pargueira - Caico e Bicicleta)",
+        "display": "Linha -  Espinhel vertical - Linha Pargueira - Caico e Bicicleta)"
+      },
+      {
+        "classId": "outra",
+        "display": "Outra"
+      },
+      {
+        "classId": "Linha - Espinhel horizontal de superfície - Espinhel Boiado",
+        "display": "Linha - Espinhel horizontal de superfície - Espinhel Boiado"
+      },
+      {
+        "classId": "Rede - Arrasto oceânico  de fundo - duplo ou simples",
+        "display": "Rede - Arrasto oceânico  de fundo - duplo ou simples"
+      },
+      {
+        "classId": "Linha de mão de superfície",
+        "display": "Linha de mão de superfície"
+      },
+      {
+        "classId": "Emalhe costeiro",
+        "display": "Emalhe costeiro"
+      },
+      {
+        "classId": "Rede - Arrasto oceânico",
+        "display": "Rede - Arrasto oceânico"
+      },
+      {
+        "classId": "Linha-garatéia com atração luminosa - Jigging machine - Iscador automático",
+        "display": "Linha-garatéia com atração luminosa - Jigging machine - Iscador automático"
+      }
+    ]
   }
 ]

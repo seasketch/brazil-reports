@@ -1,0 +1,34 @@
+[
+  {
+    "metricId": "ousPeopleCount",
+    "value": 1,
+    "classId": "ousPeopleCount_all",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": "15620"
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 1,
+    "classId": "pesca_art",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": "15620"
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 1,
+    "classId": "pará",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": "15620"
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 1,
+    "classId": "Rede - Arrasto - meia água",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": "15620"
+  }
+]
