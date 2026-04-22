@@ -514,5 +514,41 @@
         "objectiveId": ""
       }
     ]
+  },
+  {
+    "metricId": "ous",
+    "type": "valueOverlap",
+    "classes": [
+      {
+        "classId": "turismo",
+        "display": "Tourism",
+        "datasourceId": "turismo",
+        "layerId": "rNHwBXObm"
+      },
+      {
+        "classId": "pesca_art",
+        "display": "Artisanal Fishing",
+        "datasourceId": "pesca_art",
+        "layerId": "DFixSwlID"
+      },
+      {
+        "classId": "pesquisa",
+        "display": "Research and Education",
+        "datasourceId": "pesquisa",
+        "layerId": "abk59zhZc"
+      },
+      {
+        "classId": "pesca_art_and_mariscagem",
+        "display": "Artisanal Fishing + Shellfish Harvesting",
+        "datasourceId": "pesca_art_and_mariscagem",
+        "layerId": "CFKkaDGly"
+      },
+      {
+        "classId": "mariscagem",
+        "display": "Shellfish Harvesting",
+        "datasourceId": "mariscagem",
+        "layerId": "Y_W2fnz9i"
+      }
+    ]
   }
 ]

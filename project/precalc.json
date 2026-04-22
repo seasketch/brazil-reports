@@ -418,6 +418,14 @@
   {
     "geographyId": "eez",
     "metricId": "area",
+    "classId": "mariscagem-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 4022217094.443532
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
     "classId": "meow-ecos-total",
     "sketchId": null,
     "groupId": null,
@@ -474,6 +482,30 @@
   {
     "geographyId": "eez",
     "metricId": "area",
+    "classId": "pesca_art_and_mariscagem-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 819703842346.9655
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "pesca_art-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 819660248192.249
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "pesquisa-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 628170625178.5062
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
     "classId": "priority_areas-Extremely High",
     "sketchId": null,
     "groupId": null,
@@ -518,6 +550,14 @@
     "sketchId": null,
     "groupId": "band-0",
     "value": 269567596976.6664
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "area",
+    "classId": "turismo-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2715597584.846882
   },
   {
     "geographyId": "eez",
@@ -946,6 +986,14 @@
   {
     "geographyId": "eez",
     "metricId": "count",
+    "classId": "mariscagem-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 41691658
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
     "classId": "meow-ecos-total",
     "sketchId": null,
     "groupId": null,
@@ -1010,6 +1058,30 @@
   {
     "geographyId": "eez",
     "metricId": "count",
+    "classId": "pesca_art_and_mariscagem-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 100702815
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "pesca_art-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 100702815
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "pesquisa-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 86594436
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
     "classId": "priority_areas-Extremely High",
     "sketchId": null,
     "groupId": null,
@@ -1054,6 +1126,14 @@
     "sketchId": null,
     "groupId": "band-0",
     "value": 585848
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "count",
+    "classId": "turismo-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 49172509
   },
   {
     "geographyId": "eez",
@@ -1114,6 +1194,38 @@
   {
     "geographyId": "eez",
     "metricId": "sum",
+    "classId": "mariscagem-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 18614710.948366
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "sum",
+    "classId": "pesca_art_and_mariscagem-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 127993328.675576
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "sum",
+    "classId": "pesca_art-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 109477152.189472
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "sum",
+    "classId": "pesquisa-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 63299659.535091
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "sum",
     "classId": "traps-total",
     "sketchId": null,
     "groupId": "band-0",
@@ -1126,6 +1238,14 @@
     "sketchId": null,
     "groupId": "band-0",
     "value": 34116494045.47519
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "sum",
+    "classId": "turismo-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2399241.021758
   },
   {
     "geographyId": "eez",
@@ -1170,6 +1290,38 @@
   {
     "geographyId": "eez",
     "metricId": "valid",
+    "classId": "mariscagem-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 438805
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "valid",
+    "classId": "pesca_art_and_mariscagem-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 89991482
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "valid",
+    "classId": "pesca_art-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 89986696
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "valid",
+    "classId": "pesquisa-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 68109931
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "valid",
     "classId": "traps-total",
     "sketchId": null,
     "groupId": "band-0",
@@ -1182,5 +1334,13 @@
     "sketchId": null,
     "groupId": "band-0",
     "value": 247618
+  },
+  {
+    "geographyId": "eez",
+    "metricId": "valid",
+    "classId": "turismo-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 294614
   }
 ]

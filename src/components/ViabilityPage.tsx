@@ -7,6 +7,7 @@ import { OilCard } from "./OilCard.js";
 import { OilPlatformCard } from "./OilPlatformCard.js";
 import { FishingIntensityCard } from "./FishingIntensityCard.js";
 import { ShippingIntensityCard } from "./ShippingIntensityCard.js";
+import { Ous } from "./Ous.js";
 
 const ReportPage = () => {
   return (
@@ -19,6 +20,7 @@ const ReportPage = () => {
       <OilCard />
       <OilPlatformCard />
       <ShippingIntensityCard />
+      <Ous />
     </>
   );
 };
