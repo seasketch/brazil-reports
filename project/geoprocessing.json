@@ -31,6 +31,7 @@
     "src/functions/shippingIntensityWorker.ts",
     "src/functions/habitatsServices.ts",
     "src/functions/habitatsServicesWorker.ts",
-    "src/functions/ous.ts"
+    "src/functions/ous.ts",
+    "src/functions/ousDemographics.ts"
   ]
 }

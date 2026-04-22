@@ -55,7 +55,7 @@ export const OusDemographics: React.FunctionComponent = (props) => {
           // Filter down to people count metrics for top-level sketch
           const singlePeopleCountMetrics = metrics.filter(
             (m) =>
-              m.sketchId === id &&
+              m.sketchId === String(id) &&
               m.metricId &&
               m.metricId === "ousPeopleCount",
           );
@@ -164,7 +164,7 @@ export const OusDemographics: React.FunctionComponent = (props) => {
                   <>
                     This is a <b>draft</b> report. Further changes or
                     corrections may be made. Please report any issues. Survey
-                    results last updated: 5/7/2024
+                    results last updated: 4/22/2026
                   </>
                 }
               />
