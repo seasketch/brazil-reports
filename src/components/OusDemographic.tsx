@@ -392,7 +392,10 @@ export const OusDemographics: React.FunctionComponent = (props) => {
                     of people that use the ocean within the boundaries of this
                     plan for each sector and dividing it by the total number of
                     people that use the ocean within the sector. The same is
-                    done for commercial fishing gear types and communities.
+                    done for commercial fishing gear types and communities. Note
+                    that shapes were clipped to the EEZ boundary, so the number
+                    of people represented in this report may be lower than the
+                    total number of people who completed the survey.
                   </p>
                 </Trans>
               </Collapse>
