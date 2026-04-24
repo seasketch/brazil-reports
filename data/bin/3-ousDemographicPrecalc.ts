@@ -11,11 +11,9 @@ import {
   Feature,
   Polygon,
   MultiPolygon,
-  DataClass,
-  MetricGroup,
 } from "@seasketch/geoprocessing";
 import { fgbFetchAll } from "@seasketch/geoprocessing/dataproviders";
-import { booleanIntersects } from "@turf/turf";
+import { intersect } from "@turf/turf";
 import projectClient from "../../project/projectClient.js";
 
 const DEST_PATH = "ousDemographicPrecalcTotals.json";
@@ -29,13 +27,33 @@ async function main() {
 
   const eezFeatures =
     await fgbFetchAll<Feature<Polygon | MultiPolygon>>(eezUrl);
+
+  console.log(`EEZ features: ${eezFeatures.length}`);
+  const eezBoundary = eezFeatures[0];
+  const clippedFeatures = shapes.features.reduce<OusFeature[]>(
+    (featuresSoFar: OusFeature[], shape: OusFeature) => {
+      try {
+        const clipped = intersect(genFeatureCollection([shape, eezBoundary]));
+        if (!clipped) return featuresSoFar;
+
+        featuresSoFar.push({
+          ...shape,
+          geometry: clipped.geometry as Polygon | MultiPolygon,
+        });
+      } catch (error) {
+        // Skip invalid geometries that fail to intersect.
+      }
+      return featuresSoFar;
+    },
+    [],
+  );
+
   const clippedShapes = genFeatureCollection(
-    shapes.features.filter((shape) =>
-      eezFeatures.some((eez: Feature<Polygon | MultiPolygon>) =>
-        booleanIntersects(shape, eez),
-      ),
-    ),
+    clippedFeatures,
   ) as OusFeatureCollection;
+
+  console.log(`OG shapes: ${shapes.features.length}`);
+  console.log(`Clipped shapes: ${clippedShapes.features.length}`);
 
   // Track counting of respondent/sector level stats, only need to count once
   const respondentProcessed: Record<string, Record<string, boolean>> = {};
@@ -64,21 +82,7 @@ async function main() {
         ? shape.properties.gear.split(",").map((s: string) => s.trim())
         : ["unknown-gear"];
 
-      // Number of people is gathered once per sector
-      // So you can only know the total number of people for each sector, not overall
-      const overallPeople = (() => {
-        const peopleVal = shape.properties["number_of_ppl"];
-        if (peopleVal !== null && peopleVal !== undefined) {
-          if (typeof peopleVal === "string") {
-            return parseFloat(peopleVal);
-          } else {
-            return peopleVal;
-          }
-        } else {
-          return 1;
-        }
-      })();
-      const curPeople = (() => {
+      const participants = (() => {
         const peopleVal = shape.properties["number_of_ppl"];
         if (peopleVal !== null && peopleVal !== undefined) {
           if (typeof peopleVal === "string") {
@@ -97,12 +101,12 @@ async function main() {
       // New respondent
       if (!respondentProcessed[resp_id]) {
         // Add respondent to total respondents
-        newStats.people = newStats.people + overallPeople;
+        newStats.people = newStats.people + participants;
 
         // Add new respondent to municipality stats
         newStats.bystate[state] = newStats.bystate[state]
-          ? newStats.bystate[state] + overallPeople
-          : overallPeople;
+          ? newStats.bystate[state] + participants
+          : participants;
 
         respondentProcessed[resp_id] = {};
       }
@@ -111,8 +115,8 @@ async function main() {
       curGears.forEach((curGear) => {
         if (!respondentProcessed[resp_id][curGear]) {
           newStats.byGear[curGear] = newStats.byGear[curGear]
-            ? newStats.byGear[curGear] + curPeople
-            : curPeople;
+            ? newStats.byGear[curGear] + participants
+            : participants;
           respondentProcessed[resp_id][curGear] = true;
         }
       });
@@ -120,8 +124,8 @@ async function main() {
       // Once per respondent and sector counts
       if (!respondentProcessed[resp_id][curSector]) {
         newStats.bySector[curSector] = newStats.bySector[curSector]
-          ? newStats.bySector[curSector] + curPeople
-          : curPeople;
+          ? newStats.bySector[curSector] + participants
+          : participants;
         respondentProcessed[resp_id][curSector] = true;
       }
 
