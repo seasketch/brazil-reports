@@ -1,7 +1,7 @@
 [
   {
     "metricId": "ousPeopleCount",
-    "value": 12903,
+    "value": 12532,
     "classId": "ousPeopleCount_all",
     "groupId": null,
     "geographyId": null,
@@ -9,15 +9,7 @@
   },
   {
     "metricId": "ousPeopleCount",
-    "value": 1243,
-    "classId": "mariscagem",
-    "groupId": null,
-    "geographyId": null,
-    "sketchId": null
-  },
-  {
-    "metricId": "ousPeopleCount",
-    "value": 269,
+    "value": 207,
     "classId": "turismo",
     "groupId": null,
     "geographyId": null,
@@ -25,7 +17,7 @@
   },
   {
     "metricId": "ousPeopleCount",
-    "value": 9987,
+    "value": 9856,
     "classId": "pesca_art",
     "groupId": null,
     "geographyId": null,
@@ -41,6 +33,14 @@
   },
   {
     "metricId": "ousPeopleCount",
+    "value": 1089,
+    "classId": "mariscagem",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
     "value": 4,
     "classId": "transporte_mar",
     "groupId": null,
@@ -49,15 +49,7 @@
   },
   {
     "metricId": "ousPeopleCount",
-    "value": 43,
-    "classId": "esporte_recreacao",
-    "groupId": null,
-    "geographyId": null,
-    "sketchId": null
-  },
-  {
-    "metricId": "ousPeopleCount",
-    "value": 46,
+    "value": 45,
     "classId": "pesca_ind",
     "groupId": null,
     "geographyId": null,
@@ -65,7 +57,15 @@
   },
   {
     "metricId": "ousPeopleCount",
-    "value": 16,
+    "value": 39,
+    "classId": "esporte_recreacao",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 8,
     "classId": "conservacao",
     "groupId": null,
     "geographyId": null,
@@ -73,7 +73,7 @@
   },
   {
     "metricId": "ousPeopleCount",
-    "value": 51,
+    "value": 21,
     "classId": "aquicultura",
     "groupId": null,
     "geographyId": null,
@@ -89,7 +89,7 @@
   },
   {
     "metricId": "ousPeopleCount",
-    "value": 5074,
+    "value": 4991,
     "classId": "maranhão",
     "groupId": null,
     "geographyId": null,
@@ -105,7 +105,7 @@
   },
   {
     "metricId": "ousPeopleCount",
-    "value": 5911,
+    "value": 5706,
     "classId": "pará",
     "groupId": null,
     "geographyId": null,
@@ -113,7 +113,7 @@
   },
   {
     "metricId": "ousPeopleCount",
-    "value": 1898,
+    "value": 1815,
     "classId": "amapá",
     "groupId": null,
     "geographyId": null,
@@ -121,7 +121,7 @@
   },
   {
     "metricId": "ousPeopleCount",
-    "value": 2979,
+    "value": 2729,
     "classId": "unknown-gear",
     "groupId": null,
     "geographyId": null,
@@ -129,7 +129,7 @@
   },
   {
     "metricId": "ousPeopleCount",
-    "value": 4658,
+    "value": 4621,
     "classId": "Rede - Emalhe costeiro de fundo - Pescadeira",
     "groupId": null,
     "geographyId": null,
@@ -137,7 +137,7 @@
   },
   {
     "metricId": "ousPeopleCount",
-    "value": 224,
+    "value": 219,
     "classId": "Rede - Arrasto de fundo - duplo ou simples - Tangones",
     "groupId": null,
     "geographyId": null,
@@ -145,7 +145,7 @@
   },
   {
     "metricId": "ousPeopleCount",
-    "value": 345,
+    "value": 343,
     "classId": "curral",
     "groupId": null,
     "geographyId": null,
@@ -153,7 +153,7 @@
   },
   {
     "metricId": "ousPeopleCount",
-    "value": 2777,
+    "value": 2756,
     "classId": "Emalhe costeiro de superfície - Caceio",
     "groupId": null,
     "geographyId": null,
@@ -169,7 +169,7 @@
   },
   {
     "metricId": "ousPeopleCount",
-    "value": 301,
+    "value": 300,
     "classId": "Rede - Arrasto costeiro de fundo - duplo - simples - Parelha",
     "groupId": null,
     "geographyId": null,
@@ -177,7 +177,7 @@
   },
   {
     "metricId": "ousPeopleCount",
-    "value": 2767,
+    "value": 2750,
     "classId": "Rede - Emalhe oceânico de superfície -  à deriva / Malhão",
     "groupId": null,
     "geographyId": null,
@@ -185,7 +185,7 @@
   },
   {
     "metricId": "ousPeopleCount",
-    "value": 313,
+    "value": 304,
     "classId": "Linha - Espinhel horizontal de superfície - Espinhel de Itaipava",
     "groupId": null,
     "geographyId": null,
@@ -193,7 +193,7 @@
   },
   {
     "metricId": "ousPeopleCount",
-    "value": 1527,
+    "value": 1507,
     "classId": "Linha -  Espinhel horizontal de fundo",
     "groupId": null,
     "geographyId": null,
@@ -201,7 +201,7 @@
   },
   {
     "metricId": "ousPeopleCount",
-    "value": 586,
+    "value": 560,
     "classId": "Linha/vara - com isca viva",
     "groupId": null,
     "geographyId": null,
@@ -209,7 +209,7 @@
   },
   {
     "metricId": "ousPeopleCount",
-    "value": 1372,
+    "value": 1340,
     "classId": "Linha de mão de fundo",
     "groupId": null,
     "geographyId": null,
@@ -217,7 +217,7 @@
   },
   {
     "metricId": "ousPeopleCount",
-    "value": 464,
+    "value": 462,
     "classId": "Rede - Cerco - Traineira",
     "groupId": null,
     "geographyId": null,
@@ -225,7 +225,7 @@
   },
   {
     "metricId": "ousPeopleCount",
-    "value": 420,
+    "value": 413,
     "classId": "Armadilha - Covos - Potes",
     "groupId": null,
     "geographyId": null,
@@ -233,7 +233,7 @@
   },
   {
     "metricId": "ousPeopleCount",
-    "value": 1297,
+    "value": 1269,
     "classId": "Rede - Arrasto - meia água",
     "groupId": null,
     "geographyId": null,
@@ -249,7 +249,7 @@
   },
   {
     "metricId": "ousPeopleCount",
-    "value": 320,
+    "value": 306,
     "classId": "outra",
     "groupId": null,
     "geographyId": null,
@@ -257,16 +257,16 @@
   },
   {
     "metricId": "ousPeopleCount",
-    "value": 252,
-    "classId": "Linha - Espinhel horizontal de superfície - Espinhel Boiado",
+    "value": 167,
+    "classId": "Rede - Arrasto oceânico  de fundo - duplo ou simples",
     "groupId": null,
     "geographyId": null,
     "sketchId": null
   },
   {
     "metricId": "ousPeopleCount",
-    "value": 169,
-    "classId": "Rede - Arrasto oceânico  de fundo - duplo ou simples",
+    "value": 239,
+    "classId": "Linha - Espinhel horizontal de superfície - Espinhel Boiado",
     "groupId": null,
     "geographyId": null,
     "sketchId": null
