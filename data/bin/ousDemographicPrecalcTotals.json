@@ -302,5 +302,469 @@
     "groupId": null,
     "geographyId": null,
     "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 119,
+    "classId": "Araioses",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 20,
+    "classId": "Parnaíba",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 117,
+    "classId": "Água Doce do Maranhão",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 161,
+    "classId": "Tutóia",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 141,
+    "classId": "Paulino Neves",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 236,
+    "classId": "Cajapió",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 227,
+    "classId": "Bacurituba",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 153,
+    "classId": "Alcântara",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 160,
+    "classId": "Bequimão",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 247,
+    "classId": "São Luís",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 109,
+    "classId": "Paço do Lumiar",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 313,
+    "classId": "Apicum-Açu",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 126,
+    "classId": "São José de Ribamar",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 3,
+    "classId": "Axixá",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 223,
+    "classId": "Icatu",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 237,
+    "classId": "Humberto de Campos",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 278,
+    "classId": "Raposa",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 198,
+    "classId": "Cururupu",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 175,
+    "classId": "Primeira Cruz",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 203,
+    "classId": "Barreirinhas",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 202,
+    "classId": "Turiaçu",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 204,
+    "classId": "Porto Rico do Maranhão",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 192,
+    "classId": "Cedral",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 3,
+    "classId": "Central do Maranhão",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 135,
+    "classId": "Guimarães",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 198,
+    "classId": "Carutapera",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 150,
+    "classId": "Serrano do Maranhão",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 163,
+    "classId": "Bacuri",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 177,
+    "classId": "Cândido Mendes",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 490,
+    "classId": "Augusto Corrêa",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 337,
+    "classId": "Salinópolis",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 882,
+    "classId": "Bragança",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 380,
+    "classId": "Curuçá",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 135,
+    "classId": "Tracuateua",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 508,
+    "classId": "Belém",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 355,
+    "classId": "Oiapoque",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 499,
+    "classId": "Macapá",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 383,
+    "classId": "Calçoene",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 350,
+    "classId": "Vigia",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 220,
+    "classId": "Marapanim",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 297,
+    "classId": "Chaves",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 314,
+    "classId": "Amapá",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 258,
+    "classId": "Maracanã",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 213,
+    "classId": "Quatipuru",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 258,
+    "classId": "São Caetano de Odivelas",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 388,
+    "classId": "Soure",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 252,
+    "classId": "Santana",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 3,
+    "classId": "Itaubal",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 175,
+    "classId": "Magalhães Barata",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 9,
+    "classId": "Cutias",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 11,
+    "classId": "Afuá",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 177,
+    "classId": "Salvaterra",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 1,
+    "classId": "Colares",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 239,
+    "classId": "São João de Pirabas",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 15,
+    "classId": "Primavera",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 372,
+    "classId": "Viseu",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 49,
+    "classId": "Luis Domingues",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 92,
+    "classId": "Godofredo Viana",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
   }
 ]

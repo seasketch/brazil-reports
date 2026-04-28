@@ -34,6 +34,10 @@ export const OusDemographics: React.FunctionComponent = (props) => {
     "ousStateDemographicOverlap",
     t,
   );
+  const cityMetricGroup = project.getMetricGroup(
+    "ousCityDemographicOverlap",
+    t,
+  );
   const gearMetricGroup = project.getMetricGroup(
     "ousGearDemographicOverlap",
     t,
@@ -136,6 +140,20 @@ export const OusDemographics: React.FunctionComponent = (props) => {
           ).length;
           const numMunicipalitiesFormatted = Number.format(numMunicipalities);
 
+          const cityClassIds = cityMetricGroup.classes.map(
+            (curClass) => curClass.classId,
+          );
+          const cityTotalMetrics = singlePeopleTotalCountMetrics
+            .filter((m) => m.classId && cityClassIds.includes(m.classId))
+            .map((m) => ({ ...m, metricId: TOTAL_METRIC_ID }));
+          const cityMetrics = singleFullMetrics
+            .filter((m) => m.classId && cityClassIds.includes(m.classId))
+            .concat(cityTotalMetrics);
+          const numCities = cityMetrics.filter(
+            (m) => m.metricId === "ousPeopleCount",
+          ).length;
+          const numCitiesFormatted = Number.format(numCities);
+
           const gearClassIds = gearMetricGroup.classes.map(
             (curClass) => curClass.classId,
           );
@@ -152,7 +170,8 @@ export const OusDemographics: React.FunctionComponent = (props) => {
 
           const sectorLabel = t("Sector");
           const gearTypeLabel = t("Gear Type");
-          const municipalityLabel = t("state");
+          const municipalityLabel = t("State");
+          const cityLabel = t("City");
           const totalPeopleLabel = t("Total People");
           const peopleUsingOceanLabel = t("People Affected By Plan");
           const peopleUsingOceanPercLabel = t("% People Affected By Plan");
@@ -189,25 +208,24 @@ export const OusDemographics: React.FunctionComponent = (props) => {
                 {t(" of the total people represented. They come from ")}
                 <b>
                   {numMunicipalitiesFormatted}
-                  {t(" states")}
+                  {numMunicipalities > 1 ? t(" states") : t(" state")}
                 </b>
-                {t(" across ")}
+                {t(" and ")}
+                <b>
+                  {numCitiesFormatted}
+                  {numCities > 1 ? t(" cities") : t(" city")}
+                </b>
+                ,{t(" across ")}
                 <b>
                   {numSectorsFormatted}
                   {numSectors > 1 ? t(" sectors") : t(" sector")}
                 </b>
                 {t(". Those that fish within this plan use ")}
                 <b>
-                  {numGearsFormatted} {t("gear types.")}
+                  {numGearsFormatted}{" "}
+                  {numGears > 1 ? t("gear types.") : t("gear type.")}
                 </b>
               </KeySection>
-
-              <p>
-                <Trans i18nKey="OUS Demographics - breakdown by sector">
-                  What follows is a breakdown of the number of people
-                  represented <b>by sector</b>.
-                </Trans>
-              </p>
               <ClassTable
                 rows={sectorMetrics}
                 metricGroup={sectorMetricGroup}
@@ -216,6 +234,18 @@ export const OusDemographics: React.FunctionComponent = (props) => {
                     columnLabel: sectorLabel,
                     type: "class",
                     width: 30,
+                  },
+
+                  {
+                    columnLabel: peopleUsingOceanLabel,
+                    type: "metricValue",
+                    metricId: METRIC_ID,
+                    valueFormatter: (value) => Number.format(value as number),
+                    chartOptions: {
+                      showTitle: true,
+                    },
+                    width: 25,
+                    colStyle: { textAlign: "center" },
                   },
                   {
                     columnLabel: totalPeopleLabel,
@@ -226,17 +256,6 @@ export const OusDemographics: React.FunctionComponent = (props) => {
                       showTitle: true,
                     },
                     width: 15,
-                    colStyle: { textAlign: "center" },
-                  },
-                  {
-                    columnLabel: peopleUsingOceanLabel,
-                    type: "metricValue",
-                    metricId: METRIC_ID,
-                    valueFormatter: (value) => Number.format(value as number),
-                    chartOptions: {
-                      showTitle: true,
-                    },
-                    width: 25,
                     colStyle: { textAlign: "center" },
                   },
                   {
@@ -277,10 +296,11 @@ export const OusDemographics: React.FunctionComponent = (props) => {
                       width: 30,
                       colStyle: { textAlign: "left" },
                     },
+
                     {
-                      columnLabel: totalPeopleLabel,
+                      columnLabel: peopleUsingOceanLabel,
                       type: "metricValue",
-                      metricId: TOTAL_METRIC_ID,
+                      metricId: METRIC_ID,
                       valueFormatter: (value) => Number.format(value as number),
                       chartOptions: {
                         showTitle: true,
@@ -289,9 +309,9 @@ export const OusDemographics: React.FunctionComponent = (props) => {
                       colStyle: { textAlign: "center" },
                     },
                     {
-                      columnLabel: peopleUsingOceanLabel,
+                      columnLabel: totalPeopleLabel,
                       type: "metricValue",
-                      metricId: METRIC_ID,
+                      metricId: TOTAL_METRIC_ID,
                       valueFormatter: (value) => Number.format(value as number),
                       chartOptions: {
                         showTitle: true,
@@ -331,6 +351,18 @@ export const OusDemographics: React.FunctionComponent = (props) => {
                       width: 35,
                       colStyle: { textAlign: "left" },
                     },
+
+                    {
+                      columnLabel: peopleUsingOceanLabel,
+                      type: "metricValue",
+                      metricId: METRIC_ID,
+                      valueFormatter: (value) => Number.format(value as number),
+                      chartOptions: {
+                        showTitle: true,
+                      },
+                      width: 20,
+                      colStyle: { textAlign: "center" },
+                    },
                     {
                       columnLabel: totalPeopleLabel,
                       type: "metricValue",
@@ -343,6 +375,39 @@ export const OusDemographics: React.FunctionComponent = (props) => {
                       colStyle: { textAlign: "center" },
                     },
                     {
+                      columnLabel: peopleUsingOceanPercLabel,
+                      type: "metricChart",
+                      metricId: PERC_METRIC_ID,
+                      valueFormatter: "percent",
+                      chartOptions: {
+                        showTitle: true,
+                      },
+                      width: 30,
+                    },
+                  ]}
+                />
+              </Collapse>
+
+              <Collapse title={t("Show by City (All Sectors)")}>
+                <p>
+                  <Trans i18nKey="OUS Demographics - breakdown by city">
+                    The following is a breakdown of the number of people
+                    represented that use the ocean within this nearshore plan{" "}
+                    <b>by city</b>.
+                  </Trans>
+                </p>
+                <ClassTable
+                  rows={cityMetrics}
+                  metricGroup={cityMetricGroup}
+                  columnConfig={[
+                    {
+                      columnLabel: cityLabel,
+                      type: "class",
+                      width: 35,
+                      colStyle: { textAlign: "left" },
+                    },
+
+                    {
                       columnLabel: peopleUsingOceanLabel,
                       type: "metricValue",
                       metricId: METRIC_ID,
@@ -351,6 +416,17 @@ export const OusDemographics: React.FunctionComponent = (props) => {
                         showTitle: true,
                       },
                       width: 20,
+                      colStyle: { textAlign: "center" },
+                    },
+                    {
+                      columnLabel: totalPeopleLabel,
+                      type: "metricValue",
+                      metricId: TOTAL_METRIC_ID,
+                      valueFormatter: (value) => Number.format(value as number),
+                      chartOptions: {
+                        showTitle: true,
+                      },
+                      width: 15,
                       colStyle: { textAlign: "center" },
                     },
                     {

@@ -30,5 +30,13 @@
     "groupId": null,
     "geographyId": null,
     "sketchId": "15620"
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 1,
+    "classId": "Curuçá",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": "15620"
   }
 ]

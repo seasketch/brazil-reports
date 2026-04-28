@@ -78,6 +78,9 @@ async function main() {
       const curSector: string = shape.properties.sector
         ? shape.properties.sector
         : "unknown-sector";
+      const city = shape.properties.city
+        ? `${shape.properties.city}`
+        : "unknown-city";
       const curGears: string[] = shape.properties.gear
         ? shape.properties.gear.split(",").map((s: string) => s.trim())
         : ["unknown-gear"];
@@ -108,6 +111,11 @@ async function main() {
           ? newStats.bystate[state] + participants
           : participants;
 
+        // Add new respondent to city stats
+        newStats.byCity[city] = newStats.byCity[city]
+          ? newStats.byCity[city] + participants
+          : participants;
+
         respondentProcessed[resp_id] = {};
       }
 
@@ -136,6 +144,7 @@ async function main() {
       bySector: {},
       bystate: {},
       byGear: {},
+      byCity: {},
     },
   );
 
@@ -151,6 +160,7 @@ async function main() {
   const sectorMetrics = genOusClassMetrics(countStats.bySector);
   const municipalityMetrics = genOusClassMetrics(countStats.bystate);
   const gearMetrics = genOusClassMetrics(countStats.byGear);
+  const cityMetrics = genOusClassMetrics(countStats.byCity);
 
   const finalMetrics = {
     stats: countStats,
@@ -159,6 +169,7 @@ async function main() {
       ...sectorMetrics,
       ...municipalityMetrics,
       ...gearMetrics,
+      ...cityMetrics,
     ],
   };
 

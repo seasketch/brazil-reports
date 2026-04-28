@@ -19,6 +19,7 @@ ogr2ogr -t_srs "EPSG:4326" -f GeoJSON -nlt PROMOTE_TO_MULTI -wrapdateline -diale
 -sql "SELECT \"shapes_2026-03-12\".response_i AS resp_id, \
              \"shapes_2026-03-12\".pratica_pe AS gear, \
              \"shapes_2026-03-12\".stado AS state, \
+             \"shapes_2026-03-12\".cidade AS city, \
              \"shapes_2026-03-12\".sector AS sector, \
              \"shapes_2026-03-12\".participan AS number_of_ppl \
       FROM \"shapes_2026-03-12\"" ../src/Analytics/OUS/ous_demographics.geojson ../src/Analytics/OUS/shapes_2026-03-12.geojson

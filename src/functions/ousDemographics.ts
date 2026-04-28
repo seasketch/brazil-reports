@@ -21,6 +21,7 @@ export interface OusFeatureProperties {
   resp_id: number;
   sector?: Nullable<string>;
   state?: Nullable<string>;
+  city?: Nullable<string>;
   gear?: Nullable<string>;
   number_of_ppl: string | number;
 }
@@ -38,6 +39,7 @@ export interface OusStats {
   bySector: ClassCountStats;
   bystate: ClassCountStats;
   byGear: ClassCountStats;
+  byCity: ClassCountStats;
 }
 
 export type OusReportResult = {
@@ -103,6 +105,9 @@ export async function ousDemographics(
       const curSector: string = shape.properties.sector
         ? shape.properties.sector
         : "unknown-sector";
+      const city: string = shape.properties.city
+        ? shape.properties.city
+        : "unknown-city";
       const curGears: string[] = shape.properties.gear
         ? shape.properties.gear.split(",").map((s: string) => s.trim())
         : ["unknown-gear"];
@@ -118,6 +123,11 @@ export async function ousDemographics(
         // Add new respondent to municipality stats
         newStats.bystate[state] = newStats.bystate[state]
           ? newStats.bystate[state] + curPpl
+          : curPpl;
+
+        // Add new respondent to city stats
+        newStats.byCity[city] = newStats.byCity[city]
+          ? newStats.byCity[city] + curPpl
           : curPpl;
 
         // Respondent processed
@@ -153,6 +163,7 @@ export async function ousDemographics(
       bySector: {},
       bystate: {},
       byGear: {},
+      byCity: {},
     },
   );
 
@@ -165,12 +176,14 @@ export async function ousDemographics(
   const sectorMetrics = genOusClassMetrics(countStats.bySector, sketch);
   const stateMetrics = genOusClassMetrics(countStats.bystate, sketch);
   const gearMetrics = genOusClassMetrics(countStats.byGear, sketch);
+  const cityMetrics = genOusClassMetrics(countStats.byCity, sketch);
 
   const finalMetrics = [
     overallMetric,
     ...sectorMetrics,
     ...stateMetrics,
     ...gearMetrics,
+    ...cityMetrics,
   ];
 
   return finalMetrics;

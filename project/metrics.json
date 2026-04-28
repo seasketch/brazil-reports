@@ -630,6 +630,244 @@
     ]
   },
   {
+    "metricId": "ousCityDemographicOverlap",
+    "type": "countOverlap",
+    "classes": [
+      {
+        "classId": "Araioses",
+        "display": "Araioses"
+      },
+      {
+        "classId": "Parnaíba",
+        "display": "Parnaíba"
+      },
+      {
+        "classId": "Água Doce do Maranhão",
+        "display": "Água Doce do Maranhão"
+      },
+      {
+        "classId": "Tutóia",
+        "display": "Tutóia"
+      },
+      {
+        "classId": "Paulino Neves",
+        "display": "Paulino Neves"
+      },
+      {
+        "classId": "Cajapió",
+        "display": "Cajapió"
+      },
+      {
+        "classId": "Bacurituba",
+        "display": "Bacurituba"
+      },
+      {
+        "classId": "Alcântara",
+        "display": "Alcântara"
+      },
+      {
+        "classId": "Bequimão",
+        "display": "Bequimão"
+      },
+      {
+        "classId": "São Luís",
+        "display": "São Luís"
+      },
+      {
+        "classId": "Paço do Lumiar",
+        "display": "Paço do Lumiar"
+      },
+      {
+        "classId": "Apicum-Açu",
+        "display": "Apicum-Açu"
+      },
+      {
+        "classId": "São José de Ribamar",
+        "display": "São José de Ribamar"
+      },
+      {
+        "classId": "Axixá",
+        "display": "Axixá"
+      },
+      {
+        "classId": "Icatu",
+        "display": "Icatu"
+      },
+      {
+        "classId": "Humberto de Campos",
+        "display": "Humberto de Campos"
+      },
+      {
+        "classId": "Raposa",
+        "display": "Raposa"
+      },
+      {
+        "classId": "Cururupu",
+        "display": "Cururupu"
+      },
+      {
+        "classId": "Primeira Cruz",
+        "display": "Primeira Cruz"
+      },
+      {
+        "classId": "Barreirinhas",
+        "display": "Barreirinhas"
+      },
+      {
+        "classId": "Turiaçu",
+        "display": "Turiaçu"
+      },
+      {
+        "classId": "Porto Rico do Maranhão",
+        "display": "Porto Rico do Maranhão"
+      },
+      {
+        "classId": "Cedral",
+        "display": "Cedral"
+      },
+      {
+        "classId": "Central do Maranhão",
+        "display": "Central do Maranhão"
+      },
+      {
+        "classId": "Guimarães",
+        "display": "Guimarães"
+      },
+      {
+        "classId": "Carutapera",
+        "display": "Carutapera"
+      },
+      {
+        "classId": "Serrano do Maranhão",
+        "display": "Serrano do Maranhão"
+      },
+      {
+        "classId": "Bacuri",
+        "display": "Bacuri"
+      },
+      {
+        "classId": "Cândido Mendes",
+        "display": "Cândido Mendes"
+      },
+      {
+        "classId": "Augusto Corrêa",
+        "display": "Augusto Corrêa"
+      },
+      {
+        "classId": "Salinópolis",
+        "display": "Salinópolis"
+      },
+      {
+        "classId": "Bragança",
+        "display": "Bragança"
+      },
+      {
+        "classId": "Curuçá",
+        "display": "Curuçá"
+      },
+      {
+        "classId": "Tracuateua",
+        "display": "Tracuateua"
+      },
+      {
+        "classId": "Belém",
+        "display": "Belém"
+      },
+      {
+        "classId": "Oiapoque",
+        "display": "Oiapoque"
+      },
+      {
+        "classId": "Macapá",
+        "display": "Macapá"
+      },
+      {
+        "classId": "Calçoene",
+        "display": "Calçoene"
+      },
+      {
+        "classId": "Vigia",
+        "display": "Vigia"
+      },
+      {
+        "classId": "Marapanim",
+        "display": "Marapanim"
+      },
+      {
+        "classId": "Chaves",
+        "display": "Chaves"
+      },
+      {
+        "classId": "Amapá",
+        "display": "Amapá"
+      },
+      {
+        "classId": "Maracanã",
+        "display": "Maracanã"
+      },
+      {
+        "classId": "Quatipuru",
+        "display": "Quatipuru"
+      },
+      {
+        "classId": "São Caetano de Odivelas",
+        "display": "São Caetano de Odivelas"
+      },
+      {
+        "classId": "Soure",
+        "display": "Soure"
+      },
+      {
+        "classId": "Santana",
+        "display": "Santana"
+      },
+      {
+        "classId": "Itaubal",
+        "display": "Itaubal"
+      },
+      {
+        "classId": "Magalhães Barata",
+        "display": "Magalhães Barata"
+      },
+      {
+        "classId": "Cutias",
+        "display": "Cutias"
+      },
+      {
+        "classId": "Afuá",
+        "display": "Afuá"
+      },
+      {
+        "classId": "Salvaterra",
+        "display": "Salvaterra"
+      },
+      {
+        "classId": "Colares",
+        "display": "Colares"
+      },
+      {
+        "classId": "São João de Pirabas",
+        "display": "São João de Pirabas"
+      },
+      {
+        "classId": "Primavera",
+        "display": "Primavera"
+      },
+      {
+        "classId": "Viseu",
+        "display": "Viseu"
+      },
+      {
+        "classId": "Luis Domingues",
+        "display": "Luis Domingues"
+      },
+      {
+        "classId": "Godofredo Viana",
+        "display": "Godofredo Viana"
+      }
+    ]
+  },
+  {
     "metricId": "ousGearDemographicOverlap",
     "type": "countOverlap",
     "classes": [
